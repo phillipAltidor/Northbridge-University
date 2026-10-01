@@ -2,6 +2,9 @@
 .env
 .env.*
 
+# AWS certificates
+*.pem
+
 # macOS
 .DS_Store
 

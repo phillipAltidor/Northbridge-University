@@ -27,7 +27,7 @@ CREATE TABLE Login (
 CREATE TABLE Building (
     Bldg_ID VARCHAR(8) PRIMARY KEY,
     Bldg_Name VARCHAR(255) NOT NULL,
-    Usage VARCHAR(255) NOT NULL
+    building_Usage VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE Room (
@@ -60,7 +60,7 @@ CREATE TABLE Faculty (
     faculty_ID INT PRIMARY KEY,
     office_ID INT NOT NULL,
     Specialty VARCHAR(100) NOT NULL,
-    Rank VARCHAR(50) NOT NULL,
+    faculty_Rank VARCHAR(50) NOT NULL,
     faculty_Type ENUM('Full-Time', 'Part-Time') NOT NULL,
     no_of_Classes INT NOT NULL DEFAULT 0,
     FOREIGN KEY (faculty_ID) REFERENCES User(user_ID),
