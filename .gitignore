@@ -11,3 +11,11 @@
 
 # VS Code
 .vscode/
+
+# Local manual revision checklist
+/MANUAL_UPDATES.md
+
+# Local reports and documents (keep off GitHub)
+/database/reports/
+/database/LOAD_ORDER.md
+/docs/
