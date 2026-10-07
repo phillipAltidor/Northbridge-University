@@ -1,0 +1,419 @@
+/* Northbridge University */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+a {
+    color: #1f3c64;
+}
+
+
+/* LOGIN AND REGISTER */
+
+.login-header {
+    background-color: #1f3152;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 4px solid #d6a800;
+}
+
+.login-header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.login-header p {
+    margin: 7px 0 0;
+}
+
+.login-container {
+    width: 430px;
+    max-width: 90%;
+    margin: 45px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.login-description {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    background-color: white;
+}
+
+.login-button {
+    width: 100%;
+    padding: 11px;
+    background-color: #1f3152;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #30496f;
+}
+
+.login-note {
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+.login-footer {
+    text-align: center;
+    color: #777;
+    font-size: 13px;
+    margin: 30px 0;
+}
+
+.error-message {
+    padding: 10px;
+    margin-bottom: 18px;
+    background-color: #f8dddd;
+    border: 1px solid #c88;
+    color: #8a1f1f;
+}
+
+.success-message {
+    padding: 10px;
+    margin-bottom: 18px;
+    background-color: #e1f2e3;
+    border: 1px solid #8ab590;
+    color: #245b2b;
+}
+
+
+/* TOP HEADER */
+
+.topbar {
+    background-color: #1f3152;
+    color: white;
+    min-height: 80px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand b {
+    font-size: 22px;
+}
+
+.brand small {
+    display: block;
+    margin-top: 3px;
+}
+
+.seal {
+    width: 42px;
+    height: 42px;
+    border: 2px solid #d6a800;
+    border-radius: 50%;
+    color: #d6a800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: right;
+}
+
+.account small {
+    display: block;
+    margin-top: 3px;
+}
+
+
+/* PAGE LAYOUT */
+
+.shell {
+    display: flex;
+    min-height: calc(100vh - 80px);
+}
+
+.sidebar {
+    width: 230px;
+    background-color: #e8ebef;
+    border-right: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 11px 20px;
+    color: #25364d;
+    text-decoration: none;
+    border-bottom: 1px solid #d5d8dc;
+}
+
+.sidebar a:hover {
+    background-color: #d8dde4;
+}
+
+.sidebar a.active {
+    background-color: #1f3152;
+    color: white;
+}
+
+.content {
+    flex: 1;
+    padding: 30px;
+    overflow-x: auto;
+}
+
+.content > h1 {
+    font-size: 27px;
+    border-bottom: 2px solid #d6a800;
+    padding-bottom: 9px;
+}
+
+.muted {
+    color: #666;
+}
+
+
+/* INFORMATION BOXES */
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 18px;
+    margin: 18px 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.stat strong {
+    display: block;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.stat span {
+    color: #666;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+.section-title {
+    margin-top: 28px;
+}
+
+
+/* TABLES */
+
+.table-wrap {
+    overflow-x: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #e8ebef;
+    font-weight: bold;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 11px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* FORMS */
+
+input,
+select {
+    padding: 9px;
+    border: 1px solid #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.filters {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+
+/* BUTTONS */
+
+.btn {
+    display: inline-block;
+    padding: 9px 14px;
+    border: none;
+    background-color: #1f3152;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #30496f;
+}
+
+.btn.light {
+    background-color: white;
+    color: #1f3152;
+    border: 1px solid #ccc;
+}
+
+.btn.danger {
+    background-color: #a83232;
+}
+
+.btn.small {
+    padding: 6px 10px;
+    font-size: 13px;
+}
+
+
+/* MESSAGES */
+
+.alert {
+    padding: 11px;
+    margin: 15px 0;
+    border: 1px solid #bbb;
+}
+
+.alert.success {
+    background-color: #e2f3e4;
+    border-color: #8ab590;
+}
+
+.alert.error {
+    background-color: #f8dddd;
+    border-color: #c88;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 7px;
+    background-color: #e2f3e4;
+    border: 1px solid #9abc9e;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+
+    .shell {
+        display: block;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 0;
+    }
+
+    .sidebar a {
+        display: inline-block;
+        border-bottom: none;
+    }
+
+    .cards,
+    .grid2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .filters {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .cards,
+    .grid2 {
+        grid-template-columns: 1fr;
+    }
+
+    .login-container {
+        margin: 25px auto;
+        padding: 20px;
+    }
+
+    .account small {
+        display: none;
+    }
+
+    .content {
+        padding: 15px;
+    }
+}
