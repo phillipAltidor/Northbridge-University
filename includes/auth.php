@@ -12,7 +12,7 @@ function require_login(): void
     if (empty($_SESSION['user_id'])) {
 
         header(
-            'Location: /Northbridge-University/index.php'
+            'Location: ' . app_url('index.php')
         );
 
         exit;
@@ -49,25 +49,59 @@ function e($value): string
 }
 
 
+// Build URLs that work from the PHP dev server or an XAMPP subfolder
+function app_base_path(): string
+{
+    $scriptName = $_SERVER['SCRIPT_NAME'] ?? '';
+    $directory = str_replace('\\', '/', dirname($scriptName));
+    $parts = array_values(array_filter(explode('/', $directory), 'strlen'));
+
+    if (!$parts) {
+        return '';
+    }
+
+    $portalDirectories = [
+        'admin',
+        'student'
+    ];
+
+    if (in_array(end($parts), $portalDirectories, true)) {
+        array_pop($parts);
+    }
+
+    if (!$parts) {
+        return '';
+    }
+
+    return '/' . implode('/', $parts);
+}
+
+
+function app_url(string $path): string
+{
+    return app_base_path() . '/' . ltrim($path, '/');
+}
+
+
 // Send each type of user to the correct dashboard
 function role_home(string $role): string
 {
     switch ($role) {
 
         case 'Student':
-            return '/Northbridge-University/student/dashboard.php';
+            return app_url('home.php');
 
         case 'Faculty':
-            return '/Northbridge-University/faculty/dashboard.php';
+            return app_url('home.php');
 
         case 'Admin':
-            return '/Northbridge-University/admin/dashboard.php';
+            return app_url('home.php');
 
         case 'StatStaff':
-            return '/Northbridge-University/statistics/dashboard.php';
+            return app_url('home.php');
 
         default:
-            return '/Northbridge-University/index.php';
+            return app_url('index.php');
     }
 }
 

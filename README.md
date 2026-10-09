@@ -1,129 +1,63 @@
 # Northbridge University Portal
 
-Northbridge University Portal is a PHP and MySQL university management system based on the Northbridge University System Manual.
+PHP and MySQL portal currently scoped to use cases 1-5 and 52:
 
-## Features
+- Successful Login
+- Unsuccessful Login
+- Password Reset
+- Unsuccessful Password Reset
+- View Student Information
+- Create User
 
-### Student Portal
-- Student registration and login
-- Dashboard
-- Course registration
-- Prerequisite checking
-- Course schedule
-- Add and drop courses
-- Unofficial transcript
-- Degree audit
-- Holds
-- Advisor information
-- Majors and minors
-- Course catalog
-- Buildings
-- Student information
+## Current Status
 
-### Faculty Portal
-- Faculty dashboard
-- Faculty schedule
-- Master schedule
-- Course rosters
-- Grade entry
-- Attendance entry
-- Attendance history
-- Advisee information
-- Course catalog
-- Faculty profile
+Login and account lockout are implemented. All roles now open Home, displaying
+the logged-in person's name and ID. Students can select Student Information
+to view their own personal User data and Login email. Academic information is
+hidden for now; the page does not require an academic Student record.
+Detailed admin information remains hidden for now.
+Update User Information (use case 53) is deferred;
+its page has been removed, while the existing database logs are preserved.
+Create User is admin-only and follows the User fields for Student, Faculty,
+Admin, and StatStaff. It assigns a unique name-based university email and a
+random initial password, storing only the password hash in Login. The assigned
+ID and credentials are shown once after creation. User and Login are saved
+together; role-specific records are deferred and are not created by this form.
 
-### Admin Portal
-- Admin dashboard
-- User search
-- User information updates
-- Full-Access and Read-Only permissions
-- User update logging
-- Department and course information
-- Course section information
+Password reset demonstrates the email and invalid-code screens only. It does
+not generate or deliver codes, change passwords, or unlock accounts. Use cases
+3 and 4 are not fully implemented.
 
-### Statistics Portal
-- Read-only statistics access
-- Student totals
-- Undergraduate and graduate totals
-- Enrollment totals
-- Anonymous course enrollment reports
-- Anonymous grade summaries by department and course
-- Reports do not display student names or student IDs
+All roles share the signed-in Home page; admins also have Create User.
+Unrelated academic management, registration, schedules, transcripts, reports,
+and public self-registration pages have been removed.
 
-## Technologies Used
+## Local Setup
 
-- PHP
-- MySQL / MariaDB
-- HTML
-- CSS
-- JavaScript
-- XAMPP
-- phpMyAdmin
+1. Create a local database named northbridge_university.
+2. Import database/northbridge_test.sql into that database.
+3. Copy .env.example to .env and configure your local database credentials.
+4. Run `php -S 127.0.0.1:8000` from the project folder.
+5. Open http://127.0.0.1:8000.
 
-## Database
-
-The final working database export is located at:
-
-`database/northbridge_test.sql`
-
-This file contains the database structure and sample university data used by the project.
-
-## Run with XAMPP on Windows
-
-1. Install and open XAMPP.
-2. Put the `Northbridge-University` folder inside:
-
-   `C:\xampp\htdocs\`
-
-3. Start Apache and MySQL in XAMPP.
-4. Open phpMyAdmin.
-5. Create a database named:
-
-   `northbridge_university`
-
-6. Import:
-
-   `database/northbridge_test.sql`
-
-7. Copy `.env.example` and rename the copy to `.env`.
-8. Check the database settings inside `.env`.
-
-Example:
-
-DB_HOST=127.0.0.1  
-DB_PORT=3306  
-DB_NAME=northbridge_university  
-DB_USER=root  
-DB_PASS=  
-APP_ENV=local
-
-9. Open the website:
-
-   `http://localhost/Northbridge-University/`
-
-## Security
-
-The `.env` file is excluded from GitHub using `.gitignore`.
-
-Database configuration should be stored in `.env` and should not be committed to the repository.
-
-The login system supports hashed passwords created with PHP `password_hash()`.
+The complete original SQL export, schema.sql, demo_seed.sql, and generated-data
+files in database/data/ are retained as database source material. Use
+northbridge_test.sql for the local setup above; do not import every seed file
+again into an already populated database. No tables or data were dropped from
+the running database.
+Keep .env private and use separate database settings on AWS.
 
 ## Project Structure
 
-- `admin/` - Admin portal
-- `assets/` - CSS and JavaScript
-- `config/` - Database configuration
-- `database/` - Database SQL files
-- `faculty/` - Faculty portal
-- `includes/` - Shared PHP files
-- `statistics/` - Statistics portal
-- `student/` - Student portal
-- `index.php` - Home page
-- `login.php` - Login page
-- `logout.php` - Logout
-- `register.php` - Student registration
-
-## Northbridge University
-
-This project was created as a university database and web application project demonstrating role-based access and MySQL database integration.
+- admin/create-user.php: Admin-only User and Login creation for all four roles
+- admin/information.php: Compatibility redirect to Home
+- student/information.php: Read-only personal data for the logged-in student
+- index.php: Login form
+- login.php: Credential verification and account lockout
+- reset-password.php: Partial reset interface
+- home.php: Shared login destination with the person's name and ID
+- logout.php: End the authenticated session
+- includes/: Shared authentication, layout, and query helpers
+- config/: Database configuration
+- assets/css/: Shared styles
+- database/: Original schema and sample data
