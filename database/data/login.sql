@@ -674,7 +674,7 @@ VALUES
 (100669, 'leahjohnson100669@northbridge.edu', 'BOqWDWeLFFKUUVkoAfrKE3_7', 0, FALSE, 'Student'),
 (100670, 'madisonsmith@northbridge.edu', 'HFBJQIA29aU-IkNEVSE-fIvM', 0, FALSE, 'Student'),
 (100671, 'gabrielnelson@northbridge.edu', '5d5UxyXWe7-L2C1WyK4x9Y-z', 0, FALSE, 'Student'),
-(100672, 'dariuscampbell@northbridge.edu', 'H6-tugkAUl_qi1VBMCaTAN8G', 0, FALSE, 'Student'),
+(100672, 'dariuscampbell@northbridge.edu', 'HSC6-tugkAUl_qi1VBMCaTAN8G', 0, FALSE, 'Student'),
 (100673, 'tayloraltidor@northbridge.edu', 'DptKDxDlQMmY5XYCso4kJSuR', 0, FALSE, 'Student'),
 (100674, 'amandarivera@northbridge.edu', 'vGLlWtZybHiqZGySPO0sBnzm', 0, FALSE, 'Student'),
 (100675, 'josephbrown@northbridge.edu', 'QMJ8_DoOXi624zbPZLKDJwmv', 0, FALSE, 'Student'),

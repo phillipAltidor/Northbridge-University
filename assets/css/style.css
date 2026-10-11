@@ -353,6 +353,29 @@ select {
 
 /* MOBILE */
 
+.table-scroll {
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+.user-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font: inherit;
+}
+
+.update-history {
+    margin: 12px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.update-history summary {
+    cursor: pointer;
+}
+
 @media (max-width: 900px) {
 
     .shell {

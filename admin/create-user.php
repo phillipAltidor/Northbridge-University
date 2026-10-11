@@ -3,17 +3,10 @@
 require_once __DIR__ . '/../includes/layout.php';
 require_role(['Admin']);
 require_once __DIR__ . '/../config/database.php';
+require_once __DIR__ . '/../includes/admin.php';
+require_admin($pdo);
 
 header('Cache-Control: no-store');
-
-$stmt = $pdo->prepare('SELECT security_Level FROM Admin WHERE user_ID = ?');
-$stmt->execute([(int) $_SESSION['user_id']]);
-$admin = $stmt->fetch();
-
-if (($admin['security_Level'] ?? '') !== 'Full-Access') {
-    http_response_code(403);
-    exit('403 - You do not have permission to create users.');
-}
 
 if (empty($_SESSION['create_user_token'])) {
     $_SESSION['create_user_token'] = bin2hex(random_bytes(32));
@@ -127,6 +120,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                      VALUES (?, ?, ?, 0, 0, ?)'
                 );
                 $stmt->execute([$userID, $email, $hashedPassword, $values['user_type']]);
+
+                if ($values['user_type'] === 'Admin') {
+                    $stmt = $pdo->prepare('INSERT INTO Admin (admin_ID) VALUES (?)');
+                    $stmt->execute([$userID]);
+                } elseif ($values['user_type'] === 'StatStaff') {
+                    $stmt = $pdo->prepare(
+                        'INSERT INTO Stat_Dept_Member (stat_Member_ID) VALUES (?)'
+                    );
+                    $stmt->execute([$userID]);
+                }
 
                 $pdo->commit();
 

@@ -17,7 +17,9 @@ function nav_items(string $role): array
         case 'Admin':
             return [
                 ['Home', app_url('home.php')],
-                ['Create User', app_url('admin/create-user.php')]
+                ['Create User', app_url('admin/create-user.php')],
+                ['Update User Information', app_url('admin/update-user.php')],
+                ['Master Schedule', app_url('admin/master-schedule.php')]
             ];
 
         case 'Faculty':
@@ -38,6 +40,22 @@ function page_start(
     ?int $userID = null
 ): void {
 
+    global $pdo;
+    require_once __DIR__ . '/../config/database.php';
+
+    $stmt = $pdo->prepare(
+        'SELECT u.first_Name, u.middle_Name, u.last_Name, l.user_Email
+         FROM User u JOIN Login l ON l.user_ID = u.user_ID
+         WHERE u.user_ID = ?'
+    );
+    $stmt->execute([(int) ($_SESSION['user_id'] ?? 0)]);
+    $account = $stmt->fetch();
+    if ($account) {
+        $_SESSION['name'] = implode(' ', array_filter([
+            $account['first_Name'], $account['middle_Name'], $account['last_Name']
+        ], static fn($part) => $part !== null && $part !== ''));
+        $_SESSION['email'] = $account['user_Email'];
+    }
     $name = $_SESSION['name'] ?? 'User';
     $email = $_SESSION['email'] ?? '';
 
