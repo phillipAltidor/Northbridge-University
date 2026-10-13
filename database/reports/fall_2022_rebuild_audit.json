@@ -1,0 +1,76 @@
+{
+    "target": "Fall 2022",
+    "population": 1600,
+    "summary": {
+        "sections": 392,
+        "courses": 121,
+        "registered_students": 1530,
+        "registrations": 3774
+    },
+    "foreign_keys_checked": 71,
+    "checks": {
+        "foreign_key_orphans": 0,
+        "history_section_mismatches": 0,
+        "faculty_history_mismatches": 0,
+        "repeated_completed_courses": 0,
+        "roster_or_seat_errors": 0,
+        "faculty_load_errors": 0,
+        "faculty_department_errors": 0,
+        "fall2022_type_errors": 0,
+        "original_account_changes": 0,
+        "preserved_course_changes": 0,
+        "preserved_section_changes": 0,
+        "generated_age_errors": 0,
+        "target_appointment_errors": 0,
+        "target_room_duration_errors": 0,
+        "generated_credit_errors": 0,
+        "prerequisite_errors": 0,
+        "faculty_conflicts": 0,
+        "room_conflicts": 0,
+        "student_conflicts": 0,
+        "fall2022_credit_load_errors": 0
+    },
+    "result": "PASS",
+    "backup": "\/Users\/phillipaltidor\/Downloads\/Northbridge-database-backups\/fall2022_20261011_204740",
+    "supporting_semesters": [
+        {
+            "semester_ID": 11,
+            "generated_sections": 3,
+            "courses": 1,
+            "registrations": 30,
+            "solver_status": "OPTIMAL"
+        },
+        {
+            "semester_ID": 12,
+            "generated_sections": 14,
+            "courses": 6,
+            "registrations": 122,
+            "solver_status": "OPTIMAL"
+        },
+        {
+            "semester_ID": 13,
+            "generated_sections": 62,
+            "courses": 24,
+            "registrations": 537,
+            "solver_status": "OPTIMAL"
+        },
+        {
+            "semester_ID": 14,
+            "generated_sections": 129,
+            "courses": 50,
+            "registrations": 1113,
+            "solver_status": "OPTIMAL"
+        },
+        {
+            "semester_ID": 3,
+            "generated_sections": 392,
+            "courses": 121,
+            "registrations": 3774,
+            "solver_status": "OPTIMAL"
+        }
+    ],
+    "existing_accounts_preserved": 1985,
+    "generated_profiles": 1400,
+    "historical_appointment_dates_adjusted": 23,
+    "seed_reload_audit": "PASS"
+}
