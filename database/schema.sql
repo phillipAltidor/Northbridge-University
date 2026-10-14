@@ -207,7 +207,7 @@ CREATE TABLE Course_Section (
  time_Slot_ID INT NOT NULL,
  room_ID VARCHAR(20),
  semester_ID INT NOT NULL,
- available_Seats INT NOT NULL,
+ available_Seats INT NOT NULL DEFAULT 10,
  FOREIGN KEY (course_ID) REFERENCES Course(course_ID),
  FOREIGN KEY (faculty_ID) REFERENCES Faculty(faculty_ID),
  FOREIGN KEY (room_ID) REFERENCES Room(room_ID),

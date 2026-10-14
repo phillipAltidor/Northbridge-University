@@ -135,17 +135,17 @@ page_start('Master Schedule', 'Admin', 'admin/master-schedule.php');
     <?php endif; ?>
     <?php if ($sections): ?>
         <div class="table-scroll"><table>
-            <thead><tr><th>CRN</th><th>Course</th><th>Faculty</th><th>Days</th><th>Time</th><th>Room</th><th>Section</th><th>Available Seats</th><?php if ($canModify): ?><th>Action</th><?php endif; ?></tr></thead>
+            <thead><tr><th>CRN</th><th>Course</th><th>Section</th><th>Faculty</th><th>Days</th><th>Time</th><th>Room</th><th>Available Seats</th><?php if ($canModify): ?><th>Action</th><?php endif; ?></tr></thead>
             <tbody><?php foreach ($sections as $section): ?>
                 <?php $instructor = implode(' ', array_filter([$section['first_Name'], $section['middle_Name'], $section['last_Name']], static fn($part) => $part !== null && $part !== '')); ?>
                 <tr>
                     <td><?= e($section['CRN']) ?></td>
                     <td><?= e(schedule_course_label($section['course_ID']) . ' · ' . $section['course_Name']) ?></td>
+                    <td><?= e($section['section_No']) ?></td>
                     <td><?= e($instructor) ?></td>
                     <td><?= e(schedule_day_label($section['time_Slot_Day'])) ?></td>
                     <td><?= e(schedule_time_label($section['time_Slot_Period'])) ?></td>
                     <td><?= e($section['room_ID'] ?? 'Unassigned') ?></td>
-                    <td><?= e($section['section_No']) ?></td>
                     <td><?= e($section['available_Seats']) ?></td>
                     <?php if ($canModify): ?><td><a class="btn small" href="edit-section.php?crn=<?= e($section['CRN']) ?>">Edit</a></td><?php endif; ?>
                 </tr>
