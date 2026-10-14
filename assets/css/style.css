@@ -22,7 +22,7 @@ a {
 }
 
 
-/* LOGIN AND REGISTER */
+/* LOGIN, PASSWORD RESET, AND USER CREATION */
 
 .login-header {
     background-color: #1f3152;
@@ -63,6 +63,11 @@ a {
 
 .form-group {
     margin-bottom: 18px;
+}
+
+.user-form {
+    width: 600px;
+    max-width: 100%;
 }
 
 .form-group label {
@@ -224,6 +229,25 @@ a {
     color: #666;
 }
 
+.page-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+}
+
+.page-heading > span {
+    overflow-wrap: anywhere;
+    min-width: 0;
+}
+
+.page-user-id {
+    font-size: 18px;
+    font-weight: normal;
+    color: #555;
+}
+
 
 /* INFORMATION BOXES */
 
@@ -234,30 +258,10 @@ a {
     margin: 18px 0;
 }
 
-.cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-}
-
-.stat strong {
-    display: block;
-    font-size: 26px;
-    margin-bottom: 5px;
-}
-
-.stat span {
-    color: #666;
-}
-
 .grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 18px;
-}
-
-.section-title {
-    margin-top: 28px;
 }
 
 
@@ -298,13 +302,6 @@ select {
     font-size: 14px;
 }
 
-.filters {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 10px;
-    margin-bottom: 18px;
-}
-
 
 /* BUTTONS */
 
@@ -327,10 +324,6 @@ select {
     background-color: white;
     color: #1f3152;
     border: 1px solid #ccc;
-}
-
-.btn.danger {
-    background-color: #a83232;
 }
 
 .btn.small {
@@ -357,15 +350,31 @@ select {
     border-color: #c88;
 }
 
-.badge {
-    display: inline-block;
-    padding: 4px 7px;
-    background-color: #e2f3e4;
-    border: 1px solid #9abc9e;
-}
-
 
 /* MOBILE */
+
+.table-scroll {
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+.user-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font: inherit;
+}
+
+.update-history {
+    margin: 12px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.update-history summary {
+    cursor: pointer;
+}
 
 @media (max-width: 900px) {
 
@@ -383,7 +392,6 @@ select {
         border-bottom: none;
     }
 
-    .cards,
     .grid2 {
         grid-template-columns: 1fr 1fr;
     }
@@ -392,14 +400,10 @@ select {
         padding: 20px;
     }
 
-    .filters {
-        grid-template-columns: 1fr;
-    }
 }
 
 @media (max-width: 600px) {
 
-    .cards,
     .grid2 {
         grid-template-columns: 1fr;
     }

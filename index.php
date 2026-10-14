@@ -71,12 +71,11 @@ unset($_SESSION['login_error']);
     </form>
 
     <p class="login-note">
-    Accounts are locked after 3 unsuccessful login attempts.
-</p>
+        <a href="reset-password.php">Reset Password</a>
+    </p>
 
-<p class="login-note">
-    Don't have an account?
-    <a href="register.php">Create Account</a>
+    <p class="login-note">
+    Accounts are locked after 3 unsuccessful login attempts.
 </p>
 
 </div>

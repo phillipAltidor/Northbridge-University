@@ -10,44 +10,21 @@ function nav_items(string $role): array
 
         case 'Student':
             return [
-                ['Overview', 'dashboard.php'],
-                ['Course Registration', 'registration.php'],
-                ['My Schedule', 'schedule.php'],
-                ['Unofficial Transcript', 'transcript.php'],
-                ['Degree Audit', 'degree-audit.php'],
-                ['Holds', 'holds.php'],
-                ['My Advisor', 'advisor.php'],
-                ['Majors & Minors', 'programs.php'],
-                ['Catalog', 'catalog.php'],
-                ['Buildings', 'buildings.php'],
-                ['My Information', 'information.php']
-            ];
-
-        case 'Faculty':
-            return [
-                ['Overview', 'dashboard.php'],
-                ['My Schedule', 'schedule.php'],
-                ['Master Schedule', 'master-schedule.php'],
-                ['Course Rosters', 'rosters.php'],
-                ['Attendance History', 'attendance-history.php'],
-                ['Advisees', 'advisees.php'],
-                ['Catalog', 'catalog.php'],
-                ['My Profile', 'profile.php']
+                ['Home', app_url('home.php')],
+                ['Student Information', app_url('student/information.php')]
             ];
 
         case 'Admin':
             return [
-                ['Overview', 'dashboard.php'],
-                ['Users', 'users.php'],
-                ['Academic Management', 'academic.php'],
-                ['Sections', 'sections.php']
+                ['Home', app_url('home.php')],
+                ['Create User', app_url('admin/create-user.php')],
+                ['Update User Information', app_url('admin/update-user.php')],
+                ['Master Schedule', app_url('admin/master-schedule.php')]
             ];
 
+        case 'Faculty':
         case 'StatStaff':
-            return [
-                ['Overview', 'dashboard.php'],
-                ['Anonymous Reports', 'reports.php']
-            ];
+            return [['Home', app_url('home.php')]];
 
         default:
             return [];
@@ -59,9 +36,26 @@ function nav_items(string $role): array
 function page_start(
     string $title,
     string $role,
-    string $active = ''
+    string $active = '',
+    ?int $userID = null
 ): void {
 
+    global $pdo;
+    require_once __DIR__ . '/../config/database.php';
+
+    $stmt = $pdo->prepare(
+        'SELECT u.first_Name, u.middle_Name, u.last_Name, l.user_Email
+         FROM User u JOIN Login l ON l.user_ID = u.user_ID
+         WHERE u.user_ID = ?'
+    );
+    $stmt->execute([(int) ($_SESSION['user_id'] ?? 0)]);
+    $account = $stmt->fetch();
+    if ($account) {
+        $_SESSION['name'] = implode(' ', array_filter([
+            $account['first_Name'], $account['middle_Name'], $account['last_Name']
+        ], static fn($part) => $part !== null && $part !== ''));
+        $_SESSION['email'] = $account['user_Email'];
+    }
     $name = $_SESSION['name'] ?? 'User';
     $email = $_SESSION['email'] ?? '';
 
@@ -92,7 +86,7 @@ function page_start(
 
         <link
             rel="stylesheet"
-            href="/Northbridge-University/assets/css/style.css"
+            href="<?= e(app_url('assets/css/style.css')) ?>"
         >
 
     </head>
@@ -136,7 +130,7 @@ function page_start(
 
             <a
                 class="btn light"
-                href="/Northbridge-University/logout.php"
+                href="<?= e(app_url('logout.php')) ?>"
             >
                 Logout
             </a>
@@ -157,7 +151,7 @@ function page_start(
                 $label = $item[0];
                 $url = $item[1];
 
-                if ($active === $url) {
+                if (app_url($active) === $url) {
                     $class = 'active';
                 } else {
                     $class = '';
@@ -179,8 +173,11 @@ function page_start(
 
         <main class="content">
 
-            <h1>
-                <?= e($title) ?>
+            <h1 class="page-heading">
+                <span><?= e($title) ?></span>
+                <?php if ($userID !== null): ?>
+                    <span class="page-user-id">ID: <?= e($userID) ?></span>
+                <?php endif; ?>
             </h1>
 
     <?php
@@ -195,8 +192,6 @@ function page_end(): void
         </main>
 
     </div>
-
-    <script src="/Northbridge-University/assets/js/app.js"></script>
 
     </body>
     </html>

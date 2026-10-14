@@ -1,14 +1,14 @@
--- Seeds Statistics staff roles.
+-- Seeds statistics department member IDs; employment_Type and access_Level are not in Schema 2.3.
 
-INSERT INTO StatStaff (user_ID, employment_Type, access_Level)
+INSERT INTO Stat_Dept_Member (stat_Member_ID)
 VALUES
-(400001, 'Full-Time', 'Read-Only'),
-(400002, 'Full-Time', 'Read-Only'),
-(400003, 'Full-Time', 'Read-Only'),
-(400004, 'Full-Time', 'Read-Only'),
-(400005, 'Full-Time', 'Read-Only'),
-(400006, 'Full-Time', 'Read-Only'),
-(400007, 'Full-Time', 'Read-Only'),
-(400008, 'Full-Time', 'Read-Only'),
-(400009, 'Full-Time', 'Read-Only'),
-(400010, 'Full-Time', 'Read-Only');
+(400001),
+(400002),
+(400003),
+(400004),
+(400005),
+(400006),
+(400007),
+(400008),
+(400009),
+(400010);
