@@ -1,116 +1,63 @@
 <?php
 
-require_once '../config/database.php';
-require_once '../includes/layout.php';
-require_once '../includes/functions.php';
+require_once __DIR__ . '/../includes/layout.php';
 
 require_role(['Student']);
 
-// Get the logged-in student's ID
-$studentID = (int) $_SESSION['user_id'];
-
-
-// Get the student's personal and academic information
-$sql = "SELECT
-            User.user_ID,
-            User.first_Name,
-            User.last_Name,
-            User.street,
-            User.city,
-            User.state,
-            User.zip_Code,
-            Student.student_Year,
-            Student.student_Type,
-            Major.major_Name
-        FROM User
-        JOIN Student
-            ON Student.student_ID = User.user_ID
-        LEFT JOIN Major
-            ON Major.major_ID = Student.major_ID
-        WHERE User.user_ID = ?";
+require_once __DIR__ . '/../config/database.php';
+require_once __DIR__ . '/../includes/functions.php';
 
 $student = one(
     $pdo,
-    $sql,
-    [$studentID]
+    "SELECT User.user_ID, User.first_Name, User.middle_Name, User.last_Name,
+            User.gender, User.DOB, User.street, User.city, User.state,
+            User.zip_Code, Login.user_Email
+     FROM User
+     JOIN Login ON Login.user_ID = User.user_ID
+     WHERE User.user_ID = ? AND User.user_Type = 'Student'",
+    [(int) $_SESSION['user_id']]
 );
 
+if (!$student) {
+    http_response_code(404);
+}
 
-page_start(
-    'My Information',
-    'Student',
-    'information.php'
-);
+page_start('Student Information', 'Student', 'student/information.php');
 
 ?>
 
-<p class="muted">
-    View your personal and academic information.
-</p>
+<?php if (!$student): ?>
+    <p class="error-message" role="alert">Student information could not be found.</p>
+<?php else: ?>
+    <?php
+    $name = implode(' ', array_filter([
+        $student['first_Name'],
+        $student['middle_Name'],
+        $student['last_Name']
+    ], static fn($part) => $part !== null && $part !== ''));
 
-
-<div class="card">
-
-    <h2>Student Information</h2>
+    $information = [
+        'User ID' => $student['user_ID'],
+        'Name' => $name,
+        'University Email' => $student['user_Email'],
+        'Gender' => $student['gender'],
+        'Date of Birth' => $student['DOB'],
+        'Street Address' => $student['street'],
+        'City' => $student['city'],
+        'State' => $student['state'],
+        'ZIP Code' => $student['zip_Code']
+    ];
+    ?>
 
     <div class="grid2">
-
-        <p>
-            <strong>Student ID</strong>
-            <br>
-            <?= e($student['user_ID'] ?? '') ?>
-        </p>
-
-
-        <p>
-            <strong>Name</strong>
-            <br>
-            <?= e(
-                ($student['first_Name'] ?? '') . ' ' .
-                ($student['last_Name'] ?? '')
-            ) ?>
-        </p>
-
-
-        <p>
-            <strong>Address</strong>
-            <br>
-            <?= e(
-                ($student['street'] ?? '') . ', ' .
-                ($student['city'] ?? '') . ', ' .
-                ($student['state'] ?? '') . ' ' .
-                ($student['zip_Code'] ?? '')
-            ) ?>
-        </p>
-
-
-        <p>
-            <strong>Level</strong>
-            <br>
-            <?= e($student['student_Type'] ?? '') ?>
-        </p>
-
-
-        <p>
-            <strong>Major</strong>
-            <br>
-            <?= e($student['major_Name'] ?? 'Undeclared') ?>
-        </p>
-
-
-        <p>
-            <strong>Year</strong>
-            <br>
-            <?= e($student['student_Year'] ?? '') ?>
-        </p>
-
+        <?php foreach ($information as $label => $value): ?>
+            <p>
+                <strong><?= e($label) ?></strong><br>
+                <?= e($value) ?>
+            </p>
+        <?php endforeach; ?>
     </div>
 
-</div>
+<?php endif; ?>
 
-
-<?php
-
-page_end();
-
-?>
+<?php page_end(); ?>
