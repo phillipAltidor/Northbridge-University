@@ -7,7 +7,7 @@ $_SESSION = [];
 // End the session
 session_destroy();
 
-// Return to the login page
+// Return to the welcome page
 header('Location: index.php');
 exit;
 ?>

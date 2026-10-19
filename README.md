@@ -13,6 +13,20 @@ PHP and MySQL portal currently scoped to use cases 1-5, 52, 53, and 70:
 
 ## Current Status
 
+The public entry page (`index.php`) displays top navigation above an illustrative
+campus image. Its Login dropdown contains Student, Faculty, Admin, and Statistics
+Staff links; public self-registration is not available. Each link opens
+`login.php?role=...` with a matching login heading. The shared login handler
+verifies credentials and the stored account role; a portal selection never
+grants permissions. A role mismatch does not increase failed-login attempts.
+Direct `login.php` access retains the general login form for compatibility.
+Reset Password navigation preserves the selected portal, but the reset flow
+itself remains partially implemented as described below.
+Login screens share the welcome page's N seal, tagline, campus background, and
+compact navy footer. Home navigation is in the header. A solid white panel keeps
+the role heading, credentials, Login button, and Reset Password link visible;
+login errors appear only when applicable, without a permanent lockout notice.
+
 Login and account lockout are implemented. All roles now open Home, displaying
 the logged-in person's name and ID. Students can select Student Information
 to view their own personal User data and Login email. Academic information is
@@ -38,8 +52,10 @@ not generate or deliver codes, change passwords, or unlock accounts. Use cases
 3 and 4 are not fully implemented.
 
 All roles share the signed-in Home page; admins also have Create User and Update User Information.
-Master Schedule (use case 70) lets admins select Fall 2026, review existing
-Course_Section records, and save the schedule. Each section can be edited:
+Master Schedule (use case 70) lets admins select ten semesters from Fall 2022
+through Spring 2027. Historical and Spring 2027 schedules are read-only;
+Fall 2026 supports reviewing, editing, and saving Course_Section records.
+Semester selection loads the schedule automatically. Each Fall 2026 section can be edited:
 course_ID, section_No, faculty_ID, time_Slot_ID, optional room_ID, and
 available_Seats. CRN and semester_ID remain fixed to protect existing references.
 The form validates foreign keys, section numbers and nonnegative seats, rejects

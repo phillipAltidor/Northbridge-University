@@ -12,7 +12,7 @@ function require_login(): void
     if (empty($_SESSION['user_id'])) {
 
         header(
-            'Location: ' . app_url('index.php')
+            'Location: ' . app_url('login.php')
         );
 
         exit;

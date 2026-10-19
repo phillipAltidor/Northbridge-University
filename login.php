@@ -1,15 +1,33 @@
 <?php
 session_start();
+require_once __DIR__ . '/includes/auth.php';
+$portalRoles = require __DIR__ . '/config/portal-roles.php';
+$roleInput = $_SERVER['REQUEST_METHOD'] === 'POST' ? ($_POST['role'] ?? '') : ($_GET['role'] ?? '');
+if (!is_string($roleInput) || ($roleInput !== '' && !isset($portalRoles[$roleInput]))) {
+    header('Location: index.php');
+    exit;
+}
+$selectedRole = $roleInput;
+$loginURL = 'login.php' . ($selectedRole !== '' ? '?role=' . rawurlencode($selectedRole) : '');
+
+if (!empty($_SESSION['user_id'])) {
+    header('Location: ' . role_home($_SESSION['user_type']));
+    exit;
+}
+
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    require __DIR__ . '/includes/login-page.php';
+    exit;
+}
 
 require_once __DIR__ . '/config/database.php';
-require_once __DIR__ . '/includes/auth.php';
 
-$email = trim($_POST['email'] ?? '');
-$password = $_POST['password'] ?? '';
+$email = is_string($_POST['email'] ?? null) ? trim($_POST['email']) : '';
+$password = is_string($_POST['password'] ?? null) ? $_POST['password'] : '';
 
 if ($email === '' || $password === '') {
     $_SESSION['login_error'] = 'Please enter your email and password.';
-    header('Location: index.php');
+    header('Location: ' . $loginURL);
     exit;
 }
 
@@ -26,13 +44,19 @@ $user = $stmt->fetch();
 
 if (!$user) {
     $_SESSION['login_error'] = 'Invalid email or password.';
-    header('Location: index.php');
+    header('Location: ' . $loginURL);
+    exit;
+}
+
+if ($selectedRole !== '' && $user['user_Type'] !== $selectedRole) {
+    $_SESSION['login_error'] = 'Unable to sign in to this portal. Check your credentials and selected portal.';
+    header('Location: ' . $loginURL);
     exit;
 }
 
 if ($user['lock_var']) {
     $_SESSION['login_error'] = 'This account is locked. Contact an administrator.';
-    header('Location: index.php');
+    header('Location: ' . $loginURL);
     exit;
 }
 
@@ -70,7 +94,7 @@ if (!$passwordCorrect) {
             'Invalid email or password.';
     }
 
-    header('Location: index.php');
+    header('Location: ' . $loginURL);
     exit;
 }
 
@@ -81,6 +105,7 @@ $sql = "UPDATE Login
 $stmt = $pdo->prepare($sql);
 $stmt->execute([$user['user_ID']]);
 
+session_regenerate_id(true);
 $_SESSION['user_id'] = (int) $user['user_ID'];
 $_SESSION['user_type'] = $user['user_Type'];
 $_SESSION['email'] = $user['user_Email'];
