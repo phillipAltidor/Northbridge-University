@@ -3,6 +3,10 @@
 session_start();
 
 require_once __DIR__ . '/includes/auth.php';
+$portalRoles = require __DIR__ . '/config/portal-roles.php';
+$roleInput = $_SERVER['REQUEST_METHOD'] === 'POST' ? ($_POST['role'] ?? '') : ($_GET['role'] ?? '');
+$selectedRole = is_string($roleInput) && isset($portalRoles[$roleInput]) ? $roleInput : '';
+$roleQuery = $selectedRole !== '' ? '?role=' . rawurlencode($selectedRole) : '';
 
 if (!empty($_SESSION['user_id'])) {
     header('Location: ' . role_home($_SESSION['user_type']));
@@ -80,6 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <?php if ($step === 'email'): ?>
         <form action="reset-password.php" method="post">
+            <input type="hidden" name="role" value="<?= e($selectedRole) ?>">
             <input
                 type="hidden"
                 name="form_token"
@@ -103,6 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </form>
     <?php else: ?>
         <form action="reset-password.php" method="post">
+            <input type="hidden" name="role" value="<?= e($selectedRole) ?>">
             <input type="hidden" name="action" value="verify">
             <input
                 type="hidden"
@@ -127,12 +133,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </form>
 
         <p class="login-note">
-            <a href="reset-password.php">Use a different email</a>
+            <a href="reset-password.php<?= e($roleQuery) ?>">Use a different email</a>
         </p>
     <?php endif; ?>
 
     <p class="login-note">
-        <a href="index.php">Back to Login</a>
+        <a href="login.php<?= e($roleQuery) ?>">Back to Login</a>
     </p>
 </div>
 
