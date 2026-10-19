@@ -25,17 +25,23 @@ $loginTitle = $selectedRole !== '' ? $portalRoles[$selectedRole] . ' Login' : 'P
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="welcome-page portal-login-page">
 
-<header class="login-header">
-    <h1>Northbridge University</h1>
-    <p>Student &amp; Academic Information System</p>
+<header class="topbar welcome-header">
+    <div class="brand">
+        <div class="seal" aria-hidden="true">N</div>
+        <div><h1>Northbridge University</h1><small>Your Future Starts Here.</small></div>
+    </div>
+    <nav class="welcome-nav" aria-label="Main navigation">
+        <a class="welcome-home" href="index.php">Home</a>
+    </nav>
 </header>
 
-<main class="login-container">
+<main class="login-stage">
+    <img class="campus-photo" src="assets/images/northbridge-campus.png" alt="" fetchpriority="high" width="1942" height="809">
+    <section class="login-container login-panel" aria-labelledby="login-title">
 
     <h2 id="login-title"><?= e($loginTitle) ?></h2>
-    <p class="login-description">Enter your university email and password.</p>
 
     <?php if ($error): ?>
         <div class="error-message" role="alert">
@@ -79,11 +85,10 @@ $loginTitle = $selectedRole !== '' ? $portalRoles[$selectedRole] . ' Login' : 'P
         <a href="reset-password.php<?= $selectedRole !== '' ? '?role=' . e(rawurlencode($selectedRole)) : '' ?>">Reset Password</a>
     </p>
 
-    <p class="login-note">Accounts are locked after 3 unsuccessful login attempts.</p>
-    <p class="login-note"><a href="index.php">Back to Welcome</a></p>
+    </section>
 </main>
 
-<footer class="login-footer">
+<footer class="welcome-footer">
     <p>&copy; 2026 Northbridge University</p>
 </footer>
 

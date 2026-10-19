@@ -189,6 +189,32 @@ a {
     display: block;
 }
 
+.portal-login-page {
+    grid-template-rows: auto 1fr auto;
+}
+
+.portal-login-page .login-stage {
+    position: relative;
+    place-items: center;
+    padding: 32px 20px;
+    background: #25364d;
+}
+
+.portal-login-page .login-panel {
+    position: relative;
+    width: 430px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.login-panel h2 {
+    margin-bottom: 24px;
+}
+
+.login-panel .login-note {
+    margin-bottom: 0;
+}
+
 @media (max-width: 700px) {
     .topbar.welcome-header {
         padding: 16px;
