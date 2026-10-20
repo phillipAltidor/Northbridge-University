@@ -12,6 +12,8 @@ if (!empty($_SESSION['user_id'])) {
 
 $error = $_SESSION['login_error'] ?? '';
 unset($_SESSION['login_error']);
+$notice = $_SESSION['login_notice'] ?? '';
+unset($_SESSION['login_notice']);
 $loginTitle = $selectedRole !== '' ? $portalRoles[$selectedRole] . ' Login' : 'Portal Login';
 ?>
 
@@ -23,6 +25,7 @@ $loginTitle = $selectedRole !== '' ? $portalRoles[$selectedRole] . ' Login' : 'P
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= e($loginTitle) ?> | Northbridge University</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/password-visibility.js" defer></script>
 </head>
 
 <body class="welcome-page portal-login-page">
@@ -42,6 +45,10 @@ $loginTitle = $selectedRole !== '' ? $portalRoles[$selectedRole] . ' Login' : 'P
     <section class="login-container login-panel" aria-labelledby="login-title">
 
     <h2 id="login-title"><?= e($loginTitle) ?></h2>
+
+    <?php if ($notice !== ''): ?>
+        <div class="success-message" role="status"><?= e($notice) ?></div>
+    <?php endif; ?>
 
     <?php if ($error): ?>
         <div class="error-message" role="alert">
@@ -74,6 +81,11 @@ $loginTitle = $selectedRole !== '' ? $portalRoles[$selectedRole] . ' Login' : 'P
                 required
             >
         </div>
+
+        <label class="password-visibility">
+            <input type="checkbox" data-password-visibility aria-controls="password">
+            Show password
+        </label>
 
         <button type="submit" class="login-button">
             Login
