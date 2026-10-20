@@ -20,8 +20,8 @@ Staff links; public self-registration is not available. Each link opens
 verifies credentials and the stored account role; a portal selection never
 grants permissions. A role mismatch does not increase failed-login attempts.
 Direct `login.php` access retains the general login form for compatibility.
-Reset Password navigation preserves the selected portal, but the reset flow
-itself remains partially implemented as described below.
+Reset Password navigation preserves the selected portal. Recovery now uses
+SMTP-delivered codes and server-side verification as described below.
 Login screens share the welcome page's N seal, tagline, campus background, and
 compact navy footer. Home navigation is in the header. A solid white panel keeps
 the role heading, credentials, Login button, and Reset Password link visible;
@@ -47,9 +47,16 @@ Faculty academic records are deferred because the form does not collect their
 required academic fields. Create User authorization checks Admin.admin_ID;
 Schema 2.3 has no security_Level column.
 
-Password reset demonstrates the email and invalid-code screens only. It does
-not generate or deliver codes, change passwords, or unlock accounts. Use cases
-3 and 4 are not fully implemented.
+Password reset implements expiring, single-use emailed codes, invalid-code
+rejection, verified password changes, and account unlocking for all four roles.
+It needs Composer dependencies, the supplemental password-reset migration, and
+private SMTP settings. Original account records are not rewritten during setup.
+For fictional accounts, optional private `MAIL_DEMO_RECIPIENT` routing sends
+recovery emails to one demo inbox without changing login addresses. This is
+allowed only in `local` or `demo` environments, never with real users.
+See [password-reset setup and tests](docs/password-reset.md). Automated tests
+cover the flow, but real inbox delivery and a real-account demonstration must
+also be confirmed before treating the presentation workflow as complete.
 
 All roles share the signed-in Home page; admins also have Create User and Update User Information.
 Master Schedule (use case 70) lets admins select ten semesters from Fall 2022
@@ -140,10 +147,12 @@ Fresh installations already use the updated schema and seed files.
 ## Local Setup
 
 1. Create a local database named `northbridge_university`.
+   Install PHP dependencies with `composer install --no-dev`.
 2. Import `database/schema.sql` (Schema 2.3), then
    `database/migrations/admin_53_update_log.sql` and
    `database/migrations/admin_70_master_schedule.sql` and
    `database/migrations/admin_70_section_update_log.sql`, then `database/demo_seed.sql`.
+   Password reset additionally requires `database/migrations/password_reset.sql`.
 3. Copy `.env.example` to `.env` and configure your local database credentials.
 4. Run `php -S 127.0.0.1:8000` from the project folder.
 5. Open http://127.0.0.1:8000.
@@ -182,7 +191,7 @@ Keep `.env` private and use separate database settings on AWS.
 - student/information.php: Read-only personal data for the logged-in student
 - index.php: Login form
 - login.php: Credential verification and account lockout
-- reset-password.php: Partial reset interface
+- reset-password.php: Email-code verification, password reset, and account unlocking
 - home.php: Shared login destination with the person's name and ID
 - logout.php: End the authenticated session
 - includes/: Shared authentication, layout, and query helpers

@@ -62,7 +62,8 @@ if ($user['lock_var']) {
 
 $passwordCorrect =
     password_verify($password, $user['user_Password']) ||
-    hash_equals((string) $user['user_Password'], $password);
+    (password_get_info((string) $user['user_Password'])['algo'] === null &&
+     hash_equals((string) $user['user_Password'], $password));
 
 if (!$passwordCorrect) {
 
@@ -108,6 +109,7 @@ $stmt->execute([$user['user_ID']]);
 session_regenerate_id(true);
 $_SESSION['user_id'] = (int) $user['user_ID'];
 $_SESSION['user_type'] = $user['user_Type'];
+$_SESSION['auth_version'] = hash('sha256', (string) $user['user_Password']);
 $_SESSION['email'] = $user['user_Email'];
 $_SESSION['name'] = $user['first_Name'] . ' ' . $user['last_Name'];
 

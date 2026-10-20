@@ -17,6 +17,19 @@ function require_login(): void
 
         exit;
     }
+
+    global $pdo;
+    require_once __DIR__ . '/../config/database.php';
+    $statement = $pdo->prepare('SELECT user_Password FROM Login WHERE user_ID = ?');
+    $statement->execute([(int) $_SESSION['user_id']]);
+    $current = $statement->fetchColumn();
+    if (!$current || !isset($_SESSION['auth_version']) || !hash_equals($_SESSION['auth_version'], hash('sha256', (string) $current))) {
+        $_SESSION = [];
+        session_regenerate_id(true);
+        $_SESSION['login_notice'] = 'Your session ended. Please sign in again.';
+        header('Location: ' . app_url('login.php'));
+        exit;
+    }
 }
 
 

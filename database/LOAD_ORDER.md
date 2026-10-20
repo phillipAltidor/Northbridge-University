@@ -5,6 +5,9 @@ Select the target database first. On a fresh database, create the tables using
 files use regular INSERT statements and should not be rerun over populated
 seed tables. Do not combine this dataset with `demo_seed.sql` on a fresh database.
 
+Password recovery also requires `database/migrations/password_reset.sql` after
+creating the schema. Its temporary recovery rows are not shared seed data.
+
 1. `database/data/user.sql`
 2. `database/data/admin.sql`
 3. `database/data/stat_staff.sql`
