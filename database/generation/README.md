@@ -1,5 +1,11 @@
 # Fall 2022 Cohort Rebuild
 
+After any approved data rebuild/import, run the timeline audit in
+`database/migrations/align_academic_timeline.php`. Its `--apply` mode aligns the
+snapshot in `config/academic-timeline.php`, backs up the database, and synchronizes
+the four academic seeds. The October 22, 2026 snapshot requires Fall 2026 to be
+ungraded/in progress and Spring 2027 to remain planned, not completed.
+
 This is realistic generated university data, not real student records. The
 Fall 2026 study plans supply a comparable scale, while the original Fall 2022
 students retain their courses and grades. Generated historical profiles have
