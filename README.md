@@ -27,8 +27,11 @@ compact navy footer. Home navigation is in the header. A solid white panel keeps
 the role heading, credentials, Login button, and Reset Password link visible;
 login errors appear only when applicable, without a permanent lockout notice.
 
-Login and account lockout are implemented. All roles now open Home, displaying
-the logged-in person's name and ID. Students can select Student Information
+Login and account lockout are implemented. All roles open Home. Admin Home has
+a personalized campus-photo welcome banner, quick-access links, and the approved
+grouped sidebar. Groups start collapsed and remember the user's choices;
+unfinished actions are grey and disabled. Other roles retain their minimal Home
+page displaying the logged-in person's name and ID. Students can select Student Information
 to view their own personal User data and Login email. Academic information is
 hidden for now; the page does not require an academic Student record.
 Detailed admin information remains hidden for now.
@@ -58,13 +61,28 @@ See [password-reset setup and tests](docs/password-reset.md). Automated tests
 cover the flow, but real inbox delivery and a real-account demonstration must
 also be confirmed before treating the presentation workflow as complete.
 
-All roles share the signed-in Home page; admins also have Create User and Update User Information.
+Admins also have Create User and Update User Information. For this checkpoint's
+database upgrade sequence, see [teammate setup](docs/checkpoint-setup.md).
 Master Schedule (use case 70) lets admins select ten semesters from Fall 2022
-through Spring 2027. Historical and Spring 2027 schedules are read-only;
+through Spring 2027. Historical and Spring 2027 schedules are read-only.
+The approved academic snapshot is October 22, 2026: Fall 2026 is in progress
+with ungraded enrollment and attendance only through that date. Spring 2027
+contains planned registrations and its schedule, but no attendance, final grades,
+or completed student/faculty history. Earlier semesters retain their results.
+`config/academic-timeline.php` records this explicit snapshot; the manual must
+provide semester boundaries and registration windows before automatic rollover
+or registration eligibility is implemented. The timeline migration and full-data
+load instructions are documented in `database/LOAD_ORDER.md`.
 Fall 2026 supports reviewing, editing, and saving Course_Section records.
 Semester selection loads the schedule automatically. Each Fall 2026 section can be edited:
-course_ID, section_No, faculty_ID, time_Slot_ID, optional room_ID, and
-available_Seats. CRN and semester_ID remain fixed to protect existing references.
+course_ID, section_No, faculty_ID, and optional room_ID. Time-slot changes are
+blocked once the semester starts. Maximum seats are fixed at 10 and available
+seats are read-only, calculated from the relevant semester roster. Enrollment
+triggers synchronize stored seats on registration/drop/transfer and reject full
+sections. The schedule includes credits, separate times, building, capacity,
+semester/year, and course/department/availability filters. See
+[Master Schedule setup and limitations](docs/master-schedule.md).
+CRN and semester_ID remain fixed to protect existing references.
 The form validates foreign keys, section numbers and nonnegative seats, rejects
 duplicate course/section numbers, and checks instructor/room and enrolled-student overlaps when those
 assignments change. A course cannot be reassigned on a section with enrollment
