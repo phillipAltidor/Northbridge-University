@@ -37,7 +37,8 @@ function page_start(
     string $title,
     string $role,
     string $active = '',
-    ?int $userID = null
+    ?int $userID = null,
+    bool $showHeading = true
 ): void {
 
     global $pdo;
@@ -88,6 +89,9 @@ function page_start(
             rel="stylesheet"
             href="<?= e(app_url('assets/css/style.css')) ?>"
         >
+        <?php if ($role === 'Admin'): ?>
+            <script src="<?= e(app_url('assets/js/admin-navigation.js')) ?>" defer></script>
+        <?php endif; ?>
 
     </head>
 
@@ -142,7 +146,12 @@ function page_start(
 
     <div class="shell">
 
-        <aside class="sidebar">
+        <aside class="sidebar<?= $role === 'Admin' ? ' admin-sidebar' : '' ?>">
+
+            <?php if ($role === 'Admin'):
+                require_once __DIR__ . '/admin-navigation.php';
+                admin_navigation($active);
+            else: ?>
 
             <?php foreach (nav_items($role) as $item): ?>
 
@@ -167,18 +176,21 @@ function page_start(
                 </a>
 
             <?php endforeach; ?>
+            <?php endif; ?>
 
         </aside>
 
 
         <main class="content">
 
+            <?php if ($showHeading): ?>
             <h1 class="page-heading">
                 <span><?= e($title) ?></span>
                 <?php if ($userID !== null): ?>
                     <span class="page-user-id">ID: <?= e($userID) ?></span>
                 <?php endif; ?>
             </h1>
+            <?php endif; ?>
 
     <?php
 }
