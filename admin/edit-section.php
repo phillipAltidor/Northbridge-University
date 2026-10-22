@@ -39,6 +39,8 @@ if (!$section || !$semester) {
     exit;
 }
 $values = $section;
+$enrolledCount = schedule_enrolled_count($pdo, (int)$section['semester_ID'], $crn);
+$values['available_Seats'] = SCHEDULE_MAXIMUM_SEATS - $enrolledCount;
 $version = section_version($section);
 $error = '';
 if ($isPost) {
@@ -47,7 +49,7 @@ if ($isPost) {
     if (!hash_equals($_SESSION['master_schedule_token'], $token)) {
         $error = 'Please reload the section and try again.';
     }
-    foreach (['course_ID', 'section_No', 'faculty_ID', 'time_Slot_ID', 'available_Seats', 'room_ID'] as $field) {
+    foreach (['course_ID', 'section_No', 'faculty_ID', 'time_Slot_ID', 'room_ID'] as $field) {
         $input = $_POST[$field] ?? null;
         if ($field === 'course_ID') {
             $values[$field] = is_string($input) ? trim($input) : '';
@@ -62,9 +64,9 @@ if ($isPost) {
                 $error = 'Select a valid room code.';
             }
         } else {
-            $values[$field] = section_integer($input, $field === 'available_Seats' ? 0 : 1);
+            $values[$field] = section_integer($input);
             if ($values[$field] === false) {
-                $error = $field === 'available_Seats' ? 'Available seats must be a nonnegative whole number.' : 'Select valid course, faculty, time slot, and room values, and a positive section number.';
+                $error = 'Select valid course, faculty, time slot, and room values, and a positive section number.';
             }
         }
     }
@@ -81,9 +83,14 @@ if ($isPost) {
                 throw new DomainException('This section changed after you opened it. Reload the section before saving.');
             }
             $after = $before;
-            foreach (['course_ID', 'section_No', 'faculty_ID', 'time_Slot_ID', 'room_ID', 'available_Seats'] as $field) {
+            foreach (['course_ID', 'section_No', 'faculty_ID', 'time_Slot_ID', 'room_ID'] as $field) {
                 $after[$field] = $values[$field];
             }
+            if ($after['time_Slot_ID'] !== $before['time_Slot_ID'] && academic_semester_status($semester) !== 'Upcoming') {
+                throw new DomainException('The time slot cannot change after the semester has started.');
+            }
+            $after['available_Seats'] = SCHEDULE_MAXIMUM_SEATS - schedule_enrolled_count($pdo, (int)$before['semester_ID'], $crn);
+            if ($after['available_Seats'] < 0) throw new DomainException('This section exceeds its maximum capacity of 10.');
             if ($after !== $before) {
                 foreach (['course_ID' => ['Course', 'course_ID'], 'faculty_ID' => ['Faculty', 'faculty_ID'], 'time_Slot_ID' => ['Time_Slot', 'time_Slot_ID'], 'room_ID' => ['Room', 'room_ID']] as $field => [$table, $column]) {
                     if ($after[$field] === null) {
@@ -239,7 +246,10 @@ page_start('Edit Course Section', 'Admin', 'admin/master-schedule.php');
         <option value="" <?= $values['room_ID'] === null ? 'selected' : '' ?>>No room</option>
         <?php foreach ($rooms as $room): ?><option value="<?= e($room['room_ID']) ?>" <?= $values['room_ID'] !== null && (string) $values['room_ID'] === (string) $room['room_ID'] ? 'selected' : '' ?>><?= e($room['room_ID'] . ' · ' . $room['Bldg_Name'] . ' · Room ' . $room['room_Number'] . ' · ' . $room['room_Type']) ?></option><?php endforeach; ?>
     </select></div>
-    <div class="form-group"><label for="available_Seats">Available Seats</label><input type="number" id="available_Seats" name="available_Seats" min="0" max="2147483647" value="<?= e($values['available_Seats']) ?>" required></div>
+    <div class="grid2">
+        <div class="form-group"><label for="maximum_Seats">Maximum Seats</label><input id="maximum_Seats" type="number" value="<?= e(SCHEDULE_MAXIMUM_SEATS) ?>" readonly></div>
+        <div class="form-group"><label for="available_Seats">Available Seats</label><input id="available_Seats" type="number" value="<?= e($values['available_Seats']) ?>" readonly></div>
+    </div>
     <button class="btn" type="submit">Save Changes</button>
 </form>
 <h2>Section History</h2>

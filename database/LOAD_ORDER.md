@@ -53,6 +53,24 @@ creating the schema. Its temporary recovery rows are not shared seed data.
 43. `database/data/faculty_history.sql`
 44. `database/data/attendance.sql`
 
+After importing the data, run
+`php database/migrations/master_schedule_requirements.php --apply` to audit the
+rosters/attendance and install the enrollment seat-count triggers. See
+`docs/master-schedule.md`. Do not install these triggers before loading the seed
+rosters: the section seeds already contain their final available-seat counts.
+
+The four enrollment/history/attendance seeds now represent the approved academic
+snapshot in `config/academic-timeline.php`: October 22, 2026. Enrollment retains
+current and planned registrations, with NULL final grades for Fall 2026 and
+later. Completed student/faculty histories contain only earlier semesters.
+Fall 2026 attendance stops at the snapshot date; future terms have none.
+Existing installations can audit with
+`php database/migrations/align_academic_timeline.php`, then apply with `--apply`.
+Application creates a private full backup, preserves all other tables and past
+records, and reload-checks the synchronized seed SQL before committing.
+This is a data snapshot, not an automatic academic calendar. Exact semester
+boundaries and registration windows must come from the system manual.
+
 ## Schema 2.3 adaptations
 
 - `admin.sql` inserts `Admin.admin_ID`; `stat_staff.sql` inserts
