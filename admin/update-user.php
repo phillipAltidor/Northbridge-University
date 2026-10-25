@@ -198,7 +198,7 @@ page_start('Update User Information', 'Admin', 'admin/update-user.php');
         </div>
         <button type="submit" class="btn">Save Update</button>
     </form>
-    <h2>Update History</h2>
+    <h2 id="update-history">Update History</h2>
     <?php if (!$history): ?><p>No updates recorded.</p><?php else: ?>
         <p>Showing the latest <?= count($history) ?> updates. Times are in UTC.</p>
         <?php foreach ($history as $entry): ?>

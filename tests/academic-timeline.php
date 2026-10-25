@@ -2,6 +2,24 @@
 declare(strict_types=1);
 if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 require dirname(__DIR__) . '/includes/academic-timeline.php';
+foreach ([
+    '2026-10-25T03:59:59+00:00' => '2026-10-24',
+    '2026-10-25T04:00:00+00:00' => '2026-10-25',
+    '2026-11-02T04:59:59+00:00' => '2026-11-01',
+    '2026-11-02T05:00:00+00:00' => '2026-11-02',
+] as $instant => $date) {
+    if (academic_today(new DateTimeImmutable($instant))->format('Y-m-d') !== $date) throw new RuntimeException('Incorrect New York day boundary');
+}
+$originalTimezone = date_default_timezone_get();
+try {
+    date_default_timezone_set('Asia/Tokyo');
+    $timeline = require dirname(__DIR__) . '/config/academic-timeline.php';
+    $expected = (new DateTimeImmutable('now', new DateTimeZone('America/New_York')))->format('Y-m-d');
+    if ($timeline['as_of'] !== $expected) throw new RuntimeException('Timeline date is not live in New York');
+} finally {
+    date_default_timezone_set($originalTimezone);
+}
+echo "PASS: live New York date, daily rollover, daylight saving, and host-timezone independence\n";
 foreach (['Fall 2022' => 'Completed', 'Spring 2026' => 'Completed', 'Fall 2026' => 'In progress', 'Spring 2027' => 'Upcoming', 'Fall 2027' => 'Upcoming'] as $name => $expected) {
     if (academic_semester_status($name) !== $expected) throw new RuntimeException('Incorrect status: ' . $name);
 }

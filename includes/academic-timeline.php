@@ -1,6 +1,11 @@
 <?php
 declare(strict_types=1);
 
+function academic_today(?DateTimeImmutable $now = null): DateTimeImmutable
+{
+    return ($now ?? new DateTimeImmutable('now'))->setTimezone(new DateTimeZone('America/New_York'));
+}
+
 function academic_semester_order(string $name): int
 {
     if (!preg_match('/^(Spring|Fall) ([0-9]{4})$/D', $name, $match)) {

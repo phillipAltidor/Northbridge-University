@@ -1,12 +1,15 @@
 # Northbridge University Portal
 
-PHP and MySQL portal currently scoped to use cases 1-5, 52, 53, and 70:
+PHP and MySQL portal covering use cases 1-7, 52, 53, and part of 70, plus
+read-only Faculty profiles and current/next semester teaching schedules:
 
 - Successful Login
 - Unsuccessful Login
 - Password Reset
 - Unsuccessful Password Reset
 - View Student Information
+- View Current Semester Schedule
+- View Next Semester Schedule
 - Create User
 - Update User Information
 - Create Master Schedule for Fall 2026
@@ -30,11 +33,17 @@ login errors appear only when applicable, without a permanent lockout notice.
 Login and account lockout are implemented. All roles open Home. Admin Home has
 a personalized campus-photo welcome banner, quick-access links, and the approved
 grouped sidebar. Groups start collapsed and remember the user's choices;
-unfinished actions are grey and disabled. Other roles retain their minimal Home
-page displaying the logged-in person's name and ID. Students can select Student Information
-to view their own personal User data and Login email. Academic information is
-hidden for now; the page does not require an academic Student record.
-Detailed admin information remains hidden for now.
+unfinished actions are grey and disabled. Student and Faculty Home now use the
+same visual structure with role-specific shortcuts, grouped navigation, and
+Week at a Glance. Statistics Staff retains a minimal Home page. Admin, Student,
+and Faculty have read-only My Profile pages and an email/User ID hover preview.
+Student and Faculty Semester Schedule pages default to Fall 2026 and offer
+Spring 2027 through a dropdown, combining matching days such as Mon/Wed.
+Students see their own enrollments; faculty see their own teaching assignments.
+Unimplemented actions remain disabled. See [Student dashboard](docs/student-dashboard.md)
+and [Faculty dashboard](docs/faculty-dashboard.md) for exact scope and tests.
+Admin Home includes Recent Updates from user-information audit logs; other
+categories need logging when those workflows are implemented.
 Update User Information (use case 53) lets admins find a user by ID, name, or
 email, edit personal details and login email, and record the user’s request.
 User ID and role stay fixed. Every saved change records the administrator, UTC
@@ -65,11 +74,11 @@ Admins also have Create User and Update User Information. For this checkpoint's
 database upgrade sequence, see [teammate setup](docs/checkpoint-setup.md).
 Master Schedule (use case 70) lets admins select ten semesters from Fall 2022
 through Spring 2027. Historical and Spring 2027 schedules are read-only.
-The approved academic snapshot is October 22, 2026: Fall 2026 is in progress
-with ungraded enrollment and attendance only through that date. Spring 2027
+The live New York date supplies the As-of label and attendance cutoff. Fall 2026
+is configured in progress with ungraded enrollment and no future attendance. Spring 2027
 contains planned registrations and its schedule, but no attendance, final grades,
 or completed student/faculty history. Earlier semesters retain their results.
-`config/academic-timeline.php` records this explicit snapshot; the manual must
+`config/academic-timeline.php` supplies the live date and configured terms; the manual must
 provide semester boundaries and registration windows before automatic rollover
 or registration eligibility is implemented. The timeline migration and full-data
 load instructions are documented in `database/LOAD_ORDER.md`.
@@ -207,10 +216,14 @@ Keep `.env` private and use separate database settings on AWS.
 - admin/create-user.php: Admin-only User and Login creation for all four roles
 - admin/information.php: Compatibility redirect to Home
 - student/information.php: Read-only personal data for the logged-in student
+- student/schedule.php: Current/next semester schedules for the logged-in student
+- faculty/information.php: Read-only personal profile for the logged-in faculty member
+- faculty/schedule.php: Current/next semester teaching schedules and available seats
+- admin/personal-information.php: Read-only Admin profile
 - index.php: Login form
 - login.php: Credential verification and account lockout
 - reset-password.php: Email-code verification, password reset, and account unlocking
-- home.php: Shared login destination with the person's name and ID
+- home.php: Shared login destination with role-specific dashboards
 - logout.php: End the authenticated session
 - includes/: Shared authentication, layout, and query helpers
 - config/: Database configuration

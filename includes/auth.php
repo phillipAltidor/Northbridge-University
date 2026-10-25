@@ -75,7 +75,8 @@ function app_base_path(): string
 
     $portalDirectories = [
         'admin',
-        'student'
+        'student',
+        'faculty'
     ];
 
     if (in_array(end($parts), $portalDirectories, true)) {

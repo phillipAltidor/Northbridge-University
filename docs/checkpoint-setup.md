@@ -63,8 +63,10 @@ requirements described in `docs/password-reset.md`.
 ## What Changes
 
 - Admin Home and grouped navigation, with unfinished actions disabled.
-- An explicit October 22, 2026 snapshot: Fall 2026 in progress, Spring 2027
-  upcoming, with no current/future final grades or completed histories.
+- A live New York calendar date for the "As of" label and attendance cutoff:
+  Fall 2026 is configured in progress and Spring 2027 upcoming, with no
+  current/future final grades or completed histories. Exact term boundaries
+  await the manual; the initial data alignment was performed October 22, 2026.
 - Historical enrollment retained from completed student history, preserving
   recorded grades. Existing accounts and passwords are not rewritten.
 - Fictional Fall attendance corrected to meeting weekdays, duplicates combined,

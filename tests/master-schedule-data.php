@@ -27,6 +27,6 @@ data_check((int)$pdo->query('SELECT COUNT(*) FROM Attendance a JOIN Course_Secti
 data_check((int)$pdo->query('SELECT COUNT(*) FROM Attendance a LEFT JOIN Enrollment e ON e.student_ID=a.student_ID AND e.CRN=a.CRN WHERE e.student_ID IS NULL')->fetchColumn() === 0, 'Attendance belongs to registered students');
 $timeline=require dirname(__DIR__) . '/config/academic-timeline.php';
 $statement=$pdo->prepare('SELECT COUNT(*) FROM Attendance WHERE attendance_Date>?'); $statement->execute([$timeline['as_of']]);
-data_check((int)$statement->fetchColumn()===0,'No attendance after approved snapshot date');
+data_check((int)$statement->fetchColumn()===0,'No attendance after today in New York');
 data_check(count($pdo->query("SHOW TRIGGERS WHERE `Trigger` LIKE 'northbridge_enrollment_%'")->fetchAll())===3,'Registration seat triggers installed');
 echo "PASS: $checks read-only Master Schedule data checks\n";

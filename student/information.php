@@ -3,6 +3,7 @@
 require_once __DIR__ . '/../includes/layout.php';
 
 require_role(['Student']);
+header('Cache-Control: no-store');
 
 require_once __DIR__ . '/../config/database.php';
 require_once __DIR__ . '/../includes/functions.php';
@@ -22,7 +23,7 @@ if (!$student) {
     http_response_code(404);
 }
 
-page_start('Student Information', 'Student', 'student/information.php');
+page_start('My Profile', 'Student', 'student/information.php', null, false);
 
 ?>
 
@@ -36,12 +37,15 @@ page_start('Student Information', 'Student', 'student/information.php');
         $student['last_Name']
     ], static fn($part) => $part !== null && $part !== ''));
 
-    $information = [
-        'User ID' => $student['user_ID'],
-        'Name' => $name,
-        'University Email' => $student['user_Email'],
+    $personal = [
+        'First Name' => $student['first_Name'],
+        'Middle Name' => $student['middle_Name'],
+        'Last Name' => $student['last_Name'],
         'Gender' => $student['gender'],
         'Date of Birth' => $student['DOB'],
+    ];
+    $contact = [
+        'University Email' => $student['user_Email'],
         'Street Address' => $student['street'],
         'City' => $student['city'],
         'State' => $student['state'],
@@ -49,13 +53,36 @@ page_start('Student Information', 'Student', 'student/information.php');
     ];
     ?>
 
-    <div class="grid2">
-        <?php foreach ($information as $label => $value): ?>
-            <p>
-                <strong><?= e($label) ?></strong><br>
-                <?= e($value) ?>
-            </p>
-        <?php endforeach; ?>
+    <div class="profile-page">
+        <header class="profile-heading">
+            <p>My Profile</p>
+            <h1><?= e($name) ?></h1>
+        </header>
+        <div class="profile-layout">
+            <div class="profile-details">
+                <?php foreach (['Personal Details' => $personal, 'Contact Details' => $contact] as $heading => $fields): ?>
+                    <section class="profile-section" aria-label="<?= e($heading) ?>">
+                        <h2><?= e($heading) ?></h2>
+                        <dl class="profile-fields">
+                            <?php foreach ($fields as $label => $value): ?>
+                                <div>
+                                    <dt><?= e($label) ?></dt>
+                                    <dd><?= e($value === null || $value === '' ? 'Not provided' : $value) ?></dd>
+                                </div>
+                            <?php endforeach; ?>
+                        </dl>
+                    </section>
+                <?php endforeach; ?>
+            </div>
+            <aside class="profile-account" aria-labelledby="profile-account-title">
+                <h2 id="profile-account-title">Account Details</h2>
+                <dl class="profile-fields">
+                    <div><dt>User ID</dt><dd><?= e($student['user_ID']) ?></dd></div>
+                    <div><dt>Role</dt><dd>Student</dd></div>
+                    <div><dt>University</dt><dd>Northbridge University</dd></div>
+                </dl>
+            </aside>
+        </div>
     </div>
 
 <?php endif; ?>

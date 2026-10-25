@@ -59,6 +59,12 @@ function page_start(
     }
     $name = $_SESSION['name'] ?? 'User';
     $email = $_SESSION['email'] ?? '';
+    $profilePaths = [
+        'Admin' => 'admin/personal-information.php',
+        'Student' => 'student/information.php',
+        'Faculty' => 'faculty/information.php',
+    ];
+    $hasProfile = isset($profilePaths[$role]);
 
 
     if ($role === 'StatStaff') {
@@ -89,15 +95,16 @@ function page_start(
             rel="stylesheet"
             href="<?= e(app_url('assets/css/style.css')) ?>"
         >
-        <?php if ($role === 'Admin'): ?>
+        <?php if ($hasProfile): ?>
             <script src="<?= e(app_url('assets/js/admin-navigation.js')) ?>" defer></script>
+            <script src="<?= e(app_url('assets/js/admin-profile.js')) ?>" defer></script>
         <?php endif; ?>
 
     </head>
 
     <body>
 
-    <header class="topbar">
+    <header class="topbar<?= $hasProfile ? ' admin-topbar' : '' ?>">
 
         <div class="brand">
 
@@ -120,6 +127,24 @@ function page_start(
 
         <div class="account">
 
+            <?php if ($hasProfile):
+                $initials = mb_strtoupper(mb_substr($account['first_Name'] ?? $name, 0, 1, 'UTF-8') . mb_substr($account['last_Name'] ?? '', 0, 1, 'UTF-8'), 'UTF-8');
+                ?>
+                <div class="admin-profile">
+                    <a class="admin-profile-link" href="<?= e(app_url($profilePaths[$role])) ?>" aria-label="<?= e('Personal information for ' . $name) ?>">
+                        <span class="admin-profile-trigger">
+                            <span class="admin-profile-avatar" aria-hidden="true"><?= e($initials) ?></span>
+                            <strong class="admin-profile-name"><?= e($name) ?></strong>
+                        </span>
+                    </a>
+                    <div class="admin-profile-panel" hidden>
+                        <dl>
+                            <div><dt>Email</dt><dd><?= e($email) ?></dd></div>
+                            <div><dt>User ID</dt><dd><?= e((int)($_SESSION['user_id'] ?? 0)) ?></dd></div>
+                        </dl>
+                    </div>
+                </div>
+            <?php else: ?>
             <div>
 
                 <strong>
@@ -131,6 +156,7 @@ function page_start(
                 </small>
 
             </div>
+            <?php endif; ?>
 
             <a
                 class="btn light"
@@ -146,11 +172,17 @@ function page_start(
 
     <div class="shell">
 
-        <aside class="sidebar<?= $role === 'Admin' ? ' admin-sidebar' : '' ?>">
+        <aside class="sidebar<?= $hasProfile ? ' admin-sidebar' : '' ?>">
 
             <?php if ($role === 'Admin'):
                 require_once __DIR__ . '/admin-navigation.php';
                 admin_navigation($active);
+            elseif ($role === 'Student'):
+                require_once __DIR__ . '/student-navigation.php';
+                student_navigation($active);
+            elseif ($role === 'Faculty'):
+                require_once __DIR__ . '/faculty-navigation.php';
+                faculty_navigation($active);
             else: ?>
 
             <?php foreach (nav_items($role) as $item): ?>

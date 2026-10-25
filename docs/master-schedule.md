@@ -24,7 +24,11 @@ and validate the section's semester. Rollbacks also roll back seat changes.
 Future registration code must use transactions and retry deadlocks as appropriate.
 Direct roster imports must start with consistent section/roster counts.
 
-Fall 2026 is in progress under the October 22, 2026 snapshot. Its time slots
+The "As of" date follows today's calendar date in America/New_York on each page
+request, rather than the original October 22 snapshot. Attendance checks use that
+same live cutoff; advancing the date does not create attendance or change grades.
+Fall 2026 remains the configured current semester until approved semester dates
+are supplied. Its time slots
 cannot change once the semester has started. Existing conflict checks remain;
 faculty department/load eligibility still needs completion against the SRS.
 
@@ -69,8 +73,11 @@ historical rosters, and filters. The other checks are read-only on the local DB.
 ## Remaining Work
 
 This does not implement registration screens, prerequisite/hold/credit checks,
-registration windows, student/faculty schedule pages, section creation, or Spring
+registration windows, faculty roster/attendance/grading workflows, section creation, or Spring
 2027 master-schedule saving. Those workflows remain disabled until checked
 against the SRS. Full historical attendance and holiday validation are pending
 official semester calendars. Existing audit findings about faculty load and
 department checks are not resolved by the seat-count triggers.
+
+Separate read-only Student and Faculty semester schedule pages are implemented;
+see student-dashboard.md and faculty-dashboard.md for their scope and tests.
