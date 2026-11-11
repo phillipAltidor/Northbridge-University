@@ -1,11 +1,7 @@
--- Seeds campus buildings.
+-- Owner-authorized fictional academic rebuild, 2026-11-07. Original people/accounts are unchanged.
 
-INSERT INTO Building (Bldg_ID, Bldg_Name, building_Usage) VALUES
-('NAB',  'Northbridge Academic Building', 'General classrooms, faculty offices, and academic departments'),
-('SCI',  'Science Center', 'Science classrooms, laboratories, and faculty offices'),
-('TECH', 'Technology and Engineering Center', 'Computer labs, engineering labs, classrooms, and faculty offices'),
-('BUS',  'School of Business', 'Business classrooms, faculty offices, and meeting rooms'),
-('HSC',  'Health Sciences Center', 'Health science classrooms, laboratories, and faculty offices'),
-('ART',  'Arts and Media Center', 'Studios, media labs, classrooms, and faculty offices'),
-('LIB',  'Northbridge Library', 'Library, study areas, academic support, and instructional spaces'),
-('ADM',  'Administration Building', 'Administrative offices and student services');
+INSERT INTO `Building` (`Bldg_ID`,`Bldg_Name`,`building_Usage`) VALUES
+('ADM','Administration Building','Administrative offices and student services'),
+('LIB','Northbridge Library','Library, study areas, academic support, and instructional spaces'),
+('NAB','Northbridge Academic Building','General, business, arts and media classrooms, studios, and academic offices'),
+('SCI','Science Center','Science, health, technology and engineering laboratories, classrooms, and offices');

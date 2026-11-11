@@ -1,4 +1,4 @@
--- Generated Fall 2022 cohort rebuild; existing accounts preserved.
+-- Owner-authorized fictional academic rebuild, 2026-11-07. Original people/accounts are unchanged.
 
 INSERT INTO `Part_Time_Faculty` (`faculty_ID`,`no_of_Classes`,`DOA`) VALUES
 ('200251','1','2016-08-15'),

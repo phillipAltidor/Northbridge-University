@@ -1,9 +1,9 @@
 # Northbridge University Portal
 
 For parallel development, read [the team workflow](docs/team-workflow.md) and
-PROJECT_HANDOFF.md before starting. The GitHub code checkpoint does not include
-the exact private V11 preview database or activate it; see the workflow's database
-snapshot notes before loading seeds or running migrations.
+PROJECT_HANDOFF.md before starting. The V11 release branch includes the matching academic installation bundle;
+follow [V11 teammate setup](docs/v11-teammate-setup.md) to create a new local
+database. Pulling code never activates or overwrites your database.
 
 PHP and MySQL portal covering use cases 1-7, 10, 46, 52, 53, and part of 70, plus
 read-only Faculty profiles and current/next semester teaching schedules:

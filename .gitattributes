@@ -1,5 +1,7 @@
 # Preserve archived evidence byte-for-byte and treat PDFs as binary documents.
 *.pdf binary
+*.sql text eol=lf
+database/migrations/section_seat_triggers.php text eol=lf
 database/staging/academic-alignment/supplemental-sources/*.html -whitespace
 # Exported seed hashes include their original final newline layout.
 database/data/academic_rebuild.sql whitespace=-blank-at-eof

@@ -1,0 +1,26 @@
+{
+  "status": "v11-local-main-activated-and-verified",
+  "activeDatabase": "northbridge_ow_rebuild_2026_8",
+  "mainURL": "http://127.0.0.1:8000/",
+  "databaseOverrideUsed": false,
+  "tablesVerified": 53,
+  "previousWorkingDatabaseUnchanged": true,
+  "testSourceDatabaseUnchanged": true,
+  "schemaChanged": false,
+  "postSwitchChecks": "passed",
+  "runtimeSHA256": "b05bee9b802d24b272df39f8c5cd8d658f285326b9fb34b3ba76c7d420821fa4",
+  "postSwitchReceiptSHA256": {
+    "master-catalog-verification.json": "b42b93799031475c973ce8060fc7c2c2286cff43565e886e735503fa2c656bc8",
+    "portal-http-verification.json": "c4897d20e8fa765807b36fbcfa88e86218703c4f74d4a857683858a7adf82f28",
+    "student-degree-audit-http-verification.json": "fab56e79c294f347fb25e04254aca965b2ac88da82cd7b127c4af10f14114f62",
+    "faculty-rosters-verification.json": "3892032fad62ab27f56d7651f30ef1b0f4ee6c3975e543127b4536df9159a1e0",
+    "portal-degree-verification.json": "1885cdae6b81d1a8f5391a95e4f07c767440f917b0ecb17a76d7ec13602866ec"
+  },
+  "rollbackDatabase": "northbridge_ow_rebuild_2026_5",
+  "isolatedTestDatabase": "northbridge_ow_rebuild_2026_7",
+  "masterChecks": 5492,
+  "portalChecks": 908,
+  "degreeHTTPChecks": 94,
+  "facultyRosterChecks": 12437,
+  "persistedDegreeStudentsVerified": 2200
+}

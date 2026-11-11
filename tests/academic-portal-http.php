@@ -8,7 +8,7 @@ require dirname(__DIR__).'/includes/student-schedule.php';
 if (!preg_match('/^northbridge_ow_rebuild_2026_[4-9][0-9]*$/D',$database)) throw new RuntimeException('Isolated rebuilt database required.');
 $checks=0;$sessions=[];
 $base=getenv('NORTHBRIDGE_HTTP_BASE')?:'http://127.0.0.1:8001/';
-if (!in_array($base,['http://127.0.0.1:8000/','http://127.0.0.1:8001/','http://127.0.0.1:8002/','http://127.0.0.1:8003/'],true)) throw new RuntimeException('Local test server required.');
+if (!in_array($base,['http://127.0.0.1:8000/','http://127.0.0.1:8001/','http://127.0.0.1:8002/','http://127.0.0.1:8003/','http://127.0.0.1:8004/','http://127.0.0.1:8005/'],true)) throw new RuntimeException('Local test server required.');
 $check=static function(bool $ok,string $message)use(&$checks):void {if (!$ok) throw new RuntimeException($message);$checks++;};
 $request=static function(string $path,string $sid='')use($base):array {
  $context=stream_context_create(['http'=>['header'=>$sid?"Cookie: PHPSESSID=$sid\r\n":'','follow_location'=>0,'ignore_errors'=>true,'timeout'=>30]]);
@@ -52,7 +52,7 @@ try {
  }
  $summary=['status'=>'authenticated-rebuilt-portal-checks-passed','checks'=>$checks,'majorsChecked'=>count($students),'database'=>$database,'baseURL'=>$base,'studentIdentifiersPublished'=>false,'workingDatabaseChanged'=>false];
  $marker=$pdo->query('SELECT candidateSHA256,auditJSON FROM NB_AcademicRebuild WHERE singleton=1')->fetch();$summary['candidateFileSHA256']=$marker['candidateSHA256'];$audit=json_decode($marker['auditJSON'],true,512,JSON_THROW_ON_ERROR);if(isset($audit['fourCampusBuildings'])){$check((int)$pdo->query('SELECT COUNT(*) FROM Building')->fetchColumn()===4,'Entire campus must have four buildings.');$summary['fourBuildingPlanSHA256']=$audit['fourCampusBuildings']['planFileSHA256'];$summary['checks']=$checks;}
- file_put_contents(test_receipt_path('portal-http-verification.json'),json_encode($summary,JSON_PRETTY_PRINT|JSON_THROW_ON_ERROR)."\n");
+ $summary['runtimeSHA256']=test_runtime_hash();file_put_contents(test_receipt_path('portal-http-verification.json'),json_encode($summary,JSON_PRETTY_PRINT|JSON_THROW_ON_ERROR)."\n");
  echo json_encode($summary),"\n";
 } finally {
  foreach ($sessions as $sid) {session_id($sid);session_start();$_SESSION=[];session_destroy();}
