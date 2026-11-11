@@ -1,0 +1,309 @@
+{
+  "status": "v11-installation-bundle-clean-install-verified",
+  "candidateFileSHA256": "69c1d4099a0788c56cc7e1bf8700d2c0bb32ef0fe6eb8e55d66f679f838e2560",
+  "scheduleFileSHA256": "c814f689766d079905ac8ab13974e0959598a9fa851183822994bd4a5c3a192b",
+  "campusPlanSHA256": "eb12ec283461cd596fbf9794be2e37bc1e73670769da5554dc43fc3b77ab87d8",
+  "sourceDatabase": "northbridge_ow_rebuild_2026_8",
+  "seedSHA256": {
+    "course.sql": "55f12a70fdb6bb17479489b12f21daec5d1f4c871f5d8e7ea9a73c1cc5fcc51d",
+    "major.sql": "aee822d0e237aad654c3edf76c68b0a8d4f1e9d91bc8decde5176ab403676f40",
+    "minor.sql": "3a77b359452998aff4351a1f7767ace46ccbae2041ed56eac9e6fc10ea1378b5",
+    "student.sql": "a1be0b393b8a9511d8f38e0853d01147be0fea8cdde8f77262f8940a77f5510d",
+    "undergraduate.sql": "b2d91b80861354eeb688ff9b66f8d40d6bc3441d8c9b8945674470abadf5c38d",
+    "full_time_undergraduate.sql": "7b6fa0b133d6e90ceec4f880323e9abae03e92b047199c0845d09a82999b4f75",
+    "part_time_undergraduate.sql": "8d6f59ec98c6cf3c40be7d35d902eb28422cbd9419ffd22710001b7df6fab296",
+    "time_slot.sql": "ff28ea31dcad70b00e61fc27a8e190db6ae362a34624346751ce7f0a8ea9868c",
+    "time_slot_day.sql": "b3203755adb5a3be269bd26ed38d567a35cbf2901174c9c348a832d725bc9dd7",
+    "time_slot_period.sql": "7055b0387ebed8a553113b96af8ee62a6e2cb3a34febcfd16e147d9a4ca133cf",
+    "period.sql": "dfff6df850e21e95edf06abafed213b09ddafd4df1da79b2b84639fb5de95623",
+    "faculty_history.sql": "43803ac9059770b0bb34d97fc36ab577d1895bfa408a16af83c0bcefc3b0238b",
+    "enrollment.sql": "83c72683cd3d156878b86a36495674925a24936e4356a73d7aa9c20e1f174dac",
+    "student_history.sql": "bbecfff17dfd66914b4a7bca0b755ead747959f621477d8b81a17fa198c4fd2e",
+    "attendance.sql": "ca5e749555ddcbbbad939ee7dda127889dad0aec030838d4418710ef860c4700",
+    "student_major.sql": "c0c860460a59b764ba43cbff4f9dd36990ea2bfbff40e47464a5f605cae88097",
+    "student_minor.sql": "2cd6e5f4c3b2964870bf53408491602dbfc645779222eadb7650a6772924787b",
+    "faculty_department.sql": "7ec55e2ae7e9d7857211e71cc25e3a181b48eaccdff4cba80416af9923782a77",
+    "full_time_faculty.sql": "12d553b264ffdfcd8a78b1cd435bfbdfcd48ca788cc4b91e2fbc2b2caae49066",
+    "part_time_faculty.sql": "5f7111f2b341d4f8ccf5d292fe7c71ed36b4ff81a1576b51a0728b0d55f49c29",
+    "building.sql": "28935ebd35130edf7e778cabcf83f7387b0d3e6b820f097a38e9cbf1a680807e",
+    "room.sql": "10dbc4a3fb513dc86b4f50735d247f60ecb711ede9a75dc9743cc8bc2bc4a675",
+    "course_section.sql": "8a4abe2fe489b7332926c8be76a9e805a959791ca49d21267994149c07575940",
+    "historical_course_section.sql": "20c193ae75faab07a057bebcaf0ff97525030de66867de0f53eac8583ebd4b87",
+    "academic_rebuild.sql": "93c921e866ea5c016dd939017ffb31509f3dfff259e837a2fd3d4365765f1544"
+  },
+  "tablesReloadVerified": {
+    "Course": 1098,
+    "Major": 24,
+    "Minor": 24,
+    "Student": 3338,
+    "Undergraduate": 2200,
+    "Full_Time_Undergraduate": 1600,
+    "Part_Time_Undergraduate": 600,
+    "Time_Slot": 9938,
+    "Time_Slot_Day": 114,
+    "Time_Slot_Period": 72,
+    "Period": 21,
+    "Faculty_History": 5056,
+    "Enrollment": 55830,
+    "Student_History": 45906,
+    "Attendance": 4440,
+    "Student_Major": 3338,
+    "Student_Minor": 300,
+    "Faculty_Department": 413,
+    "Full_Time_Faculty": 250,
+    "Part_Time_Faculty": 100,
+    "Building": 4,
+    "Room": 725,
+    "Course_Section": 6147,
+    "NB_AcademicCourse": 858,
+    "NB_AcademicProgram": 24,
+    "NB_AcademicStudent": 2200,
+    "NB_AcademicSection": 5065,
+    "NB_AcademicMeeting": 9388,
+    "NB_AcademicRebuild": 1
+  },
+  "expectedSchemaSHA256": "3bdeb67a0f87cac21c99b76e2bcea201ba613431c70f210a6217b74b2b195d41",
+  "expectedTriggersSHA256": "5936968154ec1186642c038abdab94675d51db53749f8a719733ac37b608c246",
+  "newAccountOrCredentialSeedsExported": false,
+  "databaseDefaults": {
+    "DEFAULT_CHARACTER_SET_NAME": "utf8mb4",
+    "DEFAULT_COLLATION_NAME": "utf8mb4_0900_ai_ci"
+  },
+  "testedDatabaseServer": "9.6.0",
+  "academicTableFingerprints": {
+    "Attendance": [
+      4440,
+      "3153516319"
+    ],
+    "Building": [
+      4,
+      "4134652336"
+    ],
+    "Course": [
+      1098,
+      "2434720184"
+    ],
+    "Course_Section": [
+      6147,
+      "1788642362"
+    ],
+    "Enrollment": [
+      55830,
+      "12748176"
+    ],
+    "Faculty_Department": [
+      413,
+      "3400001453"
+    ],
+    "Faculty_History": [
+      5056,
+      "219459517"
+    ],
+    "Full_Time_Faculty": [
+      250,
+      "1261022780"
+    ],
+    "Full_Time_Undergraduate": [
+      1600,
+      "2963731886"
+    ],
+    "Major": [
+      24,
+      "3424870715"
+    ],
+    "Minor": [
+      24,
+      "1267387596"
+    ],
+    "NB_AcademicCourse": [
+      858,
+      "2394318543"
+    ],
+    "NB_AcademicMeeting": [
+      9388,
+      "2780054091"
+    ],
+    "NB_AcademicProgram": [
+      24,
+      "3461808407"
+    ],
+    "NB_AcademicRebuild": [
+      1,
+      "1086850752"
+    ],
+    "NB_AcademicSection": [
+      5065,
+      "2484543021"
+    ],
+    "NB_AcademicStudent": [
+      2200,
+      "2416495062"
+    ],
+    "Part_Time_Faculty": [
+      100,
+      "3829766692"
+    ],
+    "Part_Time_Undergraduate": [
+      600,
+      "312952860"
+    ],
+    "Period": [
+      21,
+      "3309257160"
+    ],
+    "Room": [
+      725,
+      "946800804"
+    ],
+    "Student": [
+      3338,
+      "1921384000"
+    ],
+    "Student_History": [
+      45906,
+      "4075034108"
+    ],
+    "Student_Major": [
+      3338,
+      "4206200967"
+    ],
+    "Student_Minor": [
+      300,
+      "898444953"
+    ],
+    "Time_Slot": [
+      9938,
+      "1644624816"
+    ],
+    "Time_Slot_Day": [
+      114,
+      "2454089812"
+    ],
+    "Time_Slot_Period": [
+      72,
+      "730806648"
+    ],
+    "Undergraduate": [
+      2200,
+      "941748354"
+    ]
+  },
+  "loadOrder": [
+    "database/schema.sql",
+    "database/data/user.sql",
+    "database/data/admin.sql",
+    "database/data/stat_staff.sql",
+    "database/data/building.sql",
+    "database/data/day.sql",
+    "database/data/period.sql",
+    "database/data/time_slot.sql",
+    "database/data/semester.sql",
+    "database/data/hold.sql",
+    "database/data/login.sql",
+    "database/data/room.sql",
+    "database/data/lecture.sql",
+    "database/data/office.sql",
+    "database/data/lab.sql",
+    "database/data/faculty.sql",
+    "database/data/full_time_faculty.sql",
+    "database/data/part_time_faculty.sql",
+    "database/data/department.sql",
+    "database/data/major.sql",
+    "database/data/minor.sql",
+    "database/data/student.sql",
+    "database/data/undergraduate.sql",
+    "database/data/graduate_student.sql",
+    "database/data/full_time_undergraduate.sql",
+    "database/data/part_time_undergraduate.sql",
+    "database/data/full_time_graduate.sql",
+    "database/data/part_time_graduate.sql",
+    "database/data/course.sql",
+    "database/data/major_requirement.sql",
+    "database/data/minor_requirement.sql",
+    "database/data/time_slot_day.sql",
+    "database/data/time_slot_period.sql",
+    "database/data/faculty_department.sql",
+    "database/data/student_major.sql",
+    "database/data/student_minor.sql",
+    "database/data/student_hold.sql",
+    "database/data/advisor.sql",
+    "database/data/course_prerequisite.sql",
+    "database/data/course_section.sql",
+    "database/data/historical_course_section.sql",
+    "database/data/enrollment.sql",
+    "database/data/student_history.sql",
+    "database/data/faculty_history.sql",
+    "database/data/attendance.sql",
+    "database/migrations/2026-11-07-portal-academic-rebuild.sql",
+    "database/data/academic_rebuild.sql",
+    "database/migrations/admin_53_update_log.sql",
+    "database/migrations/admin_70_master_schedule.sql",
+    "database/migrations/admin_70_section_update_log.sql",
+    "database/migrations/password_reset.sql"
+  ],
+  "installationFileSHA256": {
+    "database/schema.sql": "d39955c810f119971e9bed500955dc8ca950ab99a97f45df4edfd51cddaf9437",
+    "database/data/user.sql": "8c2706d2ab36fc0d578f4a2cb294043154ccbf6cec11c029af1b36efd206f2d1",
+    "database/data/admin.sql": "edba2e6fa1166c908149b756d25bf03a29b324845dda2b698f4cc65844e1ecc5",
+    "database/data/stat_staff.sql": "e85b6b7605376200b82356a2ab5f5ac034122533a77e95744a81489734e52041",
+    "database/data/building.sql": "28935ebd35130edf7e778cabcf83f7387b0d3e6b820f097a38e9cbf1a680807e",
+    "database/data/day.sql": "6bb02c5bd44689e2ad4ce8d114eadeb91fec961c1c239b8c9a6f553f4ca5f647",
+    "database/data/period.sql": "dfff6df850e21e95edf06abafed213b09ddafd4df1da79b2b84639fb5de95623",
+    "database/data/time_slot.sql": "ff28ea31dcad70b00e61fc27a8e190db6ae362a34624346751ce7f0a8ea9868c",
+    "database/data/semester.sql": "731ba9d5446d7d1daf5969ca0bf54a8b46265f78e1003298abb7986ec4a81882",
+    "database/data/hold.sql": "c53e4773019852ad3159ddcc20544795477161ae37cf2c4a53869638dff7a0a0",
+    "database/data/login.sql": "0ca239d02c96e728e2cc006bb6ea720bb2f0d4b6f949050ed7ba9b6bc21ff22b",
+    "database/data/room.sql": "10dbc4a3fb513dc86b4f50735d247f60ecb711ede9a75dc9743cc8bc2bc4a675",
+    "database/data/lecture.sql": "84f4889018c5d1e13c7b980abb60a7a9008bb59e4395f03a46e43dbead44dc58",
+    "database/data/office.sql": "d35774e9cf4d76d008b254665ef706aa599f58e411acd852c4a53fd66c945d92",
+    "database/data/lab.sql": "089be7232f17f2f75825b128620873f5d927aa2fdffbe565dfa2eb5ffad76314",
+    "database/data/faculty.sql": "c54c8dd029234ceacdc2552694f3b15952052029a94494fb589a3b068dbf7e99",
+    "database/data/full_time_faculty.sql": "12d553b264ffdfcd8a78b1cd435bfbdfcd48ca788cc4b91e2fbc2b2caae49066",
+    "database/data/part_time_faculty.sql": "5f7111f2b341d4f8ccf5d292fe7c71ed36b4ff81a1576b51a0728b0d55f49c29",
+    "database/data/department.sql": "7b7a017fe065c1c45aa56c3c817d3d7ac250bd48e6a6a6ca032a9614218e9108",
+    "database/data/major.sql": "aee822d0e237aad654c3edf76c68b0a8d4f1e9d91bc8decde5176ab403676f40",
+    "database/data/minor.sql": "3a77b359452998aff4351a1f7767ace46ccbae2041ed56eac9e6fc10ea1378b5",
+    "database/data/student.sql": "a1be0b393b8a9511d8f38e0853d01147be0fea8cdde8f77262f8940a77f5510d",
+    "database/data/undergraduate.sql": "b2d91b80861354eeb688ff9b66f8d40d6bc3441d8c9b8945674470abadf5c38d",
+    "database/data/graduate_student.sql": "a178127bef5006ca4c49d72a3f6285b44e1ddcd925ee40782e447c02011de91e",
+    "database/data/full_time_undergraduate.sql": "7b6fa0b133d6e90ceec4f880323e9abae03e92b047199c0845d09a82999b4f75",
+    "database/data/part_time_undergraduate.sql": "8d6f59ec98c6cf3c40be7d35d902eb28422cbd9419ffd22710001b7df6fab296",
+    "database/data/full_time_graduate.sql": "5010cf0b75e116c3ce7528fd920d6accfd668f73c05660cb020d7e9e7f7a4960",
+    "database/data/part_time_graduate.sql": "f85fc8ad41f6b762862eedeb66507eea6c134fa6328993d7864b30dbf9e6c800",
+    "database/data/course.sql": "55f12a70fdb6bb17479489b12f21daec5d1f4c871f5d8e7ea9a73c1cc5fcc51d",
+    "database/data/major_requirement.sql": "e1204bd22d705299fa4eb33861e87c32df6511eaa5f9233e494e0bb18436eb64",
+    "database/data/minor_requirement.sql": "88ddcf3f4e6ec90467bf23cc4ebbe112eb2641dc9acfaa3f7eb9887890eab7b2",
+    "database/data/time_slot_day.sql": "b3203755adb5a3be269bd26ed38d567a35cbf2901174c9c348a832d725bc9dd7",
+    "database/data/time_slot_period.sql": "7055b0387ebed8a553113b96af8ee62a6e2cb3a34febcfd16e147d9a4ca133cf",
+    "database/data/faculty_department.sql": "7ec55e2ae7e9d7857211e71cc25e3a181b48eaccdff4cba80416af9923782a77",
+    "database/data/student_major.sql": "c0c860460a59b764ba43cbff4f9dd36990ea2bfbff40e47464a5f605cae88097",
+    "database/data/student_minor.sql": "2cd6e5f4c3b2964870bf53408491602dbfc645779222eadb7650a6772924787b",
+    "database/data/student_hold.sql": "9a7ec036369e09463bd6f9a037b459c827c6c6e455dd58566479d6b587af7f5f",
+    "database/data/advisor.sql": "2358906db3d6a4ed9f7d594002ca15d5bfc5321090ff44c6178db3d466e709ca",
+    "database/data/course_prerequisite.sql": "adb038e97cb7301d5ed4a1bc549a5f35e55def152105c64ab4f914597e666220",
+    "database/data/course_section.sql": "8a4abe2fe489b7332926c8be76a9e805a959791ca49d21267994149c07575940",
+    "database/data/historical_course_section.sql": "20c193ae75faab07a057bebcaf0ff97525030de66867de0f53eac8583ebd4b87",
+    "database/data/enrollment.sql": "83c72683cd3d156878b86a36495674925a24936e4356a73d7aa9c20e1f174dac",
+    "database/data/student_history.sql": "bbecfff17dfd66914b4a7bca0b755ead747959f621477d8b81a17fa198c4fd2e",
+    "database/data/faculty_history.sql": "43803ac9059770b0bb34d97fc36ab577d1895bfa408a16af83c0bcefc3b0238b",
+    "database/data/attendance.sql": "ca5e749555ddcbbbad939ee7dda127889dad0aec030838d4418710ef860c4700",
+    "database/migrations/2026-11-07-portal-academic-rebuild.sql": "3314d12be68eaeea7417974482cd86f4c919e4d1e68e54b2c2e369ce2f3e73cb",
+    "database/data/academic_rebuild.sql": "93c921e866ea5c016dd939017ffb31509f3dfff259e837a2fd3d4365765f1544",
+    "database/migrations/admin_53_update_log.sql": "ea695b4474655973862913c2d62af4f383bf2fd82ce947b32bd549ef32a48ae0",
+    "database/migrations/admin_70_master_schedule.sql": "10e6e4e1ac9e096bf2bab04ccac1efbc985618ac3d679e5f291613dbdaf6fea9",
+    "database/migrations/admin_70_section_update_log.sql": "288dc1e9e1ad021a35db4260b3e8968399195633becf64d1a5648d423c688cc4",
+    "database/migrations/password_reset.sql": "f8c5e042f28aa6fa349d50a788fb410d56c2a0209aab8f7d823616c97125010b",
+    "database/migrations/section_seat_triggers.php": "270ff26331c332370d044cbad581d25ce6cef77b524701af626c34d0512d6795"
+  },
+  "releaseDate": "2026-11-11",
+  "freshInstallVerification": "database/releases/v11/clean-install-verification.json",
+  "httpVerification": {
+    "database": "northbridge_ow_rebuild_2026_9",
+    "masterCatalogChecks": 5492,
+    "portalChecks": 908,
+    "degreeHTTPChecks": 94,
+    "facultyRosterChecks": 12437,
+    "studentsDegreeEvaluated": 2200,
+    "degreeEvaluationMismatches": 0
+  }
+}

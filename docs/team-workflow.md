@@ -10,16 +10,16 @@ This GitHub checkpoint shares the current portal code, tests, reviewed source
 material, documentation and the existing fictional installation seeds. It does
 not switch any database. Pulling code does not copy Phillip's local MySQL data.
 
-The verified preview uses V11 plus campus and faculty-count overlays in a private
-test database. Repository installation seeds are an older snapshot, not that
-exact preview state. Private dumps, student-level planning artifacts, environment
-settings and credentials remain outside Git. Do not activate an older migration
-or overwrite an existing database to make it resemble the preview. The matching
-V11 installation bundle still awaits the separately reviewed cutover process.
+The local working portal uses V11 plus campus and faculty-count overlays in _8;
+isolated testing remains on _7. This release branch now includes the matching
+25-file / 29-table academic seed bundle and a verified fresh-install path.
+See [V11 teammate setup](v11-teammate-setup.md) and database/LOAD_ORDER.md.
+Private dumps, planner/debug records, environment settings and credentials stay
+outside Git. The installer creates a new target and never switches your .env.
 
-For a fresh disposable database, review database/LOAD_ORDER.md and its snapshot
-limitations. For an existing database, preserve it and review the handoff before
-applying any migration. Keep a private backup before approved database work.
+For an existing database, preserve it and review the handoff before applying any
+migration. Do not activate the older migration tools to load V11. Each teammate
+gets a separate local database; no shared remote database is deployed by this PR.
 
 ## One branch for each feature
 

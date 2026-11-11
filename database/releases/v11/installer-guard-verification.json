@@ -1,0 +1,12 @@
+{
+  "status": "installer-negative-guards-passed",
+  "checks": [
+    "reserved-main-target",
+    "existing-target",
+    "tampered-input"
+  ],
+  "environmentUnchanged": true,
+  "inputHashesReverified": 52,
+  "phpFilesLinted": 132,
+  "phpSyntaxFailures": 0
+}

@@ -1,0 +1,19 @@
+{
+    "status": "fresh-v11-install-verified",
+    "targetDatabase": "northbridge_ow_rebuild_2026_9",
+    "tablesExpected": 53,
+    "seedFiles": 25,
+    "academicTables": 29,
+    "sourceServerTested": "9.6.0",
+    "currentServer": "9.6.0",
+    "currentDatabaseConnectionUnchanged": true,
+    "tablesVerified": 53,
+    "academicTablesMatched": 29,
+    "foreignKeysVerified": 76,
+    "schemaSHA256": "3bdeb67a0f87cac21c99b76e2bcea201ba613431c70f210a6217b74b2b195d41",
+    "triggersSHA256": "5936968154ec1186642c038abdab94675d51db53749f8a719733ac37b608c246",
+    "candidateFileSHA256": "69c1d4099a0788c56cc7e1bf8700d2c0bb32ef0fe6eb8e55d66f679f838e2560",
+    "scheduleFileSHA256": "c814f689766d079905ac8ab13974e0959598a9fa851183822994bd4a5c3a192b",
+    "activeDatabaseUnchanged": true,
+    "environmentUnchanged": true
+}

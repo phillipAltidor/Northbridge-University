@@ -3,8 +3,8 @@ declare(strict_types=1);
 /** Read-only catalog-level and pagination regression against the isolated portal. */
 if(PHP_SAPI!=='cli')exit;
 ob_start();require dirname(__DIR__).'/config/database.php';require dirname(__DIR__).'/includes/schedule.php';require __DIR__.'/rehearsal-receipts.php';
-if($database!=='northbridge_ow_rebuild_2026_7'||getenv('NORTHBRIDGE_REHEARSAL_DB')!==$database)throw new RuntimeException('Explicit _7 rehearsal database required.');
-$base=getenv('NORTHBRIDGE_HTTP_BASE')?:'http://127.0.0.1:8003/';if($base!=='http://127.0.0.1:8003/')throw new RuntimeException('Designated test preview required.');
+require __DIR__.'/release-preview-target.php';
+$base=getenv('NORTHBRIDGE_HTTP_BASE')?:'http://127.0.0.1:8003/';test_release_preview_target($database,$base);
 $checks=0;$check=static function(bool$ok,string$message)use(&$checks):void{if(!$ok)throw new RuntimeException($message);$checks++;};
 $fingerprint=static function()use($pdo):array{$out=[];foreach($pdo->query('SHOW TABLES')->fetchAll(PDO::FETCH_COLUMN)as$t)$out[$t]=$pdo->query("CHECKSUM TABLE `$t` EXTENDED")->fetch()['Checksum'];return$out;};$before=$fingerprint();
 $catalog=[];foreach($pdo->query('SELECT course_ID,definition_JSON FROM NB_AcademicCourse')as$r)$catalog[$r['course_ID']]=json_decode($r['definition_JSON'],true,512,JSON_THROW_ON_ERROR);
@@ -38,5 +38,5 @@ try{
  [$html,$xp]=$request(['semester_id'=>1,'level'=>'Graduate','q'=>'Media']);$clear=$xp->query('//a[text()="Clear Filters"]')->item(0);$check($clear!==null&&str_contains($clear->getAttribute('href'),'level=Graduate'),'Clearing other filters must preserve graduate scope.');
  [$html,$xp]=$request(['semester_id'=>1,'level'=>['Graduate']]);$check($xp->query('//select[@name="level"]/option[@selected]')->item(0)?->getAttribute('value')==='Undergraduate','Invalid level input must fall back safely.');
  $check($fingerprint()===$before,'Master catalog checks must not change any database tables.');
- $marker=$pdo->query('SELECT candidateSHA256 FROM NB_AcademicRebuild WHERE singleton=1')->fetchColumn();$summary=['status'=>'master-catalog-level-and-pagination-checks-passed','checks'=>$checks,'database'=>$database,'candidateFileSHA256'=>$marker,'allTermSectionsChecked'=>$sectionCount,'reviewedUndergraduateSections'=>$undergraduateCount,'preservedGraduateSections'=>$graduateCount,'databaseWrites'=>false];file_put_contents(test_receipt_path('master-catalog-verification.json'),json_encode($summary,JSON_PRETTY_PRINT|JSON_THROW_ON_ERROR)."\n");echo json_encode($summary),"\n";
+ $marker=$pdo->query('SELECT candidateSHA256 FROM NB_AcademicRebuild WHERE singleton=1')->fetchColumn();$summary=['status'=>'master-catalog-level-and-pagination-checks-passed','checks'=>$checks,'database'=>$database,'candidateFileSHA256'=>$marker,'allTermSectionsChecked'=>$sectionCount,'reviewedUndergraduateSections'=>$undergraduateCount,'preservedGraduateSections'=>$graduateCount,'databaseWrites'=>false];$summary['runtimeSHA256']=test_runtime_hash();file_put_contents(test_receipt_path('master-catalog-verification.json'),json_encode($summary,JSON_PRETTY_PRINT|JSON_THROW_ON_ERROR)."\n");echo json_encode($summary),"\n";
 }finally{session_id($sid);session_start();$_SESSION=[];session_destroy();ob_end_flush();}

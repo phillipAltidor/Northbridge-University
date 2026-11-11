@@ -1,12 +1,31 @@
-# Schema 2.3 seed load order
+# V11 development installation and load order
 
-Select the target database first. On a fresh database, create the tables using
-`database/schema.sql`, then run every file below once, in this order. These
-files use regular INSERT statements and should not be rerun over populated
-seed tables. Do not combine this dataset with `demo_seed.sql` on a fresh database.
+This release packages the activated V11 academic data, including the approved
+four-campus-building and faculty-count overlays. The manifest is
+`database/releases/v11/manifest.json`; clean-install verification is recorded
+beside it. Existing schema definitions and account seeds are unchanged.
 
-Password recovery also requires `database/migrations/password_reset.sql` after
-creating the schema. Its temporary recovery rows are not shared seed data.
+For teammates, follow [V11 setup](../docs/v11-teammate-setup.md). The preferred
+installer connects to local MySQL using your private .env and creates only a new,
+unused development database. It verifies the complete bundle before execution:
+
+```sh
+php tools/install-v11-development.php --target northbridge_ow_rebuild_2026_9
+php tools/install-v11-development.php --target northbridge_ow_rebuild_2026_9 --create
+```
+
+It never changes DB_NAME. After a successful result, choose the new database in
+your own .env. It refuses existing targets; do not seed over populated databases.
+Do not combine this release with demo_seed.sql. MySQL 9.6.0 was the verified
+server; other engines/versions are not certified and require investigation if
+schema fingerprints differ.
+
+## Manual dependency order
+
+Select a new target database. Base `database/schema.sql` contains a historical
+USE northbridge_university line; the installer removes that line only in memory
+and keeps the existing schema definitions. For manual import, select the intended
+new target and account for that header explicitly. Then load these files once:
 
 1. `database/data/user.sql`
 2. `database/data/admin.sql`
@@ -70,24 +89,26 @@ legacy day × period mappings must not be used to reconstruct those meetings.
 See [active rebuild and rollback](../docs/academic-rebuild-status.md).
 
 
-After importing the data, run
-`php database/migrations/master_schedule_requirements.php --apply` to audit the
-rosters/attendance and install the enrollment seat-count triggers. See
-`docs/master-schedule.md`. Do not install these triggers before loading the seed
-rosters: the section seeds already contain their final available-seat counts.
+After the base and seed order above, apply the four existing supplemental
+schemas (no operational log or recovery records are shared):
 
-The four enrollment/history/attendance seeds now represent the approved academic
-snapshot captured by their export receipt. The application date in
-`config/academic-timeline.php` is live; it does not regenerate seed data. Enrollment retains
-current and planned registrations, with NULL final grades for Fall 2026 and
-later. Completed student/faculty histories contain only earlier semesters.
-Fall 2026 attendance stops at the snapshot date; future terms have none.
-Existing installations can audit with
-`php database/migrations/align_academic_timeline.php`, then apply with `--apply`.
-Application creates a private full backup, preserves all other tables and past
-records, and reload-checks the synchronized seed SQL before committing.
-This is a data snapshot, not an automatic academic calendar. Exact semester
-boundaries and registration windows must come from the system manual.
+- `database/migrations/admin_53_update_log.sql`
+- `database/migrations/admin_70_master_schedule.sql`
+- `database/migrations/admin_70_section_update_log.sql`
+- `database/migrations/password_reset.sql`
+
+Finally install the reviewed statements returned by
+`database/migrations/section_seat_triggers.php`. The V11 installer does this after
+rosters are loaded, since sections already contain final availability. Do not
+run the older timeline/master-schedule repair scripts as a V11 installation
+step: they were written for legacy data/mappings and a different activation.
+Existing installations need a separately reviewed migration or a new target;
+they must not be overwritten by these seeds.
+
+The source snapshot and hash identities are in the V11 manifest. The application
+calendar date is live and does not regenerate attendance, grades or registration
+windows. Fall 2026 is in progress and Spring 2027 preregistered; neither earns
+completed credit or a final grade from the seed data. No deadline is invented.
 
 ## Schema 2.3 adaptations
 
@@ -129,9 +150,8 @@ source-supported lab/studio and one-day patterns are handled separately.
 Do not apply a blanket 120-minute lecture or 180-minute lab rule to this data.
 Legacy graduate meetings retain their original day/period mappings.
 
-The current V11 test candidate and campus/count overlays remain private until
-cutover review. Repository installation seeds are an older snapshot and must
-not be described as the verified V11 test state. Use the matching private seed
-export receipt and PROJECT_HANDOFF.md for the reviewed candidate. Full-history
-exports include faculty subtype class counts for the configured current term.
-No schema changes or replacement of repository seeds are authorized by the audit.
+The shared V11 seed package now matches the activated local academic release.
+It contains 25 updated SQL files / 29 academic tables; original people/account
+seed files remain unchanged. Private backups, credentials, operational records
+and student-level planner/debug artifacts are excluded. Academic generation
+source files and aggregate verification receipts are retained for continuity.

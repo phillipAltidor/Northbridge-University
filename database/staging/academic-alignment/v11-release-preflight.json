@@ -1,0 +1,32 @@
+{
+  "status": "v11-cutover-preflight-passed-not-applied",
+  "from": "northbridge_ow_rebuild_2026_5",
+  "to": "northbridge_ow_rebuild_2026_8",
+  "source": "northbridge_ow_rebuild_2026_7",
+  "candidateFileSHA256": "69c1d4099a0788c56cc7e1bf8700d2c0bb32ef0fe6eb8e55d66f679f838e2560",
+  "scheduleFileSHA256": "c814f689766d079905ac8ab13974e0959598a9fa851183822994bd4a5c3a192b",
+  "campusPlanSHA256": "eb12ec283461cd596fbf9794be2e37bc1e73670769da5554dc43fc3b77ab87d8",
+  "runtimeSHA256": "b05bee9b802d24b272df39f8c5cd8d658f285326b9fb34b3ba76c7d420821fa4",
+  "activationToolSHA256": "5ea748c9da65f89c3e29b44674641ba4cfecdf501194039cd8ffee1a471fe032",
+  "schemaSHA256": "3bdeb67a0f87cac21c99b76e2bcea201ba613431c70f210a6217b74b2b195d41",
+  "triggersSHA256": "5936968154ec1186642c038abdab94675d51db53749f8a719733ac37b608c246",
+  "tablesVerified": 53,
+  "privateSeedFilesVerified": 25,
+  "mainConnectionChanged": false,
+  "ownerFinalReview": "pending",
+  "planFileSHA256": "a3f7dfdbb048dad8abc6514b0ab81ee3a7f58aa22cd1e784895d175823769e88",
+  "directReleaseChecks": {
+    "masterCatalog": 5492,
+    "portalHTTP": 908,
+    "degreeHTTP": 94,
+    "facultyRosters": 12437,
+    "persistedDegreeStudents": 2200,
+    "schema": 103,
+    "advisor": 5
+  },
+  "configurationGuardChecks": 14,
+  "negativeApplyCasesRejected": 2,
+  "workingBackupRestoredInto": "northbridge_ow_restore_2026_14",
+  "realEnvironmentChanged": false,
+  "schemaChanged": false
+}

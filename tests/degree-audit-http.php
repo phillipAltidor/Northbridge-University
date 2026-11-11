@@ -6,7 +6,7 @@ require_once __DIR__.'/rehearsal-receipts.php';
 require dirname(__DIR__).'/config/database.php';
 $sessions=[];$checks=0;
 $base=getenv('NORTHBRIDGE_HTTP_BASE')?:'http://127.0.0.1:8000/';
-if(!in_array($base,['http://127.0.0.1:8000/','http://127.0.0.1:8001/','http://127.0.0.1:8002/','http://127.0.0.1:8003/'],true))throw new RuntimeException('Local test server required.');
+if(!in_array($base,['http://127.0.0.1:8000/','http://127.0.0.1:8001/','http://127.0.0.1:8002/','http://127.0.0.1:8003/','http://127.0.0.1:8004/','http://127.0.0.1:8005/'],true))throw new RuntimeException('Local test server required.');
 $check=static function(bool $ok,string $label)use(&$checks):void {if (!$ok) throw new RuntimeException($label);$checks++;};
 $request=static function(string $path,string $sid='',string $method='GET')use($base):array {
     $context=stream_context_create(['http'=>['method'=>$method,'header'=>$sid?"Cookie: PHPSESSID=$sid\r\n":'','follow_location'=>0,'ignore_errors'=>true,'timeout'=>30]]);
@@ -59,7 +59,7 @@ try {
     }
     $check($fingerprint()===$before,'Audit requests do not modify academic or account data.');
     $summary=['status'=>'degree-audit-authenticated-http-checks-passed','checks'=>$checks,'majorsChecked'=>count($ids),'studentIsolationVerified'=>true,'facultySelectionVerified'=>true,'graduateAuditsIncluded'=>false,'databaseWrites'=>false];
-    file_put_contents(test_receipt_path('student-degree-audit-http-verification.json'),json_encode($summary,JSON_PRETTY_PRINT|JSON_THROW_ON_ERROR)."\n");echo json_encode($summary),"\n";
+    $summary['runtimeSHA256']=test_runtime_hash();$summary['database']=$database;$summary['baseURL']=$base;file_put_contents(test_receipt_path('student-degree-audit-http-verification.json'),json_encode($summary,JSON_PRETTY_PRINT|JSON_THROW_ON_ERROR)."\n");echo json_encode($summary),"\n";
 } finally {
     foreach ($sessions as $sid) {session_id($sid);session_start();$_SESSION=[];session_destroy();}
     ob_end_flush();

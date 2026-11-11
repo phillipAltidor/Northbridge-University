@@ -43,5 +43,5 @@ if ($history!==$expectedHistory) throw new RuntimeException('Completed-history c
 $bad=(int)$pdo->query("SELECT COUNT(*) FROM Enrollment e JOIN Student s ON s.student_ID=e.student_ID LEFT JOIN NB_AcademicSection a ON a.CRN=e.CRN WHERE s.student_Type='Undergraduate' AND a.CRN IS NULL")->fetchColumn();
 if ($bad) throw new RuntimeException('Legacy undergraduate registrations remain in the active records.');
 $summary=['status'=>'actual-database-history-and-degree-checks-passed','studentsEvaluated'=>$checked,'majorsRepresented'=>count($programs),'completedAttemptsVerified'=>$history,'degreeEvaluationMismatches'=>$degreeMismatches,'graduationReady'=>$graduationReady,'currentAndFutureCountedAsCompleted'=>false,'candidateFileSHA256'=>hash_file('sha256',$args['candidate']),'studentIdentifiersPublished'=>false,'database'=>$database,'workingDatabaseChanged'=>false];
-file_put_contents(test_receipt_path('portal-degree-verification.json'),json_encode($summary,JSON_PRETTY_PRINT|JSON_THROW_ON_ERROR)."\n");
+$summary['runtimeSHA256']=test_runtime_hash();file_put_contents(test_receipt_path('portal-degree-verification.json'),json_encode($summary,JSON_PRETTY_PRINT|JSON_THROW_ON_ERROR)."\n");
 echo json_encode($summary),"\n";

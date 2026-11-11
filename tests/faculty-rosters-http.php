@@ -3,8 +3,8 @@ declare(strict_types=1);
 /** Verify faculty-owned rosters and profile employment types without data writes. */
 if(PHP_SAPI!=='cli')exit;
 ob_start();require dirname(__DIR__).'/config/database.php';require dirname(__DIR__).'/includes/faculty-rosters.php';require __DIR__.'/rehearsal-receipts.php';
-if($database!=='northbridge_ow_rebuild_2026_7'||getenv('NORTHBRIDGE_REHEARSAL_DB')!==$database)throw new RuntimeException('Explicit _7 rehearsal database required.');
-$base=getenv('NORTHBRIDGE_HTTP_BASE')?:'http://127.0.0.1:8003/';if($base!=='http://127.0.0.1:8003/')throw new RuntimeException('Designated preview required.');
+require __DIR__.'/release-preview-target.php';
+$base=getenv('NORTHBRIDGE_HTTP_BASE')?:'http://127.0.0.1:8003/';test_release_preview_target($database,$base);
 $checks=0;$sessions=[];$check=static function(bool$ok,string$message)use(&$checks):void{if(!$ok)throw new RuntimeException($message);$checks++;};
 $fingerprint=static function()use($pdo):array{$out=[];foreach($pdo->query('SHOW TABLES')->fetchAll(PDO::FETCH_COLUMN)as$t)$out[$t]=$pdo->query("CHECKSUM TABLE `$t` EXTENDED")->fetch()['Checksum'];return$out;};$before=$fingerprint();
 $session=static function(int$id)use($pdo,&$sessions):string{$q=$pdo->prepare('SELECT user_ID,user_Type,user_Password FROM Login WHERE user_ID=?');$q->execute([$id]);$a=$q->fetch();$sid=bin2hex(random_bytes(20));session_id($sid);session_start();$_SESSION=['user_id'=>(int)$a['user_ID'],'user_type'=>$a['user_Type'],'auth_version'=>hash('sha256',$a['user_Password'])];session_write_close();$sessions[]=$sid;return$sid;};
@@ -34,5 +34,5 @@ try{
  }
  $check(faculty_section_roster($pdo,(int)$sections[0]['faculty_ID'],2147483647,(int)$sections[0]['CRN'])===null,'Owned CRN must still match the requested semester.');
  $check($fingerprint()===$before,'All database table checksums must remain unchanged.');
- $summary=['status'=>'faculty-rosters-and-employment-profile-verified','database'=>$database,'checks'=>$checks,'sectionsVerified'=>count($sections),'distinctRosterAssignmentsVerified'=>$assignments,'employmentTypesVerified'=>array_keys($faculty),'facultyOwnershipVerified'=>true,'databaseWrites'=>false];file_put_contents(test_receipt_path('faculty-rosters-verification.json'),json_encode($summary,JSON_PRETTY_PRINT|JSON_THROW_ON_ERROR)."\n");echo json_encode($summary),"\n";
+ $summary=['status'=>'faculty-rosters-and-employment-profile-verified','database'=>$database,'checks'=>$checks,'sectionsVerified'=>count($sections),'distinctRosterAssignmentsVerified'=>$assignments,'employmentTypesVerified'=>array_keys($faculty),'facultyOwnershipVerified'=>true,'databaseWrites'=>false];$summary['runtimeSHA256']=test_runtime_hash();file_put_contents(test_receipt_path('faculty-rosters-verification.json'),json_encode($summary,JSON_PRETTY_PRINT|JSON_THROW_ON_ERROR)."\n");echo json_encode($summary),"\n";
 }finally{foreach($sessions as$sid){session_id($sid);session_start();$_SESSION=[];session_destroy();}ob_end_flush();}

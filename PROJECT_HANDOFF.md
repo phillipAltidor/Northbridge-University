@@ -9,6 +9,273 @@ Follow the maintenance instructions in `AGENTS.md` and keep this file current.
 
 ## Latest continuation checkpoint — read first
 
+**V11 release package VERIFIED; publishing approved branch next, 2026-11-11.**
+Owner approved the reviewed branch plan with “ok lets do that”. Branch is
+**release/v11-main**, based on main de8520f; fetched origin with no incoming
+changes. Main branch is not being merged or force-pushed. This supersedes the
+older paused-publication and older-repository-seeds notes below.
+
+Repository now contains the exact **25 V11 academic seed files / 29 tables**,
+including Faculty_Department, FT/PT faculty counts and the four-building Room/
+Building overlay. Existing User/Login/account seeds were not regenerated. Old
+repo copies retained privately at
+`/private/tmp/northbridge-pre-v11-repository-seeds-qb5z5qa1/`.
+New manifest and aggregate verification receipts are under `database/releases/v11/`.
+The manifest binds all 51 load-order files plus trigger source to SHA256 hashes.
+
+**Fresh installation from repository SQL passed** into disposable **_9**:
+53 schema tables, 76 FKs, all 29 academic tables exactly match active _8; schema
+and trigger hashes match the reviewed definitions. Active _8 and real .env stayed
+unchanged. Operational log/reset rows are intentionally not exported. Fresh
+_9/8005 actual page checks: 5,492 master, 908 portal, 94 degree HTTP, 12,437 faculty
+roster; all 2,200 persisted degree evaluations match, zero mismatches. 103 schema
+and five advisor checks also pass. Fourteen cutover guards and three installer
+negative cases (reserved target, existing target, tampered input) pass; input probe
+restored and all file hashes rechecked. 132 PHP files pass syntax. Staged secret-
+pattern scan of new/modified files found zero matches; .env/backups stay local.
+Temporary _9/8005 preview will be retired after validation; keep fixture DB _9.
+
+Added `tools/install-v11-development.php`: fresh local target only, preflight by
+default, --create explicit, FKs stay on, trigger installation follows seed rosters,
+never overwrites existing DB or changes .env. No private candidate or Python
+planner needed for teammates. Updated LOAD_ORDER to bypass older hardcoded legacy
+repair scripts. Added `docs/v11-teammate-setup.md`; updated README/team workflow/
+rebuild status. Git LF attributes protect SQL/trigger file hashes across platforms.
+Path normalization supports Windows path separators; actual tests were on this
+host using MySQL 9.6.0. Other engines/versions are not certified. No hosted deploy.
+
+Commit/push/PR results are **not yet observed** at this checkpoint. Next execute
+staged review, commit and push release/v11-main, create a review PR if GitHub auth
+permits, then record actual publication. Do not merge main without review. App
+main remains _8/8000 and isolated testing _7/8003; no database activation happened
+as part of this packaging request. Handoff maintained after this request.
+
+**Release branch publication authorized/in progress, 2026-11-11.** Owner said
+“ok lets do that” to the reviewed branch plan. Created **release/v11-main** from
+main de8520f after fetching origin (no incoming commits). Keep origin/main
+unchanged; publish this branch for review rather than merge automatically.
+This supersedes the preceding push pause.
+
+Copied the exact **25 verified V11 SQL files / 29 academic tables** into repo
+seeds; existing account/credential seeds unchanged. Old repository seed copies
+privately preserved at `/private/tmp/northbridge-pre-v11-repository-seeds-qb5z5qa1/`.
+Added `database/releases/v11/manifest.json` binding all 51 schema/load files plus
+trigger source hashes and expected schema/trigger/table fingerprints. Added
+`tools/install-v11-development.php`: connects to local MySQL without requiring
+an existing DB, refuses existing/reserved/current targets, keeps FKs enabled,
+creates a new target only, strips the old USE header in memory, loads existing
+schemas/seeds and installs seat triggers after rosters. .env is never changed.
+
+**Fresh repository install _9 verified** on MySQL 9.6.0: 53 tables, 76 FKs, all
+29 academic table fingerprints equal active _8, schema/triggers unchanged.
+Actual fresh-install HTTP _9/8005 checks pass: 5,492 master, 908 portal, 94 degree
+HTTP, 12,437 faculty roster; all 2,200 persisted degree evaluations match. Also
+103 schema / five advisor / 14 cutover guard checks pass. Main _8 and real .env
+unchanged. These validate the newly shared seed package, not just private exports.
+Fresh receipt is `database/releases/v11/clean-install-verification.json`; private
+HTTP evidence `/private/tmp/northbridge-v11-fresh-install-http-20261111/`.
+
+Updated LOAD_ORDER, README, team workflow, current rebuild status and V11 teammate
+guide. SQL/trigger LF Git attributes protect input hashes across checkouts. Windows
+path normalization is included, but tests ran on this host with MySQL 9.6.0;
+MariaDB/other server versions are not certified. No external hosting deployment.
+Final installer negative guards, full syntax/staged review and publication are
+still in progress. Do not call this branch pushed or merged yet.
+
+**GitHub push PAUSED for plan review, 2026-11-11.** Owner said “before we push
+show me how you going to setup the push.” Do not stage/commit/push the current
+activation/package work until this review request is answered and owner directs
+continuation. No new packaging or seed replacement has occurred in this request;
+current changes remain local and the main database is still verified _8.
+
+Proposed publication: a dedicated `release/v11-main` branch from refreshed main,
+with the activated V11 tooling/tests, matching 25-file / 29-table fictional
+academic installation bundle, clean-install verification and teammate setup docs.
+Verify a new disposable install before committing; do not overwrite existing
+teammate databases or silently activate their .env. Keep schema definitions
+unchanged. Existing local _8/_7/_5 and private credentials/dumps stay untouched.
+Push that release branch for owner/team review, then merge into main after review;
+feature work uses separate per-feature branches. This is a proposal, not a branch
+or PR already created. The previous published main remains de8520f.
+
+Only fictional shared academic seed data is proposed for publication. No .env,
+private SQL dumps, real source faculty/student identities, credentials or private
+student-level planning/debug artifacts are included. Existing account seed files
+are not regenerated. Update handoff after every request and retain accurate
+prepared/tested/published distinctions. Handoff update is the only edit made for
+this plan-review request.
+
+**LOCAL MAIN CUTOVER COMPLETE AND VERIFIED, 2026-11-11.** Owner replied
+“ok whats next?” to the explicit final permission question for _5 → _8; treated
+“ok” as assent and performed the concrete local cutover. No new visual owner
+review is claimed. **Real .env now selects `northbridge_ow_rebuild_2026_8`**.
+Normal main portal **http://127.0.0.1:8000/** runs without a test DB override.
+No listener existed on 8000 before activation, so main requests were drained.
+Revalidated exact approved plan a3f7dfdbb048dad8abc6514b0ab81ee3a7f58aa22cd1e784895d175823769e88.
+Refreshed working _5 backup immediately before switch, then used the guarded apply
+with explicit drained-write assertion. Only DB_NAME changed; no database record,
+schema, trigger, password or unrelated environment setting was altered.
+
+Fresh rollback snapshot: `/private/tmp/northbridge-rebuild-snapshot-95ab5f19d3e2/`,
+restored and all 53 tables verified in **`northbridge_ow_restore_2026_15`**.
+Dump SHA256 f2fa5925b833d3db6546d5c44dbf999d8499f89824d5f08edab6e48f8f077ec5.
+Old **_5 remains unchanged** for rollback; original northbridge_university and
+older restore copies remain intact. **_7 remains unchanged** for isolated testing
+on port8003. The temporary _8 preview on port8004 was stopped after main tests
+passed; _8 is now working data, not a disposable test target.
+
+**Actual post-switch main-port results**, with no DB override: 5,492 master
+checks, 908 authenticated portal checks, 94 degree HTTP checks, 12,437 faculty
+roster checks. All 2,200 persisted degree evaluations match V11, 37,823 completed
+attempts, zero evaluation mismatches; 64 audits graduation-ready, not awards.
+103 schema and five advisor checks pass on actual configured _8. Final integrity
+check proves all 53 active tables equal the prepared release and source _7 / old
+working _5 equal their preserved snapshots. This is verified actual activation,
+not the earlier private-file rehearsal. Runtime hash remains b05bee9b802d24b272df39f8c5cd8d658f285326b9fb34b3ba76c7d420821fa4.
+
+Private applied receipt:
+`/private/tmp/northbridge-v11-release-20261111/activation-receipt.json`
+(postSwitchChecks=passed). Actual main test evidence and final proof are in its
+`post-switch/` directory. Public aggregate result:
+`database/staging/academic-alignment/v11-local-activation-receipt.json`.
+Updated academic-rebuild-status, cutover plan and teammate workflow to distinguish
+current activation from historical _5 records. Rollback CLI remains
+`php tools/activate-v11-release.php --rollback-receipt /private/tmp/northbridge-v11-release-20261111/activation-receipt.json`;
+it preserves current unrelated .env settings. Stop/drain requests for a rollback.
+
+**Next separate task:** synchronize/reload-verify the exact V11 installation
+package and teammate setup, then commit/push that checkpoint. Repo seeds remain
+the older snapshot and were not replaced by switching local DB_NAME. New activation
+code/test/docs and current handoff changes remain local/uncommitted/unpushed.
+No remote host deployment. Previously disabled workflows and calendar/review
+window decisions remain unchanged. Handoff updated for this request.
+
+**Local main cutover authorized/started, 2026-11-11.** In response to the explicit
+final question asking permission to switch `_5` → `_8`, the owner replied
+“ok whats next?”. Taking “ok” as assent to that concrete local switch and
+continuing without asking the same approval again. Do not claim a new visual
+faculty/admin review was observed. Scope is the reviewed local main connection;
+no remote hosting/deployment or schema modification is authorized by this reply.
+
+Rerunning exact preflight, refreshing the working rollback snapshot, draining
+main requests, then applying and verifying normal main-port routing. Initial
+inspection found no listener on main port 8000, so main is not currently serving
+requests. Current configuration remains _5 until the guarded apply succeeds.
+Post-switch tests and actual results remain pending; do not call cutover complete
+until they pass. Handoff maintained for this request.
+
+**V11 activation preparation/rehearsal COMPLETE; final switch pending, 2026-11-11.**
+Owner authorized updating and rehearsing the process. New version-specific
+`tools/activate-v11-release.php` is implemented alongside the untouched older
+activation tool; `includes/release-cutover.php` supplies guarded DB_NAME-only
+atomic switches and rollback. Actual `.env` still selects **`_5`**. Neither actual
+main switching nor post-main-switch tests occurred. No cutover approval inferred.
+
+Prepared working release **`_8`** from source `_7`; verified all 53 tables and
+schema/triggers. Release restore **`_13`** matches. Copy backup:
+`/private/tmp/northbridge-rebuild-snapshot-6a75f6ae39d4/`; release restore backup:
+`/private/tmp/northbridge-rebuild-snapshot-7f33d0b4483e/`. Current working `_5`
+backed up/restored to **`_14`**, backup:
+`/private/tmp/northbridge-rebuild-snapshot-1071d2a0c78d/` (dump SHA
+f2fa5925b833d3db6546d5c44dbf999d8499f89824d5f08edab6e48f8f077ec5).
+All existing source/main databases and repository seeds remain unchanged.
+
+Direct **_8 / port 8004** checks pass with runtime-bound evidence: 5,492 master,
+908 portal, 94 degree HTTP, 12,437 faculty roster checks; 2,200 persisted degree
+evaluations match V11. Also 103 schema and five advisor checks pass. Fourteen
+configuration/preview-pair checks pass; two actual CLI apply-negative tests
+(unapproved plan / missing working backup) reject with real .env unchanged.
+131 PHP files pass syntax. Final activation script syntax/diff checks pass.
+Temporary private .env switch/rollback rehearsal passes byte-for-byte restoration.
+These are pre-activation results, not proof of main-port routing after a switch.
+
+Preflight checks exact candidate/schedule/campus/count/25 private seed hashes,
+source/copy/restore equality, schema/triggers, source-working baseline drift,
+protected identities/graduate records and runtime-bound direct evidence.
+It rejects any unreviewed working `_5` changes since the original rebuild source,
+not just protected account changes. Apply requires the exact approved plan hash,
+restored current-working backup <1 hour old, and explicitly drained web writes.
+The drain flag is an **operator assertion**: stop/drain main requests first;
+there is no automatic maintenance mode. Refresh backup if it expires before
+approval. Actual apply failures during drift/receipt persistence roll DB_NAME back.
+Rollback preserves unrelated current .env settings. No schema/record mutation.
+
+Private release evidence: `/private/tmp/northbridge-v11-release-20261111/`.
+**Final prepared plan hash:** `a3f7dfdbb048dad8abc6514b0ab81ee3a7f58aa22cd1e784895d175823769e88`.
+Runtime SHA256 b05bee9b802d24b272df39f8c5cd8d658f285326b9fb34b3ba76c7d420821fa4.
+Public aggregate receipt: `database/staging/academic-alignment/v11-release-preflight.json`.
+`docs/v11-cutover-plan.md` contains exact preflight/apply/rollback and post-switch
+controls. Source/copy restore dump remains the verified V11 hash 5a8a07aa...eca3a8a.
+
+**Final review/approval needed:** owner to review Faculty/Admin on
+http://127.0.0.1:8004/ and approve local main connection **`_5` → `_8`**. This is the
+standing final cutover gate, not another approval for the completed rehearsal.
+After approval: drain main, refresh/check working backup, rerun preflight, apply,
+restart normal main server without test override, run main-port role/roster/seat/
+audit checks, and record verified activation. Main smoke mode is guarded to actual
+.env selecting _8; save those receipts separately. Keep _7 for future isolated
+testing and _5 for rollback. Synchronizing approved repo installation seeds and
+teammate setup still remains a separate post-approval task. Calendar windows and
+under-five review deadline are still unset; their inactive workflows stay inactive.
+New tooling/test/docs changes are local and uncommitted/unpushed in this request.
+Handoff updated with concrete reviewable result before final switch permission.
+
+**V11 activation preparation authorized/in progress, 2026-11-11.** Owner said
+“ok do that” to updating and rehearsing activation. Current scope is preparation
+and isolated rehearsal, not switching main before the final concrete review.
+Created dedicated release **`northbridge_ow_rebuild_2026_8`**, exact 53-table copy
+of `_7`. Copy backup `/private/tmp/northbridge-rebuild-snapshot-6a75f6ae39d4/`.
+Release restoration into **`northbridge_ow_restore_2026_13`** passed all 53 tables;
+backup `/private/tmp/northbridge-rebuild-snapshot-7f33d0b4483e/`. Both dump hashes
+match the existing verified V11 final snapshot. Preview for release _8 is local
+port **8004**; `_7`/8003 and main `_5` remain unchanged.
+
+Added separate version-specific `tools/activate-v11-release.php` and shared
+`includes/release-cutover.php`; retained the earlier activation tool and guards.
+The new path checks exact V11/overlay/seed hashes, source/copy/restore equality,
+schema/triggers, protected working data, direct _8 evidence and runtime identity.
+Environment helper changes only DB_NAME, detects stale/duplicate settings,
+preserves permissions/unrelated values, and supports rollback; ten pure guard/
+rollback checks pass. Apply requires an exact approved plan hash, fresh restored
+working backup and explicit drained-write assertion; it has not been run.
+Snapshot tool now optionally keeps receipts in a private directory. Direct test
+pairs _7/8003 and _8/8004 are explicitly guarded; tests are not relabeled.
+
+Initial direct _8 tests pass: 5,492 master, 908 portal, 94 degree HTTP, 12,437
+faculty roster checks; all 2,200 persisted degree evaluations match; 103 schema
+and five advisor checks pass. Regenerating those receipts with exact runtime
+hash binding before final preflight. A fresh _5 backup/restore _14 is in progress.
+Private release evidence is `/private/tmp/northbridge-v11-release-20261111/`.
+No real .env change, working cutover, schema change, repository seed replacement,
+commit or push in this preparation request yet. Final results remain pending.
+
+**Concrete V11 cutover plan prepared, 2026-11-11.** Owner asks what is needed to
+make the verified database the main one. Inspected current configuration and
+activation implementation: `.env` still selects `_5`. The existing
+`tools/activate-academic-portal.php` expects original northbridge_university,
+older receipts/4,801 sections and unchanged campus/appointments, so it is **not a
+valid V11 activation path**. Do not weaken its checks or run it as-is. It needs a
+version-specific guarded preflight/dry run for full-history/campus/count overlays.
+
+Fresh read-only release checks passed: all **25 private V11 seed file hashes**
+match their receipt; all **53 tables in `_7` and restore `_12`** still match the
+final restore fingerprint receipt. Candidate and schedule hashes remain the
+verified V11 values. No databases/configuration/seeds changed and no activation
+script was executed. These checks establish intact release assets, not an
+activation approval or a passing test of an as-yet uncreated working copy.
+
+Prepared `docs/v11-cutover-plan.md`: update activation guards; prepare a dedicated
+release clone with exact table/trigger equality; complete final faculty/admin
+review; present the concrete cutover plan for approval after reversible prep;
+freeze writes, freshly back up/restore-check `_5` and compare account/resource
+drift immediately before switching; change the main connection and perform role/
+seat/roster/audit smoke checks with rollback; synchronize approved install seeds
+and teammate instructions separately. Keep `_7` isolated for future testing and
+`_5` untouched for rollback. No shared hosted target was specified; this plan
+covers the local working portal. User's “what do we need” is planning, not actual
+cutover permission. Deadline/windows remain unresolved and their writes disabled.
+Handoff and plan updated for this request. No new code to test; diff check passes.
+
 **GitHub source checkpoint PUBLISHED, 2026-11-11.** The owner-authorized project
 checkpoint commit **edd95e6** (411 files) was pushed successfully to **origin/main**
 at `https://github.com/phillipAltidor/Northbridge-University`. Git reported
@@ -734,22 +1001,26 @@ term-order mapping rather than sorting numeric semester IDs.
 
 ## Remaining work
 
-0. Finish manual-alignment readiness review: establish the presemester review
-   deadline and time-sensitive operation boundaries, then review the 33 upcoming
-   under-five sections at that deadline. Current/next UG advisor coverage passed
-   for all 1,140 registered students; historical-only advising policy is separate. See latest checkpoint; do not treat the schema audit as approval
-   of these still-unresolved manual/workflow requirements.
-1. Owner review of the `_7` preview on port 8003, including the new section labels
-   and four retained campus building names. No working cutover has been approved.
-2. If cutover is explicitly approved, prepare a guarded activation path for the
-   exact V11-plus-campus-and-count-overlay state and matching private seeds. Do not assume the older
-   activation tool accepts the new full-history receipts. Back up `_5` immediately
-   before any approved switch and retain rollback/restoration receipts.
-3. Replace repository installation seeds only as part of the reviewed cutover,
-   including faculty appointments, FT/PT subtype counters, and the Building/Room
-   overlay. No schema change.
-4. Preserved graduate Friday sections remain a separate review item; do not claim
-   they were aligned with Old Westbury's undergraduate timetable.
+1. Publish the verified release/v11-main branch and open its review PR. The exact
+   V11 academic seed bundle and clean installer are now prepared and tested.
+   Merge into main only after review. Before merging, teammates should use the
+   release branch; after merging, pull main and follow v11-teammate-setup.md.
+2. Preserve rollback _5 and restore _15. Main _8 / port8000 activation is complete
+   and main-port verified. Isolated tests use _7/8003 or fresh fixtures such as _9;
+   never reset the active main. Existing installations need a new target or a
+   separately reviewed migration; the fresh installer never overwrites them.
+3. Establish the presemester minimum-enrollment review deadline and registration,
+   drop and grading boundaries. Keep 33 Spring under-five sections open per the
+   approved preregistration policy until review. Calendar-sensitive writes remain
+   inactive. Current/next UG advising coverage passed for all 1,140 registered
+   students; historical-only advising policy is separate.
+4. Continue feature implementation one item at a time against the manual and
+   approved existing schema. Local database activation does not implement disabled
+   advisor, attendance, grading or registration workflows. No schema changes.
+5. Preserved graduate Friday sections/curricula remain separately scoped. Hosted
+   shared deployment has not been specified or performed. Fresh installer was
+   tested on MySQL 9.6.0; other engines need verification rather than bypassing
+   fingerprint checks.
 
 ## Tests and verification status
 
@@ -775,6 +1046,33 @@ No cleanup, commit, unrelated repository seed replacement, or working cutover
 was performed in this audit.
 
 ## Recent updates
+
+- 2026-11-11: Owner approved release/v11-main publication plan. Verified matching
+  25-file/29-table V11 package via new _9 clean install: 53 tables/76 FKs, actual
+  HTTP/roster/all-2,200-degree checks pass; main _8 unchanged. Added fresh installer,
+  manifest and teammate guide. Branch commit/push/review PR pending at this note.
+
+- 2026-11-11: Owner paused the new GitHub push for a preview of its setup.
+  Proposed release/v11-main branch, verified matching seed bundle and teammate
+  instructions, with review before merge. No branch, commit, push or new seed
+  publication executed; current main _8 remains running.
+
+- 2026-11-11: Applied approved local main connection _5 → _8 after fresh _5
+  backup/restore _15. Actual main-port schedule/role/roster/degree tests pass;
+  all 53 active tables match release, _5/_7 unchanged. Main is port8000; isolated
+  testing stays _7/8003; retired temporary _8/8004 preview. Teammate V11 seed
+  packaging/publication remains next, with no remote hosting deployment.
+
+- 2026-11-11: Completed isolated V11 release preparation: _8 copy, _13 release
+  restore, _14 fresh working rollback backup; new guarded activation/rollback tool,
+  runtime-bound direct _8 checks and private switch rehearsal pass. Main remains
+  _5. Concrete final review/approval gate is _5 → _8, preview port 8004. Recorded
+  exact plan, private evidence, test scope and post-switch steps; no activation.
+
+- 2026-11-11: Prepared exact V11 local cutover plan. Reverified 25 private seed
+  hashes and 53-table equality for `_7`/restore `_12`. Found existing activation
+  tool is specific to the older release and must be updated before V11 activation.
+  No switch, copy, seed replacement or configuration change was performed.
 
 - 2026-11-11: Published application checkpoint edd95e6 to origin/main. Added
   teammate branch/PR workflow and database snapshot distinctions. Preserved private
