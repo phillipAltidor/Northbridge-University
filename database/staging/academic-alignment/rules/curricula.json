@@ -1,0 +1,2603 @@
+{
+  "status": "complete-program-coverage-for-isolated-test-with-explicit-review-gates",
+  "programs": [
+    {
+      "program": "Computer and Information Science, B.S.",
+      "kind": "major",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "CS2510",
+            "CS2511",
+            "CS3620",
+            "CS3810",
+            "CS3911",
+            "CS4100",
+            "CS4501",
+            "CS4550",
+            "CS4720",
+            "CS5910"
+          ],
+          "minimumCredits": 40
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 3,
+          "eligibleCourses": [
+            "CS4400",
+            "CS4705",
+            "CS4710",
+            "CS5610",
+            "CS5710",
+            "CS5730",
+            "CS5810"
+          ],
+          "minimumCredits": 12
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "MA2310",
+            "MA3030",
+            "MA3210"
+          ],
+          "minimumCredits": 12
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "MA3160",
+            "MA4100"
+          ],
+          "minimumCredits": 4
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumGrade": "C",
+        "majorCredits": 68,
+        "transferMajorResidency": {
+          "credits": 28,
+          "minimumCourses": 7,
+          "minimumLevel": 3000
+        }
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-computer-and-information-science-b-s.pdf",
+        "sha256": "1ec35e6adb448075925bdb7e0aa5de3e3008c9c57e354a298df2101f12a86913",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [],
+      "degreeRequirements": {
+        "minimumTotalCredits": 120,
+        "minimumInstitutionalGPA": 2.0,
+        "minimumUpperDivisionCredits": 45,
+        "minimumLiberalArtsCredits": 60,
+        "minimumInstitutionalResidencyCredits": 40,
+        "maximumTransferCredits": 80
+      },
+      "projectDecisions": [
+        "CS-CORE-001",
+        "CS-WRITING-001"
+      ],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied.",
+      "generalEducationPolicy": "See institutional-rules.json and general-education-mappings.json; approved overlaps count course credits once."
+    },
+    {
+      "program": "Management Information Systems, B.S.",
+      "kind": "major",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "CS2510",
+            "CS2511",
+            "CS3611",
+            "CS4100",
+            "CS4501",
+            "CS4550",
+            "CS4720",
+            "CS5710",
+            "CS5910"
+          ],
+          "minimumCredits": 36
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "BU3502",
+            "BU3511",
+            "BU3800",
+            "BU4110"
+          ],
+          "minimumCredits": 14
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 2,
+          "eligibleCourses": [
+            "MA2701",
+            "PE2420",
+            "PE2430"
+          ],
+          "minimumCredits": 8
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "MA2300",
+            "MA2310",
+            "MA3030"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "MA2000",
+            "MA3210"
+          ],
+          "minimumCredits": 4
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumGrade": "C",
+        "majorCredits": 66,
+        "transferMajorResidency": {
+          "credits": 28,
+          "minimumCourses": 7,
+          "minimumLevel": 3000
+        }
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-management-information-systems-b-s.pdf",
+        "sha256": "3d8be74436a67c56f5d81bee2c1975372e74dfc36a3f963bd07f759984764813",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [],
+      "degreeRequirements": {
+        "minimumTotalCredits": 120,
+        "minimumInstitutionalGPA": 2.0,
+        "minimumUpperDivisionCredits": 45,
+        "minimumLiberalArtsCredits": 60,
+        "minimumInstitutionalResidencyCredits": 40,
+        "maximumTransferCredits": 80
+      },
+      "projectDecisions": [
+        "MIS-ECON-001",
+        "CS-WRITING-001"
+      ],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied.",
+      "generalEducationPolicy": "See institutional-rules.json and general-education-mappings.json; approved overlaps count course credits once."
+    },
+    {
+      "program": "Computer Information Science, Minor",
+      "kind": "minor",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "CS2510",
+            "CS2511",
+            "CS3810",
+            "CS4501"
+          ],
+          "minimumCredits": 16
+        },
+        {
+          "type": "choose-by-selector",
+          "minimumCount": 1,
+          "subject": "CS",
+          "levels": [
+            4000,
+            5000
+          ],
+          "excludeCourses": [
+            "CS4100",
+            "CS5620"
+          ],
+          "minimumCredits": 4
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumCredits": 20,
+        "minimumGrade": "C",
+        "minimumCreditsOutsideMajor": 16,
+        "maximumTransferCourses": 2,
+        "prerequisiteSubstitutions": [
+          {
+            "required": "MA2090",
+            "allowed": "MA2080"
+          },
+          {
+            "required": "MA2310",
+            "allowed": "MA2300"
+          }
+        ]
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-computer-information-science-minor.pdf",
+        "sha256": "c0a4a46e2f27a14ef2577b0ed2c09e29f94e2b70394c6a8d42b34e94dcec0bd5",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [],
+      "projectDecisions": [],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied."
+    },
+    {
+      "program": "Marketing, Minor",
+      "kind": "minor",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "BU3800",
+            "BU4851",
+            "BU4820",
+            "BU5880"
+          ],
+          "minimumCredits": 16
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "BU5841",
+            "BU5891"
+          ],
+          "minimumCredits": 4
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumCredits": 20,
+        "minimumCourseCount": 5
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-marketing-minor.pdf",
+        "sha256": "0fc92f75fd90f6fbad32e33ff64dea7c7f8a696cc6ca3a9710330919761b119d",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [],
+      "projectDecisions": [
+        "MKT-MINOR-001"
+      ],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied."
+    },
+    {
+      "program": "Business Administration, B.S.",
+      "kind": "major",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "PE2420",
+            "PE2430",
+            "BU3010",
+            "MA2000",
+            "BU3250",
+            "BU3502",
+            "BU3511",
+            "BU3600",
+            "BU3800",
+            "BU3905",
+            "BU4110",
+            "BU4762",
+            "BU5115",
+            "BU5190"
+          ],
+          "minimumCredits": 50
+        },
+        {
+          "type": "selected-concentration",
+          "minimumCredits": 20
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "majorCredits": 70
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-business-administration-b-s.pdf",
+        "sha256": "17997272f2a31902bef23ab9d86e43a8e5e01de31d3f63b8f455f1bdf7d1ea19",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [],
+      "degreeRequirements": {
+        "minimumTotalCredits": 120,
+        "minimumInstitutionalGPA": 2.0,
+        "minimumUpperDivisionCredits": 45,
+        "minimumLiberalArtsCredits": 60,
+        "minimumInstitutionalResidencyCredits": 40,
+        "maximumTransferCredits": 80
+      },
+      "concentrations": {
+        "Management": {
+          "groups": [
+            {
+              "type": "all-courses",
+              "courses": [
+                "BU4120",
+                "BU5196",
+                "BU5171"
+              ],
+              "minimumCredits": 12
+            },
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 2,
+              "eligibleCourses": [
+                "BU4035",
+                "BU4130",
+                "BU5125",
+                "BU5195"
+              ],
+              "minimumCredits": 8
+            }
+          ],
+          "minimumLocalTrackCredits": 16
+        },
+        "General Business": {
+          "groups": [
+            {
+              "type": "all-courses",
+              "courses": [
+                "BU4120",
+                "BU4774",
+                "BU4851",
+                "BU5171"
+              ],
+              "minimumCredits": 16
+            },
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 1,
+              "eligibleCourses": [
+                "BU4035",
+                "BU4130",
+                "BU4160",
+                "BU5125",
+                "BU5880"
+              ],
+              "minimumCredits": 4
+            }
+          ],
+          "minimumLocalTrackCredits": 16
+        },
+        "Business Analytics": {
+          "groups": [
+            {
+              "type": "all-courses",
+              "courses": [
+                "BU4160",
+                "BU4180",
+                "BU5180",
+                "CS2521"
+              ],
+              "minimumCredits": 16
+            },
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 1,
+              "eligibleCourses": [
+                "BU5710",
+                "BU5800"
+              ],
+              "minimumCredits": 4
+            }
+          ]
+        }
+      },
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied.",
+      "generalEducationPolicy": "See institutional-rules.json and general-education-mappings.json; approved overlaps count course credits once."
+    },
+    {
+      "program": "Accounting, B.S.",
+      "kind": "major",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "BU3502",
+            "BU3511",
+            "BU4250",
+            "BU4500",
+            "BU4510",
+            "BU4570",
+            "BU4590",
+            "BU5505",
+            "BU5510",
+            "BU5540",
+            "BU5550"
+          ],
+          "minimumCredits": 38
+        },
+        {
+          "type": "choose-credits",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            "BU5520",
+            "BU5525",
+            "BU5560"
+          ]
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "BU3600",
+            "BU3605",
+            "BU3610",
+            "BU3800",
+            "BU4110",
+            "BU4762",
+            "BU5115",
+            "BU5190"
+          ],
+          "minimumCredits": 26
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "PE2420",
+            "PE2430",
+            "MA2000",
+            "BU3071",
+            "BU3250",
+            "BU3905"
+          ],
+          "minimumCredits": 22
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "accountingMinimumCredits": 40,
+        "accountingBusinessMinimumCredits": 66
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-accounting-b-s.pdf",
+        "sha256": "5dc5d7e4894bd2d1fd17b65026b297c3a764ce48d71df1225628b5781a4999ac",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [
+        "Supporting-course group label does not automatically classify every BU course as liberal arts; use approved classification evidence."
+      ],
+      "degreeRequirements": {
+        "minimumTotalCredits": 126,
+        "minimumInstitutionalGPA": 2.0,
+        "minimumUpperDivisionCredits": 45,
+        "minimumLiberalArtsCredits": 60,
+        "minimumInstitutionalResidencyCredits": 46,
+        "maximumTransferCredits": 80
+      },
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied.",
+      "generalEducationPolicy": "See institutional-rules.json and general-education-mappings.json; approved overlaps count course credits once."
+    },
+    {
+      "program": "Mathematics, B.S.",
+      "kind": "major",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "MA2310",
+            "MA2320",
+            "MA3030",
+            "MA3160",
+            "MA3210",
+            "MA3330",
+            "MA3520",
+            "MA4360",
+            "MA5120",
+            "MA5320"
+          ],
+          "minimumCredits": 40
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "CS2510",
+            "CS2521"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "choose-from-union",
+          "minimumCount": 3,
+          "minimumCredits": 12,
+          "eligibleCourses": [
+            "CS3810"
+          ],
+          "selectors": [
+            {
+              "subject": "MA",
+              "levels": [
+                4000,
+                5000
+              ]
+            }
+          ]
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumGrade": "C",
+        "majorCredits": 56,
+        "transferMajorResidency": {
+          "credits": 28,
+          "minimumCourses": 7,
+          "minimumLevel": 3000
+        }
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-mathematics-b-s.pdf",
+        "sha256": "68475f9ba9d504f30019b60ce08a7dfb14be0ef7e2b05d431ef7936334a98827",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [],
+      "degreeRequirements": {
+        "minimumTotalCredits": 120,
+        "minimumInstitutionalGPA": 2.0,
+        "minimumUpperDivisionCredits": 45,
+        "minimumLiberalArtsCredits": 60,
+        "minimumInstitutionalResidencyCredits": 40,
+        "maximumTransferCredits": 80
+      },
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied.",
+      "generalEducationPolicy": "See institutional-rules.json and general-education-mappings.json; approved overlaps count course credits once."
+    },
+    {
+      "program": "Biological Sciences, B.S.",
+      "kind": "major",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "BS2400",
+            "BS2401",
+            "BS2410",
+            "BS2411"
+          ],
+          "minimumCredits": 8
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "BS5400"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "CP2120",
+            "CP2121",
+            "CP2130",
+            "CP2131",
+            "CP3300",
+            "CP3302",
+            "CP3310",
+            "CP3312"
+          ],
+          "minimumCredits": 18
+        },
+        {
+          "type": "choose-one-path",
+          "paths": {
+            "Algebra": {
+              "type": "all-courses",
+              "courses": [
+                "PX2000",
+                "PX2001",
+                "PX2100",
+                "PX2101"
+              ],
+              "minimumCredits": 8
+            },
+            "Calculus": {
+              "type": "all-courses",
+              "courses": [
+                "PX2200",
+                "PX2201",
+                "PX2300",
+                "PX2301"
+              ],
+              "minimumCredits": 8
+            }
+          }
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "MA2310"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "allocation-group",
+          "minimumCount": 6,
+          "minimumCredits": 24,
+          "groups": [
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 1,
+              "eligibleCourses": [
+                "BS4400",
+                "BS4460",
+                "BS4560",
+                "BS3910"
+              ]
+            },
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 1,
+              "eligibleCourses": [
+                "BS3400",
+                "BS3520",
+                "BS4430",
+                "BS4410"
+              ]
+            },
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 1,
+              "eligibleCourses": [
+                "BS4440",
+                "BS4470",
+                "BS4474",
+                "BS3530"
+              ]
+            },
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 3,
+              "eligibleCourses": [
+                "BS3400",
+                "BS3450",
+                "BS3520",
+                "BS3530",
+                "BS3810",
+                "BS3910",
+                "BS4400",
+                "BS4410",
+                "BS4420",
+                "BS4430",
+                "BS4440",
+                "BS4565",
+                "BS4460",
+                "BS4461",
+                "BS4470",
+                "BS4474",
+                "BS4480",
+                "BS4500",
+                "BS4550",
+                "BS4560",
+                "BS5590",
+                "CP4490",
+                "CP4510"
+              ]
+            }
+          ],
+          "constraints": [
+            {
+              "type": "minimum-lab-bearing-electives",
+              "minimum": 1,
+              "scope": "additional-electives",
+              "attributeEvidenceRequired": true
+            }
+          ],
+          "allowAdditionalEligibleCoursesToMeetCredits": true
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "departmentMinimumCredits": 66,
+        "biologyMinimumGrade": "C",
+        "nonBiologyLowGradeException": {
+          "minimumGrade": "D",
+          "maximumCourses": 2,
+          "subjects": [
+            "CP",
+            "PX",
+            "MA"
+          ],
+          "reviewedExceptionRequired": true
+        },
+        "maximumAttemptsPerBiologyCourse": 2
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-biological-sciences-b-s.pdf",
+        "sha256": "c59c41e14baad595d21c0dce6d04cc9e5d43be9d555a61298330f060b3159b33",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [
+        "Honor both the 24-credit floor and six-course minimum; eligible 3-credit electives may require an additional course.",
+        "The same course cannot fill a distribution slot and an additional-elective slot."
+      ],
+      "degreeRequirements": {
+        "minimumTotalCredits": 120,
+        "minimumInstitutionalGPA": 2.0,
+        "minimumUpperDivisionCredits": 45,
+        "minimumLiberalArtsCredits": 60,
+        "minimumInstitutionalResidencyCredits": 40,
+        "maximumTransferCredits": 80
+      },
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied.",
+      "generalEducationPolicy": "See institutional-rules.json and general-education-mappings.json; approved overlaps count course credits once."
+    },
+    {
+      "program": "Physics, B.S.",
+      "kind": "major",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "PX2200",
+            "PX2201",
+            "PX2300",
+            "PX2301",
+            "CP2120",
+            "CP2121",
+            "CP2130",
+            "CP2131"
+          ],
+          "minimumCredits": 16
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "PX3000",
+            "PX3100",
+            "PX3200",
+            "PX3600",
+            "PX3700",
+            "PX3900",
+            "PX4100",
+            "PX4200",
+            "PX5500",
+            "PX5600"
+          ],
+          "minimumCredits": 26
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "MA2310",
+            "MA2320",
+            "MA3330"
+          ],
+          "minimumCredits": 12
+        },
+        {
+          "type": "selected-concentration",
+          "minimumCredits": 14
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "coreCredits": 54
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-physics-b-s.pdf",
+        "sha256": "ee8b0889414377b9aa49fb61f014fe86fa18caaa7cba2f6229c95b398f9cef93",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [],
+      "degreeRequirements": {
+        "minimumTotalCredits": 120,
+        "minimumInstitutionalGPA": 2.0,
+        "minimumUpperDivisionCredits": 45,
+        "minimumLiberalArtsCredits": 60,
+        "minimumInstitutionalResidencyCredits": 40,
+        "maximumTransferCredits": 80
+      },
+      "concentrations": {
+        "General Physics": {
+          "groups": [
+            {
+              "type": "choose-by-selector",
+              "minimumCount": 2,
+              "subject": "PX",
+              "levels": [
+                3000,
+                4000,
+                5000
+              ],
+              "excludeCourses": [],
+              "minimumCredits": 6
+            },
+            {
+              "type": "choose-from-union",
+              "minimumCount": 2,
+              "minimumCredits": 8,
+              "eligibleCourses": [
+                "MA3160"
+              ],
+              "selectors": [
+                {
+                  "subject": "MA",
+                  "levels": [
+                    4000,
+                    5000
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Health Sciences": {
+          "groups": [
+            {
+              "type": "all-courses",
+              "courses": [
+                "BS2400",
+                "BS2401",
+                "BS2410",
+                "BS2411",
+                "CP3300",
+                "CP3302",
+                "CP3310",
+                "CP3312"
+              ],
+              "minimumCredits": 18
+            },
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 1,
+              "eligibleCourses": [
+                "CP4490",
+                "CP4510"
+              ],
+              "minimumCredits": 3
+            }
+          ]
+        },
+        "Quantitative Finance": {
+          "groups": [
+            {
+              "type": "all-courses",
+              "courses": [
+                "CS2510",
+                "MA2000",
+                "MA3160",
+                "MA4360",
+                "BU4762",
+                "BU5740",
+                "BU5789",
+                "PX5100"
+              ],
+              "minimumCredits": 31
+            }
+          ]
+        },
+        "Applied/Computational": {
+          "groups": [
+            {
+              "type": "all-courses",
+              "courses": [
+                "CS2510",
+                "CS2511",
+                "CS3810",
+                "MA3030",
+                "PX4600"
+              ],
+              "minimumCredits": 19
+            }
+          ]
+        }
+      },
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied.",
+      "generalEducationPolicy": "See institutional-rules.json and general-education-mappings.json; approved overlaps count course credits once."
+    },
+    {
+      "program": "English, B.A.",
+      "kind": "major",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "EL3010"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 2,
+          "eligibleCourses": [
+            "EL3500",
+            "EL3510",
+            "EL4400"
+          ],
+          "minimumCredits": 8
+        },
+        {
+          "type": "allocation-group",
+          "groups": [
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 1,
+              "eligibleCourses": [
+                "EL3600",
+                "EL3610",
+                "EL3800",
+                "EL3810"
+              ]
+            },
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 1,
+              "eligibleCourses": [
+                "EL3560",
+                "EL3561",
+                "EL3700"
+              ]
+            },
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 1,
+              "eligibleCourses": [
+                "EL3600",
+                "EL3610",
+                "EL3800",
+                "EL3810",
+                "EL3560",
+                "EL3561",
+                "EL3700",
+                "EL3950",
+                "EL4200",
+                "EL4300",
+                "EL4311",
+                "EL4312",
+                "EL4325",
+                "EL4500",
+                "EL4510",
+                "EL4520"
+              ]
+            }
+          ],
+          "minimumCredits": 12
+        },
+        {
+          "type": "selected-concentration",
+          "minimumCredits": 12
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "EL5000",
+            "EL5010"
+          ],
+          "minimumCredits": 8
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "majorCredits": 44,
+        "minimumGrade": "C-",
+        "maximumCoursesAtGradeCMinus": 1,
+        "maximumTransferCourses": 3,
+        "repeatPolicy": "More than two attempts requires chair approval",
+        "distribution": [
+          {
+            "type": "course-attribute-count",
+            "attribute": "literature-before-1800-or-US-before-1900",
+            "minimum": 2
+          },
+          {
+            "type": "each-attribute-required",
+            "attributes": [
+              "British-literature",
+              "US-literature",
+              "World-literature"
+            ],
+            "specialRule": "EL3500/EL3510 may satisfy British or US, not both."
+          }
+        ]
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-english-b-a.pdf",
+        "sha256": "3817e3834ea1dd6b260fd7282d000a470fee1eb0a2f6d23b24c4985b29f99fc9",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [
+        "EL3811 is retained as a source-listed option; insufficient metadata prevents automatic registration/credit evaluation for that option until reviewed."
+      ],
+      "degreeRequirements": {
+        "minimumTotalCredits": 120,
+        "minimumInstitutionalGPA": 2.0,
+        "minimumUpperDivisionCredits": 45,
+        "minimumLiberalArtsCredits": 90,
+        "minimumInstitutionalResidencyCredits": 40,
+        "maximumTransferCredits": 80
+      },
+      "concentrations": {
+        "Multicultural U.S.-British Literature": {
+          "groups": [
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 2,
+              "eligibleCourses": [
+                "EL4030",
+                "EL4050",
+                "EL4060",
+                "EL4080",
+                "ML3410",
+                "EL3811",
+                "EL4000",
+                "EL4010",
+                "EL4015",
+                "EL4020",
+                "EL4040",
+                "EL4070",
+                "EL4090",
+                "EL4091",
+                "EL4405",
+                "EL4550",
+                "EL4560"
+              ],
+              "minimumCredits": 8
+            },
+            {
+              "type": "all-courses",
+              "courses": [
+                "EL4800"
+              ],
+              "minimumCredits": 4
+            }
+          ]
+        },
+        "World Literature": {
+          "groups": [
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 1,
+              "eligibleCourses": [
+                "EL3865",
+                "EL3870",
+                "EL3880",
+                "ML3880"
+              ],
+              "minimumCredits": 4
+            },
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 2,
+              "eligibleCourses": [
+                "EL4405",
+                "EL4600",
+                "EL4630",
+                "EL4640",
+                "EL4650"
+              ],
+              "minimumCredits": 8
+            }
+          ]
+        },
+        "Creative Writing": {
+          "groups": [
+            {
+              "type": "all-courses",
+              "courses": [
+                "EL3901"
+              ],
+              "minimumCredits": 4
+            },
+            {
+              "type": "choose-distinct-courses",
+              "minimumCount": 2,
+              "eligibleCourses": [
+                "EL3920",
+                "EL3950",
+                "EL4100",
+                "EL4520"
+              ],
+              "minimumCredits": 8
+            }
+          ]
+        }
+      },
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied.",
+      "generalEducationPolicy": "See institutional-rules.json and general-education-mappings.json; approved overlaps count course credits once."
+    },
+    {
+      "program": "Psychology, B.S.",
+      "kind": "major",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "PY2010",
+            "PY3010",
+            "PY4200",
+            "PY4130"
+          ]
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "PY5210",
+            "PY5320",
+            "PY5404",
+            "PY5510",
+            "PY5610",
+            "PY5710"
+          ]
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "PY3410",
+            "PY3420",
+            "PY3610",
+            "PY3620"
+          ]
+        },
+        {
+          "type": "choose-distinct-domain-courses",
+          "minimumDomains": 2,
+          "coursesPerDomain": 1,
+          "domains": {
+            "developmental": [
+              "PY3215",
+              "PY3230",
+              "PY3240"
+            ],
+            "clinical": [
+              "PY3310",
+              "PY3311"
+            ],
+            "social": [
+              "PY3510",
+              "PY3570"
+            ]
+          }
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "PY2530",
+            "PY2720",
+            "PY3710"
+          ]
+        },
+        {
+          "type": "choose-by-selector",
+          "minimumCount": 1,
+          "subject": "PY",
+          "levels": [
+            3000,
+            4000
+          ],
+          "excludeCourses": []
+        },
+        {
+          "type": "choose-by-selector",
+          "minimumCount": 1,
+          "subject": "PY",
+          "levels": [
+            4000
+          ],
+          "excludeCourses": [],
+          "localCourseRequired": true
+        },
+        {
+          "type": "reviewed-evidence",
+          "key": "psychology-bs-math-science-plan",
+          "description": {
+            "math": "Precalculus or higher; MA2090 identified by source",
+            "science": "Four semesters of qualifying Biology/Chemistry/Physics; non-science-major courses excluded",
+            "gradeRule": "Math/science GPA >=2.5 using highest grades OR C or better in each required math/science course",
+            "advisorApproval": "By end of first half of junior year"
+          },
+          "mustBeSatisfied": true
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "majorCourseCount": 11,
+        "departmentalGradeRule": {
+          "type": "or",
+          "alternatives": [
+            {
+              "type": "major-gpa",
+              "minimum": 2.5,
+              "repeatSelection": "highest-grade-for-each-of-the-11-counted-courses"
+            },
+            {
+              "type": "minimum-grade-in-each-course",
+              "minimumGrade": "C",
+              "scope": "all-11-courses-counted-toward-major"
+            }
+          ]
+        }
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-psychology-b-s.pdf",
+        "sha256": "0b6fb656bc729782090315413f6f7000c875981052eedef59b6af306ad345cf3",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [
+        "Use the supplied prerequisite definitions for progression; no additional policy PDF required.",
+        "Department GPA uses highest repeat grades; institution GPA follows its own repeat policy.",
+        "Science plan and advisor approval are reviewed evidence; raw source wording is preserved."
+      ],
+      "degreeRequirements": {
+        "degreeType": "BS",
+        "minimumTotalCredits": 120,
+        "minimumInstitutionalGPA": 2.0,
+        "minimumUpperDivisionCredits": 45,
+        "minimumLiberalArtsCredits": 60,
+        "minimumInstitutionalResidencyCredits": 40
+      },
+      "projectDecisions": [
+        "PSYCH-BS-LA-001",
+        "PSYCH-PROGRESSION-001"
+      ],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied.",
+      "generalEducationPolicy": "See institutional-rules.json and general-education-mappings.json; approved overlaps count course credits once."
+    },
+    {
+      "program": "Childhood Education 1-6, B.S.",
+      "kind": "major",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-course-versions",
+          "courses": [
+            {
+              "courseCode": "ED3700",
+              "catalogVersion": "2026-2027"
+            },
+            {
+              "courseCode": "ED3820",
+              "catalogVersion": "2026-2027"
+            },
+            {
+              "courseCode": "ED3900",
+              "catalogVersion": "2026-2027"
+            },
+            {
+              "courseCode": "ED4200",
+              "catalogVersion": "2026-2027"
+            },
+            {
+              "courseCode": "ED4121",
+              "catalogVersion": "2026-2027"
+            },
+            {
+              "courseCode": "ED4122",
+              "catalogVersion": "2026-2027"
+            },
+            {
+              "courseCode": "ED4220",
+              "catalogVersion": "2026-2027"
+            },
+            {
+              "courseCode": "ED4050",
+              "catalogVersion": "2020-2022"
+            },
+            {
+              "courseCode": "ED5925",
+              "catalogVersion": "2020-2022"
+            }
+          ],
+          "minimumCredits": 36
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "ED5940"
+          ],
+          "minimumCredits": 12
+        },
+        {
+          "type": "selected-concentration",
+          "minimumCredits": 32
+        },
+        {
+          "type": "reviewed-evidence",
+          "key": "school-of-education-admission",
+          "description": "Use the collected admissions rules: 32 completed credits, required math/writing proficiency, ED3700/ED3820, C in ED3900, overall GPA >=3.0 for Childhood Education; log formal admission.",
+          "mustBeSatisfied": true
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "courseMinimumGrades": {
+          "ED5940": "B"
+        },
+        "fieldExperienceApprovalRequired": true
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-childhood-education-1-6-b-s.pdf",
+        "sha256": "5a617ea6fb64d78830fdfac22260eba784b19b1ff3b993c08df4280e68c875ae",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [
+        "Mathematics is the initially offered concentration recommended for the isolated pilot; other official options remain in source evidence for later expansion. No existing student is reassigned.",
+        "Historical ED4050/ED5925 versions remain explicit. Malformed ED5925 prerequisite text requires a logged advisor resolution, not an invented ED400 course."
+      ],
+      "degreeRequirements": {
+        "minimumTotalCredits": 120,
+        "minimumInstitutionalGPA": 2.0,
+        "minimumUpperDivisionCredits": 45,
+        "minimumLiberalArtsCredits": 60,
+        "minimumInstitutionalResidencyCredits": 40,
+        "maximumTransferCredits": 80
+      },
+      "concentrations": {
+        "Mathematics": {
+          "groups": [
+            {
+              "type": "all-courses",
+              "courses": [
+                "MA2010",
+                "MA3020",
+                "MA2310",
+                "MA2320",
+                "MA3030",
+                "MA3160",
+                "MA3210"
+              ],
+              "minimumCredits": 28
+            },
+            {
+              "type": "choose-by-selector",
+              "minimumCount": 1,
+              "subject": "MA",
+              "levels": [
+                3000,
+                4000
+              ],
+              "excludeCourses": [],
+              "minimumCredits": 4
+            }
+          ],
+          "minimumCredits": 32,
+          "minimumGrade": "C",
+          "maximumTransferCourses": 4,
+          "maximumTransferCredits": 16,
+          "source": "supplemental-sources/education-concentrations.json"
+        }
+      },
+      "projectDecisions": [
+        "ED-CORE-001",
+        "REC-ED-MATH-001"
+      ],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied.",
+      "generalEducationPolicy": "See institutional-rules.json and general-education-mappings.json; approved overlaps count course credits once."
+    },
+    {
+      "program": "Public Health, B.S.",
+      "kind": "major",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "BS2100",
+            "BS2300",
+            "BS2310"
+          ],
+          "minimumCredits": 3
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "PH2000",
+            "PH3600",
+            "PH3610",
+            "PH4670",
+            "PH4800",
+            "PH4900",
+            "PH5900",
+            "PH5920"
+          ],
+          "minimumCredits": 32
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 3,
+          "eligibleCourses": [
+            "PH2450",
+            "PH2900",
+            "PH3200",
+            "PH3300",
+            "PH3325",
+            "PH3400",
+            "PH3700",
+            "PH3750",
+            "PH3800",
+            "PH3850",
+            "PH4430",
+            "PH4600",
+            "PH4610",
+            "PH4631",
+            "PH4650",
+            "PH4661",
+            "PH4680",
+            "PH4750",
+            "PH4760",
+            "PH4770",
+            "PH4790",
+            "PH4810",
+            "PH4820",
+            "PH4890",
+            "PH4920",
+            "PH4930",
+            "PY3020"
+          ],
+          "minimumCredits": 12
+        },
+        {
+          "type": "reviewed-evidence",
+          "key": "applied-practice-90-hours",
+          "description": "At least 90 hours of applied practice with completion evidence; do not infer hours solely from course grade.",
+          "mustBeSatisfied": true
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumMajorCourseUnits": 12
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-public-health-b-s.pdf",
+        "sha256": "cd48eb6b09cd85df0b80a224facd2a4b9e5ef0edda3fc492990d0e1142626607",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [
+        "The explicit eight-core + three-elective + one-biology groups determine completion; loose minimum-11 wording does not remove a listed group.",
+        "Count actual biology credits: an eligible 4-credit BS2100 is not reduced to 3."
+      ],
+      "degreeRequirements": {
+        "minimumTotalCredits": 120,
+        "minimumInstitutionalGPA": 2.0,
+        "minimumUpperDivisionCredits": 45,
+        "minimumLiberalArtsCredits": 60,
+        "minimumInstitutionalResidencyCredits": 40,
+        "maximumTransferCredits": 80
+      },
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied.",
+      "generalEducationPolicy": "See institutional-rules.json and general-education-mappings.json; approved overlaps count course credits once."
+    },
+    {
+      "program": "Media & Communications, B.A.",
+      "kind": "major",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "AS2252",
+            "AS2262",
+            "AS2263",
+            "AS2300",
+            "AS2640",
+            "AS3215",
+            "AS3222",
+            "AS3270",
+            "AS3462",
+            "AS4000",
+            "AS4001",
+            "AS4212",
+            "AS4215",
+            "AS4218",
+            "AS4222",
+            "AS4250",
+            "AS4252",
+            "AS4253",
+            "AS4282",
+            "AS4283",
+            "AS4285",
+            "AS4290",
+            "AS4292",
+            "AS4402",
+            "AS4420",
+            "AS4432",
+            "AS4435",
+            "AS4715"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 2,
+          "eligibleCourses": [
+            "MC2652",
+            "AS2700",
+            "AS3310",
+            "MC3622",
+            "MC3632",
+            "MC3700",
+            "MC3712",
+            "MC3722",
+            "MC3732",
+            "MC3735",
+            "MC3742",
+            "MC3745",
+            "MC3750",
+            "MC3810",
+            "MC3830",
+            "MC3842",
+            "MC3852",
+            "MC4160",
+            "MC4280",
+            "MC4722",
+            "AS4725",
+            "MC4729",
+            "MC4732",
+            "MC4735",
+            "MC4850",
+            "SY4651"
+          ],
+          "minimumCredits": 8
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "MC2802",
+            "MC3800",
+            "MC4802"
+          ],
+          "minimumCredits": 12
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 2,
+          "eligibleCourses": [
+            "MC2020",
+            "MC2901",
+            "MC2902",
+            "MC2910",
+            "MC3822",
+            "MC3835",
+            "MC3860",
+            "MC4150",
+            "MC4260",
+            "MC4442",
+            "MC4700",
+            "MC4812",
+            "MC4822",
+            "MC4852",
+            "MC4870",
+            "MC4882",
+            "MC4935",
+            "MC4940",
+            "MC4945",
+            "MC4955",
+            "MC4965",
+            "VA2320",
+            "VA2400",
+            "VA3400",
+            "VA4260",
+            "VA4265",
+            "VA4320",
+            "VA4360",
+            "VA4460"
+          ],
+          "minimumCredits": 8,
+          "maximumSubjectCourses": {
+            "VA": 1
+          }
+        },
+        {
+          "type": "allocation-group",
+          "groups": [
+            {
+              "type": "choose-by-selector",
+              "minimumCount": 1,
+              "subject": [
+                "AS",
+                "MC"
+              ],
+              "levels": [
+                3000,
+                4000
+              ],
+              "excludeCourses": [],
+              "minimumCredits": 4
+            },
+            {
+              "type": "choose-by-selector",
+              "minimumCount": 1,
+              "subject": [
+                "AS",
+                "MC"
+              ],
+              "levels": [
+                4000,
+                5000
+              ],
+              "excludeCourses": [],
+              "minimumCredits": 4
+            }
+          ],
+          "approvedCategory": "Media Studies or Media Production",
+          "minimumCredits": 8
+        },
+        {
+          "type": "choose-credits",
+          "minimumCredits": 4,
+          "eligibleCourses": [
+            "MC4832",
+            "MC4835"
+          ]
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "AS5000",
+            "AS5001",
+            "AS5112",
+            "MC5200",
+            "AS5212",
+            "AS5312",
+            "AS5350",
+            "AS5412",
+            "MC5420",
+            "MC5725",
+            "AS5800",
+            "MC5862"
+          ],
+          "minimumCredits": 4
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "majorCredits": 48,
+        "minimumMajorGPA": 2.0,
+        "maximumLowGradeCourses": {
+          "grades": [
+            "D+",
+            "D",
+            "D-"
+          ],
+          "count": 1,
+          "chairApprovalRequired": true
+        },
+        "maximumVACourses": 1,
+        "maximumTransferCourses": 5,
+        "minimumLocalProductionCourses": 1,
+        "maximumInternshipCreditsAppliedToMajor": 4,
+        "maximumIndependentStudyCreditsAppliedToMajor": 4,
+        "maximumExtraLowerDivisionCourses": 2,
+        "lowerDivisionExemptions": [
+          "MC2802",
+          "AS2802",
+          "AS2252",
+          "AS2262",
+          "AS2263",
+          "AS2300",
+          "AS2640"
+        ]
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-media-communications-b-a.pdf",
+        "sha256": "bf4c59afaf34e0613cdc08c3ee606de44edcbcecca412c4ee53ae851a01036af",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [
+        "The 8-credit upper-division elective group uses approved Media Studies/Production categories; an arbitrary AS/MC course is not automatically eligible.",
+        "Portfolio is recommended, not a mandatory graduation requirement."
+      ],
+      "degreeRequirements": {
+        "minimumTotalCredits": 120,
+        "minimumInstitutionalGPA": 2.0,
+        "minimumUpperDivisionCredits": 45,
+        "minimumLiberalArtsCredits": 90,
+        "minimumInstitutionalResidencyCredits": 40,
+        "maximumTransferCredits": 80
+      },
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied.",
+      "generalEducationPolicy": "See institutional-rules.json and general-education-mappings.json; approved overlaps count course credits once."
+    },
+    {
+      "program": "General Business, Minor",
+      "kind": "minor",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "BU3010",
+            "BU3502",
+            "BU3800",
+            "BU4110"
+          ],
+          "minimumCredits": 15
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "BU4035",
+            "BU5125",
+            "BU4851"
+          ]
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumCredits": 18,
+        "minimumCourseCount": 5
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-general-business-minor.pdf",
+        "sha256": "b31eb89ec712e3d0872b61536fd391a02a594e948d215b189993fd9bb26950c0",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [
+        "With the published current credits these choices normally yield 19 credits; retain actual credits."
+      ],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied."
+    },
+    {
+      "program": "Accounting, Minor",
+      "kind": "minor",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "BU3502",
+            "BU3511",
+            "BU4500",
+            "BU4510",
+            "BU4570"
+          ],
+          "minimumCredits": 18
+        },
+        {
+          "type": "choose-one-path",
+          "paths": {
+            "Internal Reporting": {
+              "type": "choose-credits",
+              "minimumCredits": 8,
+              "eligibleCourses": [
+                "BU4250",
+                "BU4590",
+                "BU5505"
+              ]
+            },
+            "Public Company": {
+              "type": "choose-credits",
+              "minimumCredits": 8,
+              "eligibleCourses": [
+                "BU5510",
+                "BU5540",
+                "BU5550"
+              ]
+            },
+            "General Accounting": {
+              "type": "choose-credits",
+              "minimumCredits": 8,
+              "eligibleCourses": [
+                "BU4250",
+                "BU4590",
+                "BU5505",
+                "BU5510",
+                "BU5540",
+                "BU5550"
+              ]
+            }
+          }
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumCredits": 26,
+        "minimumCreditsOutsideMajor": 20,
+        "maximumTransferCourses": 2
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-accounting-minor.pdf",
+        "sha256": "895517628b0b206db6e26d3f3d30e6d9ce061ce8cbcf8bdd92c9d1d46b5822fe",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied."
+    },
+    {
+      "program": "Mathematics, Minor",
+      "kind": "minor",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "MA2310",
+            "MA2320",
+            "MA3030",
+            "MA3160"
+          ],
+          "minimumCredits": 16
+        },
+        {
+          "type": "choose-from-union",
+          "minimumCount": 2,
+          "minimumCredits": 8,
+          "eligibleCourses": [
+            "MA3210",
+            "MA3330",
+            "MA3520",
+            "MA4100"
+          ],
+          "selectors": [
+            {
+              "subject": "MA",
+              "levels": [
+                4000,
+                5000
+              ]
+            }
+          ]
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumCredits": 24,
+        "minimumGrade": "C",
+        "minimumCreditsOutsideMajor": 16,
+        "maximumTransferCourses": 2
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-mathematics-minor.pdf",
+        "sha256": "4ae5ace50881fe6385270c6ead7c9d40bb39b4026681eb04d177af7b383e3bef",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied."
+    },
+    {
+      "program": "Environmental Studies, Minor",
+      "kind": "minor",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "HI3001"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "allocation-group",
+          "minimumCredits": 16,
+          "minimumUnitCount": 4,
+          "groups": [
+            {
+              "type": "choose-distinct-units",
+              "minimumCount": 1,
+              "options": [
+                "BS2490",
+                "BS3450",
+                "BS4470",
+                "BS4474",
+                "BS4491",
+                "CP2600",
+                {
+                  "type": "course-bundle",
+                  "courses": [
+                    "CP2300",
+                    "CP2301"
+                  ]
+                },
+                {
+                  "type": "course-bundle",
+                  "courses": [
+                    "CP2400",
+                    "CP2401"
+                  ]
+                },
+                {
+                  "type": "course-bundle",
+                  "courses": [
+                    "CP2500",
+                    "CP2501"
+                  ]
+                },
+                "CP5900",
+                {
+                  "type": "approved-independent-study",
+                  "studentHomeDepartment": true,
+                  "sourcePlaceholder": "XX9990"
+                }
+              ],
+              "minimumCredits": 4
+            },
+            {
+              "type": "choose-distinct-units",
+              "minimumCount": 1,
+              "options": [
+                "AS2252",
+                "AS2300",
+                "AS2750",
+                "MC4832",
+                "MC5200",
+                "EL2233",
+                "HI2810",
+                "HI3003",
+                "HI3005",
+                "HI3006",
+                "HI3120",
+                "HI3600",
+                "HI3700",
+                "HI4600",
+                "HI4700",
+                "PE4280",
+                "PE4290",
+                "PE5990",
+                "PH4800",
+                "PH4890",
+                "PH4900",
+                "PY5404",
+                "SY5990",
+                {
+                  "type": "approved-independent-study",
+                  "studentHomeDepartment": true,
+                  "sourcePlaceholder": "XX9990"
+                }
+              ],
+              "minimumCredits": 4
+            },
+            {
+              "type": "choose-distinct-units",
+              "minimumCount": 2,
+              "options": [
+                "BS2490",
+                "BS3450",
+                "BS4470",
+                "BS4474",
+                "BS4491",
+                "CP2600",
+                {
+                  "type": "course-bundle",
+                  "courses": [
+                    "CP2300",
+                    "CP2301"
+                  ]
+                },
+                {
+                  "type": "course-bundle",
+                  "courses": [
+                    "CP2400",
+                    "CP2401"
+                  ]
+                },
+                {
+                  "type": "course-bundle",
+                  "courses": [
+                    "CP2500",
+                    "CP2501"
+                  ]
+                },
+                "CP5900",
+                {
+                  "type": "approved-independent-study",
+                  "studentHomeDepartment": true,
+                  "sourcePlaceholder": "XX9990"
+                },
+                "AS2252",
+                "AS2300",
+                "AS2750",
+                "MC4832",
+                "MC5200",
+                "EL2233",
+                "HI2810",
+                "HI3003",
+                "HI3005",
+                "HI3006",
+                "HI3120",
+                "HI3600",
+                "HI3700",
+                "HI4600",
+                "HI4700",
+                "PE4280",
+                "PE4290",
+                "PE5990",
+                "PH4800",
+                "PH4890",
+                "PH4900",
+                "PY5404",
+                "SY5990",
+                {
+                  "type": "approved-independent-study",
+                  "studentHomeDepartment": true,
+                  "sourcePlaceholder": "XX9990"
+                }
+              ]
+            }
+          ],
+          "allowAdditionalEligibleUnitsToMeetCredits": true
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumCredits": 20
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-environmental-studies-minor.pdf",
+        "sha256": "ebb7df68293dd513b2d397c0a0a96d3b085722542f070d697ce2db8d42020056",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [
+        "HI3001 cannot count twice. A 3+1 lecture/lab bundle counts as one science elective unit with 4 earned credits. XX9990 is an approval-based placeholder, not a course to create."
+      ],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied."
+    },
+    {
+      "program": "Physics, Minor",
+      "kind": "minor",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "choose-one-path",
+          "paths": {
+            "Algebra": {
+              "type": "all-courses",
+              "courses": [
+                "PX2000",
+                "PX2001",
+                "PX2100",
+                "PX2101"
+              ],
+              "minimumCredits": 8
+            },
+            "Calculus": {
+              "type": "all-courses",
+              "courses": [
+                "PX2200",
+                "PX2201",
+                "PX2300",
+                "PX2301"
+              ],
+              "minimumCredits": 8
+            }
+          }
+        },
+        {
+          "type": "choose-distinct-units",
+          "minimumCount": 3,
+          "minimumCredits": 9,
+          "options": [
+            {
+              "type": "course-bundle",
+              "courses": [
+                "PX2900",
+                "PX2901"
+              ]
+            },
+            "PX3000",
+            "PX3100",
+            "PX3200",
+            "PX3600",
+            "PX3700",
+            "PX3800",
+            "PX3900",
+            "PX4100",
+            "PX4200",
+            "PX5000"
+          ],
+          "minimumUpperDivisionUnits": 2
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumCredits": 17
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-physics-minor.pdf",
+        "sha256": "4c81e147353ce9f1a5b5fc5496e24180121aee0cf875fa87e782ef921ca2b5b6",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [
+        "Astronomy lecture plus lab counts as one bundled elective unit, contributing its actual 4 credits; minimum degree/minor totals are not forced to exactly 17."
+      ],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied."
+    },
+    {
+      "program": "Multicultural U.S./ British Literature, Minor",
+      "kind": "minor",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "EL3010"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "EL3500",
+            "EL3510",
+            "EL4400"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "EL3600",
+            "EL3610",
+            "EL3800",
+            "EL3810",
+            "EL3950",
+            "EL4200",
+            "EL4300",
+            "EL4325",
+            "EL4500",
+            "EL4510",
+            "EL4520"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "EL4030",
+            "EL4050",
+            "EL4060",
+            "EL4080",
+            "ML3410",
+            "EL3811",
+            "EL4000",
+            "EL4010",
+            "EL4015",
+            "EL4020",
+            "EL4040",
+            "EL4070",
+            "EL4090",
+            "EL4091",
+            "EL4405",
+            "EL4550",
+            "EL4560"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "all-courses",
+          "courses": [
+            "EL4800"
+          ],
+          "minimumCredits": 4
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumCredits": 20
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-multicultural-u-s-british-literature-minor.pdf",
+        "sha256": "6333dfccd78103dca3e1500b0a16beec52f422dc35acd2e9ec1b2e19d1cbdd93",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [
+        "EL4800 prerequisites may require additional analysis courses beyond the minor group; do not waive prerequisites."
+      ],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied."
+    },
+    {
+      "program": "Psychology, Minor",
+      "kind": "minor",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "PY3010",
+            "PH4670",
+            "SY4520"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "PY3410",
+            "PY3420",
+            "PY3610",
+            "PY3620"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "PY3215",
+            "PY3230",
+            "PY3240",
+            "PY3310",
+            "PY3311",
+            "PY3510",
+            "PY3570"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 1,
+          "eligibleCourses": [
+            "PY2530",
+            "PY2720",
+            "PY3710"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "choose-by-selector",
+          "minimumCount": 1,
+          "subject": "PY",
+          "levels": [
+            4000
+          ],
+          "excludeCourses": [],
+          "minimumCredits": 4,
+          "localCourseRequired": true
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumCredits": 20,
+        "minimumCourseCount": 5,
+        "minimumMinorGPA": 2.5
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-psychology-minor.pdf",
+        "sha256": "4ec1fc8d422d599d5c47167a5947756d467784b61668308f4c066cfcf8ca04db",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied."
+    },
+    {
+      "program": "Public Health, Minor",
+      "kind": "minor",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "PH2000",
+            "PH3600",
+            "PH3610",
+            "PH4800"
+          ],
+          "minimumCredits": 16
+        },
+        {
+          "type": "choose-from-union",
+          "minimumCount": 1,
+          "minimumCredits": 4,
+          "eligibleCourses": [
+            "PY3020"
+          ],
+          "selectors": [
+            {
+              "subject": "PH",
+              "classification": "approved-public-health-elective",
+              "excludeRequiredCore": true
+            }
+          ]
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumCredits": 20,
+        "minimumGrade": "C",
+        "maximumCoursesSharedWithMajor": 1,
+        "maximumTransferCourses": 1
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-public-health-minor.pdf",
+        "sha256": "9d60220470551e2eefd7b65ca9372cff81563d71367332df5ce99db301e7e880",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied."
+    },
+    {
+      "program": "Media and Communications, Minor",
+      "kind": "minor",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "MC2802"
+          ],
+          "minimumCredits": 4
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 2,
+          "eligibleCourses": [
+            "MC2652",
+            "AS2700",
+            "AS3310",
+            "MC3622",
+            "MC3632",
+            "MC3700",
+            "MC3712",
+            "MC3722",
+            "MC3732",
+            "MC3735",
+            "MC3742",
+            "MC3745",
+            "MC3750",
+            "MC3810",
+            "MC3830",
+            "MC3842",
+            "MC3852",
+            "MC4160",
+            "MC4280",
+            "MC4722",
+            "AS4725",
+            "MC4729",
+            "MC4732",
+            "MC4735",
+            "MC4802",
+            "MC4850",
+            "CR3200",
+            "SY4651"
+          ],
+          "minimumCredits": 8
+        },
+        {
+          "type": "choose-distinct-courses",
+          "minimumCount": 2,
+          "eligibleCourses": [
+            "MC2020",
+            "MC2901",
+            "MC2910",
+            "MC2902",
+            "MC3835",
+            "MC3860",
+            "MC4150",
+            "MC4260",
+            "MC4442",
+            "MC4700",
+            "MC4812",
+            "MC4822",
+            "MC4852",
+            "MC4870",
+            "MC4935",
+            "MC4940",
+            "MC4945",
+            "MC4955",
+            "MC4965",
+            "MC4882"
+          ],
+          "minimumCredits": 8
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumCredits": 20
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-media-and-communications-minor.pdf",
+        "sha256": "213e59388f82b270c81405a04fe3917556b1096913fc1d4e3a6d46eeb65aa03c",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [
+        "Only the listed minor production pool is automatically offered. The one-VA limit does not invent unlisted VA choices; substitutions need approval."
+      ],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied."
+    },
+    {
+      "program": "Visual Arts, Minor",
+      "kind": "minor",
+      "catalogEdition": "2026-2027",
+      "status": "defined-for-isolated-test",
+      "groups": [
+        {
+          "type": "all-courses",
+          "courses": [
+            "VA2020",
+            "VA2030",
+            "VA2045"
+          ],
+          "minimumCredits": 12
+        },
+        {
+          "type": "choose-one-path",
+          "paths": {
+            "Art History": {
+              "type": "choose-by-selector",
+              "minimumCount": 2,
+              "minimumCredits": 8,
+              "subject": "VA",
+              "minimumLevel": 3000,
+              "classification": "art-history"
+            },
+            "Fine Arts": {
+              "type": "choose-distinct-courses",
+              "minimumCount": 2,
+              "eligibleCourses": [
+                "VA2010",
+                "VA2460",
+                "VA2750"
+              ],
+              "minimumCredits": 8
+            },
+            "Electronic Media": {
+              "type": "choose-distinct-courses",
+              "minimumCount": 2,
+              "eligibleCourses": [
+                "VA2320",
+                "VA3380",
+                "VA3400",
+                "VA3456",
+                "VA4260",
+                "VA4265",
+                "VA4460"
+              ],
+              "minimumCredits": 8
+            }
+          }
+        }
+      ],
+      "countingPolicy": {
+        "distinctCoursesWithinProgram": true,
+        "degreeCreditsCountedOnce": true,
+        "prerequisitesAreAdditionalUnlessExplicitlyCounted": true
+      },
+      "policies": {
+        "minimumCredits": 20
+      },
+      "source": {
+        "pdf": "database/staging/academic-alignment/source-pdfs/program-visual-arts-minor.pdf",
+        "sha256": "79ee6a6ff8073f3013e4dc26c389b674a8bd38e14dfa5173640240663bdd6af8",
+        "fullTextInput": "program-review-inputs.json"
+      },
+      "notes": [],
+      "manualEvidencePolicy": "Unresolved attributes, substitutions, permissions and unparseable prerequisites require recorded review; never automatically satisfied."
+    }
+  ]
+}

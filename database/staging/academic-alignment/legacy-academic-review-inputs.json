@@ -1,0 +1,4104 @@
+{
+    "sourceDatabase": "northbridge_university",
+    "asOf": "2026-11-07",
+    "courses": [
+        {
+            "course_ID": "ART10101",
+            "dept_ID": 10,
+            "course_Name": "Introduction to Digital Media",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to digital media, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10102",
+            "dept_ID": 10,
+            "course_Name": "Graphic Design Fundamentals",
+            "course_Credits": 4,
+            "course_DSC": "Study of graphic design fundamentals, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10103",
+            "dept_ID": 10,
+            "course_Name": "Introduction to Studio Art",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to studio art, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10104",
+            "dept_ID": 10,
+            "course_Name": "Film Studies",
+            "course_Credits": 4,
+            "course_DSC": "Study of film studies, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10105",
+            "dept_ID": 10,
+            "course_Name": "Media Production",
+            "course_Credits": 4,
+            "course_DSC": "Study of media production, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10106",
+            "dept_ID": 10,
+            "course_Name": "Visual Communication",
+            "course_Credits": 4,
+            "course_DSC": "Study of visual communication, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10107",
+            "dept_ID": 10,
+            "course_Name": "Art Appreciation",
+            "course_Credits": 4,
+            "course_DSC": "Study of art appreciation, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10108",
+            "dept_ID": 10,
+            "course_Name": "Media Literacy",
+            "course_Credits": 4,
+            "course_DSC": "Study of media literacy, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10109",
+            "dept_ID": 10,
+            "course_Name": "Drawing Fundamentals",
+            "course_Credits": 4,
+            "course_DSC": "Study of drawing fundamentals, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10110",
+            "dept_ID": 10,
+            "course_Name": "Photography",
+            "course_Credits": 4,
+            "course_DSC": "Study of photography, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10111",
+            "dept_ID": 10,
+            "course_Name": "Design Principles",
+            "course_Credits": 4,
+            "course_DSC": "Study of design principles, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10112",
+            "dept_ID": 10,
+            "course_Name": "Audio Production",
+            "course_Credits": 4,
+            "course_DSC": "Study of audio production, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10113",
+            "dept_ID": 10,
+            "course_Name": "Animation Fundamentals",
+            "course_Credits": 4,
+            "course_DSC": "Study of animation fundamentals, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10114",
+            "dept_ID": 10,
+            "course_Name": "Digital Storytelling",
+            "course_Credits": 4,
+            "course_DSC": "Study of digital storytelling, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10115",
+            "dept_ID": 10,
+            "course_Name": "Art History",
+            "course_Credits": 4,
+            "course_DSC": "Study of art history, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10116",
+            "dept_ID": 10,
+            "course_Name": "Media Ethics",
+            "course_Credits": 4,
+            "course_DSC": "Study of media ethics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10117",
+            "dept_ID": 10,
+            "course_Name": "Interactive Media Design",
+            "course_Credits": 4,
+            "course_DSC": "Study of interactive media design, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10118",
+            "dept_ID": 10,
+            "course_Name": "Arts and Media Capstone",
+            "course_Credits": 4,
+            "course_DSC": "Study of arts and media capstone, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ART10501",
+            "dept_ID": 10,
+            "course_Name": "Advanced Media Production",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced media production, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ART10502",
+            "dept_ID": 10,
+            "course_Name": "Digital Design Research",
+            "course_Credits": 4,
+            "course_DSC": "Study of digital design research, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ART10503",
+            "dept_ID": 10,
+            "course_Name": "Media Theory",
+            "course_Credits": 4,
+            "course_DSC": "Study of media theory, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ART10504",
+            "dept_ID": 10,
+            "course_Name": "Arts Administration",
+            "course_Credits": 4,
+            "course_DSC": "Study of arts administration, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ART10505",
+            "dept_ID": 10,
+            "course_Name": "Creative Practice Research",
+            "course_Credits": 4,
+            "course_DSC": "Study of creative practice research, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ART10506",
+            "dept_ID": 10,
+            "course_Name": "Interactive Media Technologies",
+            "course_Credits": 4,
+            "course_DSC": "Study of interactive media technologies, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "BUS2101",
+            "dept_ID": 2,
+            "course_Name": "Introduction to Business",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to business, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2102",
+            "dept_ID": 2,
+            "course_Name": "Financial Accounting",
+            "course_Credits": 4,
+            "course_DSC": "Study of financial accounting, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2103",
+            "dept_ID": 2,
+            "course_Name": "Managerial Accounting",
+            "course_Credits": 4,
+            "course_DSC": "Study of managerial accounting, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2104",
+            "dept_ID": 2,
+            "course_Name": "Principles of Marketing",
+            "course_Credits": 4,
+            "course_DSC": "Study of principles of marketing, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2105",
+            "dept_ID": 2,
+            "course_Name": "Corporate Finance",
+            "course_Credits": 4,
+            "course_DSC": "Study of corporate finance, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2106",
+            "dept_ID": 2,
+            "course_Name": "Organizational Behavior",
+            "course_Credits": 4,
+            "course_DSC": "Study of organizational behavior, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2107",
+            "dept_ID": 2,
+            "course_Name": "Business Communication",
+            "course_Credits": 4,
+            "course_DSC": "Study of business communication, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2108",
+            "dept_ID": 2,
+            "course_Name": "Business Law",
+            "course_Credits": 4,
+            "course_DSC": "Study of business law, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2109",
+            "dept_ID": 2,
+            "course_Name": "Microeconomics for Business",
+            "course_Credits": 4,
+            "course_DSC": "Study of microeconomics for business, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2110",
+            "dept_ID": 2,
+            "course_Name": "Macroeconomics for Business",
+            "course_Credits": 4,
+            "course_DSC": "Study of macroeconomics for business, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2111",
+            "dept_ID": 2,
+            "course_Name": "Business Statistics",
+            "course_Credits": 4,
+            "course_DSC": "Study of business statistics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2112",
+            "dept_ID": 2,
+            "course_Name": "Entrepreneurship",
+            "course_Credits": 4,
+            "course_DSC": "Study of entrepreneurship, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2113",
+            "dept_ID": 2,
+            "course_Name": "Operations Management",
+            "course_Credits": 4,
+            "course_DSC": "Study of operations management, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2114",
+            "dept_ID": 2,
+            "course_Name": "Human Resource Management",
+            "course_Credits": 4,
+            "course_DSC": "Study of human resource management, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2115",
+            "dept_ID": 2,
+            "course_Name": "Consumer Behavior",
+            "course_Credits": 4,
+            "course_DSC": "Study of consumer behavior, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2116",
+            "dept_ID": 2,
+            "course_Name": "Tax Accounting",
+            "course_Credits": 4,
+            "course_DSC": "Study of tax accounting, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2117",
+            "dept_ID": 2,
+            "course_Name": "Auditing",
+            "course_Credits": 4,
+            "course_DSC": "Study of auditing, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2118",
+            "dept_ID": 2,
+            "course_Name": "Business Capstone",
+            "course_Credits": 4,
+            "course_DSC": "Study of business capstone, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "BUS2501",
+            "dept_ID": 2,
+            "course_Name": "Strategic Management",
+            "course_Credits": 4,
+            "course_DSC": "Study of strategic management, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "BUS2502",
+            "dept_ID": 2,
+            "course_Name": "Advanced Financial Analysis",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced financial analysis, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "BUS2503",
+            "dept_ID": 2,
+            "course_Name": "Business Analytics",
+            "course_Credits": 4,
+            "course_DSC": "Study of business analytics, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "BUS2504",
+            "dept_ID": 2,
+            "course_Name": "Global Marketing Strategy",
+            "course_Credits": 4,
+            "course_DSC": "Study of global marketing strategy, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "BUS2505",
+            "dept_ID": 2,
+            "course_Name": "Organizational Leadership",
+            "course_Credits": 4,
+            "course_DSC": "Study of organizational leadership, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "BUS2506",
+            "dept_ID": 2,
+            "course_Name": "Quantitative Business Research",
+            "course_Credits": 4,
+            "course_DSC": "Study of quantitative business research, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "CS1101",
+            "dept_ID": 1,
+            "course_Name": "Introduction to Programming",
+            "course_Credits": 4,
+            "course_DSC": "Programming fundamentals: problem decomposition, control flow, functions, data types, debugging, and implementation of small programs.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1102",
+            "dept_ID": 1,
+            "course_Name": "Object-Oriented Programming",
+            "course_Credits": 4,
+            "course_DSC": "Study of object-oriented programming, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1103",
+            "dept_ID": 1,
+            "course_Name": "Data Structures",
+            "course_Credits": 4,
+            "course_DSC": "Study of data structures, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1104",
+            "dept_ID": 1,
+            "course_Name": "Database Systems",
+            "course_Credits": 4,
+            "course_DSC": "Study of database systems, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1105",
+            "dept_ID": 1,
+            "course_Name": "Computer Networks",
+            "course_Credits": 4,
+            "course_DSC": "Study of computer networks, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1106",
+            "dept_ID": 1,
+            "course_Name": "Software Engineering",
+            "course_Credits": 4,
+            "course_DSC": "Study of software engineering, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1107",
+            "dept_ID": 1,
+            "course_Name": "Introduction to Computing",
+            "course_Credits": 4,
+            "course_DSC": "Computing systems foundations: digital representation, hardware and software organization, operating systems concepts, and the role of computing in society.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1108",
+            "dept_ID": 1,
+            "course_Name": "Web Development",
+            "course_Credits": 4,
+            "course_DSC": "Study of web development, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1109",
+            "dept_ID": 1,
+            "course_Name": "Computer Organization",
+            "course_Credits": 4,
+            "course_DSC": "Study of computer organization, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1110",
+            "dept_ID": 1,
+            "course_Name": "Operating Systems",
+            "course_Credits": 4,
+            "course_DSC": "Study of operating systems, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1111",
+            "dept_ID": 1,
+            "course_Name": "Algorithm Design",
+            "course_Credits": 4,
+            "course_DSC": "Study of algorithm design, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1112",
+            "dept_ID": 1,
+            "course_Name": "Introduction to Cybersecurity",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to cybersecurity, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1113",
+            "dept_ID": 1,
+            "course_Name": "Human-Computer Interaction",
+            "course_Credits": 4,
+            "course_DSC": "Study of human-computer interaction, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1114",
+            "dept_ID": 1,
+            "course_Name": "Mobile Application Development",
+            "course_Credits": 4,
+            "course_DSC": "Study of mobile application development, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1115",
+            "dept_ID": 1,
+            "course_Name": "Data Science Fundamentals",
+            "course_Credits": 4,
+            "course_DSC": "Study of data science fundamentals, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1116",
+            "dept_ID": 1,
+            "course_Name": "Programming Languages",
+            "course_Credits": 4,
+            "course_DSC": "Study of programming languages, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1117",
+            "dept_ID": 1,
+            "course_Name": "Software Testing",
+            "course_Credits": 4,
+            "course_DSC": "Study of software testing, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1118",
+            "dept_ID": 1,
+            "course_Name": "Computer Science Capstone",
+            "course_Credits": 4,
+            "course_DSC": "Study of computer science capstone, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "CS1501",
+            "dept_ID": 1,
+            "course_Name": "Advanced Algorithms",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced algorithms, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "CS1502",
+            "dept_ID": 1,
+            "course_Name": "Distributed Systems",
+            "course_Credits": 4,
+            "course_DSC": "Study of distributed systems, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "CS1503",
+            "dept_ID": 1,
+            "course_Name": "Machine Learning",
+            "course_Credits": 4,
+            "course_DSC": "Study of machine learning, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "CS1504",
+            "dept_ID": 1,
+            "course_Name": "Advanced Cybersecurity",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced cybersecurity, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "CS1505",
+            "dept_ID": 1,
+            "course_Name": "Advanced Database Research",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced database research, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "CS1506",
+            "dept_ID": 1,
+            "course_Name": "Software Architecture",
+            "course_Credits": 4,
+            "course_DSC": "Study of software architecture, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "EDU8101",
+            "dept_ID": 8,
+            "course_Name": "Foundations of Education",
+            "course_Credits": 4,
+            "course_DSC": "Study of foundations of education, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8102",
+            "dept_ID": 8,
+            "course_Name": "Educational Psychology",
+            "course_Credits": 4,
+            "course_DSC": "Study of educational psychology, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8103",
+            "dept_ID": 8,
+            "course_Name": "Curriculum Design",
+            "course_Credits": 4,
+            "course_DSC": "Study of curriculum design, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8104",
+            "dept_ID": 8,
+            "course_Name": "Classroom Assessment",
+            "course_Credits": 4,
+            "course_DSC": "Study of classroom assessment, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8105",
+            "dept_ID": 8,
+            "course_Name": "Educational Technology",
+            "course_Credits": 4,
+            "course_DSC": "Study of educational technology, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8106",
+            "dept_ID": 8,
+            "course_Name": "Introduction to Special Education",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to special education, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8107",
+            "dept_ID": 8,
+            "course_Name": "Child Development",
+            "course_Credits": 4,
+            "course_DSC": "Study of child development, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8108",
+            "dept_ID": 8,
+            "course_Name": "Schools and Society",
+            "course_Credits": 4,
+            "course_DSC": "Study of schools and society, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8109",
+            "dept_ID": 8,
+            "course_Name": "Learning and Motivation",
+            "course_Credits": 4,
+            "course_DSC": "Study of learning and motivation, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8110",
+            "dept_ID": 8,
+            "course_Name": "Literacy Foundations",
+            "course_Credits": 4,
+            "course_DSC": "Study of literacy foundations, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8111",
+            "dept_ID": 8,
+            "course_Name": "Teaching Mathematics",
+            "course_Credits": 4,
+            "course_DSC": "Study of teaching mathematics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8112",
+            "dept_ID": 8,
+            "course_Name": "Teaching Science",
+            "course_Credits": 4,
+            "course_DSC": "Study of teaching science, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8113",
+            "dept_ID": 8,
+            "course_Name": "Multicultural Education",
+            "course_Credits": 4,
+            "course_DSC": "Study of multicultural education, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8114",
+            "dept_ID": 8,
+            "course_Name": "Classroom Management",
+            "course_Credits": 4,
+            "course_DSC": "Study of classroom management, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8115",
+            "dept_ID": 8,
+            "course_Name": "Family and Community Partnerships",
+            "course_Credits": 4,
+            "course_DSC": "Study of family and community partnerships, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8116",
+            "dept_ID": 8,
+            "course_Name": "Educational Policy",
+            "course_Credits": 4,
+            "course_DSC": "Study of educational policy, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8117",
+            "dept_ID": 8,
+            "course_Name": "Teaching Methods Seminar",
+            "course_Credits": 4,
+            "course_DSC": "Study of teaching methods seminar, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8118",
+            "dept_ID": 8,
+            "course_Name": "Education Capstone",
+            "course_Credits": 4,
+            "course_DSC": "Study of education capstone, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "EDU8501",
+            "dept_ID": 8,
+            "course_Name": "Educational Leadership",
+            "course_Credits": 4,
+            "course_DSC": "Study of educational leadership, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "EDU8502",
+            "dept_ID": 8,
+            "course_Name": "Advanced Curriculum Studies",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced curriculum studies, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "EDU8503",
+            "dept_ID": 8,
+            "course_Name": "Research Methods in Education",
+            "course_Credits": 4,
+            "course_DSC": "Study of research methods in education, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "EDU8504",
+            "dept_ID": 8,
+            "course_Name": "Inclusive Education Seminar",
+            "course_Credits": 4,
+            "course_DSC": "Study of inclusive education seminar, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "EDU8505",
+            "dept_ID": 8,
+            "course_Name": "Education Policy Analysis",
+            "course_Credits": 4,
+            "course_DSC": "Study of education policy analysis, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "EDU8506",
+            "dept_ID": 8,
+            "course_Name": "Learning Sciences",
+            "course_Credits": 4,
+            "course_DSC": "Study of learning sciences, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ENG5101",
+            "dept_ID": 5,
+            "course_Name": "Introduction to Engineering",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to engineering, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5102",
+            "dept_ID": 5,
+            "course_Name": "Engineering Mechanics",
+            "course_Credits": 4,
+            "course_DSC": "Study of engineering mechanics, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5103",
+            "dept_ID": 5,
+            "course_Name": "Circuit Analysis",
+            "course_Credits": 4,
+            "course_DSC": "Study of circuit analysis, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5104",
+            "dept_ID": 5,
+            "course_Name": "Thermodynamics",
+            "course_Credits": 4,
+            "course_DSC": "Study of thermodynamics, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5105",
+            "dept_ID": 5,
+            "course_Name": "Materials Science",
+            "course_Credits": 4,
+            "course_DSC": "Study of materials science, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5106",
+            "dept_ID": 5,
+            "course_Name": "Engineering Design",
+            "course_Credits": 4,
+            "course_DSC": "Study of engineering design, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5107",
+            "dept_ID": 5,
+            "course_Name": "Engineering Graphics",
+            "course_Credits": 4,
+            "course_DSC": "Study of engineering graphics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5108",
+            "dept_ID": 5,
+            "course_Name": "Engineering Computing",
+            "course_Credits": 4,
+            "course_DSC": "Study of engineering computing, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5109",
+            "dept_ID": 5,
+            "course_Name": "Engineering Mathematics",
+            "course_Credits": 4,
+            "course_DSC": "Study of engineering mathematics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5110",
+            "dept_ID": 5,
+            "course_Name": "Statics",
+            "course_Credits": 4,
+            "course_DSC": "Study of statics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5111",
+            "dept_ID": 5,
+            "course_Name": "Dynamics",
+            "course_Credits": 4,
+            "course_DSC": "Study of dynamics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5112",
+            "dept_ID": 5,
+            "course_Name": "Digital Logic Design",
+            "course_Credits": 4,
+            "course_DSC": "Study of digital logic design, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5113",
+            "dept_ID": 5,
+            "course_Name": "Fluid Mechanics",
+            "course_Credits": 4,
+            "course_DSC": "Study of fluid mechanics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5114",
+            "dept_ID": 5,
+            "course_Name": "Manufacturing Processes",
+            "course_Credits": 4,
+            "course_DSC": "Study of manufacturing processes, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5115",
+            "dept_ID": 5,
+            "course_Name": "Engineering Ethics",
+            "course_Credits": 4,
+            "course_DSC": "Study of engineering ethics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5116",
+            "dept_ID": 5,
+            "course_Name": "Project Management for Engineers",
+            "course_Credits": 4,
+            "course_DSC": "Study of project management for engineers, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5117",
+            "dept_ID": 5,
+            "course_Name": "Renewable Energy Systems",
+            "course_Credits": 4,
+            "course_DSC": "Study of renewable energy systems, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5118",
+            "dept_ID": 5,
+            "course_Name": "Engineering Capstone",
+            "course_Credits": 4,
+            "course_DSC": "Study of engineering capstone, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENG5501",
+            "dept_ID": 5,
+            "course_Name": "Advanced Control Systems",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced control systems, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ENG5502",
+            "dept_ID": 5,
+            "course_Name": "Robotics and Automation",
+            "course_Credits": 4,
+            "course_DSC": "Study of robotics and automation, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ENG5503",
+            "dept_ID": 5,
+            "course_Name": "Computational Mechanics",
+            "course_Credits": 4,
+            "course_DSC": "Study of computational mechanics, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ENG5504",
+            "dept_ID": 5,
+            "course_Name": "Sustainable Engineering Systems",
+            "course_Credits": 4,
+            "course_DSC": "Study of sustainable engineering systems, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ENG5505",
+            "dept_ID": 5,
+            "course_Name": "Advanced Materials Engineering",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced materials engineering, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ENG5506",
+            "dept_ID": 5,
+            "course_Name": "Engineering Research Methods",
+            "course_Credits": 4,
+            "course_DSC": "Study of engineering research methods, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ENGL6101",
+            "dept_ID": 6,
+            "course_Name": "College Composition",
+            "course_Credits": 4,
+            "course_DSC": "Study of college composition, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6102",
+            "dept_ID": 6,
+            "course_Name": "Introduction to Literature",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to literature, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6103",
+            "dept_ID": 6,
+            "course_Name": "American Literature",
+            "course_Credits": 4,
+            "course_DSC": "Study of american literature, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6104",
+            "dept_ID": 6,
+            "course_Name": "British Literature",
+            "course_Credits": 4,
+            "course_DSC": "Study of british literature, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6105",
+            "dept_ID": 6,
+            "course_Name": "Creative Writing",
+            "course_Credits": 4,
+            "course_DSC": "Study of creative writing, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6106",
+            "dept_ID": 6,
+            "course_Name": "Introduction to Linguistics",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to linguistics, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6107",
+            "dept_ID": 6,
+            "course_Name": "Academic Reading and Writing",
+            "course_Credits": 4,
+            "course_DSC": "Study of academic reading and writing, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6108",
+            "dept_ID": 6,
+            "course_Name": "Literature and Society",
+            "course_Credits": 4,
+            "course_DSC": "Study of literature and society, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6109",
+            "dept_ID": 6,
+            "course_Name": "World Literature",
+            "course_Credits": 4,
+            "course_DSC": "Study of world literature, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6110",
+            "dept_ID": 6,
+            "course_Name": "Poetry",
+            "course_Credits": 4,
+            "course_DSC": "Study of poetry, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6111",
+            "dept_ID": 6,
+            "course_Name": "Drama",
+            "course_Credits": 4,
+            "course_DSC": "Study of drama, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6112",
+            "dept_ID": 6,
+            "course_Name": "The Short Story",
+            "course_Credits": 4,
+            "course_DSC": "Study of the short story, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6113",
+            "dept_ID": 6,
+            "course_Name": "Technical Writing",
+            "course_Credits": 4,
+            "course_DSC": "Study of technical writing, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6114",
+            "dept_ID": 6,
+            "course_Name": "Rhetoric and Argument",
+            "course_Credits": 4,
+            "course_DSC": "Study of rhetoric and argument, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6115",
+            "dept_ID": 6,
+            "course_Name": "Editing and Publishing",
+            "course_Credits": 4,
+            "course_DSC": "Study of editing and publishing, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6116",
+            "dept_ID": 6,
+            "course_Name": "Children's Literature",
+            "course_Credits": 4,
+            "course_DSC": "Study of children's literature, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6117",
+            "dept_ID": 6,
+            "course_Name": "Language and Culture",
+            "course_Credits": 4,
+            "course_DSC": "Study of language and culture, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6118",
+            "dept_ID": 6,
+            "course_Name": "English Capstone",
+            "course_Credits": 4,
+            "course_DSC": "Study of english capstone, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "ENGL6501",
+            "dept_ID": 6,
+            "course_Name": "Literary Theory",
+            "course_Credits": 4,
+            "course_DSC": "Study of literary theory, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ENGL6502",
+            "dept_ID": 6,
+            "course_Name": "Advanced Writing Workshop",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced writing workshop, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ENGL6503",
+            "dept_ID": 6,
+            "course_Name": "Contemporary Literature",
+            "course_Credits": 4,
+            "course_DSC": "Study of contemporary literature, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ENGL6504",
+            "dept_ID": 6,
+            "course_Name": "Applied Linguistics",
+            "course_Credits": 4,
+            "course_DSC": "Study of applied linguistics, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ENGL6505",
+            "dept_ID": 6,
+            "course_Name": "Research Methods in Literary Studies",
+            "course_Credits": 4,
+            "course_DSC": "Study of research methods in literary studies, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "ENGL6506",
+            "dept_ID": 6,
+            "course_Name": "Comparative Literature",
+            "course_Credits": 4,
+            "course_DSC": "Study of comparative literature, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "HSC9101",
+            "dept_ID": 9,
+            "course_Name": "Introduction to Health Sciences",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to health sciences, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9102",
+            "dept_ID": 9,
+            "course_Name": "Human Anatomy",
+            "course_Credits": 4,
+            "course_DSC": "Study of human anatomy, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9103",
+            "dept_ID": 9,
+            "course_Name": "Human Physiology",
+            "course_Credits": 4,
+            "course_DSC": "Study of human physiology, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9104",
+            "dept_ID": 9,
+            "course_Name": "Principles of Nutrition",
+            "course_Credits": 4,
+            "course_DSC": "Study of principles of nutrition, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9105",
+            "dept_ID": 9,
+            "course_Name": "Introduction to Public Health",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to public health, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9106",
+            "dept_ID": 9,
+            "course_Name": "Health Administration",
+            "course_Credits": 4,
+            "course_DSC": "Study of health administration, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9107",
+            "dept_ID": 9,
+            "course_Name": "Medical Terminology",
+            "course_Credits": 4,
+            "course_DSC": "Study of medical terminology, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9108",
+            "dept_ID": 9,
+            "course_Name": "Health and Wellness",
+            "course_Credits": 4,
+            "course_DSC": "Study of health and wellness, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9109",
+            "dept_ID": 9,
+            "course_Name": "Health Communication",
+            "course_Credits": 4,
+            "course_DSC": "Study of health communication, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9110",
+            "dept_ID": 9,
+            "course_Name": "Human Development Across the Lifespan",
+            "course_Credits": 4,
+            "course_DSC": "Study of human development across the lifespan, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9111",
+            "dept_ID": 9,
+            "course_Name": "Healthcare Ethics",
+            "course_Credits": 4,
+            "course_DSC": "Study of healthcare ethics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9112",
+            "dept_ID": 9,
+            "course_Name": "Health Statistics",
+            "course_Credits": 4,
+            "course_DSC": "Study of health statistics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9113",
+            "dept_ID": 9,
+            "course_Name": "Community Health",
+            "course_Credits": 4,
+            "course_DSC": "Study of community health, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9114",
+            "dept_ID": 9,
+            "course_Name": "Environmental Health",
+            "course_Credits": 4,
+            "course_DSC": "Study of environmental health, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9115",
+            "dept_ID": 9,
+            "course_Name": "Health Informatics",
+            "course_Credits": 4,
+            "course_DSC": "Study of health informatics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9116",
+            "dept_ID": 9,
+            "course_Name": "Healthcare Finance",
+            "course_Credits": 4,
+            "course_DSC": "Study of healthcare finance, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9117",
+            "dept_ID": 9,
+            "course_Name": "Evidence-Based Health Practice",
+            "course_Credits": 4,
+            "course_DSC": "Study of evidence-based health practice, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9118",
+            "dept_ID": 9,
+            "course_Name": "Health Sciences Capstone",
+            "course_Credits": 4,
+            "course_DSC": "Study of health sciences capstone, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "HSC9501",
+            "dept_ID": 9,
+            "course_Name": "Epidemiology",
+            "course_Credits": 4,
+            "course_DSC": "Study of epidemiology, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "HSC9502",
+            "dept_ID": 9,
+            "course_Name": "Health Policy Analysis",
+            "course_Credits": 4,
+            "course_DSC": "Study of health policy analysis, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "HSC9503",
+            "dept_ID": 9,
+            "course_Name": "Advanced Community Health",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced community health, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "HSC9504",
+            "dept_ID": 9,
+            "course_Name": "Healthcare Quality Management",
+            "course_Credits": 4,
+            "course_DSC": "Study of healthcare quality management, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "HSC9505",
+            "dept_ID": 9,
+            "course_Name": "Biostatistics",
+            "course_Credits": 4,
+            "course_DSC": "Study of biostatistics, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "HSC9506",
+            "dept_ID": 9,
+            "course_Name": "Health Services Research",
+            "course_Credits": 4,
+            "course_DSC": "Study of health services research, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "MATH3101",
+            "dept_ID": 3,
+            "course_Name": "Calculus I",
+            "course_Credits": 4,
+            "course_DSC": "Study of calculus i, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3102",
+            "dept_ID": 3,
+            "course_Name": "Calculus II",
+            "course_Credits": 4,
+            "course_DSC": "Study of calculus ii, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3103",
+            "dept_ID": 3,
+            "course_Name": "Linear Algebra",
+            "course_Credits": 4,
+            "course_DSC": "Study of linear algebra, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3104",
+            "dept_ID": 3,
+            "course_Name": "Discrete Mathematics",
+            "course_Credits": 4,
+            "course_DSC": "Study of discrete mathematics, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3105",
+            "dept_ID": 3,
+            "course_Name": "Probability and Statistics",
+            "course_Credits": 4,
+            "course_DSC": "Study of probability and statistics, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3106",
+            "dept_ID": 3,
+            "course_Name": "Differential Equations",
+            "course_Credits": 4,
+            "course_DSC": "Study of differential equations, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3107",
+            "dept_ID": 3,
+            "course_Name": "College Algebra",
+            "course_Credits": 4,
+            "course_DSC": "Study of college algebra, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3108",
+            "dept_ID": 3,
+            "course_Name": "Precalculus",
+            "course_Credits": 4,
+            "course_DSC": "Study of precalculus, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3109",
+            "dept_ID": 3,
+            "course_Name": "Mathematical Reasoning",
+            "course_Credits": 4,
+            "course_DSC": "Study of mathematical reasoning, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3110",
+            "dept_ID": 3,
+            "course_Name": "Calculus III",
+            "course_Credits": 4,
+            "course_DSC": "Study of calculus iii, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3111",
+            "dept_ID": 3,
+            "course_Name": "Introduction to Proofs",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to proofs, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3112",
+            "dept_ID": 3,
+            "course_Name": "Numerical Methods",
+            "course_Credits": 4,
+            "course_DSC": "Study of numerical methods, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3113",
+            "dept_ID": 3,
+            "course_Name": "Abstract Algebra Fundamentals",
+            "course_Credits": 4,
+            "course_DSC": "Study of abstract algebra fundamentals, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3114",
+            "dept_ID": 3,
+            "course_Name": "Geometry",
+            "course_Credits": 4,
+            "course_DSC": "Study of geometry, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3115",
+            "dept_ID": 3,
+            "course_Name": "Mathematical Modeling",
+            "course_Credits": 4,
+            "course_DSC": "Study of mathematical modeling, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3116",
+            "dept_ID": 3,
+            "course_Name": "Statistical Computing",
+            "course_Credits": 4,
+            "course_DSC": "Study of statistical computing, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3117",
+            "dept_ID": 3,
+            "course_Name": "History of Mathematics",
+            "course_Credits": 4,
+            "course_DSC": "Study of history of mathematics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3118",
+            "dept_ID": 3,
+            "course_Name": "Mathematics Capstone",
+            "course_Credits": 4,
+            "course_DSC": "Study of mathematics capstone, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "MATH3501",
+            "dept_ID": 3,
+            "course_Name": "Real Analysis",
+            "course_Credits": 4,
+            "course_DSC": "Study of real analysis, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "MATH3502",
+            "dept_ID": 3,
+            "course_Name": "Abstract Algebra",
+            "course_Credits": 4,
+            "course_DSC": "Study of abstract algebra, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "MATH3503",
+            "dept_ID": 3,
+            "course_Name": "Advanced Statistical Methods",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced statistical methods, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "MATH3504",
+            "dept_ID": 3,
+            "course_Name": "Mathematical Optimization",
+            "course_Credits": 4,
+            "course_DSC": "Study of mathematical optimization, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "MATH3505",
+            "dept_ID": 3,
+            "course_Name": "Topology",
+            "course_Credits": 4,
+            "course_DSC": "Study of topology, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "MATH3506",
+            "dept_ID": 3,
+            "course_Name": "Numerical Analysis",
+            "course_Credits": 4,
+            "course_DSC": "Study of numerical analysis, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "SCI4101",
+            "dept_ID": 4,
+            "course_Name": "General Biology",
+            "course_Credits": 4,
+            "course_DSC": "Study of general biology, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4102",
+            "dept_ID": 4,
+            "course_Name": "General Chemistry",
+            "course_Credits": 4,
+            "course_DSC": "Study of general chemistry, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4103",
+            "dept_ID": 4,
+            "course_Name": "General Physics",
+            "course_Credits": 4,
+            "course_DSC": "Study of general physics, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4104",
+            "dept_ID": 4,
+            "course_Name": "Environmental Science",
+            "course_Credits": 4,
+            "course_DSC": "Study of environmental science, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4105",
+            "dept_ID": 4,
+            "course_Name": "Genetics",
+            "course_Credits": 4,
+            "course_DSC": "Study of genetics, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4106",
+            "dept_ID": 4,
+            "course_Name": "Biochemistry",
+            "course_Credits": 4,
+            "course_DSC": "Study of biochemistry, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4107",
+            "dept_ID": 4,
+            "course_Name": "Introduction to Scientific Inquiry",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to scientific inquiry, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4108",
+            "dept_ID": 4,
+            "course_Name": "Earth Science",
+            "course_Credits": 4,
+            "course_DSC": "Study of earth science, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4109",
+            "dept_ID": 4,
+            "course_Name": "Astronomy",
+            "course_Credits": 4,
+            "course_DSC": "Study of astronomy, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4110",
+            "dept_ID": 4,
+            "course_Name": "Ecology",
+            "course_Credits": 4,
+            "course_DSC": "Study of ecology, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4111",
+            "dept_ID": 4,
+            "course_Name": "Organic Chemistry I",
+            "course_Credits": 4,
+            "course_DSC": "Study of organic chemistry i, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4112",
+            "dept_ID": 4,
+            "course_Name": "Organic Chemistry II",
+            "course_Credits": 4,
+            "course_DSC": "Study of organic chemistry ii, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4113",
+            "dept_ID": 4,
+            "course_Name": "Cell Biology",
+            "course_Credits": 4,
+            "course_DSC": "Study of cell biology, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4114",
+            "dept_ID": 4,
+            "course_Name": "Microbiology",
+            "course_Credits": 4,
+            "course_DSC": "Study of microbiology, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4115",
+            "dept_ID": 4,
+            "course_Name": "Conservation Biology",
+            "course_Credits": 4,
+            "course_DSC": "Study of conservation biology, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4116",
+            "dept_ID": 4,
+            "course_Name": "Scientific Data Analysis",
+            "course_Credits": 4,
+            "course_DSC": "Study of scientific data analysis, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4117",
+            "dept_ID": 4,
+            "course_Name": "Science Communication",
+            "course_Credits": 4,
+            "course_DSC": "Study of science communication, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4118",
+            "dept_ID": 4,
+            "course_Name": "Natural Sciences Capstone",
+            "course_Credits": 4,
+            "course_DSC": "Study of natural sciences capstone, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SCI4501",
+            "dept_ID": 4,
+            "course_Name": "Molecular Biology",
+            "course_Credits": 4,
+            "course_DSC": "Study of molecular biology, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "SCI4502",
+            "dept_ID": 4,
+            "course_Name": "Advanced Analytical Chemistry",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced analytical chemistry, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "SCI4503",
+            "dept_ID": 4,
+            "course_Name": "Environmental Research Methods",
+            "course_Credits": 4,
+            "course_DSC": "Study of environmental research methods, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "SCI4504",
+            "dept_ID": 4,
+            "course_Name": "Computational Physics",
+            "course_Credits": 4,
+            "course_DSC": "Study of computational physics, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "SCI4505",
+            "dept_ID": 4,
+            "course_Name": "Advanced Ecology",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced ecology, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "SCI4506",
+            "dept_ID": 4,
+            "course_Name": "Interdisciplinary Science Seminar",
+            "course_Credits": 4,
+            "course_DSC": "Study of interdisciplinary science seminar, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "SOC7101",
+            "dept_ID": 7,
+            "course_Name": "Introduction to Psychology",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to psychology, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7102",
+            "dept_ID": 7,
+            "course_Name": "Introduction to Sociology",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to sociology, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7103",
+            "dept_ID": 7,
+            "course_Name": "Introduction to Political Science",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to political science, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7104",
+            "dept_ID": 7,
+            "course_Name": "Principles of Economics",
+            "course_Credits": 4,
+            "course_DSC": "Study of principles of economics, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7105",
+            "dept_ID": 7,
+            "course_Name": "World History",
+            "course_Credits": 4,
+            "course_DSC": "Study of world history, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7106",
+            "dept_ID": 7,
+            "course_Name": "Social Science Research Methods",
+            "course_Credits": 4,
+            "course_DSC": "Study of social science research methods, including foundational concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7107",
+            "dept_ID": 7,
+            "course_Name": "Cultural Anthropology",
+            "course_Credits": 4,
+            "course_DSC": "Study of cultural anthropology, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7108",
+            "dept_ID": 7,
+            "course_Name": "Human Geography",
+            "course_Credits": 4,
+            "course_DSC": "Study of human geography, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7109",
+            "dept_ID": 7,
+            "course_Name": "American Government",
+            "course_Credits": 4,
+            "course_DSC": "Study of american government, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7110",
+            "dept_ID": 7,
+            "course_Name": "Social Problems",
+            "course_Credits": 4,
+            "course_DSC": "Study of social problems, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7111",
+            "dept_ID": 7,
+            "course_Name": "Developmental Psychology",
+            "course_Credits": 4,
+            "course_DSC": "Study of developmental psychology, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7112",
+            "dept_ID": 7,
+            "course_Name": "Social Psychology",
+            "course_Credits": 4,
+            "course_DSC": "Study of social psychology, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7113",
+            "dept_ID": 7,
+            "course_Name": "Comparative Politics",
+            "course_Credits": 4,
+            "course_DSC": "Study of comparative politics, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7114",
+            "dept_ID": 7,
+            "course_Name": "Introduction to Criminology",
+            "course_Credits": 4,
+            "course_DSC": "Study of introduction to criminology, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7115",
+            "dept_ID": 7,
+            "course_Name": "Economic Inequality",
+            "course_Credits": 4,
+            "course_DSC": "Study of economic inequality, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7116",
+            "dept_ID": 7,
+            "course_Name": "Modern American History",
+            "course_Credits": 4,
+            "course_DSC": "Study of modern american history, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7117",
+            "dept_ID": 7,
+            "course_Name": "Ethics and Society",
+            "course_Credits": 4,
+            "course_DSC": "Study of ethics and society, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7118",
+            "dept_ID": 7,
+            "course_Name": "Social Sciences Capstone",
+            "course_Credits": 4,
+            "course_DSC": "Study of social sciences capstone, including foundational and intermediate concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Undergraduate"
+        },
+        {
+            "course_ID": "SOC7501",
+            "dept_ID": 7,
+            "course_Name": "Advanced Social Research",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced social research, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "SOC7502",
+            "dept_ID": 7,
+            "course_Name": "Political Theory",
+            "course_Credits": 4,
+            "course_DSC": "Study of political theory, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "SOC7503",
+            "dept_ID": 7,
+            "course_Name": "Behavioral Science Seminar",
+            "course_Credits": 4,
+            "course_DSC": "Study of behavioral science seminar, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "SOC7504",
+            "dept_ID": 7,
+            "course_Name": "Social Policy Analysis",
+            "course_Credits": 4,
+            "course_DSC": "Study of social policy analysis, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "SOC7505",
+            "dept_ID": 7,
+            "course_Name": "Advanced Comparative Politics",
+            "course_Credits": 4,
+            "course_DSC": "Study of advanced comparative politics, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        },
+        {
+            "course_ID": "SOC7506",
+            "dept_ID": 7,
+            "course_Name": "Historical Research Methods",
+            "course_Credits": 4,
+            "course_DSC": "Study of historical research methods, including advanced concepts, practical applications, and analysis of relevant problems.",
+            "course_Type": "Graduate"
+        }
+    ],
+    "prerequisites": [
+        {
+            "course_ID": "ART10102",
+            "prerequisite_course_ID": "ART10101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10105",
+            "prerequisite_course_ID": "ART10101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10106",
+            "prerequisite_course_ID": "ART10102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10110",
+            "prerequisite_course_ID": "ART10101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10111",
+            "prerequisite_course_ID": "ART10103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10112",
+            "prerequisite_course_ID": "ART10105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10113",
+            "prerequisite_course_ID": "ART10101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10114",
+            "prerequisite_course_ID": "ART10101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10116",
+            "prerequisite_course_ID": "ART10108",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10117",
+            "prerequisite_course_ID": "ART10102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10118",
+            "prerequisite_course_ID": "ART10105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10118",
+            "prerequisite_course_ID": "ART10116",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10502",
+            "prerequisite_course_ID": "ART10503",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10504",
+            "prerequisite_course_ID": "ART10503",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10505",
+            "prerequisite_course_ID": "ART10503",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ART10506",
+            "prerequisite_course_ID": "ART10501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2103",
+            "prerequisite_course_ID": "BUS2102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2104",
+            "prerequisite_course_ID": "BUS2101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2105",
+            "prerequisite_course_ID": "BUS2102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2106",
+            "prerequisite_course_ID": "BUS2101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2108",
+            "prerequisite_course_ID": "BUS2101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2111",
+            "prerequisite_course_ID": "BUS2101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2112",
+            "prerequisite_course_ID": "BUS2101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2113",
+            "prerequisite_course_ID": "BUS2111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2114",
+            "prerequisite_course_ID": "BUS2106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2115",
+            "prerequisite_course_ID": "BUS2104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2116",
+            "prerequisite_course_ID": "BUS2102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2117",
+            "prerequisite_course_ID": "BUS2103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2118",
+            "prerequisite_course_ID": "BUS2105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2118",
+            "prerequisite_course_ID": "BUS2113",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2504",
+            "prerequisite_course_ID": "BUS2501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2505",
+            "prerequisite_course_ID": "BUS2501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "BUS2506",
+            "prerequisite_course_ID": "BUS2503",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1102",
+            "prerequisite_course_ID": "CS1101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1103",
+            "prerequisite_course_ID": "CS1102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1104",
+            "prerequisite_course_ID": "CS1103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1105",
+            "prerequisite_course_ID": "CS1103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1106",
+            "prerequisite_course_ID": "CS1104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1108",
+            "prerequisite_course_ID": "CS1101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1109",
+            "prerequisite_course_ID": "CS1107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1110",
+            "prerequisite_course_ID": "CS1103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1110",
+            "prerequisite_course_ID": "CS1109",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1111",
+            "prerequisite_course_ID": "CS1103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1112",
+            "prerequisite_course_ID": "CS1107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1113",
+            "prerequisite_course_ID": "CS1108",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1114",
+            "prerequisite_course_ID": "CS1102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1115",
+            "prerequisite_course_ID": "CS1101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1116",
+            "prerequisite_course_ID": "CS1103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1117",
+            "prerequisite_course_ID": "CS1106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1118",
+            "prerequisite_course_ID": "CS1106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1118",
+            "prerequisite_course_ID": "CS1111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1502",
+            "prerequisite_course_ID": "CS1501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1503",
+            "prerequisite_course_ID": "CS1501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1505",
+            "prerequisite_course_ID": "CS1501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "CS1506",
+            "prerequisite_course_ID": "CS1502",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8102",
+            "prerequisite_course_ID": "EDU8101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8103",
+            "prerequisite_course_ID": "EDU8101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8104",
+            "prerequisite_course_ID": "EDU8103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8105",
+            "prerequisite_course_ID": "EDU8101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8106",
+            "prerequisite_course_ID": "EDU8102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8109",
+            "prerequisite_course_ID": "EDU8102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8110",
+            "prerequisite_course_ID": "EDU8101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8111",
+            "prerequisite_course_ID": "EDU8103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8112",
+            "prerequisite_course_ID": "EDU8103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8113",
+            "prerequisite_course_ID": "EDU8101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8114",
+            "prerequisite_course_ID": "EDU8102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8115",
+            "prerequisite_course_ID": "EDU8107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8116",
+            "prerequisite_course_ID": "EDU8101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8117",
+            "prerequisite_course_ID": "EDU8103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8117",
+            "prerequisite_course_ID": "EDU8104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8118",
+            "prerequisite_course_ID": "EDU8117",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8502",
+            "prerequisite_course_ID": "EDU8503",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8504",
+            "prerequisite_course_ID": "EDU8503",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8505",
+            "prerequisite_course_ID": "EDU8503",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "EDU8506",
+            "prerequisite_course_ID": "EDU8503",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5102",
+            "prerequisite_course_ID": "ENG5101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5103",
+            "prerequisite_course_ID": "ENG5101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5104",
+            "prerequisite_course_ID": "ENG5102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5105",
+            "prerequisite_course_ID": "ENG5101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5106",
+            "prerequisite_course_ID": "ENG5102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5106",
+            "prerequisite_course_ID": "ENG5103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5108",
+            "prerequisite_course_ID": "ENG5101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5109",
+            "prerequisite_course_ID": "ENG5101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5110",
+            "prerequisite_course_ID": "ENG5102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5111",
+            "prerequisite_course_ID": "ENG5110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5112",
+            "prerequisite_course_ID": "ENG5103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5113",
+            "prerequisite_course_ID": "ENG5104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5114",
+            "prerequisite_course_ID": "ENG5105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5116",
+            "prerequisite_course_ID": "ENG5101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5117",
+            "prerequisite_course_ID": "ENG5103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5117",
+            "prerequisite_course_ID": "ENG5104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5118",
+            "prerequisite_course_ID": "ENG5106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5118",
+            "prerequisite_course_ID": "ENG5116",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5502",
+            "prerequisite_course_ID": "ENG5501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENG5505",
+            "prerequisite_course_ID": "ENG5506",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6103",
+            "prerequisite_course_ID": "ENGL6102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6104",
+            "prerequisite_course_ID": "ENGL6102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6105",
+            "prerequisite_course_ID": "ENGL6101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6108",
+            "prerequisite_course_ID": "ENGL6102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6109",
+            "prerequisite_course_ID": "ENGL6102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6110",
+            "prerequisite_course_ID": "ENGL6102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6111",
+            "prerequisite_course_ID": "ENGL6102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6112",
+            "prerequisite_course_ID": "ENGL6102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6113",
+            "prerequisite_course_ID": "ENGL6101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6114",
+            "prerequisite_course_ID": "ENGL6101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6115",
+            "prerequisite_course_ID": "ENGL6101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6116",
+            "prerequisite_course_ID": "ENGL6102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6117",
+            "prerequisite_course_ID": "ENGL6106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6118",
+            "prerequisite_course_ID": "ENGL6103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6118",
+            "prerequisite_course_ID": "ENGL6114",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6503",
+            "prerequisite_course_ID": "ENGL6501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6506",
+            "prerequisite_course_ID": "ENGL6501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "ENGL6506",
+            "prerequisite_course_ID": "ENGL6505",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9102",
+            "prerequisite_course_ID": "HSC9101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9103",
+            "prerequisite_course_ID": "HSC9102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9104",
+            "prerequisite_course_ID": "HSC9103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9105",
+            "prerequisite_course_ID": "HSC9101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9106",
+            "prerequisite_course_ID": "HSC9101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9109",
+            "prerequisite_course_ID": "HSC9101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9110",
+            "prerequisite_course_ID": "HSC9101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9111",
+            "prerequisite_course_ID": "HSC9101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9112",
+            "prerequisite_course_ID": "HSC9101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9113",
+            "prerequisite_course_ID": "HSC9105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9114",
+            "prerequisite_course_ID": "HSC9105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9115",
+            "prerequisite_course_ID": "HSC9106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9116",
+            "prerequisite_course_ID": "HSC9106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9117",
+            "prerequisite_course_ID": "HSC9112",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9118",
+            "prerequisite_course_ID": "HSC9106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9118",
+            "prerequisite_course_ID": "HSC9117",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9503",
+            "prerequisite_course_ID": "HSC9501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9504",
+            "prerequisite_course_ID": "HSC9502",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9505",
+            "prerequisite_course_ID": "HSC9501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "HSC9506",
+            "prerequisite_course_ID": "HSC9505",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3102",
+            "prerequisite_course_ID": "MATH3101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3103",
+            "prerequisite_course_ID": "MATH3101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3105",
+            "prerequisite_course_ID": "MATH3101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3106",
+            "prerequisite_course_ID": "MATH3102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3106",
+            "prerequisite_course_ID": "MATH3103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3108",
+            "prerequisite_course_ID": "MATH3107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3110",
+            "prerequisite_course_ID": "MATH3102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3111",
+            "prerequisite_course_ID": "MATH3109",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3112",
+            "prerequisite_course_ID": "MATH3103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3113",
+            "prerequisite_course_ID": "MATH3111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3114",
+            "prerequisite_course_ID": "MATH3111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3115",
+            "prerequisite_course_ID": "MATH3106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3116",
+            "prerequisite_course_ID": "MATH3105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3118",
+            "prerequisite_course_ID": "MATH3113",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3118",
+            "prerequisite_course_ID": "MATH3115",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3504",
+            "prerequisite_course_ID": "MATH3501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3505",
+            "prerequisite_course_ID": "MATH3501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "MATH3506",
+            "prerequisite_course_ID": "MATH3504",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4104",
+            "prerequisite_course_ID": "SCI4101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4105",
+            "prerequisite_course_ID": "SCI4101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4106",
+            "prerequisite_course_ID": "SCI4101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4106",
+            "prerequisite_course_ID": "SCI4102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4110",
+            "prerequisite_course_ID": "SCI4101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4111",
+            "prerequisite_course_ID": "SCI4102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4112",
+            "prerequisite_course_ID": "SCI4111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4113",
+            "prerequisite_course_ID": "SCI4101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4114",
+            "prerequisite_course_ID": "SCI4113",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4115",
+            "prerequisite_course_ID": "SCI4110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4116",
+            "prerequisite_course_ID": "SCI4107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4117",
+            "prerequisite_course_ID": "SCI4107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4118",
+            "prerequisite_course_ID": "SCI4105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4118",
+            "prerequisite_course_ID": "SCI4116",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4505",
+            "prerequisite_course_ID": "SCI4503",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SCI4506",
+            "prerequisite_course_ID": "SCI4505",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7106",
+            "prerequisite_course_ID": "SOC7101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7106",
+            "prerequisite_course_ID": "SOC7102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7109",
+            "prerequisite_course_ID": "SOC7103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7110",
+            "prerequisite_course_ID": "SOC7102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7111",
+            "prerequisite_course_ID": "SOC7101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7112",
+            "prerequisite_course_ID": "SOC7101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7113",
+            "prerequisite_course_ID": "SOC7103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7114",
+            "prerequisite_course_ID": "SOC7102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7115",
+            "prerequisite_course_ID": "SOC7104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7116",
+            "prerequisite_course_ID": "SOC7105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7118",
+            "prerequisite_course_ID": "SOC7106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7503",
+            "prerequisite_course_ID": "SOC7501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7504",
+            "prerequisite_course_ID": "SOC7501",
+            "min_Grade_Req": "C"
+        },
+        {
+            "course_ID": "SOC7505",
+            "prerequisite_course_ID": "SOC7502",
+            "min_Grade_Req": "C"
+        }
+    ],
+    "majors": [
+        {
+            "major_ID": 1,
+            "major_Name": "Computer Science",
+            "dept_ID": 1
+        },
+        {
+            "major_ID": 2,
+            "major_Name": "Cybersecurity",
+            "dept_ID": 1
+        },
+        {
+            "major_ID": 3,
+            "major_Name": "Business Administration",
+            "dept_ID": 2
+        },
+        {
+            "major_ID": 4,
+            "major_Name": "Accounting",
+            "dept_ID": 2
+        },
+        {
+            "major_ID": 5,
+            "major_Name": "Mathematics",
+            "dept_ID": 3
+        },
+        {
+            "major_ID": 6,
+            "major_Name": "Biology",
+            "dept_ID": 4
+        },
+        {
+            "major_ID": 7,
+            "major_Name": "Engineering",
+            "dept_ID": 5
+        },
+        {
+            "major_ID": 8,
+            "major_Name": "English",
+            "dept_ID": 6
+        },
+        {
+            "major_ID": 9,
+            "major_Name": "Psychology",
+            "dept_ID": 7
+        },
+        {
+            "major_ID": 10,
+            "major_Name": "Education",
+            "dept_ID": 8
+        },
+        {
+            "major_ID": 11,
+            "major_Name": "Health Sciences",
+            "dept_ID": 9
+        },
+        {
+            "major_ID": 12,
+            "major_Name": "Media Studies",
+            "dept_ID": 10
+        }
+    ],
+    "minors": [
+        {
+            "minor_ID": 1,
+            "minor_Name": "Computer Science",
+            "dept_ID": 1
+        },
+        {
+            "minor_ID": 2,
+            "minor_Name": "Cybersecurity",
+            "dept_ID": 1
+        },
+        {
+            "minor_ID": 3,
+            "minor_Name": "Business Administration",
+            "dept_ID": 2
+        },
+        {
+            "minor_ID": 4,
+            "minor_Name": "Marketing",
+            "dept_ID": 2
+        },
+        {
+            "minor_ID": 5,
+            "minor_Name": "Mathematics",
+            "dept_ID": 3
+        },
+        {
+            "minor_ID": 6,
+            "minor_Name": "Environmental Science",
+            "dept_ID": 4
+        },
+        {
+            "minor_ID": 7,
+            "minor_Name": "Engineering",
+            "dept_ID": 5
+        },
+        {
+            "minor_ID": 8,
+            "minor_Name": "Creative Writing",
+            "dept_ID": 6
+        },
+        {
+            "minor_ID": 9,
+            "minor_Name": "Sociology",
+            "dept_ID": 7
+        },
+        {
+            "minor_ID": 10,
+            "minor_Name": "Education",
+            "dept_ID": 8
+        },
+        {
+            "minor_ID": 11,
+            "minor_Name": "Public Health",
+            "dept_ID": 9
+        },
+        {
+            "minor_ID": 12,
+            "minor_Name": "Digital Media",
+            "dept_ID": 10
+        }
+    ],
+    "majorRequirements": [
+        {
+            "major_ID": 1,
+            "course_ID": "CS1101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 1,
+            "course_ID": "CS1102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 1,
+            "course_ID": "CS1103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 1,
+            "course_ID": "CS1104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 1,
+            "course_ID": "CS1105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 1,
+            "course_ID": "CS1106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 1,
+            "course_ID": "CS1107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 1,
+            "course_ID": "CS1109",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 1,
+            "course_ID": "CS1110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 1,
+            "course_ID": "CS1111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 1,
+            "course_ID": "CS1116",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 1,
+            "course_ID": "CS1117",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 1,
+            "course_ID": "CS1118",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1109",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1112",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1114",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 2,
+            "course_ID": "CS1118",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2112",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2113",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2114",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2115",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 3,
+            "course_ID": "BUS2118",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2108",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2109",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2113",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2116",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2117",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 4,
+            "course_ID": "BUS2118",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3109",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3112",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3113",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3115",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 5,
+            "course_ID": "MATH3118",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4113",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4114",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4115",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4116",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 6,
+            "course_ID": "SCI4118",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5108",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5109",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5116",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 7,
+            "course_ID": "ENG5118",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6108",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6113",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6114",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6116",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6117",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 8,
+            "course_ID": "ENGL6118",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7108",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7109",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7112",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7114",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 9,
+            "course_ID": "SOC7118",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8109",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8114",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8117",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 10,
+            "course_ID": "EDU8118",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9109",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9112",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9113",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9115",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9117",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 11,
+            "course_ID": "HSC9118",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10108",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10112",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10116",
+            "min_Grade_Req": "C"
+        },
+        {
+            "major_ID": 12,
+            "course_ID": "ART10118",
+            "min_Grade_Req": "C"
+        }
+    ],
+    "minorRequirements": [
+        {
+            "minor_ID": 1,
+            "course_ID": "CS1101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 1,
+            "course_ID": "CS1102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 1,
+            "course_ID": "CS1103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 1,
+            "course_ID": "CS1104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 1,
+            "course_ID": "CS1115",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 2,
+            "course_ID": "CS1101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 2,
+            "course_ID": "CS1102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 2,
+            "course_ID": "CS1103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 2,
+            "course_ID": "CS1105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 2,
+            "course_ID": "CS1107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 2,
+            "course_ID": "CS1112",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 3,
+            "course_ID": "BUS2101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 3,
+            "course_ID": "BUS2102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 3,
+            "course_ID": "BUS2104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 3,
+            "course_ID": "BUS2105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 3,
+            "course_ID": "BUS2111",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 4,
+            "course_ID": "BUS2101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 4,
+            "course_ID": "BUS2104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 4,
+            "course_ID": "BUS2107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 4,
+            "course_ID": "BUS2112",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 4,
+            "course_ID": "BUS2115",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 5,
+            "course_ID": "MATH3101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 5,
+            "course_ID": "MATH3102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 5,
+            "course_ID": "MATH3103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 5,
+            "course_ID": "MATH3105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 5,
+            "course_ID": "MATH3106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 6,
+            "course_ID": "SCI4101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 6,
+            "course_ID": "SCI4104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 6,
+            "course_ID": "SCI4107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 6,
+            "course_ID": "SCI4110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 6,
+            "course_ID": "SCI4115",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 7,
+            "course_ID": "ENG5101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 7,
+            "course_ID": "ENG5102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 7,
+            "course_ID": "ENG5103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 7,
+            "course_ID": "ENG5105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 7,
+            "course_ID": "ENG5106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 8,
+            "course_ID": "ENGL6101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 8,
+            "course_ID": "ENGL6102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 8,
+            "course_ID": "ENGL6105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 8,
+            "course_ID": "ENGL6112",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 8,
+            "course_ID": "ENGL6114",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 9,
+            "course_ID": "SOC7101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 9,
+            "course_ID": "SOC7102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 9,
+            "course_ID": "SOC7106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 9,
+            "course_ID": "SOC7107",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 9,
+            "course_ID": "SOC7110",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 10,
+            "course_ID": "EDU8101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 10,
+            "course_ID": "EDU8102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 10,
+            "course_ID": "EDU8103",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 10,
+            "course_ID": "EDU8104",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 10,
+            "course_ID": "EDU8117",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 11,
+            "course_ID": "HSC9101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 11,
+            "course_ID": "HSC9102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 11,
+            "course_ID": "HSC9105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 11,
+            "course_ID": "HSC9112",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 11,
+            "course_ID": "HSC9113",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 12,
+            "course_ID": "ART10101",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 12,
+            "course_ID": "ART10102",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 12,
+            "course_ID": "ART10105",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 12,
+            "course_ID": "ART10106",
+            "min_Grade_Req": "C"
+        },
+        {
+            "minor_ID": 12,
+            "course_ID": "ART10114",
+            "min_Grade_Req": "C"
+        }
+    ],
+    "terms": [
+        {
+            "semester_ID": 1,
+            "semester_Name": "Fall 2026"
+        },
+        {
+            "semester_ID": 2,
+            "semester_Name": "Spring 2027"
+        },
+        {
+            "semester_ID": 3,
+            "semester_Name": "Fall 2022"
+        },
+        {
+            "semester_ID": 4,
+            "semester_Name": "Spring 2023"
+        },
+        {
+            "semester_ID": 5,
+            "semester_Name": "Fall 2023"
+        },
+        {
+            "semester_ID": 6,
+            "semester_Name": "Spring 2024"
+        },
+        {
+            "semester_ID": 7,
+            "semester_Name": "Fall 2024"
+        },
+        {
+            "semester_ID": 8,
+            "semester_Name": "Spring 2025"
+        },
+        {
+            "semester_ID": 9,
+            "semester_Name": "Fall 2025"
+        },
+        {
+            "semester_ID": 10,
+            "semester_Name": "Spring 2026"
+        },
+        {
+            "semester_ID": 11,
+            "semester_Name": "Fall 2020"
+        },
+        {
+            "semester_ID": 12,
+            "semester_Name": "Spring 2021"
+        },
+        {
+            "semester_ID": 13,
+            "semester_Name": "Fall 2021"
+        },
+        {
+            "semester_ID": 14,
+            "semester_Name": "Spring 2022"
+        }
+    ]
+}

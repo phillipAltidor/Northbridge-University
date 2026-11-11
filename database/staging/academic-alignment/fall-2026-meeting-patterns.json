@@ -1,0 +1,950 @@
+{
+  "term": "202609",
+  "allSections": 913,
+  "inPersonSections": 550,
+  "inPersonMeetingRows": 567,
+  "inPersonMultiRowSections": 17,
+  "modalityCounts": {
+    "On Campus": 550,
+    "Hybrid": 189,
+    "Online": 124,
+    "Remote": 50
+  },
+  "commonMeetingPatterns": [
+    {
+      "days": "Mon/Wed",
+      "begin": "0950",
+      "end": "1130",
+      "minutes": 100,
+      "meetingRows": 47
+    },
+    {
+      "days": "Tue/Thu",
+      "begin": "0950",
+      "end": "1130",
+      "minutes": 100,
+      "meetingRows": 45
+    },
+    {
+      "days": "Tue/Thu",
+      "begin": "1140",
+      "end": "1320",
+      "minutes": 100,
+      "meetingRows": 44
+    },
+    {
+      "days": "Tue/Thu",
+      "begin": "1440",
+      "end": "1620",
+      "minutes": 100,
+      "meetingRows": 43
+    },
+    {
+      "days": "Mon/Wed",
+      "begin": "1440",
+      "end": "1620",
+      "minutes": 100,
+      "meetingRows": 39
+    },
+    {
+      "days": "Mon/Wed",
+      "begin": "1140",
+      "end": "1320",
+      "minutes": 100,
+      "meetingRows": 38
+    },
+    {
+      "days": "",
+      "begin": null,
+      "end": null,
+      "minutes": null,
+      "meetingRows": 36
+    },
+    {
+      "days": "Tue/Thu",
+      "begin": "1630",
+      "end": "1810",
+      "minutes": 100,
+      "meetingRows": 32
+    },
+    {
+      "days": "Mon/Wed",
+      "begin": "1630",
+      "end": "1810",
+      "minutes": 100,
+      "meetingRows": 30
+    },
+    {
+      "days": "Mon/Wed",
+      "begin": "0800",
+      "end": "0940",
+      "minutes": 100,
+      "meetingRows": 22
+    },
+    {
+      "days": "Tue/Thu",
+      "begin": "0800",
+      "end": "0940",
+      "minutes": 100,
+      "meetingRows": 17
+    },
+    {
+      "days": "Mon/Wed",
+      "begin": "1820",
+      "end": "2000",
+      "minutes": 100,
+      "meetingRows": 17
+    },
+    {
+      "days": "Tue/Thu",
+      "begin": "1820",
+      "end": "2000",
+      "minutes": 100,
+      "meetingRows": 13
+    },
+    {
+      "days": "Wed",
+      "begin": "1630",
+      "end": "1810",
+      "minutes": 100,
+      "meetingRows": 8
+    },
+    {
+      "days": "Mon",
+      "begin": "1630",
+      "end": "1900",
+      "minutes": 150,
+      "meetingRows": 6
+    }
+  ],
+  "creditWeeklyMinutePatterns": [
+    {
+      "credits": "4",
+      "summedWeeklyMinutes": 200,
+      "dateRangesDiffer": false,
+      "sections": 354
+    },
+    {
+      "credits": "3",
+      "summedWeeklyMinutes": 150,
+      "dateRangesDiffer": false,
+      "sections": 41
+    },
+    {
+      "credits": "3",
+      "summedWeeklyMinutes": 200,
+      "dateRangesDiffer": false,
+      "sections": 29
+    },
+    {
+      "credits": "1",
+      "summedWeeklyMinutes": 180,
+      "dateRangesDiffer": false,
+      "sections": 19
+    },
+    {
+      "credits": "4",
+      "summedWeeklyMinutes": 0,
+      "dateRangesDiffer": false,
+      "sections": 15
+    },
+    {
+      "credits": "4",
+      "summedWeeklyMinutes": 380,
+      "dateRangesDiffer": false,
+      "sections": 11
+    },
+    {
+      "credits": "12",
+      "summedWeeklyMinutes": 100,
+      "dateRangesDiffer": false,
+      "sections": 11
+    },
+    {
+      "credits": "2",
+      "summedWeeklyMinutes": 100,
+      "dateRangesDiffer": false,
+      "sections": 8
+    },
+    {
+      "credits": "2",
+      "summedWeeklyMinutes": 0,
+      "dateRangesDiffer": false,
+      "sections": 7
+    },
+    {
+      "credits": "2",
+      "summedWeeklyMinutes": 200,
+      "dateRangesDiffer": false,
+      "sections": 7
+    },
+    {
+      "credits": "4",
+      "summedWeeklyMinutes": 100,
+      "dateRangesDiffer": false,
+      "sections": 5
+    },
+    {
+      "credits": "None",
+      "summedWeeklyMinutes": 0,
+      "dateRangesDiffer": false,
+      "sections": 4
+    },
+    {
+      "credits": "2",
+      "summedWeeklyMinutes": 240,
+      "dateRangesDiffer": false,
+      "sections": 4
+    },
+    {
+      "credits": "6",
+      "summedWeeklyMinutes": 150,
+      "dateRangesDiffer": false,
+      "sections": 4
+    },
+    {
+      "credits": "4",
+      "summedWeeklyMinutes": 210,
+      "dateRangesDiffer": false,
+      "sections": 4
+    },
+    {
+      "credits": "1",
+      "summedWeeklyMinutes": 100,
+      "dateRangesDiffer": false,
+      "sections": 3
+    },
+    {
+      "credits": "1",
+      "summedWeeklyMinutes": 0,
+      "dateRangesDiffer": false,
+      "sections": 3
+    },
+    {
+      "credits": "4",
+      "summedWeeklyMinutes": 400,
+      "dateRangesDiffer": false,
+      "sections": 2
+    },
+    {
+      "credits": "3",
+      "summedWeeklyMinutes": 0,
+      "dateRangesDiffer": false,
+      "sections": 2
+    },
+    {
+      "credits": "12",
+      "summedWeeklyMinutes": 0,
+      "dateRangesDiffer": false,
+      "sections": 2
+    },
+    {
+      "credits": "6",
+      "summedWeeklyMinutes": 0,
+      "dateRangesDiffer": false,
+      "sections": 2
+    },
+    {
+      "credits": "6",
+      "summedWeeklyMinutes": 90,
+      "dateRangesDiffer": false,
+      "sections": 2
+    },
+    {
+      "credits": "6",
+      "summedWeeklyMinutes": 100,
+      "dateRangesDiffer": false,
+      "sections": 2
+    },
+    {
+      "credits": "1",
+      "summedWeeklyMinutes": 200,
+      "dateRangesDiffer": false,
+      "sections": 1
+    },
+    {
+      "credits": "1",
+      "summedWeeklyMinutes": 170,
+      "dateRangesDiffer": false,
+      "sections": 1
+    },
+    {
+      "credits": "4",
+      "summedWeeklyMinutes": 370,
+      "dateRangesDiffer": false,
+      "sections": 1
+    },
+    {
+      "credits": "5",
+      "summedWeeklyMinutes": 440,
+      "dateRangesDiffer": false,
+      "sections": 1
+    },
+    {
+      "credits": "4",
+      "summedWeeklyMinutes": 500,
+      "dateRangesDiffer": false,
+      "sections": 1
+    },
+    {
+      "credits": "4",
+      "summedWeeklyMinutes": 340,
+      "dateRangesDiffer": false,
+      "sections": 1
+    },
+    {
+      "credits": "4",
+      "summedWeeklyMinutes": 230,
+      "dateRangesDiffer": false,
+      "sections": 1
+    },
+    {
+      "credits": "0",
+      "summedWeeklyMinutes": 100,
+      "dateRangesDiffer": false,
+      "sections": 1
+    },
+    {
+      "credits": "0",
+      "summedWeeklyMinutes": 0,
+      "dateRangesDiffer": false,
+      "sections": 1
+    }
+  ],
+  "reviewSections": [
+    {
+      "crn": "91022",
+      "courseCode": "AS4202",
+      "section": "001",
+      "credits": 2,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "90512",
+      "courseCode": "AS4202",
+      "section": "004",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92285",
+      "courseCode": "AS4835",
+      "section": "001",
+      "credits": null,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting"
+      ]
+    },
+    {
+      "crn": "92400",
+      "courseCode": "BS5590",
+      "section": "KP1",
+      "credits": null,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting"
+      ]
+    },
+    {
+      "crn": "92403",
+      "courseCode": "CP5900",
+      "section": "FI1",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92376",
+      "courseCode": "CP5900",
+      "section": "JD1",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92399",
+      "courseCode": "CP5900",
+      "section": "RG1",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91762",
+      "courseCode": "CR3093",
+      "section": "001",
+      "credits": 4,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92386",
+      "courseCode": "EL4100",
+      "section": "ES2",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91298",
+      "courseCode": "EL4100",
+      "section": "JE1",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92379",
+      "courseCode": "EL9990",
+      "section": "MT2",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92390",
+      "courseCode": "HI5910",
+      "section": "001",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92375",
+      "courseCode": "LI6300",
+      "section": "CQ1",
+      "credits": 3,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91137",
+      "courseCode": "MH7130",
+      "section": "G01",
+      "credits": 6,
+      "summedWeeklyMinutes": 150,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91618",
+      "courseCode": "MH7130",
+      "section": "G02",
+      "credits": 6,
+      "summedWeeklyMinutes": 150,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91300",
+      "courseCode": "PE5990",
+      "section": "TL1",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92392",
+      "courseCode": "PE5990",
+      "section": "WB1",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92253",
+      "courseCode": "PE9990",
+      "section": "AG1",
+      "credits": null,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting"
+      ]
+    },
+    {
+      "crn": "92251",
+      "courseCode": "PE9990",
+      "section": "LK1",
+      "credits": null,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting"
+      ]
+    },
+    {
+      "crn": "92332",
+      "courseCode": "PY9000",
+      "section": "DH1",
+      "credits": 2,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91582",
+      "courseCode": "PY9000",
+      "section": "MK1",
+      "credits": 2,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92371",
+      "courseCode": "PY9000",
+      "section": "PF1",
+      "credits": 2,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92349",
+      "courseCode": "PY9000",
+      "section": "XL1",
+      "credits": 2,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92351",
+      "courseCode": "PY9990",
+      "section": "AL1",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92388",
+      "courseCode": "PY9990",
+      "section": "AL2",
+      "credits": 1,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92389",
+      "courseCode": "PY9990",
+      "section": "AL3",
+      "credits": 3,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92411",
+      "courseCode": "PY9990",
+      "section": "AL4",
+      "credits": 1,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92330",
+      "courseCode": "PY9990",
+      "section": "RS1",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92402",
+      "courseCode": "PY9990",
+      "section": "RS2",
+      "credits": 2,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92381",
+      "courseCode": "PH9990",
+      "section": "ML1",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92361",
+      "courseCode": "BU9990",
+      "section": "CH1",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91067",
+      "courseCode": "ED5900",
+      "section": "001",
+      "credits": 12,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91183",
+      "courseCode": "ED5900",
+      "section": "002",
+      "credits": 12,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91176",
+      "courseCode": "ED5900",
+      "section": "005",
+      "credits": 12,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91177",
+      "courseCode": "ED5930",
+      "section": "001",
+      "credits": 4,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91178",
+      "courseCode": "ED5930",
+      "section": "CHW",
+      "credits": 4,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91591",
+      "courseCode": "ED5930",
+      "section": "WSE",
+      "credits": 4,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91179",
+      "courseCode": "ED5940",
+      "section": "002",
+      "credits": 12,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91180",
+      "courseCode": "ED5940",
+      "section": "003",
+      "credits": 12,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91181",
+      "courseCode": "ED5940",
+      "section": "004",
+      "credits": 12,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91284",
+      "courseCode": "ED5940",
+      "section": "005",
+      "credits": 12,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91285",
+      "courseCode": "ED5940",
+      "section": "006",
+      "credits": 12,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91071",
+      "courseCode": "ED5940",
+      "section": "009",
+      "credits": 12,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91568",
+      "courseCode": "ED5960",
+      "section": "000",
+      "credits": 12,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91433",
+      "courseCode": "ED5960",
+      "section": "001",
+      "credits": 12,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91503",
+      "courseCode": "ED5960",
+      "section": "002",
+      "credits": 12,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91567",
+      "courseCode": "ED5960",
+      "section": "004",
+      "credits": 12,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91269",
+      "courseCode": "ED6900",
+      "section": "G01",
+      "credits": 6,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91270",
+      "courseCode": "ED6901",
+      "section": "G01",
+      "credits": 6,
+      "summedWeeklyMinutes": 90,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92369",
+      "courseCode": "ED6901",
+      "section": "G02",
+      "credits": 6,
+      "summedWeeklyMinutes": 90,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91151",
+      "courseCode": "ED6903",
+      "section": "G01",
+      "credits": 6,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91920",
+      "courseCode": "ED7026",
+      "section": "PR1",
+      "credits": 6,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91908",
+      "courseCode": "ED7026",
+      "section": "ST1",
+      "credits": 6,
+      "summedWeeklyMinutes": 150,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91919",
+      "courseCode": "ED7026",
+      "section": "ST2",
+      "credits": 6,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92089",
+      "courseCode": "ED7026",
+      "section": "ST3",
+      "credits": 6,
+      "summedWeeklyMinutes": 150,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92358",
+      "courseCode": "ED9105",
+      "section": "WK3",
+      "credits": 0,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting"
+      ]
+    },
+    {
+      "crn": "92385",
+      "courseCode": "VA9990",
+      "section": "EH1",
+      "credits": 1,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92359",
+      "courseCode": "VA9990",
+      "section": "FF1",
+      "credits": 4,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "91295",
+      "courseCode": "WS4900",
+      "section": "004",
+      "credits": 4,
+      "summedWeeklyMinutes": 100,
+      "reasons": [
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    },
+    {
+      "crn": "92404",
+      "courseCode": "WS9990",
+      "section": "JC1",
+      "credits": 2,
+      "summedWeeklyMinutes": 0,
+      "reasons": [
+        "No fully specified timed meeting",
+        "Listed weekly minutes below 50 per credit: review course type, dates and additional components"
+      ]
+    }
+  ],
+  "databaseChanged": false,
+  "personalFacultyOrRoomDataIncluded": false,
+  "weeklyMinutesNote": "Sum of listed rows only; differing dates, overlapping rows, labs, variable credits and special formats require individual review. Flags are not findings of noncompliance."
+}

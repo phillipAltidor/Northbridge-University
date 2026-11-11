@@ -8,7 +8,7 @@ adding a major; they are not separate navigation actions.
 
 Implemented read-only actions:
 
-- Student Information (existing personal-record view).
+- Student Information / My Profile: read-only academic, personal, contact, and account details.
 - Semester Schedule: current Fall 2026 and next Spring 2027 views.
 - Home with three Quick Access tiles and Week at a Glance.
 
@@ -17,12 +17,23 @@ disabled in Quick Access. This dashboard does not implement registration, drop,
 major/minor changes, or their validation rules.
 
 Schedules read only the session student's Enrollment records, matching each
-section's semester. Meeting days and times come from Time_Slot_Day/Day and
-Time_Slot_Period/Period. Names and rooms come from the related records. URL
+section's semester. Rebuilt sections use exact NB_AcademicMeeting records; legacy
+sections use Time_Slot_Day/Day and Time_Slot_Period/Period. Names and rooms come
+from the related records. URL
 parameters cannot select another student's information.
 
-Semester Schedule combines matching days into labels such as Mon/Wed or Tue/Thu.
-Only meetings with the same CRN, times, faculty, and location are combined;
+Academic Details reads Student.student_Type and student_Year, the applicable
+Undergraduate or Graduate_Student enrollment type, the primary Major, and that
+subtype's Department. Undergraduate years 1-4 display Freshman, Sophomore,
+Junior, and Senior; graduate students display their numbered graduate year.
+Missing academic fields display Not provided. Class standing does not use the
+earned-credit totals awaiting reconciliation, and this view does not change data.
+
+Semester Schedule has one row per section and displays full day names such as
+Monday, Wednesday. Only meetings with the same CRN, times, date range, faculty,
+and location are grouped; all distinct meeting groups remain in the row.
+Column order follows the owner reference without capacity/seat-count columns;
+see semester-schedule-layout.md. Backend seat tracking remains unchanged.
 Week at a Glance retains its individual daily meetings.
 
 The semester names use config/academic-timeline.php. Week at a Glance uses the

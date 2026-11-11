@@ -1,0 +1,1316 @@
+{
+    "status": "read-only-master-schedule-comparison",
+    "term": "Fall 2026",
+    "counts": {
+        "localSections": 439,
+        "officialSourceSections": 913,
+        "matchedSourceMeetings": 416,
+        "matchedDatabaseMeetings": 416,
+        "matchedSectionLabels": 416,
+        "matchedCourseCodes": 416,
+        "matchedCredits": 416,
+        "inPerson": 301,
+        "nonInPerson": 115,
+        "conversionSectionsWithoutOfficialCRN": 23
+    },
+    "uniqueOfficialCRNsUsed": 180,
+    "localSectionModalities": {
+        "On Campus": 301,
+        "Hybrid": 74,
+        "Online": 35,
+        "Remote": 6
+    },
+    "issues": [
+        {
+            "localSection": 155904,
+            "officialCRN": "91440",
+            "courseCode": "AS2252",
+            "sourceSection": "H1X",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155905,
+            "officialCRN": "91440",
+            "courseCode": "AS2252",
+            "sourceSection": "H1X",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155906,
+            "officialCRN": "91694",
+            "courseCode": "AS2252",
+            "sourceSection": "H2X",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155907,
+            "officialCRN": "91694",
+            "courseCode": "AS2252",
+            "sourceSection": "H2X",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155908,
+            "officialCRN": "91694",
+            "courseCode": "AS2252",
+            "sourceSection": "H2X",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155909,
+            "officialCRN": "91694",
+            "courseCode": "AS2252",
+            "sourceSection": "H2X",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155910,
+            "officialCRN": "91924",
+            "courseCode": "AS3215",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155911,
+            "officialCRN": "91924",
+            "courseCode": "AS3215",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155940,
+            "officialCRN": "91765",
+            "courseCode": "BU3010",
+            "sourceSection": "HR1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155941,
+            "officialCRN": "91765",
+            "courseCode": "BU3010",
+            "sourceSection": "HR1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155942,
+            "officialCRN": "90677",
+            "courseCode": "BU3010",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155943,
+            "officialCRN": "90677",
+            "courseCode": "BU3010",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155944,
+            "officialCRN": "91893",
+            "courseCode": "BU3071",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155945,
+            "officialCRN": "92042",
+            "courseCode": "BU3250",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155946,
+            "officialCRN": "92042",
+            "courseCode": "BU3250",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155952,
+            "officialCRN": "90075",
+            "courseCode": "BU3502",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155953,
+            "officialCRN": "90075",
+            "courseCode": "BU3502",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155954,
+            "officialCRN": "90075",
+            "courseCode": "BU3502",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155957,
+            "officialCRN": "90080",
+            "courseCode": "BU3511",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155965,
+            "officialCRN": "91766",
+            "courseCode": "BU3800",
+            "sourceSection": "HY3",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155966,
+            "officialCRN": "90081",
+            "courseCode": "BU3800",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155967,
+            "officialCRN": "90081",
+            "courseCode": "BU3800",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155970,
+            "officialCRN": "90778",
+            "courseCode": "BU3905",
+            "sourceSection": "HRA",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155971,
+            "officialCRN": "90950",
+            "courseCode": "BU4110",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155972,
+            "officialCRN": "90247",
+            "courseCode": "BU4110",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155973,
+            "officialCRN": "90247",
+            "courseCode": "BU4110",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155974,
+            "officialCRN": "91993",
+            "courseCode": "BU4250",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155975,
+            "officialCRN": "91993",
+            "courseCode": "BU4250",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155976,
+            "officialCRN": "90990",
+            "courseCode": "BU4500",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155977,
+            "officialCRN": "90990",
+            "courseCode": "BU4500",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155978,
+            "officialCRN": "90779",
+            "courseCode": "BU4762",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155979,
+            "officialCRN": "91688",
+            "courseCode": "BU4820",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155980,
+            "officialCRN": "91104",
+            "courseCode": "BU5115",
+            "sourceSection": "HY4",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155981,
+            "officialCRN": "91496",
+            "courseCode": "BU5115",
+            "sourceSection": "NE5",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 155982,
+            "officialCRN": "90594",
+            "courseCode": "BU5880",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156027,
+            "officialCRN": "90022",
+            "courseCode": "CS4100",
+            "sourceSection": "BL1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156028,
+            "officialCRN": "90022",
+            "courseCode": "CS4100",
+            "sourceSection": "BL1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156038,
+            "officialCRN": "90024",
+            "courseCode": "CS5910",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156059,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156060,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156068,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156087,
+            "officialCRN": "92079",
+            "courseCode": "EL1000",
+            "sourceSection": "H10",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156088,
+            "officialCRN": "91735",
+            "courseCode": "EL1000",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156089,
+            "officialCRN": "91735",
+            "courseCode": "EL1000",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156090,
+            "officialCRN": "91735",
+            "courseCode": "EL1000",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156091,
+            "officialCRN": "91726",
+            "courseCode": "EL1000",
+            "sourceSection": "HY5",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156092,
+            "officialCRN": "91726",
+            "courseCode": "EL1000",
+            "sourceSection": "HY5",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156093,
+            "officialCRN": "90065",
+            "courseCode": "EL1000",
+            "sourceSection": "HY6",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156094,
+            "officialCRN": "90065",
+            "courseCode": "EL1000",
+            "sourceSection": "HY6",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156095,
+            "officialCRN": "90065",
+            "courseCode": "EL1000",
+            "sourceSection": "HY6",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156096,
+            "officialCRN": "90065",
+            "courseCode": "EL1000",
+            "sourceSection": "HY6",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156097,
+            "officialCRN": "90488",
+            "courseCode": "EL1000",
+            "sourceSection": "HY8",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156098,
+            "officialCRN": "90488",
+            "courseCode": "EL1000",
+            "sourceSection": "HY8",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156099,
+            "officialCRN": "90180",
+            "courseCode": "EL3010",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156100,
+            "officialCRN": "90180",
+            "courseCode": "EL3010",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156102,
+            "officialCRN": "90536",
+            "courseCode": "EL3500",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156103,
+            "officialCRN": "90536",
+            "courseCode": "EL3500",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156104,
+            "officialCRN": "91081",
+            "courseCode": "EL3510",
+            "sourceSection": "002",
+            "modality": "Remote",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156105,
+            "officialCRN": "90537",
+            "courseCode": "EL3510",
+            "sourceSection": "HR1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156106,
+            "officialCRN": "90537",
+            "courseCode": "EL3510",
+            "sourceSection": "HR1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156107,
+            "officialCRN": "90695",
+            "courseCode": "EL3560",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156108,
+            "officialCRN": "90695",
+            "courseCode": "EL3560",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156111,
+            "officialCRN": "91010",
+            "courseCode": "EL3800",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156112,
+            "officialCRN": "91010",
+            "courseCode": "EL3800",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156113,
+            "officialCRN": "92243",
+            "courseCode": "EL4030",
+            "sourceSection": "HYX",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156114,
+            "officialCRN": "90697",
+            "courseCode": "EL4312",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156115,
+            "officialCRN": "90697",
+            "courseCode": "EL4312",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156116,
+            "officialCRN": "91911",
+            "courseCode": "EL5000",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156117,
+            "officialCRN": "91911",
+            "courseCode": "EL5000",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156121,
+            "officialCRN": "90633",
+            "courseCode": "HI2511",
+            "sourceSection": "NE5",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156122,
+            "officialCRN": "90633",
+            "courseCode": "HI2511",
+            "sourceSection": "NE5",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156123,
+            "officialCRN": "90633",
+            "courseCode": "HI2511",
+            "sourceSection": "NE5",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156124,
+            "officialCRN": "90633",
+            "courseCode": "HI2511",
+            "sourceSection": "NE5",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156125,
+            "officialCRN": "90633",
+            "courseCode": "HI2511",
+            "sourceSection": "NE5",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156152,
+            "officialCRN": "92092",
+            "courseCode": "MA2000",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156155,
+            "officialCRN": "90032",
+            "courseCode": "MA2080",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156156,
+            "officialCRN": "90032",
+            "courseCode": "MA2080",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156157,
+            "officialCRN": "91501",
+            "courseCode": "MA2080",
+            "sourceSection": "NE4",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156158,
+            "officialCRN": "91501",
+            "courseCode": "MA2080",
+            "sourceSection": "NE4",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156159,
+            "officialCRN": "91501",
+            "courseCode": "MA2080",
+            "sourceSection": "NE4",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156160,
+            "officialCRN": "91501",
+            "courseCode": "MA2080",
+            "sourceSection": "NE4",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156161,
+            "officialCRN": "91501",
+            "courseCode": "MA2080",
+            "sourceSection": "NE4",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156178,
+            "officialCRN": "90226",
+            "courseCode": "MA3210",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156179,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156180,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156181,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156182,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156183,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156184,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156185,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156186,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156187,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156188,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156189,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156190,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156191,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156192,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156193,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156194,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156195,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156196,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156197,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156198,
+            "issues": [
+                "Conversion section: no official CRN; review separately"
+            ]
+        },
+        {
+            "localSection": 156230,
+            "officialCRN": "91622",
+            "courseCode": "ML1000",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156231,
+            "officialCRN": "91622",
+            "courseCode": "ML1000",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156232,
+            "officialCRN": "91622",
+            "courseCode": "ML1000",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156235,
+            "officialCRN": "92309",
+            "courseCode": "PE2430",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156237,
+            "officialCRN": "91970",
+            "courseCode": "PH2000",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156238,
+            "officialCRN": "91970",
+            "courseCode": "PH2000",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156239,
+            "officialCRN": "91970",
+            "courseCode": "PH2000",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156240,
+            "officialCRN": "91970",
+            "courseCode": "PH2000",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156241,
+            "officialCRN": "91970",
+            "courseCode": "PH2000",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156242,
+            "officialCRN": "91970",
+            "courseCode": "PH2000",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156243,
+            "officialCRN": "91970",
+            "courseCode": "PH2000",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156244,
+            "officialCRN": "92378",
+            "courseCode": "PH2000",
+            "sourceSection": "HY3",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156245,
+            "officialCRN": "92139",
+            "courseCode": "PH3200",
+            "sourceSection": "HYR",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156246,
+            "officialCRN": "92139",
+            "courseCode": "PH3200",
+            "sourceSection": "HYR",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156247,
+            "officialCRN": "92139",
+            "courseCode": "PH3200",
+            "sourceSection": "HYR",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156270,
+            "officialCRN": "92227",
+            "courseCode": "PH3610",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156271,
+            "officialCRN": "92227",
+            "courseCode": "PH3610",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156278,
+            "officialCRN": "92318",
+            "courseCode": "PH3800",
+            "sourceSection": "0X1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156281,
+            "officialCRN": "91457",
+            "courseCode": "PH4670",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156284,
+            "officialCRN": "91459",
+            "courseCode": "PH5920",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156285,
+            "officialCRN": "91459",
+            "courseCode": "PH5920",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156312,
+            "officialCRN": "90178",
+            "courseCode": "PY2010",
+            "sourceSection": "003",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156313,
+            "officialCRN": "90090",
+            "courseCode": "PY2010",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156314,
+            "officialCRN": "92193",
+            "courseCode": "PY2010",
+            "sourceSection": "HYF",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156316,
+            "officialCRN": "92205",
+            "courseCode": "PY2530",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156317,
+            "officialCRN": "90341",
+            "courseCode": "PY2530",
+            "sourceSection": "NE1",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156318,
+            "officialCRN": "91784",
+            "courseCode": "PY3010",
+            "sourceSection": "002",
+            "modality": "Remote",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156319,
+            "officialCRN": "91784",
+            "courseCode": "PY3010",
+            "sourceSection": "002",
+            "modality": "Remote",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156326,
+            "officialCRN": "90667",
+            "courseCode": "PY3410",
+            "sourceSection": "001",
+            "modality": "Remote",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156327,
+            "officialCRN": "90667",
+            "courseCode": "PY3410",
+            "sourceSection": "001",
+            "modality": "Remote",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156328,
+            "officialCRN": "91437",
+            "courseCode": "PY4130",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156329,
+            "officialCRN": "91437",
+            "courseCode": "PY4130",
+            "sourceSection": "HY1",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156330,
+            "officialCRN": "92363",
+            "courseCode": "PY4130",
+            "sourceSection": "HY2",
+            "modality": "Hybrid",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156334,
+            "officialCRN": "91362",
+            "courseCode": "SY1500",
+            "sourceSection": "NE4",
+            "modality": "Online",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        },
+        {
+            "localSection": 156336,
+            "officialCRN": "91484",
+            "courseCode": "VA3340",
+            "sourceSection": "001",
+            "modality": "Remote",
+            "issues": [
+                "Replace with verified in-person offering"
+            ]
+        }
+    ],
+    "schemaChanged": false,
+    "databaseChanged": false,
+    "note": "Local fictional delivery groups can share an official source CRN. Unused SUNY offerings do not imply missing required Northbridge classes. Credit differences require source-version\/approved-exception review before correction."
+}

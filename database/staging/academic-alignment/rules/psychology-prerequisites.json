@@ -1,0 +1,445 @@
+{
+  "status": "staging-only",
+  "rules": [
+    {
+      "courseCode": "PY2010",
+      "rule": {
+        "type": "completed-or-concurrent-proficiency",
+        "key": "ECI",
+        "sourceLabel": "Prerequisite/Corequisite"
+      },
+      "sourceText": "Prerequisite/Corequisite\nEC I\nWhen Offered:\nEvery semester",
+      "sourceSHA256": "972fb11ada3133d8dc202bd31bba014627a8589a5191cc9ffcc1d2eb07dc50d7",
+      "status": "selected-course-entry-transcribed-not-active"
+    },
+    {
+      "courseCode": "PY3010",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PY2010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "MA1020",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "MA2000",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "type": "completed-writing-proficiency",
+            "key": "EMS",
+            "sourceToken": "EMS"
+          }
+        ]
+      },
+      "sourceText": "Prerequisites\nPY 2010 (with a minimum grade of \u201cC\u201d); MA 1020 or MA 2000 (with a minimum grade of \u201cC\u201d); EMS\nWhen Offered:\nEvery semester",
+      "sourceSHA256": "972fb11ada3133d8dc202bd31bba014627a8589a5191cc9ffcc1d2eb07dc50d7",
+      "status": "selected-course-entry-transcribed-not-active"
+    },
+    {
+      "courseCode": "PY4200",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PY2010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "PY3010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "MA1020",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "MA2000",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "type": "completed-writing-proficiency",
+            "key": "EMS",
+            "sourceToken": "EMS"
+          }
+        ]
+      },
+      "sourceText": "Prerequisites\nPY 2010 (with a minimum grade of \u201cC\u201d); PY 3010 (with a minimum grade of \u201cC\u201d); EMS; and MA 1020 or MA 2000 (with\na minimum grade of \u201cC\u201d)\nWhen Offered:\nEvery semester",
+      "sourceSHA256": "972fb11ada3133d8dc202bd31bba014627a8589a5191cc9ffcc1d2eb07dc50d7",
+      "status": "selected-course-entry-transcribed-not-active"
+    },
+    {
+      "courseCode": "PY4130",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PY2010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "PY3010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "completed-writing-proficiency",
+            "key": "EMS",
+            "sourceToken": "EMS"
+          },
+          {
+            "type": "earned-subject-credits",
+            "subject": "PY",
+            "minimum": 24
+          },
+          {
+            "type": "approval",
+            "authority": "Field Director"
+          }
+        ]
+      },
+      "sourceText": "Prerequisites\nPY 2010 (with a minimum grade of \u201cC\u201d); PY 3010 (with a minimum grade of \u201cC\u201d); EMS; 24 credits in psychology;\nPermission from Field Director is Required\nWhen Offered:\nEvery semester",
+      "sourceSHA256": "972fb11ada3133d8dc202bd31bba014627a8589a5191cc9ffcc1d2eb07dc50d7",
+      "status": "selected-course-entry-transcribed-not-active"
+    },
+    {
+      "courseCode": "PY3500",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PY2010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "completed-writing-proficiency",
+            "key": "EMS",
+            "sourceToken": "EMS"
+          },
+          {
+            "type": "earned-subject-credits",
+            "subject": "PY",
+            "minimum": 20
+          }
+        ]
+      },
+      "sourceText": "Prerequisites\nPY 2010 (with a minimum grade of \u201cC\u201d); 20 credits in Psychology; EMS\nWhen Offered:\nEvery semester.",
+      "sourceSHA256": "972fb11ada3133d8dc202bd31bba014627a8589a5191cc9ffcc1d2eb07dc50d7",
+      "status": "selected-course-entry-transcribed-not-active"
+    },
+    {
+      "courseCode": "PY5210",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PY2010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "PY3010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "PY3215",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3230",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3240",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY2400",
+                "minimumGrade": null
+              }
+            ]
+          },
+          {
+            "type": "completed-writing-proficiency",
+            "key": "EMS",
+            "sourceToken": "EMS"
+          }
+        ]
+      },
+      "sourceText": "Prerequisites\nPY 2010 (with a minimum grade of \u201cC\u201d); PY 3010 (with a minimum grade of \u201cC\u201d); PY 3215 or PY 3230 or PY 3240 or PY\n2400; EMS\nWhen Offered:\nOnce a year",
+      "sourceSHA256": "972fb11ada3133d8dc202bd31bba014627a8589a5191cc9ffcc1d2eb07dc50d7",
+      "status": "selected-course-entry-transcribed-not-active"
+    },
+    {
+      "courseCode": "PY5320",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PY2010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "PY3010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "PY3310",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3311",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY4210",
+                "minimumGrade": null
+              }
+            ]
+          },
+          {
+            "type": "completed-writing-proficiency",
+            "key": "EMS",
+            "sourceToken": "EMS"
+          }
+        ]
+      },
+      "sourceText": "Prerequisites\nPY 2010 (with a minimum grade of \u201cC\u201d); PY 3010 (with a minimum grade of \u201cC\u201d); PY 3310 or PY 3311 or PY 4210; EMS\nWhen Offered:\nOnce a year",
+      "sourceSHA256": "972fb11ada3133d8dc202bd31bba014627a8589a5191cc9ffcc1d2eb07dc50d7",
+      "status": "selected-course-entry-transcribed-not-active"
+    },
+    {
+      "courseCode": "PY5404",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PY2010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "PY3010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "PY3410",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3420",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3610",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3620",
+                "minimumGrade": null
+              }
+            ]
+          },
+          {
+            "type": "completed-writing-proficiency",
+            "key": "EMS",
+            "sourceToken": "EMS"
+          }
+        ]
+      },
+      "sourceText": "Prerequisites\nPY 2010 (with a minimum grade of \u201cC\u201d); PY 3010 (with a minimum grade of \u201cC\u201d); PY 3410 or PY 3420 or PY 3610 or PY\n3620; EMS\nWhen Offered:\nSummers on demand",
+      "sourceSHA256": "972fb11ada3133d8dc202bd31bba014627a8589a5191cc9ffcc1d2eb07dc50d7",
+      "status": "selected-course-entry-transcribed-not-active"
+    },
+    {
+      "courseCode": "PY5510",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PY2010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "PY3010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "PY3510",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3570",
+                "minimumGrade": null
+              }
+            ]
+          },
+          {
+            "type": "completed-writing-proficiency",
+            "key": "EMS",
+            "sourceToken": "EMS"
+          }
+        ]
+      },
+      "sourceText": "Prerequisites\nPY 2010 (with a minimum grade of \u201cC\u201d); PY 3010 (with a minimum grade of \u201cC\u201d); PY 3510 or PY 3570; EMS\nWhen Offered:\nOnce a year",
+      "sourceSHA256": "972fb11ada3133d8dc202bd31bba014627a8589a5191cc9ffcc1d2eb07dc50d7",
+      "status": "selected-course-entry-transcribed-not-active"
+    },
+    {
+      "courseCode": "PY5610",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PY2010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "PY3010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "PY3410",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3420",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3610",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3620",
+                "minimumGrade": null
+              }
+            ]
+          },
+          {
+            "type": "completed-writing-proficiency",
+            "key": "EMS",
+            "sourceToken": "EMS"
+          }
+        ]
+      },
+      "sourceText": "Prerequisites\nPY 2010 (with a minimum grade of \u201cC\u201d); PY 3010 (with a minimum grade of \u201cC\u201d); PY 3410 or PY 3420 or PY 3610 or PY\n3620; EMS\nWhen Offered:\nOnce year",
+      "sourceSHA256": "972fb11ada3133d8dc202bd31bba014627a8589a5191cc9ffcc1d2eb07dc50d7",
+      "status": "selected-course-entry-transcribed-not-active"
+    },
+    {
+      "courseCode": "PY5710",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PY2010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "PY3010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "PY2530",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY2720",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3710",
+                "minimumGrade": null
+              }
+            ]
+          },
+          {
+            "type": "completed-writing-proficiency",
+            "key": "EMS",
+            "sourceToken": "EMS"
+          }
+        ]
+      },
+      "sourceText": "Prerequisites\nPY 2010 (with a minimum grade of \u201cC\u201d); PY 3010 (with a minimum grade of \u201cC\u201d); PY 2530 or PY 2720 or PY 3710; EMS\nWhen Offered:\nOnce a year",
+      "sourceSHA256": "972fb11ada3133d8dc202bd31bba014627a8589a5191cc9ffcc1d2eb07dc50d7",
+      "status": "selected-course-entry-transcribed-not-active"
+    }
+  ],
+  "remainingIssues": [
+    "PY2400 remains an unresolved old/missing code in one senior-seminar alternative.",
+    "No unstated grade minimum is added to foundation alternatives."
+  ],
+  "progressionReferenceInterpretation": "User confirmed the major progression reference means the course prerequisite requirements already supplied; no additional policy document is required."
+}

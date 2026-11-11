@@ -1,0 +1,296 @@
+{
+  "cases": 37,
+  "failed": 0,
+  "results": [
+    {
+      "program": "Computer and Information Science, B.S.",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Management Information Systems, B.S.",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Computer Information Science, Minor",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Marketing, Minor",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Business Administration, B.S.",
+      "concentration": "Management",
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Business Administration, B.S.",
+      "concentration": "General Business",
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Business Administration, B.S.",
+      "concentration": "Business Analytics",
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Accounting, B.S.",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Mathematics, B.S.",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Biological Sciences, B.S.",
+      "concentration": null,
+      "paths": {
+        "/3": "Algebra"
+      },
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Biological Sciences, B.S.",
+      "concentration": null,
+      "paths": {
+        "/3": "Calculus"
+      },
+      "status": "satisfied",
+      "examined": 5
+    },
+    {
+      "program": "Physics, B.S.",
+      "concentration": "General Physics",
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Physics, B.S.",
+      "concentration": "Health Sciences",
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Physics, B.S.",
+      "concentration": "Quantitative Finance",
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Physics, B.S.",
+      "concentration": "Applied/Computational",
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "English, B.A.",
+      "concentration": "Multicultural U.S.-British Literature",
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "English, B.A.",
+      "concentration": "World Literature",
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "English, B.A.",
+      "concentration": "Creative Writing",
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Psychology, B.S.",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Childhood Education 1-6, B.S.",
+      "concentration": "Mathematics",
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Public Health, B.S.",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Media & Communications, B.A.",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "General Business, Minor",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Accounting, Minor",
+      "concentration": null,
+      "paths": {
+        "/1": "Internal Reporting"
+      },
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Accounting, Minor",
+      "concentration": null,
+      "paths": {
+        "/1": "Public Company"
+      },
+      "status": "satisfied",
+      "examined": 2
+    },
+    {
+      "program": "Accounting, Minor",
+      "concentration": null,
+      "paths": {
+        "/1": "General Accounting"
+      },
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Mathematics, Minor",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Environmental Studies, Minor",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Physics, Minor",
+      "concentration": null,
+      "paths": {
+        "/0": "Algebra"
+      },
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Physics, Minor",
+      "concentration": null,
+      "paths": {
+        "/0": "Calculus"
+      },
+      "status": "satisfied",
+      "examined": 2
+    },
+    {
+      "program": "Multicultural U.S./ British Literature, Minor",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Psychology, Minor",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Public Health, Minor",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Media and Communications, Minor",
+      "concentration": null,
+      "paths": [],
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Visual Arts, Minor",
+      "concentration": null,
+      "paths": {
+        "/1": "Art History"
+      },
+      "status": "satisfied",
+      "examined": 1
+    },
+    {
+      "program": "Visual Arts, Minor",
+      "concentration": null,
+      "paths": {
+        "/1": "Fine Arts"
+      },
+      "status": "satisfied",
+      "examined": 2
+    },
+    {
+      "program": "Visual Arts, Minor",
+      "concentration": null,
+      "paths": {
+        "/1": "Electronic Media"
+      },
+      "status": "satisfied",
+      "examined": 3
+    }
+  ],
+  "status": "passed",
+  "catalogId": 7,
+  "packageSHA256": "af788468dafce856c4ef61e4d428a42730e488ec3e9e96f969b0861f0ec2b032",
+  "distinctPrograms": 24,
+  "majors": 12,
+  "minors": 12,
+  "scenarioBoundaryChecks": 306,
+  "priorCISChecks": 61,
+  "priorMISChecks": 65,
+  "databaseChecks": 1928,
+  "fixtureWarning": "All approvals, course attributes and students in these scenarios are synthetic; not official classifications or real student evaluations."
+}

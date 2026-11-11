@@ -38,9 +38,10 @@ if (!$section || !$semester) {
     page_end();
     exit;
 }
+$maximumSeats = schedule_section_capacity($pdo, $crn);
 $values = $section;
 $enrolledCount = schedule_enrolled_count($pdo, (int)$section['semester_ID'], $crn);
-$values['available_Seats'] = SCHEDULE_MAXIMUM_SEATS - $enrolledCount;
+$values['available_Seats'] = $maximumSeats - $enrolledCount;
 $version = section_version($section);
 $error = '';
 if ($isPost) {
@@ -53,7 +54,7 @@ if ($isPost) {
         $input = $_POST[$field] ?? null;
         if ($field === 'course_ID') {
             $values[$field] = is_string($input) ? trim($input) : '';
-            if (!preg_match('/^[A-Z]+[0-9]+$/D', $values[$field]) || strlen($values[$field]) > 20) {
+            if (!preg_match('/^[A-Z]+[0-9]+(?:H[0-9]{4})?$/D', $values[$field]) || strlen($values[$field]) > 20) {
                 $error = 'Select a valid course code.';
             }
         } elseif ($field === 'room_ID' && $input === '') {
@@ -89,9 +90,10 @@ if ($isPost) {
             if ($after['time_Slot_ID'] !== $before['time_Slot_ID'] && academic_semester_status($semester) !== 'Upcoming') {
                 throw new DomainException('The time slot cannot change after the semester has started.');
             }
-            $after['available_Seats'] = SCHEDULE_MAXIMUM_SEATS - schedule_enrolled_count($pdo, (int)$before['semester_ID'], $crn);
-            if ($after['available_Seats'] < 0) throw new DomainException('This section exceeds its maximum capacity of 10.');
+            $after['available_Seats'] = $maximumSeats - schedule_enrolled_count($pdo, (int)$before['semester_ID'], $crn);
+            if ($after['available_Seats'] < 0) throw new DomainException('This section exceeds its maximum capacity of ' . $maximumSeats . '.');
             if ($after !== $before) {
+                $importedAssignment=academic_portal_validate_assignment($pdo,$before,$after);
                 foreach (['course_ID' => ['Course', 'course_ID'], 'faculty_ID' => ['Faculty', 'faculty_ID'], 'time_Slot_ID' => ['Time_Slot', 'time_Slot_ID'], 'room_ID' => ['Room', 'room_ID']] as $field => [$table, $column]) {
                     if ($after[$field] === null) {
                         continue;
@@ -118,7 +120,7 @@ if ($isPost) {
                         }
                     }
                 }
-                if ($after['course_ID'] !== $before['course_ID'] || $after['room_ID'] !== $before['room_ID'] || $after['time_Slot_ID'] !== $before['time_Slot_ID']) {
+                if (!$importedAssignment && ($after['course_ID'] !== $before['course_ID'] || $after['room_ID'] !== $before['room_ID'] || $after['time_Slot_ID'] !== $before['time_Slot_ID'])) {
                     $stmt = $pdo->prepare('SELECT c.course_Credits, r.room_Type FROM Course c LEFT JOIN Room r ON r.room_ID = ? WHERE c.course_ID = ?');
                     $stmt->execute([$after['room_ID'], $after['course_ID']]);
                     $meeting = $stmt->fetch();
@@ -138,7 +140,7 @@ if ($isPost) {
                 $timeChanged = $after['time_Slot_ID'] !== $before['time_Slot_ID'];
                 $checkFaculty = $timeChanged || $after['faculty_ID'] !== $before['faculty_ID'];
                 $checkRoom = $after['room_ID'] !== null && ($timeChanged || $after['room_ID'] !== $before['room_ID']);
-                if ($checkFaculty || $checkRoom) {
+                if (!$importedAssignment && ($checkFaculty || $checkRoom)) {
                     $stmt = $pdo->prepare('SELECT (SELECT COUNT(*) FROM Time_Slot_Day WHERE time_Slot_ID = ?) AS days, (SELECT COUNT(*) FROM Time_Slot_Period WHERE time_Slot_ID = ?) AS periods');
                     $stmt->execute([$after['time_Slot_ID'], $after['time_Slot_ID']]);
                     $mapping = $stmt->fetch();
@@ -185,6 +187,7 @@ if ($isPost) {
                 }
                 $stmt = $pdo->prepare('UPDATE Course_Section SET course_ID = ?, section_No = ?, faculty_ID = ?, time_Slot_ID = ?, room_ID = ?, available_Seats = ? WHERE CRN = ? AND semester_ID = ?');
                 $stmt->execute([$after['course_ID'], $after['section_No'], $after['faculty_ID'], $after['time_Slot_ID'], $after['room_ID'], $after['available_Seats'], $crn, $after['semester_ID']]);
+                schedule_sync_faculty_counts($pdo);
                 $stmt = $pdo->prepare('INSERT INTO Course_Section_Update_Log (CRN, admin_ID, before_Data, after_Data) VALUES (?, ?, ?, ?)');
                 $stmt->execute([$crn, (int) $_SESSION['user_id'], json_encode($before, JSON_THROW_ON_ERROR), json_encode($after, JSON_THROW_ON_ERROR)]);
                 // Refresh an already saved schedule in the same transaction as the section edit.
@@ -221,9 +224,10 @@ $stmt->execute([$crn]);
 $history = $stmt->fetchAll();
 $labels = ['course_ID' => 'Course', 'section_No' => 'Section Number', 'faculty_ID' => 'Faculty', 'time_Slot_ID' => 'Time Slot', 'room_ID' => 'Room', 'available_Seats' => 'Available Seats'];
 page_start('Edit Course Section', 'Admin', 'admin/master-schedule.php');
+$displaySection=academic_portal_source_labels($pdo,[$section])[0];
 ?>
 <p><a href="master-schedule.php?semester_id=<?= e($section['semester_ID']) ?>">Back to Master Schedule</a></p>
-<p><strong>CRN:</strong> <?= e($crn) ?> · <strong>Semester:</strong> <?= e($semester) ?> (ID <?= e($section['semester_ID']) ?>)</p>
+<p><strong>CRN:</strong> <?= e($displaySection['display_CRN'] ?? $crn) ?> · <strong>Semester:</strong> <?= e($semester) ?></p>
 <?php if ($error): ?><div class="alert error" role="alert"><?= e($error) ?></div><?php endif; ?>
 <form class="user-form" method="post" action="edit-section.php">
     <input type="hidden" name="crn" value="<?= e($crn) ?>">
@@ -247,7 +251,7 @@ page_start('Edit Course Section', 'Admin', 'admin/master-schedule.php');
         <?php foreach ($rooms as $room): ?><option value="<?= e($room['room_ID']) ?>" <?= $values['room_ID'] !== null && (string) $values['room_ID'] === (string) $room['room_ID'] ? 'selected' : '' ?>><?= e($room['room_ID'] . ' · ' . $room['Bldg_Name'] . ' · Room ' . $room['room_Number'] . ' · ' . $room['room_Type']) ?></option><?php endforeach; ?>
     </select></div>
     <div class="grid2">
-        <div class="form-group"><label for="maximum_Seats">Maximum Seats</label><input id="maximum_Seats" type="number" value="<?= e(SCHEDULE_MAXIMUM_SEATS) ?>" readonly></div>
+        <div class="form-group"><label for="maximum_Seats">Maximum Seats</label><input id="maximum_Seats" type="number" value="<?= e($maximumSeats) ?>" readonly></div>
         <div class="form-group"><label for="available_Seats">Available Seats</label><input id="available_Seats" type="number" value="<?= e($values['available_Seats']) ?>" readonly></div>
     </div>
     <button class="btn" type="submit">Save Changes</button>

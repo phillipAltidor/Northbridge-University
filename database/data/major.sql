@@ -1,16 +1,27 @@
--- Seeds academic majors.
+-- Owner-authorized fictional academic rebuild, 2026-11-07. Original people/accounts are unchanged.
 
-INSERT INTO Major (major_ID, major_Name, dept_ID)
-VALUES
-(1, 'Computer Science', 1),
-(2, 'Cybersecurity', 1),
-(3, 'Business Administration', 2),
-(4, 'Accounting', 2),
-(5, 'Mathematics', 3),
-(6, 'Biology', 4),
-(7, 'Engineering', 5),
-(8, 'English', 6),
-(9, 'Psychology', 7),
-(10, 'Education', 8),
-(11, 'Health Sciences', 9),
-(12, 'Media Studies', 10);
+INSERT INTO `Major` (`major_ID`,`major_Name`,`dept_ID`) VALUES
+('1','Computer Science','1'),
+('2','Cybersecurity','1'),
+('3','Business Administration','2'),
+('4','Accounting','2'),
+('5','Mathematics','3'),
+('6','Biology','4'),
+('7','Engineering','5'),
+('8','English','6'),
+('9','Psychology','7'),
+('10','Education','8'),
+('11','Health Sciences','9'),
+('12','Media Studies','10'),
+('101','Computer and Information Science, B.S.','1'),
+('102','Management Information Systems, B.S.','1'),
+('103','Business Administration, B.S.','2'),
+('104','Accounting, B.S.','2'),
+('105','Mathematics, B.S.','3'),
+('106','Biological Sciences, B.S.','4'),
+('107','Physics, B.S.','5'),
+('108','English, B.A.','6'),
+('109','Psychology, B.S.','7'),
+('110','Childhood Education 1-6, B.S.','8'),
+('111','Public Health, B.S.','9'),
+('112','Media & Communications, B.A.','10');

@@ -1,0 +1,128 @@
+{
+  "status": "project-program-rules-recorded-implementation-pending",
+  "program": "Psychology, B.S.",
+  "baseProgramSource": "database/staging/academic-alignment/source-pdfs/supporting-psychology-b-a.pdf",
+  "catalogEdition": "2026-2027",
+  "majorCourseCount": 11,
+  "distinctCoursesRequired": true,
+  "minimumMajorCredits": "not-explicitly-stated-in-supplied-program-text; do-not-infer-44-if-an-eligible-elective-has-2-credits",
+  "core": [
+    "PY2010",
+    "PY3010",
+    "PY4200",
+    "PY4130"
+  ],
+  "seniorSeminar": {
+    "count": 1,
+    "options": [
+      "PY5210",
+      "PY5320",
+      "PY5404",
+      "PY5510",
+      "PY5610",
+      "PY5710"
+    ],
+    "listedOptionsNonExhaustive": true
+  },
+  "foundations": {
+    "cognitivePhysiological": {
+      "count": 1,
+      "options": [
+        "PY3410",
+        "PY3420",
+        "PY3610",
+        "PY3620"
+      ]
+    },
+    "developmentalClinicalSocial": {
+      "chooseDistinctDomains": 2,
+      "coursesPerChosenDomain": 1,
+      "domains": {
+        "developmental": [
+          "PY3215",
+          "PY3230",
+          "PY3240"
+        ],
+        "clinical": [
+          "PY3310",
+          "PY3311"
+        ],
+        "social": [
+          "PY3510",
+          "PY3570"
+        ]
+      }
+    },
+    "diversitySocialJustice": {
+      "count": 1,
+      "options": [
+        "PY2530",
+        "PY2720",
+        "PY3710"
+      ]
+    }
+  },
+  "additionalElectives": [
+    {
+      "count": 1,
+      "subject": "PY",
+      "levels": [
+        3000,
+        4000
+      ]
+    },
+    {
+      "count": 1,
+      "subject": "PY",
+      "levels": [
+        4000
+      ],
+      "institutionalResidencyRequired": true
+    }
+  ],
+  "departmentalGradeRule": {
+    "type": "or",
+    "alternatives": [
+      {
+        "type": "major-gpa",
+        "minimum": 2.5,
+        "repeatSelection": "highest-grade-for-each-of-the-11-counted-courses"
+      },
+      {
+        "type": "minimum-grade-in-each-course",
+        "minimumGrade": "C",
+        "scope": "all-11-courses-counted-toward-major"
+      }
+    ]
+  },
+  "BSAdditionalRequirements": {
+    "math": "Precalculus or higher; MA2090 identified by source",
+    "science": "Four semesters of qualifying Biology/Chemistry/Physics; non-science-major courses excluded",
+    "gradeRule": "Math/science GPA >=2.5 using highest grades OR C or better in each required math/science course",
+    "advisorApproval": "By end of first half of junior year"
+  },
+  "remainingIssues": [
+    "Confirm eligible additional-elective classification for the two-credit PY3500 seminar.",
+    "Verify science sequence/lab/semester counting and required approval evidence before activating the BS additions."
+  ],
+  "degreeRequirements": {
+    "degreeType": "BS",
+    "minimumTotalCredits": 120,
+    "minimumInstitutionalGPA": 2.0,
+    "minimumUpperDivisionCredits": 45,
+    "minimumLiberalArtsCredits": 60,
+    "minimumInstitutionalResidencyCredits": 40
+  },
+  "projectDecisions": [
+    "PSYCH-BS-LA-001",
+    "PSYCH-PROGRESSION-001"
+  ],
+  "progressionPolicy": {
+    "interpretation": "Progressing Through the Major refers to the supplied course prerequisite requirements.",
+    "authority": "User clarified project scope on November 7, 2026.",
+    "prerequisiteSource": "rules/psychology-prerequisites.json",
+    "additionalDepartmentPolicyDocumentRequired": false,
+    "importUnprovidedHistoricalDepartmentRules": false
+  },
+  "remainingIssuesScope": "Implementation details to preserve source semantics; not a request for more Psychology PDFs."
+}

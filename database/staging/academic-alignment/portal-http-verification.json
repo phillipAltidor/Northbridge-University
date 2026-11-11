@@ -1,0 +1,9 @@
+{
+    "status": "authenticated-rebuilt-portal-checks-passed",
+    "checks": 476,
+    "majorsChecked": 12,
+    "database": "northbridge_ow_rebuild_2026_5",
+    "baseURL": "http:\/\/127.0.0.1:8000\/",
+    "studentIdentifiersPublished": false,
+    "workingDatabaseChanged": false
+}

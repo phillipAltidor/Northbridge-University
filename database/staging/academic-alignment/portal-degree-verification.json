@@ -1,0 +1,13 @@
+{
+    "status": "actual-database-history-and-degree-checks-passed",
+    "studentsEvaluated": 2200,
+    "majorsRepresented": 12,
+    "completedAttemptsVerified": 34682,
+    "degreeEvaluationMismatches": 0,
+    "graduationReady": 0,
+    "currentAndFutureCountedAsCompleted": false,
+    "candidateFileSHA256": "1700082ac6d48725b7b8bc5a0543925ddd7e81476eef234259912661b9012344",
+    "studentIdentifiersPublished": false,
+    "database": "northbridge_ow_rebuild_2026_5",
+    "workingDatabaseChanged": false
+}

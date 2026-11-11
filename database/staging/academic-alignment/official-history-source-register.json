@@ -1,0 +1,119 @@
+{
+  "status": "official-term-collection-with-explicit-unpublished-terms",
+  "asOf": "2026-11-07",
+  "terms": [
+    {
+      "term": "202609",
+      "description": "Fall 2026",
+      "path": "database/staging/academic-alignment/official-sections-fall-2026.json",
+      "sections": 913,
+      "meetings": 936,
+      "sourceSHA256": "e49e2d23a6c8042aa2b2478d4049611fe154e0987a759e110610b3fd9380dce2"
+    },
+    {
+      "term": "202702",
+      "description": "Spring 2027",
+      "path": "database/staging/academic-alignment/official-sections-202702.json",
+      "sections": 843,
+      "meetings": 869,
+      "sourceSHA256": "6aee97f4f502f95cf3b41878c0530891688dbc87f716b7fd5287a7c13108af7b"
+    },
+    {
+      "term": "202209",
+      "description": "Fall 2022",
+      "path": "database/staging/academic-alignment/official-sections-202209.json",
+      "sections": 759,
+      "meetings": 798,
+      "sourceSHA256": "86489613f85c9f74ae9cf1f88c559430d4953679a1daaef251146539dc178ecd"
+    },
+    {
+      "term": "202302",
+      "description": "Spring 2023",
+      "path": "database/staging/academic-alignment/official-sections-202302.json",
+      "sections": 777,
+      "meetings": 828,
+      "sourceSHA256": "34353b87e32214df1a0ec0dd7c1984e40347115d97b8264c62a7329e1d380546"
+    },
+    {
+      "term": "202309",
+      "description": "Fall 2023",
+      "path": "database/staging/academic-alignment/official-sections-202309.json",
+      "sections": 798,
+      "meetings": 808,
+      "sourceSHA256": "f4ad8aa13a02e2bed7d644dd9de4cef1fccfc4f74dce0070c061b131ad55d382"
+    },
+    {
+      "term": "202402",
+      "description": "Spring 2024",
+      "path": "database/staging/academic-alignment/official-sections-202402.json",
+      "sections": 809,
+      "meetings": 944,
+      "sourceSHA256": "616fb8f8bc405fd09254d033cf19991f18e53aa3c0aa0d33fd0215b54f48c073"
+    },
+    {
+      "term": "202409",
+      "description": "Fall 2024",
+      "path": "database/staging/academic-alignment/official-sections-202409.json",
+      "sections": 837,
+      "meetings": 859,
+      "sourceSHA256": "18ab66c4f3c248f883bc73b1b48f931acdea6240232c0aaa06574ea856aef878"
+    },
+    {
+      "term": "202502",
+      "description": "Spring 2025",
+      "path": "database/staging/academic-alignment/official-sections-202502.json",
+      "sections": 889,
+      "meetings": 898,
+      "sourceSHA256": "e440446cc96308a083ad3a971bbac8ac7bbc97078a8c60d463739f1e999deaa6"
+    },
+    {
+      "term": "202509",
+      "description": "Fall 2025",
+      "path": "database/staging/academic-alignment/official-sections-202509.json",
+      "sections": 898,
+      "meetings": 914,
+      "sourceSHA256": "8e0750542edaddc50e19331bc9b799e5adad765b74f60736e797ac6dff075a42"
+    },
+    {
+      "term": "202602",
+      "description": "Spring 2026",
+      "path": "database/staging/academic-alignment/official-sections-202602.json",
+      "sections": 922,
+      "meetings": 946,
+      "sourceSHA256": "00fd5bdfc094544e02059e9630e6e16d99e3f1c6d8783f0f1c9b5afac89c5e8c"
+    },
+    {
+      "term": "202009",
+      "description": "Fall 2020",
+      "path": "database/staging/academic-alignment/official-sections-202009.json",
+      "sections": 836,
+      "meetings": 874,
+      "sourceSHA256": "9beab7351150464598a68c5bb55f51930eb315acc6f8fc559bb88a85526c65ad"
+    },
+    {
+      "term": "202102",
+      "description": "Spring 2021",
+      "path": "database/staging/academic-alignment/official-sections-202102.json",
+      "sections": 788,
+      "meetings": 825,
+      "sourceSHA256": "54e8375351ba825cc428ed8d708e71f66f9e4c2546f090163524a149b2505394"
+    },
+    {
+      "term": "202109",
+      "description": "Fall 2021",
+      "path": "database/staging/academic-alignment/official-sections-202109.json",
+      "sections": 807,
+      "meetings": 848,
+      "sourceSHA256": "02f16deca1b897ed2511abe7a4dd57c03ed600089d88939f0f3b7592e3d328d1"
+    },
+    {
+      "term": "202202",
+      "description": "Spring 2022",
+      "path": "database/staging/academic-alignment/official-sections-202202.json",
+      "sections": 791,
+      "meetings": 832,
+      "sourceSHA256": "c2f761f1ce46c557af29c7a0662242f9d859cc447ee15d6a7ee05c6b0cf2fadc"
+    }
+  ],
+  "personalFieldsPersisted": false
+}

@@ -1,0 +1,851 @@
+{
+  "status": "planning-audit-not-migration",
+  "reviewDate": "2026-11-07",
+  "programSources": {
+    "majorPDFs": 12,
+    "minorPDFs": 12
+  },
+  "courseCounts": {
+    "sourceEntries": 879,
+    "distinctCodes": 878,
+    "prefixes": 20,
+    "duplicateCodes": {
+      "SY2222": 2
+    },
+    "earlierExtractionCandidateCount": 899,
+    "note": "Earlier regex counts included inline prerequisite links; new PDF font-aware extraction excludes them and preserves alphanumeric suffixes. MA and CS use retained text pending original PDF re-archival."
+  },
+  "missingLabeledCredits": [
+    "AS3835",
+    "AS4402",
+    "AS5412",
+    "BU4190",
+    "BU5171",
+    "ML1100",
+    "ML1110",
+    "ML2100",
+    "ML2110"
+  ],
+  "variableCreditCourses": [
+    {
+      "code": "AS4202",
+      "min": "4",
+      "max": "12"
+    },
+    {
+      "code": "AS4831",
+      "min": "1",
+      "max": "12"
+    },
+    {
+      "code": "AS4832",
+      "min": "1",
+      "max": "12"
+    },
+    {
+      "code": "CP5900",
+      "min": "2",
+      "max": "4"
+    },
+    {
+      "code": "CP9990",
+      "min": "2",
+      "max": "4"
+    },
+    {
+      "code": "MC4832",
+      "min": "1",
+      "max": "12"
+    },
+    {
+      "code": "MC4835",
+      "min": "1",
+      "max": "12"
+    },
+    {
+      "code": "PX5900",
+      "min": "2",
+      "max": "4"
+    },
+    {
+      "code": "PX9990",
+      "min": "2",
+      "max": "4"
+    },
+    {
+      "code": "PY9000",
+      "min": "2",
+      "max": "8"
+    },
+    {
+      "code": "MA5900",
+      "min": "2",
+      "max": "4"
+    },
+    {
+      "code": "MA9990",
+      "min": "2",
+      "max": "4"
+    },
+    {
+      "code": "CS5620",
+      "min": "2",
+      "max": "4"
+    }
+  ],
+  "entriesWithoutPrerequisiteLabel": [
+    "AS1152",
+    "AS1282",
+    "AS1512",
+    "AS2020",
+    "AS2202",
+    "AS2750",
+    "AS2802",
+    "AS2901",
+    "AS2902",
+    "AS3010",
+    "AS3247",
+    "BS1000",
+    "BU1000",
+    "CP2001",
+    "CP2025",
+    "CP2070",
+    "CP2121",
+    "CP2301",
+    "CP2401",
+    "CP2501",
+    "CP4520",
+    "CP4720",
+    "CR1500",
+    "CS5810",
+    "ED3800",
+    "ED3900",
+    "ED4225",
+    "ED4280",
+    "ED5925",
+    "EL1010",
+    "EL1193",
+    "EL1298",
+    "EL2001",
+    "EL2350",
+    "FY1000",
+    "HI1010",
+    "HI1020",
+    "HI1240",
+    "HI2155",
+    "HI2200",
+    "HI2250",
+    "HI2511",
+    "HI2515",
+    "HI2521",
+    "HI2681",
+    "HI2720",
+    "HI2810",
+    "HI3001",
+    "HI3002",
+    "HI3003",
+    "HI3005",
+    "HI3011",
+    "HI3021",
+    "HI3030",
+    "HI3040",
+    "HI3080",
+    "HI3091",
+    "HI3102",
+    "HI3110",
+    "HI3120",
+    "HI3130",
+    "HI3200",
+    "HI3323",
+    "HI3455",
+    "HI3458",
+    "HI3525",
+    "HI3558",
+    "HI3600",
+    "HI3610",
+    "HI3630",
+    "HI3640",
+    "HI3692",
+    "HI3700",
+    "HI3703",
+    "HI3704",
+    "HI3710",
+    "HI3835",
+    "HI3840",
+    "HI3950",
+    "HI4001",
+    "HI4011",
+    "HI4051",
+    "HI4062",
+    "HI4305",
+    "HI4306",
+    "HI4308",
+    "HI4318",
+    "HI4395",
+    "HI4415",
+    "HI4420",
+    "HI4557",
+    "HI4600",
+    "HI4632",
+    "HI4650",
+    "HI4700",
+    "HI4800",
+    "HI4850",
+    "HI4900",
+    "HI4905",
+    "HI4910",
+    "HI5000",
+    "HI5900",
+    "MA1010",
+    "MA1021",
+    "MC2020",
+    "MC2802",
+    "MC2901",
+    "MC2902",
+    "MD1000",
+    "MD1010",
+    "MD1100",
+    "MD1110",
+    "MD2350",
+    "MD2633",
+    "MD3010",
+    "ML1100",
+    "ML1110",
+    "ML1150",
+    "ML1200",
+    "ML1300",
+    "ML1600",
+    "ML1610",
+    "ML2100",
+    "ML2110",
+    "ML3330",
+    "ML3450",
+    "PE1650",
+    "PE4615",
+    "PE9970",
+    "PH2000",
+    "PX2001",
+    "PX2101",
+    "PX2201",
+    "PX2301",
+    "PX2901",
+    "PY2010",
+    "PY2530",
+    "PY2720",
+    "SY1500",
+    "VA3800"
+  ],
+  "descriptionsExceedingCurrent500CharacterField": 396,
+  "unresolvedPrerequisiteReferences": [
+    {
+      "course": "ED4220",
+      "missingReferences": [
+        "CE4200"
+      ],
+      "sourceText": "Admission to SOE, ED3700, ED3900, Co-requisite: CE 4200"
+    },
+    {
+      "course": "ED7022",
+      "missingReferences": [
+        "ED7001",
+        "ED7002",
+        "ED7003",
+        "ED7004",
+        "ED7005"
+      ],
+      "sourceText": "ED 7001, ED 7002, ED 7003, ED 7004, ED 7005, and ED 7019"
+    },
+    {
+      "course": "ED7023",
+      "missingReferences": [
+        "ED7001",
+        "ED7002",
+        "ED7003",
+        "ED7004",
+        "ED7005"
+      ],
+      "sourceText": "ED 7001, ED 7002, ED 7003, ED 7004, ED 7005, ED 7019, ED 7021, and ED 7022"
+    },
+    {
+      "course": "ED7026",
+      "missingReferences": [
+        "ED7001",
+        "ED7002",
+        "ED7003",
+        "ED7004",
+        "ED7005"
+      ],
+      "sourceText": "ED 7001, ED 7002, ED 7003, ED 7004, ED 7005, ED 7019, ED 7020, ED 7021, ED 7022, and ED 7023"
+    },
+    {
+      "course": "HI3752",
+      "missingReferences": [
+        "ENG1000"
+      ],
+      "sourceText": "Writing proficiency. OW score of 25 or ENG 1000 C or above"
+    },
+    {
+      "course": "MC4700",
+      "missingReferences": [
+        "AS3700"
+      ],
+      "sourceText": "MC2802 or AS2802; MC3700 or AS3700\nOr permission of instructor."
+    },
+    {
+      "course": "MC4729",
+      "missingReferences": [
+        "AS2226",
+        "AS2251"
+      ],
+      "sourceText": "EMS and AS 2122 or AS 2251 or AS 2226 or AS 2263 or AS 2300 or AS 2640 or AS 3215 or AS 3222 or AS 3270 or AS 3462\n"
+    },
+    {
+      "course": "MC4935",
+      "missingReferences": [
+        "AS3870"
+      ],
+      "sourceText": "MC2901 or AS 3247; or MC4870 or AS3870\nOr permission of instructor."
+    },
+    {
+      "course": "MC4940",
+      "missingReferences": [
+        "AS4442",
+        "AS4882"
+      ],
+      "sourceText": "MC3800 or AS3800\nAND one of: MC4442 or AS4442, MC4822 or AS4822, or MC4882 or AS4882\nOr permission of instructor"
+    },
+    {
+      "course": "MC4945",
+      "missingReferences": [
+        "AS4150"
+      ],
+      "sourceText": "MC2902 or AS2902 or AS3820 or MC4150 or AS4150\nOr permission of instructor"
+    },
+    {
+      "course": "MC4965",
+      "missingReferences": [
+        "AS4852"
+      ],
+      "sourceText": "MC2901 or AS2901 or AS3247 or MC4852 or AS4852\nOr permission of instructor"
+    },
+    {
+      "course": "PY4210",
+      "missingReferences": [
+        "PY2400"
+      ],
+      "sourceText": "PY 2010 (with a minimum grade of \u201cC\u201d); PY 3010 (with a minimum grade of \u201cC\u201d); EMS; and PY 3310 or PY 321 or PY\n3240 or PY 2400"
+    },
+    {
+      "course": "PY5210",
+      "missingReferences": [
+        "PY2400"
+      ],
+      "sourceText": "PY 2010 (with a minimum grade of \u201cC\u201d); PY 3010 (with a minimum grade of \u201cC\u201d); PY 3215 or PY 3230 or PY 3240 or PY\n2400; EMS"
+    },
+    {
+      "course": "BU4149",
+      "missingReferences": [
+        "BU5110"
+      ],
+      "sourceText": "EMS and Math Proficiency; BU 33502; BU4110; BU3800; BU5196\nRecommended: BU4762; BU3010; BU5110\n"
+    },
+    {
+      "course": "BU4180",
+      "missingReferences": [
+        "MA3250"
+      ],
+      "sourceText": "BU/MA 3250"
+    },
+    {
+      "course": "BU4190",
+      "missingReferences": [
+        "BU3070"
+      ],
+      "sourceText": "BU 4160 and BU 3010 or BU 3070 and CS 2521"
+    },
+    {
+      "course": "BU5790",
+      "missingReferences": [
+        "BU4792"
+      ],
+      "sourceText": "BU 4762 - Financial Management l\nBU4792 AND PE2420 AND PE2430"
+    },
+    {
+      "course": "BU5798",
+      "missingReferences": [
+        "BU5771"
+      ],
+      "sourceText": "BU 4762\n, BU 5760\n, BU 5771"
+    },
+    {
+      "course": "CS5821",
+      "missingReferences": [
+        "CS4410"
+      ],
+      "sourceText": "C or better in CS 4410 or CS 5810."
+    }
+  ],
+  "programReferenceCoverage": [
+    {
+      "program": "Accounting, B.S.",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Accounting, B.S. - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Accounting, Minor",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/starthere2.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Biological Sciences, B.S.",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Biological Sciences, B.S. - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Business Administration, B.S.",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/starthere.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Childhood Education 1-6, B.S.",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Childhood Education 1-6, B.S. - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "English, B.A.",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ English, B.A. - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": [
+        "EL2200",
+        "EL2299",
+        "EL3811"
+      ]
+    },
+    {
+      "program": "Environmental Studies, Minor",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Environmental Studies, Minor - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": [
+        "XX9990"
+      ]
+    },
+    {
+      "program": "General Business, Minor",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ General Business, Minor - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Marketing, Minor",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Marketing, Minor - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Mathematics, B.S.",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Mathematics, B.S. - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Mathematics, Minor",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Mathematics, Minor - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Media and Communications, Minor",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Media and Communications, Minor - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Media & Communications, B.A.",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Media & Communications, B.A. - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Multicultural U.S./ British Literature, Minor",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Multicultural U.S._ British Literature, Minor - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": [
+        "EL3811"
+      ]
+    },
+    {
+      "program": "Physics, B.S.",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Physics, B.S. - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": [
+        "MA4000"
+      ]
+    },
+    {
+      "program": "Physics, Minor",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Physics, Minor - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Psychology, B.S.",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Psychology, B.S. - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Psychology, Minor",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Psychology, Minor - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Public Health, B.S.",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Public Health, B.S. - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Public Health, Minor",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Public Health, Minor - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Visual Arts, Minor",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Visual Arts, Minor - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Management Information Systems, B.S.",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Management Information Systems, B.S. - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Computer Information Science, Minor",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Computer Information Science, Minor - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    },
+    {
+      "program": "Computer and Information Science, B.S.",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Program_ Computer and Information Science, B.S. - SUNY Old Westbury.pdf",
+      "missingLiteralReferences": []
+    }
+  ],
+  "GEApprovalReferencesNotInCollectedDescriptions": {
+    "Diversity: Equity, Inclusion, and Social Justice": [
+      "AS2282",
+      "AS3252",
+      "AS3262",
+      "AS3263",
+      "AS3842",
+      "AS3852",
+      "CR3940",
+      "CR4092",
+      "EL3811",
+      "EL4690",
+      "EL4695",
+      "HI3720",
+      "HS3600",
+      "HS4610",
+      "HS4700",
+      "HS4750",
+      "IR3120",
+      "IR3300",
+      "IR3330",
+      "ML3700",
+      "PH4700",
+      "PY2340",
+      "PY2730",
+      "PY3740",
+      "PY3750",
+      "PY4720",
+      "SY4280",
+      "SY4750",
+      "SY4900",
+      "WS1000",
+      "WS1540",
+      "WS2110",
+      "WS2285",
+      "WS2295",
+      "WS2340",
+      "WS2785",
+      "WS2885",
+      "WS3000",
+      "WS3120",
+      "WS3150",
+      "WS3295",
+      "WS3585",
+      "WS3785",
+      "WS3940",
+      "WS4295",
+      "WS4340"
+    ],
+    "Mathematics": [],
+    "Communication Written and Oral": [
+      "EL2200",
+      "EL2223",
+      "WS2340"
+    ],
+    "The Arts": [
+      "AS3632",
+      "AS3712",
+      "AS3742",
+      "AS4722",
+      "AS4862",
+      "AS5862",
+      "EL4033",
+      "HI2350",
+      "VA2340",
+      "VA4242",
+      "VA4340",
+      "VA4420",
+      "WS1540"
+    ],
+    "US History and Civic Engagement": [
+      "AS3112",
+      "AS3122",
+      "AS3252",
+      "AS3262",
+      "AS3263",
+      "IR3120",
+      "SY4900",
+      "WS2110",
+      "WS3120"
+    ],
+    "World History and Global Awareness": [
+      "CR3940",
+      "WS3940",
+      "WS4420"
+    ],
+    "World Languages": [
+      "ML1130",
+      "ML2000",
+      "ML2010",
+      "ML3700"
+    ],
+    "Natural Sciences": [
+      "BS2250",
+      "CP2220",
+      "CP2230",
+      "CP2240",
+      "CP2250",
+      "CP2700",
+      "CP2900",
+      "PX2220",
+      "PX2230"
+    ],
+    "Humanities": [
+      "AS2652",
+      "AS3745",
+      "EL3620",
+      "EL4033",
+      "EL4690",
+      "EL4695",
+      "HI3720",
+      "ML3700",
+      "VA2340",
+      "WS1000",
+      "WS4340",
+      "WS4420"
+    ],
+    "Social Sciences": [
+      "CR2500",
+      "HS4850",
+      "IR3415",
+      "PE1401",
+      "PE2220",
+      "PE2240",
+      "PH4850",
+      "PY2340",
+      "PY2730",
+      "PY3740",
+      "PY3750",
+      "SY2500",
+      "SY3550",
+      "SY3600",
+      "SY4160",
+      "SY4750",
+      "WS2285",
+      "WS2295",
+      "WS2885",
+      "WS3295",
+      "WS3940",
+      "WS4295"
+    ]
+  },
+  "sourceIntegrityWarnings": [
+    "Original PDF pathname was reused; original checksum retained. Text extraction survives, but original matching PDF must be archived again before final import verification.",
+    "Original PDF pathname was reused; original checksum retained. Text extraction survives, but original matching PDF must be archived again before final import verification."
+  ],
+  "databaseBaseline": {
+    "counts": {
+      "User": 3723,
+      "Login": 3723,
+      "Faculty": 350,
+      "Student": 3338,
+      "Graduate_Student": 1138,
+      "Undergraduate": 2200,
+      "Department": 10,
+      "Major": 12,
+      "Minor": 12,
+      "Course": 240,
+      "Course_Section": 4854,
+      "Course_Prerequisite": 181,
+      "Major_Requirements": 156,
+      "Minor_Requirements": 61,
+      "Enrollment": 44433,
+      "Student_History": 37187,
+      "Faculty_History": 4092,
+      "Attendance": 16616,
+      "Student_Major": 3338,
+      "Student_Minor": 300,
+      "Day": 7,
+      "Period": 21,
+      "Time_Slot": 72,
+      "Room": 725
+    },
+    "courseLevels": [
+      {
+        "course_Type": "Undergraduate",
+        "count": 180
+      },
+      {
+        "course_Type": "Graduate",
+        "count": 60
+      }
+    ],
+    "terms": [
+      {
+        "semester_ID": 1,
+        "semester_Name": "Fall 2026",
+        "sections": 372
+      },
+      {
+        "semester_ID": 2,
+        "semester_Name": "Spring 2027",
+        "sections": 390
+      },
+      {
+        "semester_ID": 3,
+        "semester_Name": "Fall 2022",
+        "sections": 392
+      },
+      {
+        "semester_ID": 4,
+        "semester_Name": "Spring 2023",
+        "sections": 447
+      },
+      {
+        "semester_ID": 5,
+        "semester_Name": "Fall 2023",
+        "sections": 464
+      },
+      {
+        "semester_ID": 6,
+        "semester_Name": "Spring 2024",
+        "sections": 472
+      },
+      {
+        "semester_ID": 7,
+        "semester_Name": "Fall 2024",
+        "sections": 489
+      },
+      {
+        "semester_ID": 8,
+        "semester_Name": "Spring 2025",
+        "sections": 498
+      },
+      {
+        "semester_ID": 9,
+        "semester_Name": "Fall 2025",
+        "sections": 519
+      },
+      {
+        "semester_ID": 10,
+        "semester_Name": "Spring 2026",
+        "sections": 507
+      },
+      {
+        "semester_ID": 11,
+        "semester_Name": "Fall 2020",
+        "sections": 27
+      },
+      {
+        "semester_ID": 12,
+        "semester_Name": "Spring 2021",
+        "sections": 38
+      },
+      {
+        "semester_ID": 13,
+        "semester_Name": "Fall 2021",
+        "sections": 86
+      },
+      {
+        "semester_ID": 14,
+        "semester_Name": "Spring 2022",
+        "sections": 153
+      }
+    ],
+    "courseCreditDistribution": [
+      {
+        "course_Credits": 4,
+        "count": 240
+      }
+    ],
+    "gradMajors": [
+      {
+        "major_ID": 1,
+        "major_Name": "Computer Science",
+        "students": 343
+      },
+      {
+        "major_ID": 2,
+        "major_Name": "Cybersecurity",
+        "students": 68
+      },
+      {
+        "major_ID": 3,
+        "major_Name": "Business Administration",
+        "students": 68
+      },
+      {
+        "major_ID": 4,
+        "major_Name": "Accounting",
+        "students": 68
+      },
+      {
+        "major_ID": 5,
+        "major_Name": "Mathematics",
+        "students": 129
+      },
+      {
+        "major_ID": 6,
+        "major_Name": "Biology",
+        "students": 66
+      },
+      {
+        "major_ID": 7,
+        "major_Name": "Engineering",
+        "students": 66
+      },
+      {
+        "major_ID": 8,
+        "major_Name": "English",
+        "students": 66
+      },
+      {
+        "major_ID": 9,
+        "major_Name": "Psychology",
+        "students": 66
+      },
+      {
+        "major_ID": 10,
+        "major_Name": "Education",
+        "students": 66
+      },
+      {
+        "major_ID": 11,
+        "major_Name": "Health Sciences",
+        "students": 66
+      },
+      {
+        "major_ID": 12,
+        "major_Name": "Media Studies",
+        "students": 66
+      }
+    ],
+    "studentPrimaryMajorDisagreements": 0
+  },
+  "limitations": [
+    "Literal references include ranges, aliases and placeholders; review before adding courses.",
+    "Prerequisite scan is not a verified AND/OR tree or cycle analysis.",
+    "No-prerequisite-label entries are not approved as having no prerequisites.",
+    "Description length is a source-text heuristic, not a display-text migration result."
+  ]
+}

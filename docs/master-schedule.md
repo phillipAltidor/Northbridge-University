@@ -3,9 +3,10 @@
 ## Scope
 
 The Admin schedule lists the nine required semesters from Fall 2022 through
-Fall 2026, plus the existing upcoming Spring 2027 schedule. It displays course
-codes/names, credits, faculty names, meeting days, separate start/end times,
-building/room, section number, maximum/available seats, term, and year.
+Fall 2026, plus the existing upcoming Spring 2027 schedule. It displays CRN, Course, Course Name, Section, Professor, Days, Time,
+Building / Room, Total Seats, and Available Seats. Editable terms retain the Edit
+action. Section numbers are plain integers. Semester is the table heading; credits
+remain stored but are omitted from the schedule display.
 Year and semester selections submit automatically. Course code/name/CRN search,
 department, and available-seat filters affect the displayed rows only. Saving
 always validates the complete semester snapshot, not the filtered result.
@@ -15,9 +16,10 @@ and bottom horizontal scrolling, a bounded vertical scroll area with sticky
 column headers, and unwrapped codes/times. Pagination does not truncate saved
 semester snapshots.
 
-Section capacity is fixed at 10. Seats are calculated from Enrollment for every
-semester, including the historical enrollment rows retained from Student_History.
-History is not counted again. The editor cannot set
+Rebuilt section capacity comes from NB_AcademicSection.source_JSON.capacity
+(currently 3–10); legacy sections retain the ten-seat limit. Seats are calculated
+from distinct Enrollment/Student_History roster membership, so history is not
+counted again. The editor cannot set
 seat counts or capacity manually. Database triggers update the stored seat count
 on Enrollment inserts, drops, and transfers, reject full-section registration,
 and validate the section's semester. Rollbacks also roll back seat changes.
@@ -30,7 +32,9 @@ same live cutoff; advancing the date does not create attendance or change grades
 Fall 2026 remains the configured current semester until approved semester dates
 are supplied. Its time slots
 cannot change once the semester has started. Existing conflict checks remain;
-faculty department/load eligibility still needs completion against the SRS.
+rebuilt assignment edits validate department eligibility and semester teaching
+limits. Faculty subtype class counters track the configured current semester.
+See [schema alignment audit](schema-alignment-audit.md) for verified scope and limits.
 
 ## Installation
 

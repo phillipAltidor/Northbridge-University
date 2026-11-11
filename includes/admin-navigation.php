@@ -19,6 +19,7 @@ function admin_nav_groups(): array
             ['Update Faculty for Course Section', null],
         ]],
         'programs' => ['Majors & Minors', false, [
+            ['Degree Evaluation Preview', 'admin/degree-preview.php'],
             ['Create Major', null], ['Update Major', null],
             ['Create Minor', null], ['Update Minor', null],
             ['Create Major Requirements', null], ['Update Major Requirements', null],

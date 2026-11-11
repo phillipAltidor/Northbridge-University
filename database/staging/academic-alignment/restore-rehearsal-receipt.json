@@ -1,0 +1,10 @@
+{
+    "status": "snapshot-and-restore-verified",
+    "source": "northbridge_ow_rebuild_2026_7",
+    "restoredTarget": "northbridge_ow_restore_2026_12",
+    "tablesVerified": 53,
+    "privateDirectory": "\/private\/tmp\/northbridge-rebuild-snapshot-f1b601f6a21b",
+    "snapshotSHA256": "5a8a07aa7d002872fb2a7d9fcf2dddb22efa200ba297e9e8885d44c6aeca3a8a",
+    "sourceUnchanged": true,
+    "portalConfigurationChanged": false
+}

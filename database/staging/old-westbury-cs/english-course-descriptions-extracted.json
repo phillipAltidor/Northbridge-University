@@ -1,0 +1,461 @@
+{
+  "status": "reference-only-not-import-ready",
+  "catalogEdition": "2026-2027 Undergraduate Catalog",
+  "sourcePDF": "/Users/phillipaltidor/Downloads/1.pdf",
+  "sourceSHA256": "87fc17c978dd2d1f2512a4ba7a7ac042464625ba4671660b4e9a24aefa7aafe5",
+  "pages": 33,
+  "extractionMethod": "PDFKit page text; page furniture removed; full course entry text retained",
+  "records": [
+    {
+      "code": "EL1000",
+      "title": "English Composition I: Exposition",
+      "sourceText": "Credits: 4\nDesigned to develop and refine students\u2019 ability to read, write and think critically. Selected essays will be read and\nstudied as models of rhetorical style, enabling students to detect for themselves the effective use of language and to\ndevelop an appreciation for masterpieces of non fiction prose. Students will learn to develop the extended essay with\nparticular attention to discovery and organization. Oral communication skills will be sharpened by directed discussion\nand by presentation and criticism of class papers. A grade of C or above is required to pass this course.\nPrerequisites\nEC I placement\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL1010",
+      "title": "Writing Workshop",
+      "sourceText": "Credits: 2\nThis two-credit course will provide students in English Composition with additional writing support. Students in this\ncourse will meet for an additional one hour and 30 minutes per week. During this time students will practice effective\nwriting and reading strategies and engage in one-on-one tutoring sessions with their instructor. Students who earn a C\nor above in English Composition I will satisfy the English Composition I proficiency and be able to move on to English\nComposition II. Students who earn a C or above in English Composition II will satisfy the English Composition II\nproficiency",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL1193",
+      "title": "ESOL III",
+      "sourceText": "Credits: 4\nDesigned to refine English language skills the multilanguage learner has already acquired. Basic grammatical forms are\nnot directly taught but are reviewed in the context of specific writing activities. Emphasis is on the construction and\nrevision of paragraphs and short compositions. Reading skills are strengthened through vocabulary expansion and\nexercises in comprehension, summarizing and outlining.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL1298",
+      "title": "ESOL IV English Composition for ESOL and Writing Workshop",
+      "sourceText": "Credits: 6\nThis 6 credit course is designed to improve students\u2019 critical thinking and academic writing skills as well as the ability to\ncontrol such surface features as grammar, punctuation, diction, and spelling. We will read and discuss nonfiction prose\nthat will serve as models for your own writing. You will learn that writing is a process, not a product, and will gain\npractice with planning, drafting, and revising essays. You will also learn to develop the extended essay with particular\nattention to discovery and organization. Oral communication skills will be sharpened by directed discussion and by\npresentation and criticism of student essays. ESOL IV is a six-credit course designed to provide students with additional\nwriting support. Students in this course will meet for an additional one hour and 30 minutes per week. During this time\nstudents will practice effective writing strategies and engage in one-on-one tutoring sessions with their instructor.\nStudents who earn a C or above in ESOL IV will satisfy the English Composition I proficiency and be able to move on to\nEnglish Composition II.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2001",
+      "title": "Public Speaking",
+      "sourceText": "Credits: 4\nDesigned to give the student the poise and confidence necessary to think and speak freely before an audience. This\ncourse proceeds from audience analysis through motivation, supporting materials, organization, and delivery.\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2203",
+      "title": "Shakespeare: Three Plays",
+      "sourceText": "Credits: 4\nThis course examines Shakespearian themes which have intense relevance to today\u2019s divided society: sexism, racism,\nanti-Semitism, colonialism, and gender fluidity. Texts will include such plays as Othello, The Winter\u2019s Tale, The\nMerchant of Venice, Twelfth Night, The Tempest, as well as some of the sonnets. Students are required to write a reading\njournal, analytical essays, and a research paper. Most writing is done outside of class. The course stresses training in\nquotation, citation, and research methods.\nPrerequisites\nEC II placement\nWhen Offered:\nPeriodically.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2205",
+      "title": "Psychological Themes in Literature",
+      "sourceText": "Credits: 4\nThis section will explore a variety of psychological themes such as development and aging, family dynamics, addictions,\nneurosis and psychosis in literary works by a selection of writers from different cultures. Themes will also be considered\nfrom the perspective of relevant psychological literature. Interpretive essays and a research paper are required. The\ncourse stresses training in quotation, citation, and research methods.\nPrerequisites\nEC II placement\nWhen Offered:\nPeriodically.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2206",
+      "title": "Science Fiction Literature",
+      "sourceText": "Credits: 4\n\nScience fiction literature and film are often used to imagine utopian and dystopian worlds. At its best, the genre of\nscience fiction raises questions about what makes a good society, the nature of being human, the role of the outsider, the\nchallenges technological advances present, and gender and sexual norms. The course will examine fiction by authors\nsuch as George Orwell, Harlan Ellison, Samuel Delaney, Ursula LeGuin, Philip K. Dick, and Octavia Butler as well as\nfilms such as Blade Runner and The Matrix. Students will develop their ability to read and think critically and to write\nsummaries, critical analyses and a research paper based on the course material. The course stresses training in quotation,\ncitation, and research methods.\nPrerequisites\nEC II placement\nWhen Offered:\nPeriodically.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2207",
+      "title": "Contemporary American Fiction",
+      "sourceText": "Credits: 4\nStudents will read and analyze short fiction by authors who reflect the diversity of contemporary American fiction, such\nas Raymond Carver, Alice Walker, Sandra Cisneros, Junot D\u00edaz, Jhumpa Lahiri, Maxine Hong Kingston, Tim O\u2019Brien,\nand others. Analysis of the short story will acquaint students with literary form and structure. Biographical and\nhistorical factors will be examined as influences on content and form. Interpretive essays and a research paper are\nrequired. The course stresses training in quotation, citation, and research methods.\nPrerequisites\nEC II placement\nWhen Offered:\nPeriodically.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2208",
+      "title": "Modern American Poetry",
+      "sourceText": "Credits: 4\n\nThis lecture/discussion course will focus on trends and themes in modern American poetry in the context of the search\nfor an American poetic voice. Poets range from Whitman to Walker and include Frost, Harper, Hughes, Komunyakaa,\nSarton, Sexton, Wilbur, Wright, and others. Formal analysis and biographical factors are studied. Students will also\nbecome involved in \u201cfound poetry\u201d and practice poetic forms. Interpretive essays and a research paper are required. The\ncourse stresses training in quotation, citation, and research methods.\nPrerequisites\nEC II placement\nWhen Offered:\nPeriodically.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2211",
+      "title": "Africana Perspectives",
+      "sourceText": "Credits: 4\nExplores recurring themes and modes of expression in the Pan-African world, ranging from the role of the oral tradition\nin traditional African societies to African-American rebellion as expressed in contemporary writing and music.\nInterpretive essays and a research paper are required. The course stresses training in quotation, citation, and research\nmethods.\nPrerequisites\nEC II placement\nWhen Offered:\nPeriodically.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2214",
+      "title": "Literature and Liberation",
+      "sourceText": "Credits: 4\nExamines fiction, poetry, essays, and drama about class-economic struggle, war, and racial and sexual oppression.\nThrough these kinds of literature, oppressed people have voiced their ideas on ethics, politics, and society, and other\nsocial groups have responded positively or negatively. The course stresses close reading of literature, understanding\n\nliterary themes and techniques, reading in historical context, and training in quotation, citation, and research methods.\nTwo or three short interpretations and a research paper are required.\nPrerequisites\nEC II placement\nWhen Offered:\nPeriodically.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2216",
+      "title": "Multicultural Perspectives",
+      "sourceText": "Credits: 4\nWorks from writers of various cultures enable students to develop an understanding and appreciation of cultural\ndiversity. Interpretive essays and a research paper are required. The course stresses training in quotation, citation, and\nresearch methods.\nPrerequisites\nEC II placement\nWhen Offered:\nEvery year.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2218",
+      "title": "The Short Story",
+      "sourceText": "Credits: 4\nA variety of short stories will be studied for theme and structure and other elements of fiction. Emphasis on the\ndevelopment of the short story in the context of literary movements, such as realism, naturalism, impressionism.\nInterpretive essays and a research paper are required. The course stresses training in quotation, citation, and research\nmethods.\nPrerequisites\nEC II placement\n\nWhen Offered:\nEvery year.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2219",
+      "title": "International Short Stories",
+      "sourceText": "Credits: 4\nStudents will read a variety of short stories by authors from around the world, including Russia, Kenya, Brazil, India,\nand Japan. Emphasis on character and culture, as shaped by social factors. Interpretive essays and a research paper are\nrequired. The course stresses training in quotation, citation, and research methods.\nPrerequisites\nEC II placement\nWhen Offered:\nEvery year.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2221",
+      "title": "Adolescent Literature",
+      "sourceText": "Credits: 4\nTraces the patterns and problems of growing up in America and forming an identity in the context of family influence\nand social pressures. Authors include Twain, Salinger, McCullers, Baldwin, Marshall, Potak, Walker. Interpre tive essays\nand a research paper are required. The course stresses training in quotation, citation, and research methods.\nPrerequisites\nEC II placement\nWhen Offered:\nEvery year.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2222",
+      "title": "Women\u2019s Voices",
+      "sourceText": "Credits: 4\nThis lecture/discussion course focuses on developing students\u2019 abilities to understand, analyze, and write about\nliterature by women writers. Texts studied include essays, poems, stories, and novels by Emily Bronte, Emily Dickinson,\nVirginia Woolf, Flannery O\u2019Connor, Gwendolyn Brooks, Toni Morrison, Alice Walker, June Jordan, and Maxine Hong\nKingston. Students are required to write a reading journal, analytical essays, and a research paper. The course stresses\ntraining in quotation, citation, and research methods. Most writing is done outside of class.\nPrerequisites\nEC II placement\nWhen Offered:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2224",
+      "title": "Autobiography",
+      "sourceText": "Credits: 4\nThis course deals with autobiography as a form of personal expression. It explores a major compulsion among writers to\nlook back on their growth and examines the need to communicate the historic vision to the next generation. The\ninteraction between the inner and the outer world, between the quest for personal freedom and the demands for social\nconformity provides for a vigorous examination of the process of individual growth. Interpretive essays and a research\npaper are required. The course stresses training in quotation, citation, and research methods.\nPrerequisites\nEC II placement\nWhen Offered:\nPeriodically.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2233",
+      "title": "Environmental Literature",
+      "sourceText": "Credits: 4\nThis lecture/discussion course focuses on developing students\u2019 abilities to understand, analyze, and write about the\nliterature of natural scientists and other acclaimed authors. Included are works by Lewis Thomas, Henry David\n\nThoreau, Carl Sagan, Paul Theroux, Isaac Asimov, and Rachel Carson. Interpretive essays and a research paper are\nrequired. The course stresses training in quotation, citation, and research methods.\nPrerequisites\nEC II placement\nWhen Offered:\nPeriodically.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2239",
+      "title": "Horror Literature",
+      "sourceText": "Credits: 4\nThis course will explore common characteristics in the literature of horror and the supernatural. Works of Hawthorne,\nPoe, and Shelley will be in focus, as will some modern Gothic writers. Film and its comparison to the literature will be\nexplored. Interpretive essays and a research paper are required.\nPrerequisites\nEC II placement\nWhen Offered:\nEvery year.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2248",
+      "title": "The Lyric: The Poetry of Emotion",
+      "sourceText": "Credits: 4\nKnown as the poetry of emotion, the lyric has been an important vehicle of expression for poets from ancient to present\nday cultures. The course explores lyrics from a cross-cultural perspective, focusing on the methods poets have employed\nin order to convey the private, emotional lives of their speakers to the \u201cpublic,\u201d their audience of readers. In addition to\nstudying the lyric, students will read and evaluate critical articles as well as compose reading journals and documented\nessays in response to the texts. The course stresses training in quotation, citation, and research methods.\nPrerequisites\n\nEC II placement\nWhen Offered:\nPeriodically.Note:\nA grade of \u201cC\u201d or above is required to pass these courses.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2310",
+      "title": "Introduction to Literature",
+      "sourceText": "Credits: 4\nThis course is aimed at developing students\u2019 personal responses to literature. The focus will be on specific literary genres\nsuch as poetry, drama, novel, short story, and non fiction prose. The readings will cover a variety of periods and\ncultures.\nPrerequisites\nEC II placement\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL2350",
+      "title": "Reading and Writing for a Multicultural Community",
+      "sourceText": "Credits: 4\nThis course is a historical and contemporary examination of how immigration, race and ethnicity have helped shape\nboth American national identity and personal identity. Students will explore the political, social, educational, and\neconomic aspects of immigration with emphasis on how minority populations adapted to American culture, changing\nAmerican culture in the process. This study explores the writing of activists, political leaders, authors, and other social\nreformers to discover how they used the written word as a vehicle for change. Students will read articles, speeches,\nmemoirs, poems and short fiction and discuss the various societal issues that they would like to address through\nwriting. Their work will reach audiences beyond their class and serve tangible purposes for community groups and the\nstudents themselves.\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3010",
+      "title": "Structure and Grammar of English",
+      "sourceText": "Credits: 4\nThis course places formal English grammar in the context of the structure and development of the language. Devoting\nsignificant attention to the evolution of English and its overall structure, the course also offers intensive study of\nstandard grammar, aimed at both Literature and Teaching students. Students study parts of speech, parts of the\nsentence, verb and pronoun forms and agreement, and the uses of phrases and clauses within sentences, and they learn\nto identify these in their writing and the writings of others.\nPrerequisites\nEMS\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3200",
+      "title": "Peer Mentoring T utorial",
+      "sourceText": "Credits: 4\nStudents enrolled in Peer Mentoring Tutorial will work under the supervision of a faculty mentor and will, in turn, serve\nas mentor to selected students. Following an orientation seminar, student mentors will regularly attend an assigned\nclass, assist students in and outside the class with papers, homework, course material, as well as serving as peer advisor.\nStudent mentors will keep records of meetings with mentees, submitting written reports at regular intervals on each\nmentee. Mandatory attendance at scheduled Peer Mentoring Tutorial. Term report required.\nPrerequisites\n\u201cB+\u201d average, recommendation of faculty\nWhen Offered:\nEvery semester. Enrollment is limited to English majors and School of Education English concentrators, and requires\npermission of one faculty mentor.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3500",
+      "title": "Literature Across Cultures I: Analysis",
+      "sourceText": "Credits: 4\n\nThis course explores representative works of U.S. and international literature that find their roots in the world\u2019s\nmultiplicity of cultures. The course emphasizes multiple strands and traditions both within world literary culture and\nwithin the literary cultures of the United States and other nations. Readings and discussions focus on the dominant\nthemes in fiction, poetry, drama, and essays by writers of distinct national and ethnic identities, genders, and sexual\norientations. The course also includes studies of writings about multicultural contributions to literature.\nPrerequisites\nEMS\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3510",
+      "title": "Literature Across Cultures II: Theory",
+      "sourceText": "Credits: 4\nThis course encourages diverse responses to important works of British-U.S. and World Literature. It fosters the skills of\nclose reading and develops the confidence necessary for independent interpretation of literary texts. While studying\neach text, students read critical articles about them reflecting the approaches of \u201cnew criticism,\u201d biographical and\npsychoanalytic criticism, new historicism, feminism, queer theory, and other current methodologies. Small group\ndiscussions of study questions, oral reports, and writing assignments encourage students to read the texts specifically\nand respond to them independently.\nPrerequisites\nEMS\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3560",
+      "title": "Literatures of Europe, Part I: Old Testament and Homer to the Renaissance",
+      "sourceText": "Credits: 4\nCovers the literary traditions of Europe from the Jewish-Christian Bible to the Renaissance. Works in these traditions\nhave been foundational for most later writing in English, and for much modern World Literature. Selections vary by\nsemester and have recently included works by Homer, Sophocles, Virgil, Dante, Milton, Shakespeare, and others.\n\nPrerequisites\nEMS\nWhen Offered:\nAnnually.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3561",
+      "title": "Literatures of Europe, Part II: Age of Enlightenment to the Present",
+      "sourceText": "Credits: 4\nSurveys the literary traditions of Europe and its diaspora from the 17th to the 21st centuries. Works in these traditions\nhave inspired modern U.S. and British as well as World Literature. Selections vary by semester; recently the course has\nincluded works by Moliere, Voltaire, Dostoevsky, Ibsen, Kafka, Pirandello, Becket, Borges, Camus, and others.\nPrerequisites\nEMS\nWhen Offered:\nAnnually.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3600",
+      "title": "U.S. Literature I-Colonial Period to Civil War",
+      "sourceText": "Credits: 4\nPoetry, fiction, essay, and memoir from the colonial period to the U.S. Civil War. Examines significant works\nrepresentative of Puritanism, the Enlightenment, Romanticism, the \u201cAmerican Renaissance,\u201d Transcendentalism, the\nvoices of Native Americans and women, and the literature of Abolitionism as examples of a developing literary\nnationalism and as expressions of a multicultural society\u2019s development and struggles. Authors may include William\nBradford, Anne Bradstreet, Benjamin Franklin, Phillis Wheatley, James Fenimore Cooper, Richard Allen, Edgar Allen\nPoe, Nathaniel Hawthorne, Herman Melville, Ralph Waldo Emerson, Frances E. W. Harper, Frederick Douglass, John G.\nWhittier, Walt Whitman, William Wells Brown, and others.\nPrerequisites\nEMS\n\nWhen Offered:\nEvery Fall.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3610",
+      "title": "U.S. Literature II-Civil War to the Present",
+      "sourceText": "Credits: 4\nPoetry, fiction, drama, essay, and memoir from the U.S. Civil War to the present. Examines significant works\nrepresenting realism, naturalism, modernism, and postmodernism in literary technique and responding to the evolution\nand tensions of a multicultural society, including the labor, immigration, civil rights, feminist, and lesbian-gay\nexperiences. Authors may include Mark Twain, Emily Dickinson, Henry James, Charles Chesnutt, W.E.B. Du Bois, Sui\nSin Far, Willa Cather, Edith Wharton, Langston Hughes, Zora Neale Hurston, Ernest Hemingway, William Faulkner,\nRichard Wright, Tennessee Williams, Ralph Ellison, Gary Soto, August Wilson, Oscar Hijuelos, Louise Erdrich, Toni\nMorrison, Audre Lorde, Thom Gunn, and others.\nPrerequisites\nEMS\nWhen Offered:\nEvery Spring.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3700",
+      "title": "Survey of World Literature",
+      "sourceText": "Credits: 4\nA study of representative works of world literature from Antiquity to the Modern. The course emphasizes the study and\nconsideration of the literary, cultural, and human significance of selected masterpieces of the Western and non-Western\nliterary traditions. An important objective of the course is to promote an understanding of the literary works in their\ncultural/historical contexts and of the enduring human values which unite the different literary tradi tions of the world.\nThis course complements EL 3560 - Literatures of Europe, Part I: Old Testament and Homer to the Renaissance\n- EL 3561 - Literatures of Europe, Part II: Age of Enlightenment to the Present\n, and so focuses largely on literatures of the non-Western world.\nPrerequisites\nEMS\n\nWhen Offered:\nEvery year.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3800",
+      "title": "English Literature I: Beowulf to 18th Century, inclusive of Shakespeare",
+      "sourceText": "Credits: 4\nA survey course examining the works of major English writers from the Anglo-Saxon period through the 18th century,\nincluding the Beowulf poet, Chaucer, Shakespeare, Milton, and Swift. Attention paid to their influence on later writers.\nPrerequisites\nEMS\nWhen Offered:\nEvery Fall.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3810",
+      "title": "English Literature II: Romantics to Present",
+      "sourceText": "Credits: 4\nA survey course studying major English writers of the 19th and 20th centuries from the romantic and Victorian periods\nto contemporary times. Authors may include Wordsworth, Keats, Bront\u00eb, G. Eliot, R. Browning, Hardy, Woolf, Joyce,\nShaw, and Yeats. Attention paid to their influence on later writers.\nPrerequisites\nEMS\nWhen Offered:\nEvery Spring.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3865",
+      "title": "Literature of Asia",
+      "sourceText": "Credits: 4\nThis course focuses on the reading and discussion of a number of literary masterpieces, both traditional and\ncontemporary, drawn from the cultures of China, Japan, and India. The range of works presented will provide\nfoundation for considering the influence of history and religion on literature, as well as the ways in which literature\n\nshapes culture.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3870",
+      "title": "Literatures of Africa",
+      "sourceText": "Credits: 4\nPresents a series of masterworks from African literature and its diaspora against the background of traditional culture,\nsocial values, and historical experience. The techniques used by African wordsmiths to evoke their society are examined,\nbeginning with traditional epic oral literature and finishing with the sophisticated works of some of the world\u2019s finest\nwriters. Works by Soyinka, Fugard, C\u00e9saire, Achebe, Senghor and others.\nPrerequisites\nEMS\nWhen Offered:\nAnnually.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3880",
+      "title": "Masterpieces of Hispanic Literature",
+      "sourceText": "Credits: 4\nSelections of outstanding literary works of Spain and Latin America from the picaresque novel to the present. Study\nincludes major writers: Cervantes, Lorca, Unamuno, Garc\u00eda M\u00e1rquez, and others. Given in English.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3901",
+      "title": "Introduction to Creative Writing",
+      "sourceText": "Credits: 4\nWorkshop to help imaginative students get their thoughts on paper. Assignments are short and personal, designed to\nbreak through \u201cwriting block\u201d and uncover talent that might otherwise be neglected. Attention is given to literary forms\nand terminology.\nPrerequisites\nEMS\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3920",
+      "title": "The Art of Writing Poetry",
+      "sourceText": "Credits: 4\nThis course is designed for writers of poetry to hone their craft and elevate their writing skills. Assignments are short\nand personal, designed to cultivate students\u2019 personal writing styles and voices. Students will closely study a variety of\npublished poets of different cultures, time periods, and styles. The course will serve as an introduction to the writing of\noriginal poetry in various forms including sonnet, haiku, free verse and more. In addition to working within literary\nconventions to produce a portfolio of poetry, students will learn to critique their own work and the work of their peers\nby participating in weekly writing workshops.\nPrerequisites\nWRITING O.W. 50 or Undergraduate level EL 2203\nMinimum Grade of C or Undergraduate level EL 2206\nMinimum Grade of C or Undergraduate level EL 2208\nMinimum Grade of C or Undergraduate level EL 2211\nMinimum Grade of C or Undergraduate level EL 2214\nMinimum Grade of C or Undergraduate level EL 2216\nMinimum Grade of C or Undergraduate level EL 2218\nMinimum Grade of C or Undergraduate level EL 2219\nMinimum Grade of C or Undergraduate level EL 2221\nMinimum Grade of C or Undergraduate level EL 2222\n\nMinimum Grade of C or Undergraduate level EL 2224\nMinimum Grade of C or Undergraduate level EL 2233\nMinimum Grade of C or Undergraduate level EL 2239\nMinimum Grade of C or Undergraduate level EL 2248\nMinimum Grade of C\nWhen Offered:\nOffered every semester.Note:\nCourse Attributes: The Arts -23, Creativity and the Arts, Liberal Arts",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3930",
+      "title": "Language and Communications Skills for Educators: Issues and Applications",
+      "sourceText": "Credits: 4\nThis course deals with contemporary issues of importance to those contemplating a profession in the field of education.\nIt places special emphasis on improvement of reading, writing, and listening skills, making use of timely professional\njournal articles as a text. Topics include Writing Across the Curriculum, Standards and Assessment, Classroom\nManagement and Initiation into Professional Life. Reading and discussion of the articles, analysis of grammatical\nstructure, the development of writing skills for the classroom and for achieving success on State exams, and\nimprovement of public speaking to be a successful public educator will be stressed. This course may be required as a\ncondition of satisfying the writing entrance requirement in the School of Education.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL3950",
+      "title": "Creative Non-Fiction",
+      "sourceText": "Credits: 4\nIntroduces students to the tradition of creative non-fiction, using readings and writing assignments in which students\n\u201cadopt\u201d an authorial voice. Students will compare and contrast standard news accounts of an event with creative non-\nfiction versions in order to see how literary techniques re-define history. Students will analyze and apply different\naesthetic strategies for writing creative non-fiction. Some of the authors we will cover are James Baldwin, Alice Walker,\n\nOcatvio Paz, Charles Baudelaire, Grandmaster Flash and the Furious Five, Ai.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4000",
+      "title": "Native American Literature",
+      "sourceText": "Credits: 4\nThis course explores Native American literary styles such as autobiography and as-told-to narrative from oral traditions\nas well as contemporary genres: poetry, short fiction, the novel and drama. Special emphasis on structural and thematic\nelements provides students with an understanding of the Native American world view.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4010",
+      "title": "The Harlem Renaissance",
+      "sourceText": "Credits: 4\nThe Harlem Renaissance of the 1920\u2019s decade produced an unprecedented outpouring of artistic works in the literary,\nvisual, and musical arts. From lectures, close textual analysis of assigned readings, student-centered discus sions, and\noral reports, the class will become familiar with major themes and key writings of Harlem Renaissance authors.\nAttention will be paid to the struggles of the \u201cNew Negro Woman\u201d in her attempt to find a voice during the period.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4015",
+      "title": "Multi-Ethnic Literatures of the United States",
+      "sourceText": "Credits: 4\nAsian American, Latino, and Native American Literatures play an increasingly important part in the multi-ethnic\nliterary traditions of the United States. This course offers an introduction to one or more of these literatures. Readings\ninclude both classic and present-day works in varied genres. The course will include attention to historical contexts,\ncultural and political meanings, and aesthetic qualities of the literatures. Coverage may vary in different offerings of the\ncourse.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4020",
+      "title": "Asian American Literature",
+      "sourceText": "Credits: 4\nThis course examines memoirs, stories, novels, essays, poems, dramas, and films from the 1890s to the 1990s, by\nAmericans of diverse Asian descent, such as Sui Sin Far, Younghill Kang, Carlos Bulosan, Maxine Hong Kingston, John\nOkada, Hisaye Yamamoto, Amy Tan, Chang-Rae Lee, and Bharati Mukherjee. Attention will be paid to the historic,\nbiographical, and cultural contexts of each text as well as the aesthetic and literary aspects of its style, language, and\nstructure.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4030",
+      "title": "Women and Narrative",
+      "sourceText": "Credits: 4\n\nThis course examines novels, stories, letters, journals, poems, essays, and autobiographies by such women as Dorothy\nWordsworth, Emily Dickinson, Charlotte Forten, Virginia Woolf, Nella Larsen, Alice Walker, Gloria Anzaldua, and\nMaxine Hong Kingston. Each student will select the work of one writer for a research paper.\nPrerequisites\nEMS",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4040",
+      "title": "Black Women Writers",
+      "sourceText": "Credits: 4\nAfrican-American Women Writers introduces students to the themes of social justice that are specific to this literary\ntradition. The course alternates between reading primary texts and providing the needed historical backdrop. Of the\nmany ideas to be covered a few will be; love, the claiming of one\u2019s body, the dual oppression of being a woman and\nblack and the tug-of-war of loyalty. The course may discuss nineteenth and twentieth century writers in comparative\nperspective, or may focus on recent major authors such as Toni Morrison, Alice Walker and Lorraine Hansberry as well\nas lesser known writers like Gayle Jones and Toni Cade Bambara.\nPrerequisites\nEMS",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4050",
+      "title": "Lesbian and Gay Literature",
+      "sourceText": "Credits: 4\nThis course primarily focuses on the emergence of gay, lesbian, and transgender literature and culture from the mid-\ntwentieth century to today. Students will read works from various genres, including novels, stories, drama, poetry, and\nmemoirs, and will also watch documentaries. Topics covered include homophobia, coming out, the gay rights\nmovement, lesbian feminism, AIDS, and transgender. Authors may include James Baldwin, Audre Lorde, Adrienne\nRich, Essex Hemphill, Tony Kushner, Jeanette Winterson, Leslie Feinberg, and others.\nPrerequisites\nEMS",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4060",
+      "title": "Literature of Class and Class Consciousness",
+      "sourceText": "Credits: 4\nClass represents a largely unacknowledged \u201cculture\u201d coexisting and interacting with others such as ethnic cultures,\nwomen\u2019s experience, and lesbian/gay culture. This course looks at fiction, poetry, and drama about class and class\nconflict, primarily by writers from working-class backgrounds. Examining class and class consciousness, and the\ninteraction of class and race in the U.S., we will explore how literature has been a medium for members of oppressed\ngroups to voice their experiences, world views, and demands, and also for members of more privileged groups to\nrespond to social change.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4070",
+      "title": "Topics in African American Literature",
+      "sourceText": "Credits: 4\nThis course will give an in-depth look at a particular period or genre of African American literature. Topics are offered\non a rotating basis. They may include African American Literature 1860- 1920; African American Women Writers since\nthe Harlem Renaissance; the \u201cSocial Realist\u201d School (for example, Wright, Petry, Killens, Himes); the Black Arts\nMovement; and others.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4080",
+      "title": "Extraordinary Bodies: Disability in Literature",
+      "sourceText": "Credits: 4\n\nThis course will examine how the depiction of bodily difference in literature leads to crucial questions about normative\nexperience, language, and identity. The course will study the representation of extraordinary bodies in several literary\ngenres autobiography, poetry, fiction, and drama. While some attention will be given to constructions of disability\nthroughout literary history, the particular focus will be on more recent texts written by writers with disabilities who take\nup the project of identifying themselves outside of \u201cablist\u201d terms.\nPrerequisites\nEMS",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4090",
+      "title": "The Afro-American Novel",
+      "sourceText": "Credits: 4\nThe exploration of the socio-cultural forces shaping the African-American novel from its earliest antecedents through\nWright and Baldwin to its contemporary efflorescence in the works of Toni Morrison, Charles Johnson, Edward P . Jones,\nand others. Some cross-cultural comparison with African and Caribbean novelists will be made. Titles may vary from\nsemester to semester.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4091",
+      "title": "Afro-American Poetry and Plays",
+      "sourceText": "Credits: 4\nBeginning with the work of Phillis Wheatley in the 18th century, this course explores the dominant motifs in African-\nAmerican poetry, with special focus on the work of Langston Hughes and Gwendolyn Brooks. The second half of the\ncourse is devoted to a survey of African-American drama during the Harlem Renaissance, and culminates in an in-depth\nanalysis of the work of Amiri Baraka, Charles Fuller and August Wilson.\nPrerequisites\nEMS\n\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4100",
+      "title": "English Internship",
+      "sourceText": "Credits: 4\nDesigned to provide majors with grounding in their careers, English Internships are available in a number of\nspecializations, where students work with successful mentors at work sites: Legal Internships in courts and law firms,\nPublishing Internships in publishing houses, and Cultural Internships in cultural institutions. Enrollment is limited to\nEnglish majors and requires permission of the chair.\nPrerequisites\nEMS, \u201cB+\u201d average, and approval of the Chair",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4120",
+      "title": "Internship in Peer T utoring in Language Arts",
+      "sourceText": "Credits: 4\nThe internship in peer tutoring deals with the methodology and content of peer tutoring in language arts. Units include\ncommunication skills for language arts tutoring, the tutoring cycle, record-keeping, referrals, evaluating writing, the use\nof computers in tutoring, small group tutoring, long-range and short range goals, resources for language arts tutoring.\nEnrollment is limited to English majors and School of Education English concentrators and requires permission of the\nchair.\nPrerequisites\nEMS, \u201cA-\u201d average, and approval of the Chair",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4200",
+      "title": "Biblical/Classical Influences on Multicultural Literature",
+      "sourceText": "Credits: 4\nThe Jewish-Christian Bible, Greek epic and drama, and classics such as Dante\u2019s Divine Comedy profoundly influenced\nlater literature and culture, including U.S. and British multicultural literature. This course covers some of the\n\nbackground that multicultural writers such as James Baldwin, Toni Morrison, William Faulkner, and others took for\ngranted in their works. We will examine how these classics shaped later culture through both glorification and criticism\nof war, conquest, and slavery, through ideas of fate and individual and community salvation, and through examining\nthe problem of evil. Readings include classic works and modern works influenced by them.\nPrerequisites\nEMS\nWhen Offered:\nAnnually.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4300",
+      "title": "Twentieth-Century Literature: Colonialism and Post Colonialism",
+      "sourceText": "Credits: 4\nThis course explores selected works of US and British literature in the context of the twentieth-century history of\nimperialism, colonialism, and post colonialism. We shall read writing from the first half of the century by such authors\nas W.B. Yeats, Gertrude Stein, Wilfred Owen, Ernest Hemingway, and Sylvia Townsend Warner and its development and\ncritique in works by Zora Neale Hurston, Samuel Beckett, Tim O\u2019Brien, Toni Morrison, Jhumpa Lahiri, and Zadie Smith.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4311",
+      "title": "Greek Drama",
+      "sourceText": "Credits: 4\nThe art of drama is one of the legacies of Greece to Western culture. In this course, the development of Greek tragedy\nand comedy is discussed; plays by Aeschylus, Sophocles, Euripides, and Aristophanes are read as well as 20th century\ndramas based on these 5th century works. Some attention is also given to the criticism of Greek tragedy by Plato and\nAristotle.\nPrerequisites\n\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4312",
+      "title": "Greek Mythology",
+      "sourceText": "Credits: 4\nThis course aims to introduce students of widely differing backgrounds and academic preparation to Greek mythology.\nIn addition to Homer\u2019s Odyssey which is read in its entirety, students read Hesiod\u2019s Theogony and other original source\nmaterials. The acquisition of knowledge of the myths paves the way for discussion of the following topics, among\nothers: psychoanalytic and other interpretations of Greek myth, recurrent themes in myth, the relationship between\nmyth and folktale, the transformation of myth by writers and artists, and the role of myth in a scientific and\ntechnological society.\nPrerequisites\nEMS\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4325",
+      "title": "Shakespeare: Selected Plays",
+      "sourceText": "Credits: 4\nSelected plays by Shakespeare will be read and examined critically and analytically through discussion of these works\nand of the historical context of the Elizabethan theater and world view. The focus will also be on the richness and variety\nof Shakespearean language and thought. Study includes close reading of some well-known Shakespearean tragedies and\ncomedies as well as viewing of plays on film.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4400",
+      "title": "Critical Theory",
+      "sourceText": "Credits: 4\nCritical theory is perhaps the fastest-growing field of English study since 1980; students entering graduate programs in\nEnglish now need to have knowledge of the subject. This course will include such classical theorists as Plato and\nAristotle but will focus mainly on twentieth-century theory, from the \u201cnew\u201d criticism of the 1950s through structuralism,\ndeconstruction ism, new historicism, and feminist historicism to current post-colonialist and queer theory.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4405",
+      "title": "Caribbean Literature",
+      "sourceText": "Credits: 4\nLiterature of the Anglophone Caribbean, from oral song and James\u2019 Minty Alley to Naipaul, Walcott, and writers of the\nCaribbean diaspora. The complexities of the relationship between colonizer and colonized, the transformation of that\nrelationship by \u201cthe unmasking of imperial fictions,\u201d and the evolution of new forms of discourse will govern the\nselection of texts.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4500",
+      "title": "Topics in British/U.S. Literature",
+      "sourceText": "Credits: 4\nThis course gives in-depth knowledge of particular periods and genres of literature; topics are offered on a rotating\nbasis. They may include nineteenth-century British fiction; periods and genres in U.S literature; seventeenth- and\neighteenth-century British literature; women writers 1760- 1840, and others.\n\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4510",
+      "title": "Modern Drama and Theater",
+      "sourceText": "Credits: 4\nThis course will involve reading and viewing critically and analytically plays dealing with important themes and\npolitical issues from the late nineteenth century to today. Students will learn to see the theater as a social institution, a\nform of communication, a means of consciousness-raising, and a site for artistic innovation. Plays may include works by\nHenrik Ibsen, G.B. Shaw, Eugene O\u2019Neill, Eugene Lonesco, Tennessee Williams, Arthur Miller, Lorraine Hansberry,\nEdward Albee, Amiri Baraka, August Wilson, David Henry Hwang, Tony Kushner and Anna Deveare Smith. Class will\nlikely take at least one trip into Manhattan to see a live performance.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4520",
+      "title": "Reading and Writing the Short Story",
+      "sourceText": "Credits: 4\nThis course is almost equally divided between interpretive analysis of short stories and a workshop approach to creative\nwriting. In the first part of the semester, we read a variety of short stories, with a view toward extracting principles of\ncharacterization, description, and voice that can help students begin to create their own stories, guided by exercises. The\nsecond half combines readings of literature showing the historical development of the story and the tale with\ncollaborative exercises in which students assist each other in critiquing and revising a complete short story.\nPrerequisites\nEMS\n\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4550",
+      "title": "Modern British Literature 1890 - 1960",
+      "sourceText": "Credits: 4\nSelected works of several writers in English such as Conrad, Shaw, Yeats, Joyce, Eliot, Lawrence, Woolf, O\u2019Casey, and\nothers, who greatly influenced the literature and the thought of the twentieth century.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4560",
+      "title": "Multicultural British Literature since 1960",
+      "sourceText": "Credits: 4\nAlthough the global British Empire came to an end in the twentieth century, the literature of Great Britain became\nincreasingly diverse. Waves of immigrants from former parts of the empire, the anti-immigrant fervor of the 1970s- 1980s\nand its backlash, the women\u2019s rights movement, and the continued and often quite creative re-examination of the\nliterary tradition set the stage for the emergence of a provocative body of works reflecting the multicultural nature of\ncontemporary Britain. This course will examine works of poetry, drama, fiction and non-fiction that illustrate the\ndiversity of British literature over the past sixty years. Course material may include works by Philip Larkin, Jean Rhys,\nSeamus Heaney, Salman Rushdie, Hanif Kureishi, Zadie Smith, Grace Nichols, Jeanette Winterson, Ian McEwan and\nMonica Ali.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4600",
+      "title": "Literature of India",
+      "sourceText": "Credits: 4\nIndian tradition regards literature as a way of knowledge as well as aesthetic experience. Through examples of the major\nepics, classical poetry and drama, the medieval devotional lyrics, and samples of modern Indian literature, this course\naims at providing the students an opportunity to gain awareness of the values and attitudes that have shaped the\nculture of the Indian subcontinent.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4630",
+      "title": "Latin American Literature",
+      "sourceText": "Credits: 4\nTaught in English. This course is a survey of Latin American literature since the conquest. The class will first read and\ndiscuss descriptions of the Americas as seen by the first European conquerors as well as pre-Colombian texts written by\nnative Americans. We will then read representative works of various literary periods from baroque poems to \u201cmagical-\nrealist\u201d novels. We will analyze such themes as the collision of cultures, \u201ccivilization and barbarity\u201d, the African\ninfluence on Latin American letters and the making of a Latin American identity.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4640",
+      "title": "French Literature",
+      "sourceText": "Credits: 4\nTaught in English. This survey course is intended to serve as an introduction to French literature from the French\nclassical age, in the 17th century, to the present time. Students will be guided through the reading and analysis of\n\nnarrative fiction, plays and poems by major French writers so as to develop an understanding of the aesthetic and\nintellectual currents that have shaped French literature. Readings will be organized around thematic modules rather\nthan in chronological order. Topics may include: representations of the self; stories of love and desire; the making of\nmodernity; tradition and experimentation; social reflections; colonialism and post-colonialism, among others.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4650",
+      "title": "Literature of Russia and Eastern Europe",
+      "sourceText": "Credits: 4\nThis course is a sampling of the wonders of the Russian literary imagination, or, as Vladimir Nabokov might say, of its\npeculiar magic. No other literature has so influenced literature and thought in the rest of the world; perhaps no other\nnational literature has produced so many world masterpieces in so short a time, the two centuries since Alexander\nPushkin\u2019s first publication. Russian literature is unique in its engagements with the social world, as Russia has gone\nthrough two centuries of political struggles and revolutions, but it also explores the privacy of the human heart and the\ngiant questions of philosophy and religion. The course devotes roughly equal time to 19th and 20th century literature\nand, in most offerings, will include some literature from Russian-influenced countries in Eastern Europe.\nPrerequisites\nEMS\nWhen Offered:\nPeriodically.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL4800",
+      "title": "Major Authors",
+      "sourceText": "Credits: 4\nThis course examines the development of one or more authors, tracing key themes, influences, shifts and continuities,\nand aesthetic development in the context of cultural and political forces. Authors are selected on the basis of having\nmade landmark contributions to the continuing development of literature. Recent offerings have included James\n\nBaldwin, William Blake, Ralph Ellison, William Faulkner, F. Scott Fitzgerald, Toni Morrison, Mary Shelley, Mary\nWollstonecraft, and Virginia Woolf, and others may be selected in the future.\nPrerequisites\nEMS, Completion of EL 3500\nand EL 3510\nPrevious 4000 level English courses strongly advised\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL5000",
+      "title": "Senior Seminar I: Research and Writing",
+      "sourceText": "Credits: 4\nAutobiographical and biographical works focusing on intellectual development aid students in understanding issues of\npersonal and career identity, the impact of literary study on the formation of self, and related topics. Classwork stresses\nresearch and documentation skills and participation in a seminar setting in which each student presents some\nindependent research to the class. In preparation for the senior thesis, students compose their own intellectual\nautobiographies tracing their growth and development as English majors. Students must complete a senior thesis\nproposal to pass the course.\nPrerequisites\nEMS, Senior standing Completion of a minimum of 20 to 24 credits in the English major strongly advised\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "EL5010",
+      "title": "Senior Seminar II: Thesis",
+      "sourceText": "Credits: 4\nUnder supervision of seminar director, students complete the senior thesis from sequential, critiqued drafts to finished\nmanuscript. Students work intensively with a Thesis Director. Seminar sessions continue development of research and\nwriting skills stressing the integration of research within the student\u2019s own analysis and presentation. Sessions include\ncollaborative readings of work in progress, peer review, oral reports, and presentation of senior thesis.\n\nPrerequisites\nEMS, Completion of EL 5000\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    }
+  ],
+  "reviewIssues": [
+    "EC I and EC II placement conditions require separate eligibility rules; do not assume course completion is the only entry route.",
+    "Composition II approval must use verified eligible course mappings, not every course in a numerical range automatically.",
+    "The supplied EL list does not list every composition course appearing on the separate GE approval page; reconcile before implementation.",
+    "Workshop/support courses must not automatically satisfy composition proficiency.",
+    "No working database changes."
+  ]
+}

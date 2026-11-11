@@ -1,0 +1,2017 @@
+{
+  "status": "independent-academic-prerequisite-review-not-registration-authorization",
+  "asOf": "2026-11-07",
+  "studentsReviewed": 2200,
+  "studentsWithAttempts": 2183,
+  "studentsWithoutAttempts": 17,
+  "attemptsReviewed": 45821,
+  "phaseStatusCounts": {
+    "completed-history": {
+      "satisfied": 37823
+    },
+    "current-registration": {
+      "satisfied": 3509,
+      "conditional": 499
+    },
+    "forecast-only": {
+      "satisfied": 2314,
+      "conditional": 1676
+    }
+  },
+  "courseStatusCounts": {
+    "AS1152": {
+      "satisfied": 120
+    },
+    "AS2112": {
+      "satisfied": 170
+    },
+    "AS2122": {
+      "satisfied": 99,
+      "conditional": 8
+    },
+    "AS2252": {
+      "satisfied": 70
+    },
+    "AS2263": {
+      "satisfied": 90
+    },
+    "AS2300": {
+      "satisfied": 120
+    },
+    "AS2640": {
+      "satisfied": 67
+    },
+    "AS2700": {
+      "satisfied": 51,
+      "conditional": 29
+    },
+    "AS2910": {
+      "satisfied": 10
+    },
+    "AS3215": {
+      "satisfied": 70
+    },
+    "AS3310": {
+      "satisfied": 3
+    },
+    "AS3462": {
+      "satisfied": 230
+    },
+    "AS5350": {
+      "satisfied": 10
+    },
+    "BS2100": {
+      "satisfied": 130
+    },
+    "BS2200": {
+      "satisfied": 410
+    },
+    "BS2301": {
+      "satisfied": 103
+    },
+    "BS2400": {
+      "satisfied": 409,
+      "conditional": 70
+    },
+    "BS2401": {
+      "satisfied": 409,
+      "conditional": 70
+    },
+    "BS2410": {
+      "satisfied": 284,
+      "conditional": 39
+    },
+    "BS2411": {
+      "satisfied": 284,
+      "conditional": 39
+    },
+    "BS2490": {
+      "satisfied": 50
+    },
+    "BS3400": {
+      "satisfied": 33
+    },
+    "BS3450": {
+      "satisfied": 53
+    },
+    "BS3520": {
+      "satisfied": 10
+    },
+    "BS3530": {
+      "satisfied": 46
+    },
+    "BS4400": {
+      "satisfied": 58
+    },
+    "BS4440": {
+      "satisfied": 21
+    },
+    "BS4470": {
+      "satisfied": 57
+    },
+    "BS5400": {
+      "satisfied": 111
+    },
+    "BU3010": {
+      "satisfied": 221
+    },
+    "BU3071": {
+      "satisfied": 157,
+      "conditional": 15
+    },
+    "BU3250": {
+      "satisfied": 187
+    },
+    "BU3502": {
+      "satisfied": 540,
+      "conditional": 52
+    },
+    "BU3511": {
+      "satisfied": 358
+    },
+    "BU3600": {
+      "satisfied": 344
+    },
+    "BU3605": {
+      "satisfied": 136,
+      "conditional": 14
+    },
+    "BU3610": {
+      "satisfied": 63
+    },
+    "BU3800": {
+      "satisfied": 332
+    },
+    "BU3905": {
+      "satisfied": 312
+    },
+    "BU3911": {
+      "satisfied": 36
+    },
+    "BU4035": {
+      "satisfied": 75
+    },
+    "BU4110": {
+      "satisfied": 369
+    },
+    "BU4120": {
+      "satisfied": 182
+    },
+    "BU4160": {
+      "satisfied": 35
+    },
+    "BU4180": {
+      "satisfied": 21
+    },
+    "BU4250": {
+      "satisfied": 79
+    },
+    "BU4500": {
+      "satisfied": 123,
+      "conditional": 14
+    },
+    "BU4510": {
+      "satisfied": 109
+    },
+    "BU4570": {
+      "satisfied": 95,
+      "conditional": 10
+    },
+    "BU4590": {
+      "satisfied": 105,
+      "conditional": 14
+    },
+    "BU4762": {
+      "satisfied": 267
+    },
+    "BU4774": {
+      "satisfied": 36
+    },
+    "BU4820": {
+      "satisfied": 6
+    },
+    "BU4851": {
+      "satisfied": 49
+    },
+    "BU5115": {
+      "satisfied": 197,
+      "conditional": 15
+    },
+    "BU5125": {
+      "satisfied": 24,
+      "conditional": 1
+    },
+    "BU5171": {
+      "satisfied": 55
+    },
+    "BU5180": {
+      "satisfied": 18
+    },
+    "BU5190": {
+      "satisfied": 113,
+      "conditional": 8
+    },
+    "BU5196": {
+      "satisfied": 43,
+      "conditional": 10
+    },
+    "BU5505": {
+      "satisfied": 85
+    },
+    "BU5510": {
+      "satisfied": 64
+    },
+    "BU5525": {
+      "satisfied": 38
+    },
+    "BU5540": {
+      "satisfied": 74,
+      "conditional": 14
+    },
+    "BU5550": {
+      "satisfied": 64,
+      "conditional": 9
+    },
+    "BU5740": {
+      "satisfied": 16
+    },
+    "BU5789": {
+      "satisfied": 16
+    },
+    "BU5800": {
+      "satisfied": 15
+    },
+    "BU5841": {
+      "satisfied": 5
+    },
+    "CP2025": {
+      "satisfied": 313
+    },
+    "CP2070": {
+      "satisfied": 70
+    },
+    "CP2120": {
+      "satisfied": 511,
+      "conditional": 55
+    },
+    "CP2121": {
+      "satisfied": 467,
+      "conditional": 79
+    },
+    "CP2130": {
+      "satisfied": 395,
+      "conditional": 1
+    },
+    "CP2131": {
+      "satisfied": 371,
+      "conditional": 7
+    },
+    "CP2600": {
+      "satisfied": 118,
+      "conditional": 2
+    },
+    "CP2800": {
+      "satisfied": 60
+    },
+    "CP3300": {
+      "satisfied": 160,
+      "conditional": 13
+    },
+    "CP3302": {
+      "satisfied": 164,
+      "conditional": 20
+    },
+    "CP3310": {
+      "satisfied": 102,
+      "conditional": 12
+    },
+    "CP3312": {
+      "satisfied": 104,
+      "conditional": 2
+    },
+    "CP4490": {
+      "satisfied": 40
+    },
+    "CS2000": {
+      "satisfied": 594
+    },
+    "CS2510": {
+      "satisfied": 519,
+      "conditional": 61
+    },
+    "CS2511": {
+      "satisfied": 323
+    },
+    "CS2521": {
+      "satisfied": 96
+    },
+    "CS3611": {
+      "satisfied": 141
+    },
+    "CS3620": {
+      "satisfied": 107
+    },
+    "CS3810": {
+      "satisfied": 137,
+      "conditional": 21
+    },
+    "CS3911": {
+      "satisfied": 109,
+      "conditional": 17
+    },
+    "CS4100": {
+      "satisfied": 213
+    },
+    "CS4400": {
+      "satisfied": 65
+    },
+    "CS4501": {
+      "satisfied": 221,
+      "conditional": 18
+    },
+    "CS4550": {
+      "satisfied": 223,
+      "conditional": 23
+    },
+    "CS4705": {
+      "satisfied": 3
+    },
+    "CS4710": {
+      "satisfied": 10
+    },
+    "CS4720": {
+      "satisfied": 223,
+      "conditional": 20
+    },
+    "CS5610": {
+      "satisfied": 75
+    },
+    "CS5710": {
+      "satisfied": 178
+    },
+    "CS5910": {
+      "satisfied": 196,
+      "conditional": 17
+    },
+    "ED3700": {
+      "satisfied": 207
+    },
+    "ED3820": {
+      "satisfied": 180
+    },
+    "ED3900": {
+      "satisfied": 157,
+      "conditional": 33
+    },
+    "ED4050@2020-2022": {
+      "satisfied": 74,
+      "conditional": 1
+    },
+    "ED4121": {
+      "satisfied": 4,
+      "conditional": 3
+    },
+    "ED4122": {
+      "satisfied": 73
+    },
+    "ED4200": {
+      "satisfied": 74,
+      "conditional": 1
+    },
+    "ED4220": {
+      "satisfied": 54,
+      "conditional": 16
+    },
+    "ED5925@2020-2022": {
+      "satisfied": 44
+    },
+    "EL1000": {
+      "satisfied": 2182
+    },
+    "EL2216": {
+      "satisfied": 1835,
+      "conditional": 223
+    },
+    "EL3010": {
+      "satisfied": 201
+    },
+    "EL3500": {
+      "satisfied": 183
+    },
+    "EL3510": {
+      "satisfied": 183
+    },
+    "EL3560": {
+      "satisfied": 200
+    },
+    "EL3800": {
+      "satisfied": 10
+    },
+    "EL3810": {
+      "satisfied": 155
+    },
+    "EL3901": {
+      "satisfied": 82
+    },
+    "EL3950": {
+      "satisfied": 90
+    },
+    "EL4030": {
+      "satisfied": 14
+    },
+    "EL4060": {
+      "satisfied": 62
+    },
+    "EL4200": {
+      "satisfied": 119
+    },
+    "EL4400": {
+      "satisfied": 10
+    },
+    "EL4405": {
+      "satisfied": 150
+    },
+    "EL4520": {
+      "satisfied": 105
+    },
+    "EL4630": {
+      "satisfied": 74
+    },
+    "EL4800": {
+      "satisfied": 47,
+      "conditional": 3
+    },
+    "EL5000": {
+      "satisfied": 48
+    },
+    "EL5010": {
+      "satisfied": 8,
+      "conditional": 14
+    },
+    "HI2511": {
+      "satisfied": 263
+    },
+    "HI3001": {
+      "satisfied": 50
+    },
+    "HI3002": {
+      "satisfied": 50
+    },
+    "HI3006": {
+      "satisfied": 33
+    },
+    "HI3600": {
+      "satisfied": 10
+    },
+    "MA1020": {
+      "satisfied": 1860
+    },
+    "MA2000": {
+      "satisfied": 864
+    },
+    "MA2010": {
+      "satisfied": 202,
+      "conditional": 16
+    },
+    "MA2080": {
+      "satisfied": 454,
+      "conditional": 56
+    },
+    "MA2090": {
+      "satisfied": 971,
+      "conditional": 118
+    },
+    "MA2300": {
+      "satisfied": 46
+    },
+    "MA2310": {
+      "satisfied": 718
+    },
+    "MA2320": {
+      "satisfied": 344,
+      "conditional": 37
+    },
+    "MA3020": {
+      "satisfied": 151,
+      "conditional": 16
+    },
+    "MA3030": {
+      "satisfied": 490
+    },
+    "MA3160": {
+      "satisfied": 337,
+      "conditional": 33
+    },
+    "MA3210": {
+      "satisfied": 328,
+      "conditional": 36
+    },
+    "MA3330": {
+      "satisfied": 236
+    },
+    "MA3520": {
+      "satisfied": 124
+    },
+    "MA4030": {
+      "satisfied": 68
+    },
+    "MA4100": {
+      "satisfied": 10
+    },
+    "MA4160": {
+      "satisfied": 10
+    },
+    "MA4200": {
+      "satisfied": 23
+    },
+    "MA4300": {
+      "satisfied": 72
+    },
+    "MA4360": {
+      "satisfied": 140
+    },
+    "MA4510": {
+      "satisfied": 10
+    },
+    "MA4920": {
+      "satisfied": 37,
+      "conditional": 11
+    },
+    "MA5120": {
+      "satisfied": 70,
+      "conditional": 17
+    },
+    "MA5320": {
+      "satisfied": 66
+    },
+    "MA5330": {
+      "satisfied": 28
+    },
+    "MC2020": {
+      "satisfied": 70
+    },
+    "MC2802": {
+      "satisfied": 388
+    },
+    "MC2901": {
+      "satisfied": 100
+    },
+    "MC3632": {
+      "satisfied": 10
+    },
+    "MC3700": {
+      "satisfied": 180
+    },
+    "MC3712": {
+      "satisfied": 140
+    },
+    "MC3800": {
+      "satisfied": 149
+    },
+    "MC3822": {
+      "satisfied": 154
+    },
+    "MC3842": {
+      "satisfied": 74
+    },
+    "MC4442": {
+      "satisfied": 102
+    },
+    "MC4722": {
+      "satisfied": 146
+    },
+    "MC4802": {
+      "satisfied": 159
+    },
+    "MC4832": {
+      "satisfied": 26
+    },
+    "MC5200": {
+      "satisfied": 103
+    },
+    "MD1000": {
+      "satisfied": 60
+    },
+    "MD1112": {
+      "satisfied": 424
+    },
+    "MD2350": {
+      "satisfied": 180
+    },
+    "MD3010": {
+      "satisfied": 3
+    },
+    "ML1000": {
+      "satisfied": 120
+    },
+    "ML3300": {
+      "satisfied": 1081,
+      "conditional": 1
+    },
+    "ML3410": {
+      "satisfied": 424
+    },
+    "ML3800": {
+      "satisfied": 70
+    },
+    "ML3880": {
+      "satisfied": 114
+    },
+    "ML4630": {
+      "satisfied": 60
+    },
+    "PE2420": {
+      "satisfied": 333,
+      "conditional": 5
+    },
+    "PE2430": {
+      "satisfied": 437,
+      "conditional": 17
+    },
+    "PE3100": {
+      "satisfied": 30
+    },
+    "PE3400": {
+      "satisfied": 40
+    },
+    "PH2000": {
+      "satisfied": 210
+    },
+    "PH2900": {
+      "satisfied": 462
+    },
+    "PH3325": {
+      "satisfied": 121
+    },
+    "PH3400": {
+      "satisfied": 432
+    },
+    "PH3600": {
+      "satisfied": 190
+    },
+    "PH3610": {
+      "satisfied": 160
+    },
+    "PH3700": {
+      "satisfied": 91
+    },
+    "PH3750": {
+      "satisfied": 204,
+      "conditional": 1
+    },
+    "PH3800": {
+      "satisfied": 10
+    },
+    "PH4661": {
+      "satisfied": 114
+    },
+    "PH4670": {
+      "satisfied": 157
+    },
+    "PH4790": {
+      "satisfied": 43
+    },
+    "PH4800": {
+      "satisfied": 178
+    },
+    "PH4900": {
+      "satisfied": 133
+    },
+    "PH5900": {
+      "satisfied": 125,
+      "conditional": 16
+    },
+    "PH5920": {
+      "satisfied": 115
+    },
+    "PX2000": {
+      "satisfied": 188
+    },
+    "PX2001": {
+      "conditional": 44,
+      "satisfied": 125
+    },
+    "PX2100": {
+      "conditional": 30,
+      "satisfied": 144
+    },
+    "PX2101": {
+      "conditional": 33,
+      "satisfied": 107
+    },
+    "PX2200": {
+      "satisfied": 410,
+      "conditional": 38
+    },
+    "PX2201": {
+      "satisfied": 379,
+      "conditional": 50
+    },
+    "PX2300": {
+      "satisfied": 164,
+      "conditional": 18
+    },
+    "PX2301": {
+      "satisfied": 138,
+      "conditional": 31
+    },
+    "PX2900": {
+      "satisfied": 6
+    },
+    "PX3000": {
+      "conditional": 25,
+      "satisfied": 134
+    },
+    "PX3100": {
+      "satisfied": 102
+    },
+    "PX3200": {
+      "satisfied": 87,
+      "conditional": 10
+    },
+    "PX3600": {
+      "satisfied": 78,
+      "conditional": 4
+    },
+    "PX3700": {
+      "satisfied": 79,
+      "conditional": 19
+    },
+    "PX3800": {
+      "satisfied": 11
+    },
+    "PX3900": {
+      "satisfied": 56,
+      "conditional": 4
+    },
+    "PX4100": {
+      "satisfied": 106
+    },
+    "PX4200": {
+      "satisfied": 86
+    },
+    "PX5100": {
+      "satisfied": 8
+    },
+    "PX5500": {
+      "satisfied": 111
+    },
+    "PX5600": {
+      "conditional": 29,
+      "satisfied": 18
+    },
+    "PY2010": {
+      "satisfied": 193,
+      "conditional": 16
+    },
+    "PY2530": {
+      "satisfied": 728,
+      "conditional": 86
+    },
+    "PY2720": {
+      "satisfied": 932,
+      "conditional": 140
+    },
+    "PY3010": {
+      "satisfied": 141,
+      "conditional": 3
+    },
+    "PY3215": {
+      "satisfied": 7,
+      "conditional": 3
+    },
+    "PY3240": {
+      "satisfied": 73
+    },
+    "PY3311": {
+      "satisfied": 65
+    },
+    "PY3330": {
+      "satisfied": 100
+    },
+    "PY3410": {
+      "satisfied": 94
+    },
+    "PY4010": {
+      "satisfied": 97
+    },
+    "PY4130": {
+      "satisfied": 31,
+      "conditional": 16
+    },
+    "PY4200": {
+      "satisfied": 114,
+      "conditional": 20
+    },
+    "PY5320": {
+      "satisfied": 11
+    },
+    "PY5404": {
+      "satisfied": 28,
+      "conditional": 10
+    },
+    "PY5710": {
+      "satisfied": 17
+    },
+    "SY2400": {
+      "satisfied": 10
+    },
+    "VA2020": {
+      "satisfied": 60
+    },
+    "VA2030": {
+      "satisfied": 43
+    },
+    "VA2045": {
+      "satisfied": 70
+    },
+    "VA2500": {
+      "satisfied": 191,
+      "conditional": 33
+    },
+    "VA2510": {
+      "satisfied": 53
+    },
+    "VA2520": {
+      "satisfied": 380,
+      "conditional": 40
+    },
+    "VA3340": {
+      "satisfied": 99
+    },
+    "VA3350": {
+      "satisfied": 10
+    }
+  },
+  "previouslyGatedAttemptsWithSufficientCourseProof": {
+    "BS5400": 111,
+    "BU5171": 55,
+    "ED3900": 157,
+    "ED4050@2020-2022": 74,
+    "ED4121": 4,
+    "ED4122": 73,
+    "ED4200": 74,
+    "ED4220": 54,
+    "ED5925@2020-2022": 44,
+    "EL1000": 2182,
+    "EL2216": 1835,
+    "MC4832": 26,
+    "ML1000": 120,
+    "PH3800": 10,
+    "PX5500": 111,
+    "PY4130": 31
+  },
+  "sourceProofOverlays": {
+    "BS5400": {
+      "rule": {
+        "type": "or",
+        "rules": [
+          {
+            "type": "approval",
+            "authority": "course-instructor"
+          },
+          {
+            "type": "approval",
+            "authority": "department-chair"
+          }
+        ]
+      },
+      "sourceRuleSHA256": "e4a542efd1a7bb1b277ce6e483f93127b9b146d67ca18c07a35aa896d46211f2",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": null,
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "BU5171": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "minimum-earned-credits",
+            "minimum": 88
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "and",
+                "rules": [
+                  {
+                    "type": "course",
+                    "courseCode": "BU4110",
+                    "minimumGrade": "C-"
+                  },
+                  {
+                    "type": "or",
+                    "rules": [
+                      {
+                        "type": "course",
+                        "courseCode": "BU3250",
+                        "minimumGrade": "C-"
+                      },
+                      {
+                        "type": "course",
+                        "courseCode": "MA2300",
+                        "minimumGrade": "C-"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MA2000",
+                    "minimumGrade": "C-"
+                  }
+                ]
+              },
+              {
+                "type": "review-required",
+                "reason": "Mixed business/math grouping: retain other possible source routes for review."
+              }
+            ]
+          }
+        ]
+      },
+      "sourceRuleSHA256": "fdd1aa6b013517efb3bcf5a0d929a3b1f9da8166eda37f794c558e1b78328d32",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": null,
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "ED3900": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "minimum-earned-credits",
+            "minimum": 32
+          },
+          {
+            "type": "minimum-institutional-gpa",
+            "minimum": 3.0
+          },
+          {
+            "type": "corequisite-condition",
+            "rule": {
+              "type": "and",
+              "rules": [
+                {
+                  "type": "course",
+                  "courseCode": "EL1000",
+                  "minimumGrade": "C"
+                },
+                {
+                  "type": "course",
+                  "courseCode": "EL2216",
+                  "minimumGrade": "C"
+                },
+                {
+                  "type": "course",
+                  "courseCode": "ED3700",
+                  "minimumGrade": "C"
+                },
+                {
+                  "type": "or",
+                  "rules": [
+                    {
+                      "type": "and",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courseCode": "MA1020",
+                          "minimumGrade": "C"
+                        },
+                        {
+                          "type": "or",
+                          "rules": [
+                            {
+                              "type": "course",
+                              "courseCode": "MA2000",
+                              "minimumGrade": "C"
+                            },
+                            {
+                              "type": "course",
+                              "courseCode": "MA2050",
+                              "minimumGrade": "C"
+                            },
+                            {
+                              "type": "course",
+                              "courseCode": "MA2010",
+                              "minimumGrade": "C"
+                            },
+                            {
+                              "type": "course",
+                              "courseCode": "MA2080",
+                              "minimumGrade": "C"
+                            },
+                            {
+                              "type": "course",
+                              "courseCode": "MA2090",
+                              "minimumGrade": "C"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "review-required",
+                      "reason": "Math and/or wording: both listed math parts prove a sufficient route; other routes need review."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sourceRuleSHA256": "ab5b05543f5a2e8bf4e8ab8a5cf9e4473f99f94a3df52d9bdbdc5707fff59fe2",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": "c16b28ec59c03286eb006dd1a31a8bbe952191ab41da4e1e991be76739ab5d05",
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "ED4050@2020-2022": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "ED3700",
+            "minimumGrade": null
+          },
+          {
+            "type": "course",
+            "courseCode": "ED3900",
+            "minimumGrade": null
+          },
+          {
+            "type": "and",
+            "rules": [
+              {
+                "type": "minimum-earned-credits",
+                "minimum": 32
+              },
+              {
+                "type": "minimum-institutional-gpa",
+                "minimum": 3.0
+              },
+              {
+                "type": "course",
+                "courseCode": "MA1020",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "subject-course-count",
+                "subject": "MA",
+                "minimumLevel": 2000,
+                "maximumLevel": 5999,
+                "minimumCourses": 1,
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "EL1000",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "EL2216",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3700",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3820",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3900",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "scoped-evidence",
+                "scope": "school-of-education-admission"
+              }
+            ]
+          }
+        ]
+      },
+      "sourceRuleSHA256": "312db22defff06d9574675484c2b33911615aef454c6c45714a9aaee8fa05c9c",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": "c16b28ec59c03286eb006dd1a31a8bbe952191ab41da4e1e991be76739ab5d05",
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "ED4200": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "ED3700",
+            "minimumGrade": null
+          },
+          {
+            "type": "course",
+            "courseCode": "ED3900",
+            "minimumGrade": null
+          },
+          {
+            "type": "and",
+            "rules": [
+              {
+                "type": "minimum-earned-credits",
+                "minimum": 32
+              },
+              {
+                "type": "minimum-institutional-gpa",
+                "minimum": 3.0
+              },
+              {
+                "type": "course",
+                "courseCode": "MA1020",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "subject-course-count",
+                "subject": "MA",
+                "minimumLevel": 2000,
+                "maximumLevel": 5999,
+                "minimumCourses": 1,
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "EL1000",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "EL2216",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3700",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3820",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3900",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "scoped-evidence",
+                "scope": "school-of-education-admission"
+              }
+            ]
+          }
+        ]
+      },
+      "sourceRuleSHA256": "21ec523909e94c8998b03cc76cad9d172fa086c95df4efd21fa4747a7d6dde96",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": "c16b28ec59c03286eb006dd1a31a8bbe952191ab41da4e1e991be76739ab5d05",
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "ED4121": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "ED3700",
+            "minimumGrade": null
+          },
+          {
+            "type": "course",
+            "courseCode": "ED3900",
+            "minimumGrade": null
+          },
+          {
+            "type": "and",
+            "rules": [
+              {
+                "type": "minimum-earned-credits",
+                "minimum": 32
+              },
+              {
+                "type": "minimum-institutional-gpa",
+                "minimum": 3.0
+              },
+              {
+                "type": "course",
+                "courseCode": "MA1020",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "subject-course-count",
+                "subject": "MA",
+                "minimumLevel": 2000,
+                "maximumLevel": 5999,
+                "minimumCourses": 1,
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "EL1000",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "EL2216",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3700",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3820",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3900",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "scoped-evidence",
+                "scope": "school-of-education-admission"
+              }
+            ]
+          },
+          {
+            "type": "proficiency",
+            "key": "MATH_PROFICIENCY"
+          },
+          {
+            "type": "completed-laboratory-science"
+          }
+        ]
+      },
+      "sourceRuleSHA256": "44f0105fa8d9c820ad54549d3b5fed9da72af97fbcddc5a0c87e0800f541e64e",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": "c16b28ec59c03286eb006dd1a31a8bbe952191ab41da4e1e991be76739ab5d05",
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "ED4122": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "ED3700",
+            "minimumGrade": null
+          },
+          {
+            "type": "course",
+            "courseCode": "ED3900",
+            "minimumGrade": null
+          },
+          {
+            "type": "and",
+            "rules": [
+              {
+                "type": "minimum-earned-credits",
+                "minimum": 32
+              },
+              {
+                "type": "minimum-institutional-gpa",
+                "minimum": 3.0
+              },
+              {
+                "type": "course",
+                "courseCode": "MA1020",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "subject-course-count",
+                "subject": "MA",
+                "minimumLevel": 2000,
+                "maximumLevel": 5999,
+                "minimumCourses": 1,
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "EL1000",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "EL2216",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3700",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3820",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3900",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "scoped-evidence",
+                "scope": "school-of-education-admission"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "courseCode": "MA1020",
+            "minimumGrade": null
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "or",
+                "rules": [
+                  {
+                    "type": "course",
+                    "courseCode": "MA2000",
+                    "minimumGrade": null
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MA2050",
+                    "minimumGrade": null
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MA2080",
+                    "minimumGrade": null
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MA2090",
+                    "minimumGrade": null
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MA2300",
+                    "minimumGrade": null
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MA2310",
+                    "minimumGrade": null
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MA2320",
+                    "minimumGrade": null
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MA3030",
+                    "minimumGrade": null
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MA3160",
+                    "minimumGrade": null
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MA3210",
+                    "minimumGrade": null
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MA3520",
+                    "minimumGrade": null
+                  }
+                ]
+              },
+              {
+                "type": "review-required",
+                "reason": "A different second math course needs source review."
+              }
+            ]
+          }
+        ]
+      },
+      "sourceRuleSHA256": "b650396ccf92da53e95a2ee75e98d47e5c5e1b5ed2c47be6c69680b9300209c3",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": "c16b28ec59c03286eb006dd1a31a8bbe952191ab41da4e1e991be76739ab5d05",
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "ED4220": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "ED3700",
+            "minimumGrade": null
+          },
+          {
+            "type": "course",
+            "courseCode": "ED3900",
+            "minimumGrade": null
+          },
+          {
+            "type": "and",
+            "rules": [
+              {
+                "type": "minimum-earned-credits",
+                "minimum": 32
+              },
+              {
+                "type": "minimum-institutional-gpa",
+                "minimum": 3.0
+              },
+              {
+                "type": "course",
+                "courseCode": "MA1020",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "subject-course-count",
+                "subject": "MA",
+                "minimumLevel": 2000,
+                "maximumLevel": 5999,
+                "minimumCourses": 1,
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "EL1000",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "EL2216",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3700",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3820",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3900",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "scoped-evidence",
+                "scope": "school-of-education-admission"
+              }
+            ]
+          },
+          {
+            "type": "corequisite-condition",
+            "rule": {
+              "type": "review-required",
+              "reason": "Source names CE4200; do not silently invent an ED4200 equivalence."
+            }
+          }
+        ]
+      },
+      "sourceRuleSHA256": "0fcc12fbda48524ed52ad08d9983e5d819ac6474cb74777d06504b33ad442505",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": "c16b28ec59c03286eb006dd1a31a8bbe952191ab41da4e1e991be76739ab5d05",
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "ED5925@2020-2022": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "ED3700",
+            "minimumGrade": null
+          },
+          {
+            "type": "course",
+            "courseCode": "ED3900",
+            "minimumGrade": null
+          },
+          {
+            "type": "and",
+            "rules": [
+              {
+                "type": "minimum-earned-credits",
+                "minimum": 32
+              },
+              {
+                "type": "minimum-institutional-gpa",
+                "minimum": 3.0
+              },
+              {
+                "type": "course",
+                "courseCode": "MA1020",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "subject-course-count",
+                "subject": "MA",
+                "minimumLevel": 2000,
+                "maximumLevel": 5999,
+                "minimumCourses": 1,
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "EL1000",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "EL2216",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3700",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3820",
+                "minimumGrade": null
+              },
+              {
+                "type": "course",
+                "courseCode": "ED3900",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "scoped-evidence",
+                "scope": "school-of-education-admission"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "courseCode": "ED4200",
+            "minimumGrade": null
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "ED4050",
+                "minimumGrade": null,
+                "catalogVersion": "2020-2022"
+              },
+              {
+                "type": "course",
+                "courseCode": "ED4850",
+                "minimumGrade": null
+              }
+            ]
+          },
+          {
+            "type": "review-required",
+            "reason": "Historical source ED400 reference is unresolved; no nonexistent course is added."
+          }
+        ]
+      },
+      "sourceRuleSHA256": "8e74bd1a63b82ea3a1b4b791c746029b48be1a83bfc72187ab4602bf51ef1b66",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": "c16b28ec59c03286eb006dd1a31a8bbe952191ab41da4e1e991be76739ab5d05",
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "EL1000": {
+      "rule": {
+        "type": "scoped-evidence",
+        "scope": "placement:ECI"
+      },
+      "sourceRuleSHA256": "391bd216922bd195b7b0dc44eff28ecb4405267b45c036ff894faab12a8d74e2",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": null,
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "EL2216": {
+      "rule": {
+        "type": "scoped-evidence",
+        "scope": "placement:ECII"
+      },
+      "sourceRuleSHA256": "f5e006398e094f698eaa6dc255520e4bc6a0728d205208ff0777f29ffd3c2b17",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": null,
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "ML1000": {
+      "rule": {
+        "type": "scoped-evidence",
+        "scope": "language-background:French:beginner"
+      },
+      "sourceRuleSHA256": "f8ba71998d2f86c0ed17c49cd1e6a3a1580966e9cf7b3882dc341ceeffdca21c",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": null,
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "PX5500": {
+      "rule": {
+        "type": "or",
+        "rules": [
+          {
+            "type": "minimum-earned-credits",
+            "minimum": 88
+          },
+          {
+            "type": "approval",
+            "authority": "course-instructor"
+          }
+        ]
+      },
+      "sourceRuleSHA256": "e57dc5cffea4c42e7d1179e049d8ca4ed3465fef359cd1700e6956b5822a8dd7",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": null,
+      "ambiguityIsNotAutomaticallySatisfied": true
+    },
+    "MC3835": {
+      "rule": {
+        "type": "or",
+        "rules": [
+          {
+            "type": "and",
+            "rules": [
+              {
+                "type": "or",
+                "rules": [
+                  {
+                    "type": "course",
+                    "courseCode": "AS2802",
+                    "minimumGrade": null
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MC2802",
+                    "minimumGrade": null
+                  }
+                ]
+              },
+              {
+                "type": "or",
+                "rules": [
+                  {
+                    "type": "course",
+                    "courseCode": "AS3800",
+                    "minimumGrade": null
+                  },
+                  {
+                    "type": "course",
+                    "courseCode": "MC2802",
+                    "minimumGrade": null
+                  }
+                ]
+              },
+              {
+                "type": "completed-writing-proficiency",
+                "components": [
+                  "CompositionI",
+                  "CompositionII"
+                ],
+                "minimumCourseGrade": "C"
+              }
+            ]
+          },
+          {
+            "type": "approval",
+            "authority": "course-instructor"
+          },
+          {
+            "type": "review-required",
+            "reason": "Other parses of the mixed media prerequisite need review."
+          }
+        ]
+      },
+      "sourceRuleSHA256": "1f59148488c40c772b6ba3b49cccbf23f4f1ac878270bbab0cae49085ce0f4ac",
+      "status": "read-only-source-proof-overlay-not-active-catalog-change",
+      "admissionsSourceSHA256": null,
+      "ambiguityIsNotAutomaticallySatisfied": true
+    }
+  },
+  "laboratoryScienceSourceEvidence": {
+    "BS2100": {
+      "sourceTitle": "Biology for Non-science Majors",
+      "sourceMetadataSHA256": "c51454952d4cc10a9516cc63aa454f941f56d2d8d117627b54c3b77de79ae82a",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/2.pdf",
+          "sha256": "0d59968c08600084967a2eb248ec8347287184fff37b86db086da70670e1de22",
+          "page": 1
+        }
+      ],
+      "basis": "Explicit lecture/laboratory course description.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "BS2301": {
+      "sourceTitle": "Anatomy and Physiology I Laboratory",
+      "sourceMetadataSHA256": "513137d2b4f6077905b9e1554cf647f056dcbc12eb9ca53357441df94b2e63c8",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/2.pdf",
+          "sha256": "0d59968c08600084967a2eb248ec8347287184fff37b86db086da70670e1de22",
+          "page": 2
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "BS2311": {
+      "sourceTitle": "Anatomy and Physiology II Laboratory",
+      "sourceMetadataSHA256": "b7a2061b46b8c757bb99bd5ea31db95954454337b99e9e2388a46bee0d3fb596",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/2.pdf",
+          "sha256": "0d59968c08600084967a2eb248ec8347287184fff37b86db086da70670e1de22",
+          "page": 3
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "BS2401": {
+      "sourceTitle": "Basic Biosciences I Lab",
+      "sourceMetadataSHA256": "a1de0f53cb32480f73ca5151d1f2079b64a1806fd1ba4f7ea95ceaf4fb12656b",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/2.pdf",
+          "sha256": "0d59968c08600084967a2eb248ec8347287184fff37b86db086da70670e1de22",
+          "page": 4
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "BS2411": {
+      "sourceTitle": "Basic Biosciences II Lab",
+      "sourceMetadataSHA256": "057584330d2c824e6a7dc2ab8e0216d490223e63fdb6a0af632d1e26b47d234e",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/2.pdf",
+          "sha256": "0d59968c08600084967a2eb248ec8347287184fff37b86db086da70670e1de22",
+          "page": 5
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "BS3531": {
+      "sourceTitle": "Comparative Genomics Lab",
+      "sourceMetadataSHA256": "cafac9b554dad8907b5f2eabc468b5584f1712b7bff10a0fe4a8fdcd1eedf7b3",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/2.pdf",
+          "sha256": "0d59968c08600084967a2eb248ec8347287184fff37b86db086da70670e1de22",
+          "page": 9
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "CP2001": {
+      "sourceTitle": "Chemistry for Non-Majors Laboratory",
+      "sourceMetadataSHA256": "10b2345abdec73e586c4b83d866a4d34390216c5f446a06f392a3959439b86e2",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+          "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+          "page": 1
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "CP2121": {
+      "sourceTitle": "Principles of Chemistry Lab I",
+      "sourceMetadataSHA256": "ce0cf234014eb92efba2cc94ddef551ec6d82e9230938a19a1961ca1728efb49",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+          "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+          "page": 3
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "CP2131": {
+      "sourceTitle": "Principles of Chemistry Lab II",
+      "sourceMetadataSHA256": "49a177bbc408a17e98b519d34b1889a00e4c407bf6bcdc81384572c4015c1a38",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+          "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+          "page": 4
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "CP2211": {
+      "sourceTitle": "Physical Science Laboratory",
+      "sourceMetadataSHA256": "72d7947d3db975632c00b0cbe2c31c4f9663550f76c184b9210e9fce5f826a05",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+          "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+          "page": 4
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "CP2301": {
+      "sourceTitle": "Weather Studies Lab",
+      "sourceMetadataSHA256": "4b3e26a92e06d7250d424c57a633a34661c5d71cdb68bc0479336953f528cec8",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+          "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+          "page": 5
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "CP2401": {
+      "sourceTitle": "Ocean Studies Lab",
+      "sourceMetadataSHA256": "eb24bc70d3f98697e9379f5e3fda3aed80e75a6891088cea167da26018c8fcf3",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+          "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+          "page": 6
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "CP2501": {
+      "sourceTitle": "Climate Studies Lab",
+      "sourceMetadataSHA256": "5049a8100a87c4908f49fe3bb7b5f0c4da4c9d03f4eea249130d7e869ef4b2a3",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+          "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+          "page": 7
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "CP3302": {
+      "sourceTitle": "Organic Chemistry Lab I",
+      "sourceMetadataSHA256": "cb238896b6ea01b54569336b6e0a7f062f619e3ca6797a90f10b46c96cbc83b6",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+          "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+          "page": 9
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "CP3312": {
+      "sourceTitle": "Organic Chemistry Lab II",
+      "sourceMetadataSHA256": "4201614f7ea3316e63c0b9c981ba252014b1696aeb9650cd371f2af444cf03c0",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+          "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+          "page": 9
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "CP4520": {
+      "sourceTitle": "Biochemistry Lab",
+      "sourceMetadataSHA256": "b6be4c450c6859a6f34e1250367d814e3a3d92cfd918a5bf220e0d17bd8517a0",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+          "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+          "page": 12
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "CP4720": {
+      "sourceTitle": "Physical Chemistry Lab",
+      "sourceMetadataSHA256": "c73710d48ec995d9fec0985590daf734256e2ed3c0e6f781f154111b70adda48",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+          "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+          "page": 14
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "PX2001": {
+      "sourceTitle": "Physics 1, Algebra Based Lab",
+      "sourceMetadataSHA256": "e082b373ee62d21bc4472278d644d2cf0ae43b1030ba4e8075439e6bf5b960d5",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/14.pdf",
+          "sha256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+          "page": 1
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "PX2101": {
+      "sourceTitle": "Physics 2, Algebra-based Lab",
+      "sourceMetadataSHA256": "506a49007f75ae55acfa99149ae366a5500a120d272b7c4ae2201244fe8f86f1",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/14.pdf",
+          "sha256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+          "page": 2
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "PX2201": {
+      "sourceTitle": "Physics 1, Calculus-based lab",
+      "sourceMetadataSHA256": "55a98225ea3254e7969a525b46ab9c7c63297827519a70435313984d4560c3fc",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/14.pdf",
+          "sha256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+          "page": 3
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "PX2301": {
+      "sourceTitle": "Physics 2, Calculus-based Lab",
+      "sourceMetadataSHA256": "e6046e1ebddb8815644ab34a8f33cf6e7272a2df5a4e4b094bb840ae2b672863",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/14.pdf",
+          "sha256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+          "page": 5
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "PX2901": {
+      "sourceTitle": "Astronomy Laboratory",
+      "sourceMetadataSHA256": "14fc27c60fe6c89b5efa4fead38d17dbbd4da9e6dbd19a913e2f11222ba49025",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/14.pdf",
+          "sha256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+          "page": 6
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    },
+    "PX3900": {
+      "sourceTitle": "Experimental Physics and Electronics Lab",
+      "sourceMetadataSHA256": "fc488de7464c12653114ea29ea7380da72519887cbc2183d440a8ed65c069aa2",
+      "sourceEvidence": [
+        {
+          "pdf": "/Users/phillipaltidor/Downloads/14.pdf",
+          "sha256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+          "page": 10
+        }
+      ],
+      "basis": "Explicit laboratory course title in a science subject.",
+      "scope": "prerequisite-laboratory-science-only"
+    }
+  },
+  "permissionsPlacementAndEquivalencesFabricated": false,
+  "futureWorkCountedAsEarnedCredit": false,
+  "workingDatabaseChanged": false,
+  "privateStudentIdentifiersPublished": false,
+  "candidateFileSHA256": "69c1d4099a0788c56cc7e1bf8700d2c0bb32ef0fe6eb8e55d66f679f838e2560",
+  "effectiveRulesFileSHA256": "eae0eb66331b5bbe4633209fbb8b9d630efeb4eb13688408789268b029948361"
+}

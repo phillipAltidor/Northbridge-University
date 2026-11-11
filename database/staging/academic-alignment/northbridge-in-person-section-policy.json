@@ -1,0 +1,16 @@
+{
+  "decisionId": "NB-INPERSON-SECTIONS-20261108",
+  "status": "owner-approved-staged-not-active",
+  "authority": "Owner selected Northbridge-only in-person sections on November 8, 2026",
+  "policy": "When a needed course has no suitable official in-person offering in the selected term, create a clearly labeled Northbridge-only section using verified Old Westbury in-person meeting periods.",
+  "officialCRN": null,
+  "sectionLabel": "NB-IP",
+  "preserveOfficialSections": true,
+  "preserveTemplateMeetingPeriodsAndCredits": true,
+  "useTargetTermSourceDatesWhenBorrowingAcrossTerms": true,
+  "crossTermUse": "If a historical term has no on-campus offerings, borrow verified in-person periods from the nearest available source term and use the documented target-term date range. These remain Northbridge-only sections with no official Old Westbury CRN.",
+  "requiresSameLabClassification": true,
+  "excludeUnresolvedLinkedAndCrossListedTemplates": true,
+  "grantsCreditsOrPrerequisiteWaivers": false,
+  "schemaChangeRequired": false
+}

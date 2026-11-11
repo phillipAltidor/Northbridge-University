@@ -1,0 +1,635 @@
+{
+  "status": "source-evidence-only-effective-dates-and-use-need-review",
+  "relationships": [
+    {
+      "formerCode": "AS2282",
+      "currentCode": "AS1282",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 1,
+          "rawCourseCell": "AS1282 Introduction to African-American Studies (Previously AS2282)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS3252",
+      "currentCode": "AS2252",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 4,
+          "rawCourseCell": "AS2252 U.S. Social Movements (Previously AS3252)"
+        },
+        {
+          "url": "https://www.oldwestbury.edu/general-education-us-history-and-civic-engagement",
+          "row": 4,
+          "rawCourseCell": "AS2252 U.S. Social Movements (Previously AS3252)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS3262",
+      "currentCode": "AS2262",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 5,
+          "rawCourseCell": "AS2262 African-American History I (Previously AS3262)"
+        },
+        {
+          "url": "https://www.oldwestbury.edu/general-education-us-history-and-civic-engagement",
+          "row": 5,
+          "rawCourseCell": "AS2262 African-American History I (Previously AS3262)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS3263",
+      "currentCode": "AS2263",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 6,
+          "rawCourseCell": "AS2263 African-American History II (Previously AS3263)"
+        },
+        {
+          "url": "https://www.oldwestbury.edu/general-education-us-history-and-civic-engagement",
+          "row": 6,
+          "rawCourseCell": "AS2263 African-American History II (Previously AS3263)"
+        }
+      ]
+    },
+    {
+      "formerCode": "CR4092",
+      "currentCode": "CR3092",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 24,
+          "rawCourseCell": "CR3092 Victimology (Previously CR4092)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS3842",
+      "currentCode": "MC3842",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 63,
+          "rawCourseCell": "MC3842 African-Americans & the Mass Media (Previously AS3842)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS3852",
+      "currentCode": "MC3852",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 64,
+          "rawCourseCell": "MC3852 Women & the Media (Previously AS3852)"
+        }
+      ]
+    },
+    {
+      "formerCode": "HS3600",
+      "currentCode": "PH3600",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 81,
+          "rawCourseCell": "PH3600 Intro to Social Determinants of Health (Previously Intro to Health & Society) (Previously HS3600) {dual listed as WS3785}"
+        }
+      ]
+    },
+    {
+      "formerCode": "HS4610",
+      "currentCode": "PH4610",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 84,
+          "rawCourseCell": "PH4610 Women & Health (Previously HS4610)"
+        }
+      ]
+    },
+    {
+      "formerCode": "HS4700",
+      "currentCode": "PH4700",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 85,
+          "rawCourseCell": "PH4700 Medical Anthropology (Previously HS4700) {not offered 2020- }"
+        }
+      ]
+    },
+    {
+      "formerCode": "HS4750",
+      "currentCode": "PH4750",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 86,
+          "rawCourseCell": "PH4750 Aging & Social Policy (Previously HS4750)"
+        }
+      ]
+    },
+    {
+      "formerCode": "SY4280",
+      "currentCode": "SY3280",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 100,
+          "rawCourseCell": "SY3280 Social Inequality (Previously SY4280)"
+        }
+      ]
+    },
+    {
+      "formerCode": "SY4750",
+      "currentCode": "SY3750",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 102,
+          "rawCourseCell": "SY3750 Medical Sociology (Previously SY4750) {dual listed with PH3800}"
+        },
+        {
+          "url": "https://www.oldwestbury.edu/general-education-social-sicences",
+          "row": 49,
+          "rawCourseCell": "SY3750 Medical Sociology (Previously SY4750){dual listed with PH3800}"
+        }
+      ]
+    },
+    {
+      "formerCode": "SY4900",
+      "currentCode": "SY3900",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+          "row": 104,
+          "rawCourseCell": "SY3900 Social Movements (Previously SY4900)"
+        },
+        {
+          "url": "https://www.oldwestbury.edu/general-education-us-history-and-civic-engagement",
+          "row": 25,
+          "rawCourseCell": "SY3900 Social Movements (Previously SY4900)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS3247",
+      "currentCode": "AS2901",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 4,
+          "rawCourseCell": "AS2901 Intro to Video and TV (Previously AS3247)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS4862",
+      "currentCode": "AS5862",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 12,
+          "rawCourseCell": "AS5862 Journalist as Creative Writer (Previously AS4862)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS2020",
+      "currentCode": "MC2020",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 17,
+          "rawCourseCell": "MC2020 New Media (Previously AS2020)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS2802",
+      "currentCode": "MC2802",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 18,
+          "rawCourseCell": "MC2802 Multimedia Storytelling (Previously AS2802)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS2901",
+      "currentCode": "MC2901",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 19,
+          "rawCourseCell": "MC2901 Intro to Video and TV (Previously AS2901)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS2910",
+      "currentCode": "MC2910",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 20,
+          "rawCourseCell": "MC2910 Podcasting & Audio Storytelling (Previously AS2910)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS3632",
+      "currentCode": "MC3632",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 21,
+          "rawCourseCell": "MC3632 History of U.S. Film (Previously AS3632)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS3712",
+      "currentCode": "MC3712",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 22,
+          "rawCourseCell": "MC3712 American Film Genres (Previously AS3712)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS3742",
+      "currentCode": "MC3742",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 23,
+          "rawCourseCell": "MC3742 Myths & Images in Film (Previously AS3742)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS4722",
+      "currentCode": "MC4722",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 24,
+          "rawCourseCell": "MC4722 Film: Ideas & Aesthetics (Previously AS4722)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS5862",
+      "currentCode": "MC5862",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 25,
+          "rawCourseCell": "MC5862 Journalist as Creative Writer (Previously AS5862)"
+        }
+      ]
+    },
+    {
+      "formerCode": "HI2350",
+      "currentCode": "MD2350",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 28,
+          "rawCourseCell": "MD2350 Acting (Previously HI2350)"
+        }
+      ]
+    },
+    {
+      "formerCode": "VA4242",
+      "currentCode": "VA2320",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 42,
+          "rawCourseCell": "VA2320 Graphic Design I (Previously VA4242)"
+        }
+      ]
+    },
+    {
+      "formerCode": "VA4340",
+      "currentCode": "VA2460",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 44,
+          "rawCourseCell": "VA2460 Painting I (Previously VA4340)"
+        }
+      ]
+    },
+    {
+      "formerCode": "VA4420",
+      "currentCode": "VA2750",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 49,
+          "rawCourseCell": "VA2750 Sculpture I (Previously VA4420)"
+        }
+      ]
+    },
+    {
+      "formerCode": "VA2340",
+      "currentCode": "VA3340",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-arts",
+          "row": 51,
+          "rawCourseCell": "VA3340 Introduction to African Art (Previously VA2340)"
+        },
+        {
+          "url": "https://www.oldwestbury.edu/general-education-humanities",
+          "row": 112,
+          "rawCourseCell": "VA3340 Introduction to African Art (Previously VA2340)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS3112",
+      "currentCode": "AS2112",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-us-history-and-civic-engagement",
+          "row": 2,
+          "rawCourseCell": "AS2112 American People I (Previously AS3112)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS3122",
+      "currentCode": "AS2122",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-us-history-and-civic-engagement",
+          "row": 3,
+          "rawCourseCell": "AS2122 American People II (Previously AS3122)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS2652",
+      "currentCode": "MC2652",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-humanities",
+          "row": 85,
+          "rawCourseCell": "MC2652 Media Studies (Previously AS2652)"
+        }
+      ]
+    },
+    {
+      "formerCode": "AS3745",
+      "currentCode": "MC3745",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-humanities",
+          "row": 86,
+          "rawCourseCell": "MC3745 Film and Gender (Previously AS3745)"
+        }
+      ]
+    },
+    {
+      "formerCode": "CR2500",
+      "currentCode": "CR1500",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-social-sicences",
+          "row": 3,
+          "rawCourseCell": "CR1500 Introduction to Criminology (Previously CR2500)"
+        }
+      ]
+    },
+    {
+      "formerCode": "HS4850",
+      "currentCode": "PH4850",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-social-sicences",
+          "row": 31,
+          "rawCourseCell": "PH4850 Global Health (Previously HS4850 International Health)"
+        }
+      ]
+    },
+    {
+      "formerCode": "SY2500",
+      "currentCode": "SY1500",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-social-sicences",
+          "row": 41,
+          "rawCourseCell": "SY1500 Introductory Sociology (Previously SY2500)"
+        }
+      ]
+    },
+    {
+      "formerCode": "SY3550",
+      "currentCode": "SY2550",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-social-sicences",
+          "row": 44,
+          "rawCourseCell": "SY2550 Social Problems (Previously SY3550)"
+        }
+      ]
+    },
+    {
+      "formerCode": "SY3600",
+      "currentCode": "SY2600",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-social-sicences",
+          "row": 45,
+          "rawCourseCell": "SY2600 Social Deviance (Previously SY3600)"
+        }
+      ]
+    },
+    {
+      "formerCode": "SY4160",
+      "currentCode": "SY3160",
+      "relationship": "source-explicit-former-code",
+      "effectiveTerm": null,
+      "historicalCreditTransferApproved": false,
+      "automaticTranscriptRewriteAllowed": false,
+      "sources": [
+        {
+          "url": "https://www.oldwestbury.edu/general-education-social-sicences",
+          "row": 47,
+          "rawCourseCell": "SY3160 Sociology of Culture (Previously SY4160)"
+        }
+      ]
+    }
+  ]
+}

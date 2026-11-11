@@ -1,0 +1,30 @@
+{
+  "scheduledTerms": [
+    "202009",
+    "202102",
+    "202109",
+    "202202",
+    "202209",
+    "202302",
+    "202309",
+    "202402",
+    "202409",
+    "202502",
+    "202509",
+    "202602",
+    "202609",
+    "202702"
+  ],
+  "sectionsChecked": 5065,
+  "enrollmentAssignmentsChecked": 45821,
+  "northbridgeOnlySections": 1927,
+  "candidateFileSHA256": "69c1d4099a0788c56cc7e1bf8700d2c0bb32ef0fe6eb8e55d66f679f838e2560",
+  "scheduleFileSHA256": "c814f689766d079905ac8ab13974e0959598a9fa851183822994bd4a5c3a192b",
+  "errors": {},
+  "includesPreservedGraduateResourceReservations": true,
+  "officialMeetingsCreditsAndSectionLabelsChecked": true,
+  "linkedAndSharedSeatSectionsExcluded": true,
+  "recordedRoomAndSourceCapacitiesChecked": true,
+  "schemaChanged": false,
+  "databaseChanged": false
+}

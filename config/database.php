@@ -45,6 +45,16 @@ load_env(dirname(__DIR__) . '/.env');
 $host = $_ENV['DB_HOST'] ?? '127.0.0.1';
 $port = $_ENV['DB_PORT'] ?? '3306';
 $database = $_ENV['DB_NAME'] ?? 'northbridge_university';
+// A process-owned override lets the CLI and local rehearsal server exercise a
+// separate clone. HTTP input is never used to select a database.
+$rehearsalDatabase = getenv('NORTHBRIDGE_REHEARSAL_DB');
+if ($rehearsalDatabase !== false && $rehearsalDatabase !== '') {
+    if (!in_array($host, ['127.0.0.1', 'localhost'], true)
+        || !preg_match('/^northbridge_ow_rebuild_2026_[4-9][0-9]*$/D', $rehearsalDatabase)) {
+        throw new RuntimeException('Invalid local rehearsal database.');
+    }
+    $database = $rehearsalDatabase;
+}
 $username = $_ENV['DB_USER'] ?? 'root';
 $password = $_ENV['DB_PASS'] ?? '';
 

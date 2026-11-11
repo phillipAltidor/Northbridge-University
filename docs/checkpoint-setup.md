@@ -1,5 +1,11 @@
 # Admin Dashboard and Master Schedule Checkpoint
 
+This is the earlier dashboard installation checkpoint. For the current academic
+rebuild status, read PROJECT_HANDOFF.md and [team workflow](team-workflow.md).
+The V11 preview and its private data overlays are not installed by pulling Git.
+Review their separate activation requirements before using the older migration
+steps below on an existing database.
+
 ## Existing Installation
 
 Pulling the branch changes code, not your local or hosted database. Do not replace

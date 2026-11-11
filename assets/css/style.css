@@ -723,6 +723,16 @@ a {
     font-size: 14px;
 }
 
+.schedule-meeting-detail + .schedule-meeting-detail {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #d5d8de;
+}
+
+.schedule-multiple-meetings .schedule-meeting-detail {
+    min-height: 4em;
+}
+
 @media (max-width: 1200px) {
     .student-week-days {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1154,8 +1164,8 @@ select {
     padding: 10px 0;
 }
 
-.master-schedule-table {
-    min-width: 1900px;
+.schedule-columns-table {
+    min-width: 1050px;
     border-collapse: separate;
     border-spacing: 0;
 }
@@ -1170,17 +1180,17 @@ select {
     white-space: nowrap;
 }
 
-.master-schedule-table td:not(:nth-child(3)):not(:nth-child(5)):not(:nth-child(9)) {
+.schedule-columns-table td:not(:nth-child(3)):not(:nth-child(5)):not(:nth-child(6)):not(:nth-child(8)) {
     white-space: nowrap;
 }
 
-.master-schedule-table td:nth-child(3) {
+.schedule-columns-table td:nth-child(3) {
     min-width: 240px;
     max-width: 300px;
 }
 
-.master-schedule-table td:nth-child(5),
-.master-schedule-table td:nth-child(9) {
+.schedule-columns-table td:nth-child(5),
+.schedule-columns-table td:nth-child(8) {
     min-width: 170px;
     max-width: 230px;
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "courseCode": "AS4402",
+    "credits": 4,
+    "status": "confirmed-from-selected-catalog-program",
+    "sourceProgram": "Media & Communications, B.A.",
+    "sourcePDF": "database/staging/academic-alignment/source-pdfs/program-media-communications-b-a.pdf",
+    "sourceSHA256": "bf4c59afaf34e0613cdc08c3ee606de44edcbcecca412c4ee53ae851a01036af"
+  },
+  {
+    "courseCode": "AS5412",
+    "credits": 4,
+    "status": "confirmed-from-selected-catalog-program",
+    "sourceProgram": "Media & Communications, B.A.",
+    "sourcePDF": "database/staging/academic-alignment/source-pdfs/program-media-communications-b-a.pdf",
+    "sourceSHA256": "bf4c59afaf34e0613cdc08c3ee606de44edcbcecca412c4ee53ae851a01036af"
+  },
+  {
+    "courseCode": "BU5171",
+    "credits": 4,
+    "status": "confirmed-from-selected-catalog-program",
+    "sourceProgram": "Business Administration, B.S.",
+    "sourcePDF": "database/staging/academic-alignment/source-pdfs/program-business-administration-b-s.pdf",
+    "sourceSHA256": "17997272f2a31902bef23ab9d86e43a8e5e01de31d3f63b8f455f1bdf7d1ea19"
+  }
+]

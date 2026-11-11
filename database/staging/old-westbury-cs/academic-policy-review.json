@@ -1,0 +1,145 @@
+{
+  "status": "source-transcribed-needs-policy-review",
+  "catalogEdition": "2026-2027 Undergraduate Catalog",
+  "source": {
+    "method": "user-pasted Academic Policies and Procedures page",
+    "path": "/Users/phillipaltidor/.codex/attachments/d81f5264-a978-47c4-ac10-85e91bfb1465/Pasted text.txt",
+    "sha256": "215d3637667ab53a9b1877a3a578e29d07d5e55f12ec716eb2d95fb39ab3179e",
+    "receivedDate": "2026-11-07"
+  },
+  "degreeRequirements": {
+    "minimumCredits": 120,
+    "minimumInstitutionalGPA": 2.0,
+    "minimumUpperDivisionCredits": 45,
+    "minimumUpperDivisionMajorCredits": 24,
+    "residencyCredits": 40,
+    "accountingResidencyCredits": 46,
+    "liberalArtsCreditsByDegree": {
+      "BA": 90,
+      "BFA": 90,
+      "BS": 60,
+      "BPS": 30
+    }
+  },
+  "generalEducation": {
+    "minimumCredits": 30,
+    "domains": [
+      "Diversity: Equity, Inclusion, and Social Justice",
+      "Mathematics and Quantitative Reasoning",
+      "Basic Communication",
+      "The Arts",
+      "US History and Civic Engagement",
+      "World History and Global Awareness",
+      "World Languages",
+      "Natural Sciences",
+      "Humanities",
+      "Social Sciences"
+    ],
+    "multipleDomainsPerCourseAllowed": true,
+    "competencies": [
+      "Critical Thinking and Reasoning",
+      "Information Literacy",
+      "Civic Discourse"
+    ],
+    "localDiversity": {
+      "firstYearCourse": "FY1000",
+      "transferRule": "Select an approved Diversity course"
+    },
+    "approvedCourseDomainMappings": "not-yet-supplied",
+    "transferWaiver": "SUNY/CUNY AA or AS degree may satisfy general education requirements, but not local proficiency requirements; official degree/equivalency evidence required.",
+    "minimumGrade": {
+      "letterGrade": "D-",
+      "creditGrade": "CR",
+      "scope": "General education domain satisfaction; proficiency and major requirements may require higher grades."
+    },
+    "requiredCoursesPerDomain": 1,
+    "cohortApplicability": "Official LEC page labels these rules for students entering Fall 2023 or later; curriculum cohort must be stored.",
+    "domainSources": {
+      "Diversity: Equity, Inclusion, and Social Justice": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+      "Mathematics": "https://www.oldwestbury.edu/general-education-mathematics",
+      "Communication Written and Oral": "https://www.oldwestbury.edu/general-education-communication-written-and-oral-1",
+      "The Arts": "https://www.oldwestbury.edu/general-education-arts",
+      "US History and Civic Engagement": "https://www.oldwestbury.edu/general-education-us-history-and-civic-engagement",
+      "World History and Global Awareness": "https://www.oldwestbury.edu/general-education-world-history-and-global-awareness",
+      "World Languages": "https://www.oldwestbury.edu/general-education-world-languages",
+      "Natural Sciences": "https://www.oldwestbury.edu/general-education-natural-sciences",
+      "Humanities": "https://www.oldwestbury.edu/general-education-humanities",
+      "Social Sciences": "https://www.oldwestbury.edu/general-education-social-sicences"
+    }
+  },
+  "writingProficiency": {
+    "minimumGrade": "C",
+    "compositionI": "EL1000",
+    "compositionIIEligibleRange": "EL2200-EL2299",
+    "alternatives": "Source describes qualifying transfer work, placement assessment, and AP English exemption for EL1000; exact implementation needs review."
+  },
+  "mathProficiency": {
+    "minimumGrade": "C",
+    "coursesInLECSection": [
+      "MA1020",
+      "MA2000",
+      "MA2050",
+      "MA2080",
+      "MA2090"
+    ],
+    "alternatives": "Qualifying transfer work, AP scores, Regents scores or evaluated placement examination as specified in source.",
+    "coursesInOfficialLECPage": [
+      "MA1020",
+      "MA2000",
+      "MA2050",
+      "MA2080",
+      "MA2090",
+      "MA2300",
+      "MA2310",
+      "MA2320",
+      "MA3030"
+    ]
+  },
+  "classStandingByCompletedCredits": [
+    {
+      "standing": "Freshman",
+      "min": 0,
+      "max": 31
+    },
+    {
+      "standing": "Sophomore",
+      "min": 32,
+      "max": 56
+    },
+    {
+      "standing": "Junior",
+      "min": 57,
+      "max": 87
+    },
+    {
+      "standing": "Senior",
+      "min": 88,
+      "max": null
+    }
+  ],
+  "repeatPolicy": {
+    "gpaAttempt": "latest",
+    "retainAllAttemptsOnTranscript": true,
+    "awardCreditsOnceExceptRepeatableCourses": true
+  },
+  "sourceExcerpts": {
+    "Liberal Education Curriculum": "Liberal Education Curriculum\nThe core of academic study at Old Westbury is a Liberal Education Curriculum. It is designed to provide students with a broad, multidisciplinary education that serves as a foundation for further study, career preparation, and participation in our increasingly complex society. Old Westbury\u2019s Liberal Education Curriculum maintains the University\u2019s commitment to Diversity, interdisciplinary education, and critical inquiry, and incorporates SUNY-wide General Education requirements.\n\nDiversity. All students will complete a course in the University\u2019s mission-defined \u201cDiversity/Social Justice\u201d domain. Students entering in their first year will complete this requirement with FY1000 Ethics of Engagement.  Transfer students may select from a list of approved Diversity courses.\n\nProficiencies. Beyond the SUNY General Education domain learning outcomes, Old Westbury requires students to fulfill local University proficiencies in Mathematics and English.\n\nMathematics proficiency may be satisfied by earning a grade of C or higher in MA 1020 - College Algebra,  MA 2000 - Applied Statistics, MA 2050 - Quantitative Reasoning and Decision Making, MA 2080 - Precalculus for Business and Economics, or MA 2090 - Precalculus. Students may also satisfy the mathematics proficiency requirement by transfer of an equivalent course to the above, by earning a score of 3 or higher on the Calculus AB, Calculus BC, or Statistics AP exams, or by earning a score of 85 or higher on the Algebra II/Trigonometry Regent\u2019s exam. Mathematics proficiency requirements can also be met by a satisfactory score on a placement examination evaluated by the Mathematics Department.\nAs a demonstration of proficiency in writing, students must achieve a grade of C or higher in both the EL 1000 - English Composition I: Exposition course (the GE Basic Communication course) and an EL 2200-EL 2299 course in Argumentation/Literary Perspectives. Writing proficiency requirements can be met by transfer of courses with a grade of C or higher that are equivalent to EL 1000 and EL 2200-EL 2299 or by a satisfactory score on a writing placement examination evaluated by the English Department. Students who earn a 3 or higher on the AP English exam are exempt from taking EL 1000 - English Composition I: Exposition.\nSUNY General Education. Students will complete a course in each of the following domains: Diversity: Equity, Inclusion, and Social Justice, Mathematics (and Quantitative Reasoning), Basic Communication, The Arts, US History and Civic Engagement, World History and Global Awareness, World Languages, Natural Sciences, Humanities, Social Sciences In some cases, an individual course may satisfy more than one domain, but all students must complete a minimum of 30 GE credits, as mandated by the SUNY Board of Trustees. The curriculum incorporates competencies in Critical Thinking and Reasoning, Information Literacy, and Civic Discourse. Effective Spring 2015, students transferring into Old Westbury with an AA or AS degree from a SUNY or CUNY institution are deemed to have met Old Westbury\u2019s General Education requirements.\n\n(More details about the Liberal Education Curriculum, and a list of courses included in the program, can be found at https://www.oldwestbury.edu/academics/liberal-education)\n\nIt promotes academic success by helping students to become intentional learners and develop the intellectual and social skills required to tackle the challenges of college learning and campus living - critical thinking, problem-solving, intellectual analysis, time-management, teamwork, financial literacy and self-reflection.",
+    "Academic Class Level": "Academic Class Level\nThe following designations specify a student\u2019s academic class level:\n\n \tUpper Division:\tSeniors\t88 or more credits\tLower Division:\tSophomores\t32\u201156 credits\n \t \tJuniors\t57\u201187 credits\t \tFreshmen\t0\u201131 credits\nNote: Senior standing does not necessarily imply eligibility for graduation. Eligibility for graduation depends on the fulfillment of all University and departmental requirements as determined by the Registrar and the department from which the student expects to be graduated.\n\nDetermination of class level is based on the Transfer Services Office evaluation of official transcripts available in that office. Changes in academic class level occur only as students complete courses at Old Westbury, or when the Transfer Services Office receives and evaluates official transcripts from other colleges or universities.",
+    "Grading System": "Grading System\nThe grading system used on transcripts provides for 16 letter grades consisting of A, A-, B+, B, B-, C+, C, C\u2011, D+, D, D-, F, CR (credit), NC (no credit), I (incomplete), W (withdrawal) and NR (not reported). All students whose names remain on the official class roster, prepared at the end of the add/drop period, are assigned one of the above grades.\n\nAll grades except CR, NC, I, W and NR are calculated in the student\u2019s GPA. However, in cases where students repeat a course, the newest grade replaces the old one(s) in the GPA calculation. All grades, however, will remain on the transcript. While students must pay for every course they take, financial aid will not pay for repeated courses unless the department/program requires a minimum grade for graduation and the previous grade was below the requirement. Courses not required to be repeated by the department will not count toward credit load for purposes of financial aid eligibility. (This information does not apply to courses that departments designate as repeatable for credit. )\n\nThe number of credits assigned to a course cannot be changed unless the course is one in which students may earn variable credit (e.g., independent study). Credit cannot be awarded twice for the same course, unless the course is one that may be repeated for credit (e.g., certain internships, directed research, etc).",
+    "Repeated Courses": "Repeated Courses\nIf a student repeats a course, which may not be repeated for credit more than once, only the latest grade will be used in calculating the grade point average (GPA). However, all courses and corresponding grades will remain on the transcript. For purposes of state aid, courses not deemed necessary to repeat according to department policy (as stated in the college catalog) will not satisfy full time status requirements. Credit will not be awarded more than once for the same course."
+  },
+  "unresolved": [
+    "Approved GE course-to-domain mappings and competency satisfaction evidence still needed.",
+    "Math proficiency lists vary between sections of this page; preserve specific wording and reconcile scope.",
+    "Placement, transfer and program exceptions require explicit models and review.",
+    "Institution-wide major credit caps use generally/normally language; do not enforce as universal hard limits.",
+    "Northbridge FT/PT credit limits remain unchanged until project-policy reconciliation.",
+    "TC and incomplete CS5910 writing condition remain unresolved.",
+    "No application policy, working student records or database changed."
+  ],
+  "supplementalLECSource": {
+    "url": "https://www.oldwestbury.edu/division/office-academic-affairs/liberal-education-core",
+    "method": "Official page read and user-pasted excerpt",
+    "receivedDate": "2026-11-07"
+  }
+}

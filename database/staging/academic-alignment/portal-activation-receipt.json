@@ -1,0 +1,22 @@
+{
+    "status": "local-portal-switched-to-validated-academic-rebuild",
+    "originalDatabase": "northbridge_university",
+    "activeDatabase": "northbridge_ow_rebuild_2026_5",
+    "candidateSHA256": "60148936e1a0cd334864e21bb428ca3302af9f537ea5874bdd334e0e16e7cfcd",
+    "candidateFileSHA256": "1700082ac6d48725b7b8bc5a0543925ddd7e81476eef234259912661b9012344",
+    "students": 2200,
+    "sections": 4801,
+    "semesters": 14,
+    "originalDatabaseUnchanged": true,
+    "peopleAndAccountsPreserved": true,
+    "privateConfigurationBackup": "\/private\/tmp\/northbridge-academic-cutover-154d9fbcc8f7\/original.env",
+    "restoreSnapshotSHA256": "fbca6e5c428d26dc86eafe9766fe3879647bd3135009e813a0ab80f0cb7387b8",
+    "postSwitchChecks": "passed",
+    "checkedDateNewYork": "2026-11-08",
+    "originalTablesUnchangedVerified": 47,
+    "finalRestoreTablesVerified": 53,
+    "finalRestoreSnapshotSHA256": "f2fa5925b833d3db6546d5c44dbf999d8499f89824d5f08edab6e48f8f077ec5",
+    "postSwitchAuthenticatedChecks": 476,
+    "postSwitchDegreeEvaluations": 2200,
+    "postSwitchSeatMismatches": 0
+}

@@ -1,0 +1,185 @@
+[
+  {
+    "id": "CS-CORE-001",
+    "status": "approved-project-decision",
+    "approvedBy": "user",
+    "approvedDate": "2026-11-07",
+    "rule": "Require CS3911 (4 credits) as the tenth CIS core course. No CS3910 alternative.",
+    "catalogDiscrepancyRetained": true,
+    "scope": "Northbridge undergraduate CIS core only"
+  },
+  {
+    "id": "MIS-ECON-001",
+    "status": "approved-project-decision",
+    "approvedBy": "user",
+    "approvedDate": "2026-11-07",
+    "rule": {
+      "type": "choose-distinct-courses",
+      "count": 2,
+      "eligibleCourses": [
+        "MA2701",
+        "PE2420",
+        "PE2430"
+      ],
+      "minimumCredits": 8,
+      "allowDuplicateCourseCredit": false
+    },
+    "evidence": "Selected catalog has three courses under an 8-credit/two-course heading. Official advising worksheet explicitly says take two but uses MA3250.",
+    "evidenceURL": "https://www.oldwestbury.edu/school-arts-and-sciences/mathematics-computer-information-science/advising-resources-current-0",
+    "scope": "Northbridge MIS economics/analytics group; does not establish MA3250-to-MA2701 equivalency"
+  },
+  {
+    "id": "MKT-MINOR-001",
+    "status": "approved-project-decision",
+    "approvedBy": "user",
+    "approvedDate": "2026-11-07",
+    "rule": {
+      "core": [
+        "BU3800",
+        "BU4851",
+        "BU4820",
+        "BU5880"
+      ],
+      "elective": {
+        "type": "choose-distinct-courses",
+        "count": 1,
+        "eligibleCourses": [
+          "BU5841",
+          "BU5891"
+        ],
+        "minimumCredits": 4,
+        "allowDuplicateCourseCredit": false
+      },
+      "credits": 20,
+      "courses": 5
+    },
+    "evidenceURL": "https://www.oldwestbury.edu/programs-courses/marketing-minor",
+    "scope": "Northbridge Marketing minor course groups; remaining applicable academic policies still apply"
+  },
+  {
+    "id": "ED-CORE-001",
+    "status": "approved-project-decision",
+    "program": "Childhood Education 1-6, B.S.",
+    "selectedCatalogIssue": "36-credit core heading contains seven listed 4-credit courses, totaling 28.",
+    "proposal": "Add the two missing 4-credit historical course versions as an explicit Northbridge exception; do not claim verification of the missing current-catalog entries.",
+    "courses": [
+      {
+        "courseCode": "ED4050",
+        "title": "Innovative Instructional Design and Assessment",
+        "credits": 4,
+        "sourceCatalog": "2020-2022",
+        "sourcePDFPage": 200
+      },
+      {
+        "courseCode": "ED5925",
+        "title": "Building a Classroom Community for All Learners",
+        "credits": 4,
+        "sourceCatalog": "2020-2022",
+        "sourcePDFPage": 203
+      }
+    ],
+    "totalCoreCreditsAfterDecision": 36,
+    "source": "supplemental-sources/undergraduate-catalog-2020-2022.pdf",
+    "programSourcePDFPage": 125,
+    "remainingIssues": [
+      "ED5925 has a different title/description in 2026-2027; keep explicit version identity, not a global rename.",
+      "Historical ED5925 prerequisite text contains ED400 and ambiguous punctuation; its executable eligibility rule still needs review.",
+      "Education concentration and institutional/progression rules remain separate requirements.",
+      "Official semester offerings are not established by a catalog requirement."
+    ],
+    "approvedBy": "user",
+    "approvedDate": "2026-11-07"
+  },
+  {
+    "id": "CS-WRITING-001",
+    "status": "approved-project-decision",
+    "approvedBy": "user",
+    "approvedDate": "2026-11-07",
+    "course": "CS5910",
+    "scope": "Northbridge CS5910 writing prerequisite only",
+    "rule": {
+      "type": "completed-writing-proficiency",
+      "components": [
+        "CompositionI",
+        "CompositionII"
+      ],
+      "minimumCourseGrade": "C",
+      "allowApprovedEquivalentOrPlacementEvidence": true,
+      "partialPlacementSatisfiesBoth": false
+    },
+    "retainedCoursePrerequisites": [
+      "CS4501",
+      "CS4550",
+      "CS4720"
+    ],
+    "retainedGradeRule": "Each listed CS prerequisite needs C or qualifying approved transferred C (TC) or better.",
+    "evidence": "User explicitly approved completed English Composition I and II with C or better, or approved equivalents/placement, to replace truncated catalog writing condition.",
+    "originalCondition": "( WRITING O.W. 25) and",
+    "sourceURL": "https://www.oldwestbury.edu/school-arts-and-sciences/mathematics-computer-information-science/advising-resources-current-0"
+  },
+  {
+    "id": "CS5810-PREREQ-001",
+    "status": "approved-project-decision",
+    "approvedBy": "user",
+    "approvedDate": "2026-11-07",
+    "course": "CS5810",
+    "rule": {
+      "type": "and",
+      "rules": [
+        {
+          "type": "course",
+          "courseCode": "CS4550",
+          "minimumGrade": null,
+          "minimumGradeStatus": "not-specified-in-course-entry"
+        },
+        {
+          "type": "or",
+          "rules": [
+            {
+              "type": "course",
+              "courseCode": "MA3210",
+              "minimumGrade": null,
+              "minimumGradeStatus": "not-specified-in-course-entry"
+            },
+            {
+              "type": "course",
+              "courseCode": "MA2000",
+              "minimumGrade": null,
+              "minimumGradeStatus": "not-specified-in-course-entry"
+            }
+          ]
+        },
+        {
+          "type": "proficiency",
+          "key": "ECII"
+        }
+      ]
+    },
+    "scope": "Northbridge CS5810 prerequisites; no inferred prerequisite grade thresholds",
+    "evidence": "User approved the official advising-guide prerequisites because the selected catalog course entry omits them.",
+    "sourceURL": "https://www.oldwestbury.edu/school-arts-and-sciences/mathematics-computer-information-science/advising-resources-current-0"
+  },
+  {
+    "id": "PSYCH-BS-LA-001",
+    "status": "approved-project-decision",
+    "approvedBy": "user",
+    "approvedDate": "2026-11-07",
+    "program": "Psychology, B.S.",
+    "rule": {
+      "minimumLiberalArtsCredits": 60
+    },
+    "scope": "Northbridge Psychology BS liberal-arts minimum only; BA major groups and BS math/science additions still apply.",
+    "evidence": "User chose the standard BS 60-credit minimum to resolve ambiguous inheritance of the BA 90-credit requirement.",
+    "baseSource": "source-pdfs/supporting-psychology-b-a.pdf"
+  },
+  {
+    "id": "PSYCH-PROGRESSION-001",
+    "status": "approved-project-source-interpretation",
+    "approvedBy": "user",
+    "approvedDate": "2026-11-07",
+    "program": "Psychology, B.S.",
+    "rule": "Treat Progressing Through the Major as the supplied course prerequisites; use the documents already collected.",
+    "additionalDepartmentPolicyDocumentRequired": false,
+    "scope": "Psychology progression reference only; retain all documented major, degree and individual-course requirements. Do not import unprovided historical department policies."
+  }
+]

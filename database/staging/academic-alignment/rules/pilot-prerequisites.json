@@ -1,0 +1,695 @@
+{
+  "status": "staging-only-not-registration-code",
+  "rules": [
+    {
+      "courseCode": "CS2510",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nMA 1020\nNote:\nI might have misinterpreted the curriculum committee but this makes more sense",
+      "rule": {
+        "type": "course",
+        "courseCode": "MA1020",
+        "minimumGrade": null,
+        "minimumGradeStatus": "not-specified-in-course-entry"
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS2511",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nCS 2510\nWhen Offered:\nEvery semester",
+      "rule": {
+        "type": "course",
+        "courseCode": "CS2510",
+        "minimumGrade": null,
+        "minimumGradeStatus": "not-specified-in-course-entry"
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS3611",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nCS 2510",
+      "rule": {
+        "type": "course",
+        "courseCode": "CS2510",
+        "minimumGrade": null,
+        "minimumGradeStatus": "not-specified-in-course-entry"
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS3620",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nCS 2511, MA 3030\nWhen Offered:\nEvery other semester",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CS2511",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA3030",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS3810",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nCS 2511, MA 3030\nWhen Offered:\nEvery semester",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CS2511",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA3030",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS3911",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nCS 2511, MA 3030",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CS2511",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA3030",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS4100",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\n(Junior standing in CIS or Junior Standing in MIS) and ECII",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "standing-in-program",
+                "standing": "Junior",
+                "program": "CIS"
+              },
+              {
+                "type": "standing-in-program",
+                "standing": "Junior",
+                "program": "MIS"
+              }
+            ]
+          },
+          {
+            "type": "proficiency",
+            "key": "ECII"
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf",
+      "standingInterpretationStatus": "Junior threshold / senior eligibility must be explicit in eligibility policy before activation."
+    },
+    {
+      "courseCode": "CS4501",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nC or better in CS 2511 and C or better in (CS 3810 or CS 3611).",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CS2511",
+            "minimumGrade": "C",
+            "minimumGradeStatus": "explicit"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "CS3810",
+                "minimumGrade": "C",
+                "minimumGradeStatus": "explicit"
+              },
+              {
+                "type": "course",
+                "courseCode": "CS3611",
+                "minimumGrade": "C",
+                "minimumGradeStatus": "explicit"
+              }
+            ]
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS4550",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nCS 2511 and (CS 3810 or CS 3611); ECI.\nWhen Offered:\nEvery Semester.",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CS2511",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "CS3810",
+                "minimumGrade": null,
+                "minimumGradeStatus": "not-specified-in-course-entry"
+              },
+              {
+                "type": "course",
+                "courseCode": "CS3611",
+                "minimumGrade": null,
+                "minimumGradeStatus": "not-specified-in-course-entry"
+              }
+            ]
+          },
+          {
+            "type": "proficiency",
+            "key": "ECI"
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS4720",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nC or better in CS2511,\nand\nC or better in either CS3810 or CS3611\nNote:\nThe only change is in the prerequisites",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CS2511",
+            "minimumGrade": "C",
+            "minimumGradeStatus": "explicit"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "CS3810",
+                "minimumGrade": "C",
+                "minimumGradeStatus": "explicit"
+              },
+              {
+                "type": "course",
+                "courseCode": "CS3611",
+                "minimumGrade": "C",
+                "minimumGradeStatus": "explicit"
+              }
+            ]
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS4400",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nCS 3810, MA 3210",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CS3810",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA3210",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS4705",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nCS 3810",
+      "rule": {
+        "type": "course",
+        "courseCode": "CS3810",
+        "minimumGrade": null,
+        "minimumGradeStatus": "not-specified-in-course-entry"
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS4710",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nC or better in CS 2511 and C or better in MA 3030",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CS2511",
+            "minimumGrade": "C",
+            "minimumGradeStatus": "explicit"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA3030",
+            "minimumGrade": "C",
+            "minimumGradeStatus": "explicit"
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS5610",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nCS 3620 and CS 3810",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CS3620",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          },
+          {
+            "type": "course",
+            "courseCode": "CS3810",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS5710",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\n(CS 4501 or CS 4550) and (MA 3210 or MA 2000)",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "CS4501",
+                "minimumGrade": null,
+                "minimumGradeStatus": "not-specified-in-course-entry"
+              },
+              {
+                "type": "course",
+                "courseCode": "CS4550",
+                "minimumGrade": null,
+                "minimumGradeStatus": "not-specified-in-course-entry"
+              }
+            ]
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "MA3210",
+                "minimumGrade": null,
+                "minimumGradeStatus": "not-specified-in-course-entry"
+              },
+              {
+                "type": "course",
+                "courseCode": "MA2000",
+                "minimumGrade": null,
+                "minimumGradeStatus": "not-specified-in-course-entry"
+              }
+            ]
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS5730",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nCS 4710 and CS 5710",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CS4710",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          },
+          {
+            "type": "course",
+            "courseCode": "CS5710",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS5910",
+      "status": "project-rule-approved-not-active",
+      "sourcePrerequisiteText": "Prerequisites\n(Undergraduate level CS 4501\nMinimum Grade of C or Undergraduate level CS 4501\nMinimum Grade of TC) and (Undergraduate level CS 4720\nMinimum Grade of C or Undergraduate level CS 4720\nMinimum Grade of TC) and (Undergraduate level CS 4550 Minimum Grade of C or Undergraduate level CS 4550\nMinimum Grade of TC)\nPrerequisite/Corequisite\n( WRITING O.W. 25) and\nMathematics",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "CS4501",
+                "minimumGrade": "C",
+                "minimumGradeStatus": "explicit"
+              },
+              {
+                "type": "approved-transfer-course",
+                "courseCode": "CS4501",
+                "minimumBaseGrade": "C",
+                "sourceGradeToken": "TC"
+              }
+            ]
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "CS4720",
+                "minimumGrade": "C",
+                "minimumGradeStatus": "explicit"
+              },
+              {
+                "type": "approved-transfer-course",
+                "courseCode": "CS4720",
+                "minimumBaseGrade": "C",
+                "sourceGradeToken": "TC"
+              }
+            ]
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "CS4550",
+                "minimumGrade": "C",
+                "minimumGradeStatus": "explicit"
+              },
+              {
+                "type": "approved-transfer-course",
+                "courseCode": "CS4550",
+                "minimumBaseGrade": "C",
+                "sourceGradeToken": "TC"
+              }
+            ]
+          },
+          {
+            "type": "completed-writing-proficiency",
+            "components": [
+              "CompositionI",
+              "CompositionII"
+            ],
+            "minimumCourseGrade": "C",
+            "allowApprovedEquivalentOrPlacementEvidence": true,
+            "partialPlacementSatisfiesBoth": false
+          }
+        ]
+      },
+      "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf",
+      "projectDecision": "CS-WRITING-001",
+      "replacedSourceCondition": "( WRITING O.W. 25) and"
+    },
+    {
+      "courseCode": "MA1020",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nGrade of \u201cC\u201d or higher in MA 1010\nor MA 2000\n\nWhen Offered:\nEvery semester.Note:\nMost sections of this course will have a lab component and will be charged an \u201cInclusive Access\u201d fee of $75. An opt-out\noption is available.",
+      "rule": {
+        "type": "or",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA1010",
+            "minimumGrade": "C",
+            "minimumGradeStatus": "explicit"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2000",
+            "minimumGrade": "C",
+            "minimumGradeStatus": "explicit"
+          }
+        ]
+      },
+      "sourceSHA256": "047b453e1f2b7a9c8f41495d84c1895b9ada8e78fbab8d65edc9442f71cb48c8",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "MA2000",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nNone\nNote:\n\nThe only change is the prerequisie from MA 1010 to no prerequisite. This is one of those ghost catalog changes. It was\nnot a prereq for years and then it reappeared recently.",
+      "rule": {
+        "type": "no-course-prerequisites",
+        "sourceExplicitlyStatesNone": true
+      },
+      "sourceSHA256": "047b453e1f2b7a9c8f41495d84c1895b9ada8e78fbab8d65edc9442f71cb48c8",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "MA2080",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nGrade of \u201cC\u201d or higher in MA 1020\nWhen Offered:\nEvery semester.",
+      "rule": {
+        "type": "course",
+        "courseCode": "MA1020",
+        "minimumGrade": "C",
+        "minimumGradeStatus": "explicit"
+      },
+      "sourceSHA256": "047b453e1f2b7a9c8f41495d84c1895b9ada8e78fbab8d65edc9442f71cb48c8",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "MA2090",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nGrade of \u201cC\u201d or higher in MA 1020\nWhen Offered:\nEvery semester.",
+      "rule": {
+        "type": "course",
+        "courseCode": "MA1020",
+        "minimumGrade": "C",
+        "minimumGradeStatus": "explicit"
+      },
+      "sourceSHA256": "047b453e1f2b7a9c8f41495d84c1895b9ada8e78fbab8d65edc9442f71cb48c8",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "MA2310",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nGrade of \u201cC\u201d or higher in MA 2090\nWhen Offered:\nEvery semester.",
+      "rule": {
+        "type": "course",
+        "courseCode": "MA2090",
+        "minimumGrade": "C",
+        "minimumGradeStatus": "explicit"
+      },
+      "sourceSHA256": "047b453e1f2b7a9c8f41495d84c1895b9ada8e78fbab8d65edc9442f71cb48c8",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "MA3030",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nGrade of \u201cC\u201d or higher in MA 2090 or MA 2080\nWhen Offered:\nEvery semester.",
+      "rule": {
+        "type": "or",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA2090",
+            "minimumGrade": "C",
+            "minimumGradeStatus": "explicit"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2080",
+            "minimumGrade": "C",
+            "minimumGradeStatus": "explicit"
+          }
+        ]
+      },
+      "sourceSHA256": "047b453e1f2b7a9c8f41495d84c1895b9ada8e78fbab8d65edc9442f71cb48c8",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "MA3160",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nGrade of \u201cC\u201d or higher in MA 2310\nor MA 2300",
+      "rule": {
+        "type": "or",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA2310",
+            "minimumGrade": "C",
+            "minimumGradeStatus": "explicit"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2300",
+            "minimumGrade": "C",
+            "minimumGradeStatus": "explicit"
+          }
+        ]
+      },
+      "sourceSHA256": "047b453e1f2b7a9c8f41495d84c1895b9ada8e78fbab8d65edc9442f71cb48c8",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "MA3210",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nMA 2310 or MA 2300; MA 2320 recommended\nWhen Offered:\nEvery semester.",
+      "rule": {
+        "type": "or",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA2310",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2300",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          }
+        ]
+      },
+      "sourceSHA256": "047b453e1f2b7a9c8f41495d84c1895b9ada8e78fbab8d65edc9442f71cb48c8",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf",
+      "recommendations": [
+        "MA2320 recommended; not a required prerequisite in this entry."
+      ]
+    },
+    {
+      "courseCode": "MA4100",
+      "status": "source-rule-transcribed-not-active",
+      "sourcePrerequisiteText": "Prerequisites\nGrade of \u201cC\u201d or higher in MA 3030\n\nWhen Offered:\nAs needed.",
+      "rule": {
+        "type": "course",
+        "courseCode": "MA3030",
+        "minimumGrade": "C",
+        "minimumGradeStatus": "explicit"
+      },
+      "sourceSHA256": "047b453e1f2b7a9c8f41495d84c1895b9ada8e78fbab8d65edc9442f71cb48c8",
+      "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf"
+    },
+    {
+      "courseCode": "CS5810",
+      "status": "project-rule-approved-not-active",
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CS4550",
+            "minimumGrade": null,
+            "minimumGradeStatus": "not-specified-in-course-entry"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "MA3210",
+                "minimumGrade": null,
+                "minimumGradeStatus": "not-specified-in-course-entry"
+              },
+              {
+                "type": "course",
+                "courseCode": "MA2000",
+                "minimumGrade": null,
+                "minimumGradeStatus": "not-specified-in-course-entry"
+              }
+            ]
+          },
+          {
+            "type": "proficiency",
+            "key": "ECII"
+          }
+        ]
+      },
+      "projectDecision": "CS5810-PREREQ-001",
+      "selectedCatalogPrerequisiteText": null,
+      "advisingSourceText": "CS4550, MA3210 or MA2000, ECII",
+      "source": "supplemental-sources/math-cis-advising.json",
+      "note": "Explicit user-approved source exception. No unstated prerequisite grade threshold is added; program graduation minimum grades remain separate."
+    }
+  ],
+  "interpretationNotes": [
+    "Minimum grade null means not stated; never copy major minimum grades into prerequisite rules automatically.",
+    "Course entry conditions and institution/program restrictions are separate layers.",
+    "Recommendations are not prerequisites."
+  ]
+}

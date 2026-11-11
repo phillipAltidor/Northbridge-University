@@ -1,0 +1,420 @@
+{
+  "status": "draft-reference-only",
+  "sourceMethod": "User-pasted catalog course descriptions; individual course URLs and catalog edition not yet confirmed.",
+  "courses": {
+    "CS2510": {
+      "title": "Computer Programming I",
+      "credits": 4,
+      "description": "An introduction to problem solving through programming. Topics include program design and analysis: algorithmic processes, fundamental techniques of program development, debugging and testing. Programming projects and applications will be written in a structured computer language. Students learn the basic language features of C++/Java to write basic to intermediate level programs.",
+      "offeringStatement": "Offered every semester.",
+      "prerequisites": {
+        "status": "stated-in-user-supplied-text",
+        "sourceText": "MA 1020",
+        "rule": {
+          "type": "course",
+          "courseCode": "MA1020",
+          "minimumGrade": null
+        },
+        "minimumGradeStatus": "not-stated-in-supplied-text"
+      },
+      "corequisites": {
+        "status": "not-stated-in-supplied-text",
+        "rule": null
+      },
+      "source": {
+        "receivedDate": "2026-11-07",
+        "method": "User-pasted course entry",
+        "individualCourseURL": null,
+        "programContextURL": "https://catalog.oldwestbury.edu/preview_program.php?catoid=19&poid=1614&returnto=512"
+      },
+      "notes": [
+        "The offering statement is not evidence for specific semester sections, CRNs or meeting times.",
+        "Reference collection only; no working database change.",
+        "User supplied the prerequisite MA 1020 in a follow-up entry. No minimum prerequisite grade is stated in that entry; it remains unconfirmed."
+      ]
+    },
+    "CS2511": {
+      "title": "Computer Programming II",
+      "credits": 4,
+      "description": "Continuation of CS 2510. Discussion of methods, arrays, class and object, inhritance, polymorphism, exceptions, file operations, and GUI (Graphical User Interface) applications. Basic data structures and algorithms like insertion sort, binary search in a sorted array, and recursion may also be discussed if tme allows. Students write intermediate to advanced level programs in C++/Java.",
+      "prerequisites": {
+        "status": "stated-in-user-supplied-text",
+        "sourceText": "CS 2510",
+        "rule": {
+          "type": "course",
+          "courseCode": "CS2510",
+          "minimumGrade": null
+        },
+        "minimumGradeStatus": "not-stated-in-supplied-text"
+      },
+      "corequisites": {
+        "status": "not-stated-in-supplied-text",
+        "rule": null
+      },
+      "source": {
+        "receivedDate": "2026-11-07",
+        "method": "User-pasted course entry",
+        "individualCourseURL": null,
+        "programContextURL": "https://catalog.oldwestbury.edu/preview_program.php?catoid=19&poid=1614&returnto=512"
+      },
+      "notes": [
+        "Source spelling retained in description.",
+        "No minimum prerequisite grade is stated in this course entry; it remains unconfirmed.",
+        "Reference collection only; no working database change."
+      ]
+    },
+    "CS3620": {
+      "title": "Computer Architecture I",
+      "credits": 4,
+      "description": "Basic computer architecture. Switching theory, data representation, arithmetic operations, assembly language coding, Boolean logic, combinational circuits, logical design, instruction execution, sequential machines.",
+      "prerequisites": {
+        "status": "stated-in-user-supplied-text",
+        "sourceText": "CS 2511, MA 3030",
+        "rule": {
+          "type": "and",
+          "rules": [
+            {
+              "type": "course",
+              "courseCode": "CS2511",
+              "minimumGrade": null
+            },
+            {
+              "type": "course",
+              "courseCode": "MA3030",
+              "minimumGrade": null
+            }
+          ]
+        },
+        "minimumGradeStatus": "not-stated-in-supplied-text"
+      },
+      "corequisites": {
+        "status": "not-stated-in-supplied-text",
+        "rule": null
+      },
+      "source": {
+        "receivedDate": "2026-11-07",
+        "method": "User-pasted course entry",
+        "individualCourseURL": null,
+        "programContextURL": "https://catalog.oldwestbury.edu/preview_program.php?catoid=19&poid=1614&returnto=512"
+      },
+      "notes": [
+        "Both listed prerequisites are required.",
+        "No minimum prerequisite grade is stated in this course entry; it remains unconfirmed.",
+        "Reference collection only; no working database change."
+      ]
+    },
+    "CS3810": {
+      "title": "Data Structures and Algorithms",
+      "credits": 4,
+      "description": "Introduces abstract data structures and their implementations, including lists, stacks, queues, trees, hash tables, heaps and linked structures. Analyze and design sorting and searching algorithms. Learn computational evaluation on performance of algorithms. Advanced level programming. Assignments conforming to Object-Oriented methodology covered in CS2511.",
+      "prerequisites": {
+        "status": "stated-in-user-supplied-text",
+        "sourceText": "CS 2511, MA 3030",
+        "rule": {
+          "type": "and",
+          "rules": [
+            {
+              "type": "course",
+              "courseCode": "CS2511",
+              "minimumGrade": null
+            },
+            {
+              "type": "course",
+              "courseCode": "MA3030",
+              "minimumGrade": null
+            }
+          ]
+        },
+        "minimumGradeStatus": "not-stated-in-supplied-text"
+      },
+      "corequisites": {
+        "status": "not-stated-in-supplied-text",
+        "rule": null
+      },
+      "source": {
+        "receivedDate": "2026-11-07",
+        "method": "User-pasted course entry",
+        "individualCourseURL": null,
+        "programContextURL": "https://catalog.oldwestbury.edu/preview_program.php?catoid=19&poid=1614&returnto=512"
+      },
+      "notes": [
+        "Both listed prerequisites are required.",
+        "No minimum prerequisite grade is stated in this course entry; it remains unconfirmed.",
+        "Reference collection only; no working database change."
+      ]
+    },
+    "CS4100": {
+      "title": "Technical Communications",
+      "credits": 4,
+      "description": "Emphasis on technical writing and public speaking skills. Application of report-writing fundamentals to technical correspondence, technical reports, user manuals. Detailed analysis of the problem of conveying technical information to technical and non-technical audiences in written, as well as oral form. Term project involving written paper on a technical subject and an oral presentation of the subject in class.",
+      "prerequisites": {
+        "status": "stated-in-user-supplied-text",
+        "sourceText": "(Junior standing in CIS or Junior Standing in MIS) and ECII",
+        "rule": {
+          "type": "and",
+          "rules": [
+            {
+              "type": "or",
+              "rules": [
+                {
+                  "type": "standing-in-program",
+                  "standing": "Junior",
+                  "program": "CIS"
+                },
+                {
+                  "type": "standing-in-program",
+                  "standing": "Junior",
+                  "program": "MIS"
+                }
+              ]
+            },
+            {
+              "type": "unresolved-requirement",
+              "sourceText": "ECII"
+            }
+          ]
+        }
+      },
+      "corequisites": {
+        "status": "not-stated-in-supplied-text",
+        "rule": null
+      },
+      "source": {
+        "receivedDate": "2026-11-07",
+        "method": "User-pasted course entry",
+        "individualCourseURL": null,
+        "catalogEditionConfirmed": false
+      },
+      "notes": [
+        "Reference collection only; no working database change.",
+        "Exact catalog edition and unresolved academic conditions must be verified before implementation."
+      ]
+    },
+    "CS4501": {
+      "title": "Software Engineering",
+      "credits": 4,
+      "description": "Introduces principles and disciplines of software engineering. Semester-long projects allow students to practice on a complete process of the software development. A software product will be implemented and tested at the end. The Object-oriented software engineering with the UML modeling approach is applied on projects. Learn system decomposition and design patterns. The project management aspect and risk controls are also introduced and practiced in the projects. Individual and team works.",
+      "prerequisites": {
+        "status": "stated-in-user-supplied-text",
+        "sourceText": "C or better in CS 2511 and C or better in (CS 3810 or CS 3611).",
+        "rule": {
+          "type": "and",
+          "rules": [
+            {
+              "type": "course",
+              "courseCode": "CS2511",
+              "minimumGrade": "C"
+            },
+            {
+              "type": "or",
+              "rules": [
+                {
+                  "type": "course",
+                  "courseCode": "CS3810",
+                  "minimumGrade": "C"
+                },
+                {
+                  "type": "course",
+                  "courseCode": "CS3611",
+                  "minimumGrade": "C"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "corequisites": {
+        "status": "not-stated-in-supplied-text",
+        "rule": null
+      },
+      "source": {
+        "receivedDate": "2026-11-07",
+        "method": "User-pasted course entry",
+        "individualCourseURL": null,
+        "catalogEditionConfirmed": false
+      },
+      "notes": [
+        "Reference collection only; no working database change.",
+        "Exact catalog edition and unresolved academic conditions must be verified before implementation."
+      ]
+    },
+    "CS4550": {
+      "title": "Database Management Systems",
+      "credits": 4,
+      "description": "Basic concepts: data, information systems, data independence and need for DBMS facilities. The relational model: schema, subschema, relational algebra, relational calculus, SQL, ODBC, JDBC and SQLJ. Database design: entityrelationship model and normalization. Performance considerations, integrity, security and transaction processing. DBMS examples: Access, DB2 and Oracle.",
+      "prerequisites": {
+        "status": "stated-in-user-supplied-text",
+        "sourceText": "CS 2511 and (CS 3810 or CS 3611); ECI.",
+        "rule": {
+          "type": "and",
+          "rules": [
+            {
+              "type": "course",
+              "courseCode": "CS2511",
+              "minimumGrade": null
+            },
+            {
+              "type": "or",
+              "rules": [
+                {
+                  "type": "course",
+                  "courseCode": "CS3810",
+                  "minimumGrade": null
+                },
+                {
+                  "type": "course",
+                  "courseCode": "CS3611",
+                  "minimumGrade": null
+                }
+              ]
+            },
+            {
+              "type": "unresolved-requirement",
+              "sourceText": "ECI"
+            }
+          ]
+        }
+      },
+      "corequisites": {
+        "status": "not-stated-in-supplied-text",
+        "rule": null
+      },
+      "source": {
+        "receivedDate": "2026-11-07",
+        "method": "User-pasted course entry",
+        "individualCourseURL": null,
+        "catalogEditionConfirmed": false
+      },
+      "notes": [
+        "Reference collection only; no working database change.",
+        "Exact catalog edition and unresolved academic conditions must be verified before implementation."
+      ]
+    },
+    "CS4720": {
+      "title": "Internet and Web Technologies",
+      "credits": 4,
+      "description": "Introduce the Internet, the World Wide Web, the client/server applications, and various web development technologies. Teach hot techniques currently adopted in web application industry including languages for front-end applications such as XHTML, CSS, DHTML, JavaScript and languages for back-end applications such as JavaServer Page, JavaServer Face, PHP, the .Net platform and Python. The XML and Ajax is also introduced.",
+      "prerequisites": {
+        "status": "stated-in-user-supplied-text",
+        "sourceText": "C or better in CS2511, and C or better in either CS3810 or CS3611",
+        "rule": {
+          "type": "and",
+          "rules": [
+            {
+              "type": "course",
+              "courseCode": "CS2511",
+              "minimumGrade": "C"
+            },
+            {
+              "type": "or",
+              "rules": [
+                {
+                  "type": "course",
+                  "courseCode": "CS3810",
+                  "minimumGrade": "C"
+                },
+                {
+                  "type": "course",
+                  "courseCode": "CS3611",
+                  "minimumGrade": "C"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "corequisites": {
+        "status": "not-stated-in-supplied-text",
+        "rule": null
+      },
+      "source": {
+        "receivedDate": "2026-11-07",
+        "method": "User-pasted course entry",
+        "individualCourseURL": null,
+        "catalogEditionConfirmed": false
+      },
+      "notes": [
+        "Reference collection only; no working database change.",
+        "Exact catalog edition and unresolved academic conditions must be verified before implementation.",
+        "Supplied prerequisites differ from the older advising guide (which lists CS4550); do not merge editions silently."
+      ]
+    },
+    "CS5910": {
+      "title": "System Design & Implementation",
+      "credits": 4,
+      "description": "System feasibility studies, meeting with users, project definition, environmental analysis. Data collection, design phase, system restart and recovery. Database considerations, programming, system completion, systems parallel, benchmarks. User training and manual. Conversion planning. Students, working in groups, design and implement a significant software project.",
+      "prerequisites": {
+        "status": "stated-in-user-supplied-text",
+        "sourceText": "(CS4501 minimum grade C or TC) and (CS4720 minimum grade C or TC) and (CS4550 minimum grade C or TC)",
+        "rule": {
+          "type": "and",
+          "rules": [
+            {
+              "type": "or",
+              "rules": [
+                {
+                  "type": "course",
+                  "courseCode": "CS4501",
+                  "minimumGrade": "C"
+                },
+                {
+                  "type": "course",
+                  "courseCode": "CS4501",
+                  "minimumGrade": "TC"
+                }
+              ]
+            },
+            {
+              "type": "or",
+              "rules": [
+                {
+                  "type": "course",
+                  "courseCode": "CS4720",
+                  "minimumGrade": "C"
+                },
+                {
+                  "type": "course",
+                  "courseCode": "CS4720",
+                  "minimumGrade": "TC"
+                }
+              ]
+            },
+            {
+              "type": "or",
+              "rules": [
+                {
+                  "type": "course",
+                  "courseCode": "CS4550",
+                  "minimumGrade": "C"
+                },
+                {
+                  "type": "course",
+                  "courseCode": "CS4550",
+                  "minimumGrade": "TC"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "corequisites": {
+        "status": "incomplete-user-supplied-text",
+        "sourceText": "( WRITING O.W. 25) and",
+        "rule": null
+      },
+      "source": {
+        "receivedDate": "2026-11-07",
+        "method": "User-pasted course entry",
+        "individualCourseURL": null,
+        "catalogEditionConfirmed": false
+      },
+      "notes": [
+        "Reference collection only; no working database change.",
+        "Exact catalog edition and unresolved academic conditions must be verified before implementation.",
+        "Meaning and treatment of grade TC remain unverified.",
+        "Prerequisite/corequisite condition is truncated; this record is not ready for executable eligibility checks.",
+        "Linked Banner course references contain term 202509; consistency with the selected program catalog must be checked. Tracking URLs and embedded personal metadata omitted."
+      ]
+    }
+  }
+}

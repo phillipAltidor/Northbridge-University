@@ -1,0 +1,236 @@
+{
+  "workflow": "Collect majors first, then minors, then remaining course descriptions.",
+  "catalogEdition": "2026-2027 Undergraduate Catalog",
+  "majors": [
+    {
+      "name": "Computer and Information Science, B.S.",
+      "status": "source-received"
+    },
+    {
+      "name": "Management Information Systems, B.S.",
+      "status": "source-received"
+    },
+    {
+      "name": "Business Administration, B.S.",
+      "status": "source-received"
+    },
+    {
+      "name": "Accounting, B.S.",
+      "status": "source-received"
+    },
+    {
+      "name": "Mathematics, B.S.",
+      "status": "source-received"
+    },
+    {
+      "name": "Biological Sciences, B.S.",
+      "status": "source-received"
+    },
+    {
+      "name": "Physics, B.S.",
+      "status": "source-received"
+    },
+    {
+      "name": "English, B.A.",
+      "status": "source-received"
+    },
+    {
+      "name": "Psychology, B.S.",
+      "status": "source-received"
+    },
+    {
+      "name": "Childhood Education 1-6, B.S.",
+      "status": "source-received"
+    },
+    {
+      "name": "Public Health, B.S.",
+      "status": "source-received"
+    },
+    {
+      "name": "Media & Communications, B.A.",
+      "status": "source-received"
+    }
+  ],
+  "minorsReceived": [
+    "Computer Information Science, Minor",
+    "Visual Arts, Minor",
+    "Media and Communications, Minor",
+    "Public Health, Minor",
+    "Psychology, Minor",
+    "Multicultural U.S./ British Literature, Minor",
+    "Physics, Minor",
+    "Environmental Studies, Minor",
+    "Mathematics, Minor",
+    "Marketing, Minor",
+    "General Business, Minor",
+    "Accounting, Minor"
+  ],
+  "courseDescriptionPrefixesReceived": [
+    "AS",
+    "BS",
+    "BU",
+    "CP",
+    "CR",
+    "CS",
+    "ED",
+    "EL",
+    "FY",
+    "HI",
+    "MA",
+    "MC",
+    "MD",
+    "ML",
+    "PE",
+    "PH",
+    "PX",
+    "PY",
+    "SY",
+    "VA"
+  ],
+  "additionalProgramsReceived": [
+    {
+      "name": "Biological Sciences, B.A.",
+      "status": "source-received-different-degree-than-proposed"
+    }
+  ],
+  "nextSourceNeeded": "Meaningful prior course coverage or a deliberate transition policy is needed before approved equivalent mappings. Fictional teaching/workload/room suitability needs review before section activation.",
+  "courseDescriptionSources": [
+    {
+      "prefix": "AS",
+      "status": "reference-collected-needs-rule-review",
+      "file": "starthere3.pdf",
+      "entries": 91
+    },
+    {
+      "prefix": "VA",
+      "status": "reference-collected-needs-rule-review",
+      "file": "18.pdf",
+      "entries": 37
+    },
+    {
+      "prefix": "SY",
+      "status": "reference-collected-needs-rule-review",
+      "file": "16.pdf",
+      "entries": 33
+    },
+    {
+      "prefix": "PY",
+      "status": "reference-collected-needs-rule-review",
+      "file": "15.pdf",
+      "entries": 51
+    },
+    {
+      "prefix": "PX",
+      "status": "reference-collected-needs-rule-review",
+      "file": "14.pdf",
+      "entries": 28
+    },
+    {
+      "prefix": "PH",
+      "status": "reference-collected-needs-rule-review",
+      "file": "13.pdf",
+      "entries": 35
+    },
+    {
+      "prefix": "PE",
+      "status": "reference-collected-needs-rule-review",
+      "file": "12.pdf",
+      "entries": 56
+    },
+    {
+      "prefix": "ML",
+      "status": "reference-collected-needs-rule-review",
+      "file": "11.pdf",
+      "entries": 63
+    },
+    {
+      "prefix": "MD",
+      "status": "reference-collected-needs-rule-review",
+      "file": "10.pdf",
+      "entries": 11
+    },
+    {
+      "prefix": "MC",
+      "status": "reference-collected-needs-rule-review",
+      "file": "9.pdf",
+      "entries": 53
+    },
+    {
+      "prefix": "HI",
+      "status": "reference-collected-needs-rule-review",
+      "file": "8.pdf",
+      "entries": 76
+    },
+    {
+      "prefix": "FY",
+      "status": "reference-collected-needs-rule-review",
+      "file": "7.pdf",
+      "entries": 3
+    },
+    {
+      "prefix": "ED",
+      "status": "reference-collected-needs-rule-review",
+      "file": "6.pdf",
+      "entries": 43
+    },
+    {
+      "prefix": "CR",
+      "status": "reference-collected-needs-rule-review",
+      "file": "5.pdf",
+      "entries": 12
+    },
+    {
+      "prefix": "CP",
+      "status": "reference-collected-needs-rule-review",
+      "file": "4.pdf",
+      "entries": 41
+    },
+    {
+      "prefix": "BU",
+      "status": "reference-collected-needs-rule-review",
+      "file": "bu.pdf",
+      "entries": 64
+    },
+    {
+      "prefix": "BS",
+      "status": "reference-collected-needs-rule-review",
+      "file": "2.pdf",
+      "entries": 50
+    }
+  ],
+  "courseDescriptionPrefixesNeedingExpandedPDF": [],
+  "reviewStatus": "240 legacy courses and all 2200 undergraduates reviewed; 1138 graduates preserved. 3852 mapping-limited diagnostics are not verified degree verdicts. Full Fall 2026 source (913 sections, 936 meetings) imported inactive. 15254 mapping and 6471 schedule checks pass. No mappings approved or working records changed.",
+  "currentReviewDirectory": "database/staging/academic-alignment",
+  "currentPlan": "docs/academic-data-migration-plan.md",
+  "currentReviewReport": "docs/academic-data-review.md",
+  "correctedSourceCounts": {
+    "entries": 879,
+    "distinctCodes": 878,
+    "prefixes": 20
+  },
+  "activePhase": "comprehensive-legacy-mapping-review-and-official-term-import",
+  "phaseStatus": "candidate-gaps-documented-sections-imported-inactive-no-working-migration",
+  "approvedProjectDecisions": [
+    "CS-CORE-001",
+    "MIS-ECON-001",
+    "MKT-MINOR-001",
+    "ED-CORE-001",
+    "CS-WRITING-001",
+    "CS5810-PREREQ-001",
+    "PSYCH-BS-LA-001",
+    "PSYCH-PROGRESSION-001"
+  ],
+  "currentRuleStatus": "database/staging/academic-alignment/rules/phase-one-status.json",
+  "normalizedCourseMetadataRecords": 879,
+  "pendingUserDecision": null,
+  "supportingProgramSourcesReceived": [
+    "Psychology, B.A. (2026-2027)"
+  ],
+  "additionalPsychologyDocumentRequired": false,
+  "currentChecklist": "docs/academic-rules-checklist.md",
+  "testDatabaseReceipt": "database/staging/academic-alignment/test-database-receipt.json",
+  "currentImplementation": "docs/academic-migration-review.md",
+  "implementationReceipt": "database/staging/academic-alignment/test-implementation-receipt.json",
+  "previewDocumentation": "docs/academic-preview.md",
+  "studentImpactSummary": "database/staging/academic-alignment/student-impact-summary.json"
+}

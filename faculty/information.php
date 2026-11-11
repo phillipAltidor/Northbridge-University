@@ -9,8 +9,8 @@ header('Cache-Control: no-store');
 $account = one(
     $pdo,
     'SELECT u.user_ID, u.first_Name, u.middle_Name, u.last_Name,
-            u.gender, u.DOB, u.street, u.city, u.state, u.zip_Code, l.user_Email
-     FROM User u JOIN Login l ON l.user_ID=u.user_ID
+            u.gender, u.DOB, u.street, u.city, u.state, u.zip_Code, l.user_Email, f.faculty_Type
+     FROM User u JOIN Login l ON l.user_ID=u.user_ID JOIN Faculty f ON f.faculty_ID=u.user_ID
      WHERE u.user_ID=? AND u.user_Type=?',
     [(int) $_SESSION['user_id'], 'Faculty']
 );
@@ -51,6 +51,7 @@ page_start('My Profile', 'Faculty', 'faculty/information.php', null, false);
             <dl class="profile-fields">
                 <div><dt>User ID</dt><dd><?= e($account['user_ID']) ?></dd></div>
                 <div><dt>Role</dt><dd>Faculty</dd></div>
+                <div><dt>Employment Type</dt><dd><?= e($account['faculty_Type']) ?></dd></div>
                 <div><dt>University</dt><dd>Northbridge University</dd></div>
             </dl>
         </aside>

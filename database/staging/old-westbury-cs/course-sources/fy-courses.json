@@ -1,0 +1,39 @@
+{
+  "status": "reference-collected-needs-rule-review",
+  "catalogEdition": "2026-2027 Undergraduate Catalog",
+  "prefix": "FY",
+  "sourcePDF": "/Users/phillipaltidor/Downloads/7.pdf",
+  "sourceSHA256": "deef2a74eb78cf48d42b45d71cb2f78907c8c5cff1362c5640b87e620d866025",
+  "pageCount": 2,
+  "pages": [
+    "11/7/26, 2:11 PM Course Descriptions - SUNY Old Westbury\nSUNY Old Westbury\n2026-2027 Undergraduate Catalog\nCourse Descriptions\nContract All Courses |\nFirst-Year Seminar\nFY 1000 - Ethics of Engagement\nCredits: 4\nThis course introduces students to academic and campus life at Old Westbury, emphasizing the themes of self-discovery,\nthe meaning of a liberal education, the relationship of the individual to society and the nature of values and of personal\nand social responsibility. By situating the major intellectual and emotional challenges students confront in their first year\nof college within the framework of ethics, the course encourages students to evaluate their ideas and assumptions, and\nthe impact of their decisions on themselves, their community and the world. Organized around a series of ever-\nwidening concentric circles, the course moves from a discussion of the role of ethics in individual life, to ethics in\npersonal relationships, to ethics in the Old Westbury community and culminates in the quest for social justice and\nsustainability in the American and global context. In the process, students are challenged to consider multiple\nperspectives and to reflect upon their identities, values and aspirations within the larger common good. The course\nfosters critical thinking and the effective articulation of ideas by introducing students to the close reading of texts and\nthe writing of substantive analytical essays that are the basis of most college learning. Students will also be expected to\nwrite weekly reflective journals and to produce a final project. FY 1000 is \u201clinked\u201d to a Liberal Education Curriculum\ncourse in a Learning Community.\nFY 3000 - Undergraduate Teaching Assistant Seminar\nCredits: 4\nThis course trains students to be effective teaching assistants. Teaching assistants will regularly attend an assigned\nsection of a First-Year Seminar course and work closely with the instructor of the course. Teaching assistants will also be\nrequired to attend a one-hour a week seminar with either the Director or Assistant Director of the First-Year Experience.\ncatalog.oldwestbury.edu/content.php?filter%5B27%5D=FY&filter%5B29%5D=&filter%5Bcourse\n_\ntype%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filt\u2026 1/2",
+    "11/7/26, 2:11 PM Course Descriptions - SUNY Old Westbury\nPrerequisites\n\u201cB\u201d average; upper-division standing; permission of the First-Year Experience Program\nFY 4000 - Advanced Undergraduate Teaching Assistant Seminar\nCredits: 4\nThis course allows students who have taken FY 3000\nto work more closely with students. They are able to provide mentoring, advising assistance as well as sharing their\nprior experience from the FY 3000\nstudents. Teaching assistants are required to meet with either the Director of Assistant Director of the First-Year\nExperience for a one-hour a week seminar.\nPrerequisites\nFY 3000\nand permission of the First-Year Experience Program\nContract All Courses |\ncatalog.oldwestbury.edu/content.php?filter%5B27%5D=FY&filter%5B29%5D=&filter%5Bcourse\n_\ntype%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filt\u2026 2/2"
+  ],
+  "records": [
+    {
+      "code": "FY1000",
+      "title": "Ethics of Engagement",
+      "sourceText": "Credits: 4\nThis course introduces students to academic and campus life at Old Westbury, emphasizing the themes of self-discovery,\nthe meaning of a liberal education, the relationship of the individual to society and the nature of values and of personal\nand social responsibility. By situating the major intellectual and emotional challenges students confront in their first year\nof college within the framework of ethics, the course encourages students to evaluate their ideas and assumptions, and\nthe impact of their decisions on themselves, their community and the world. Organized around a series of ever-\nwidening concentric circles, the course moves from a discussion of the role of ethics in individual life, to ethics in\npersonal relationships, to ethics in the Old Westbury community and culminates in the quest for social justice and\nsustainability in the American and global context. In the process, students are challenged to consider multiple\nperspectives and to reflect upon their identities, values and aspirations within the larger common good. The course\nfosters critical thinking and the effective articulation of ideas by introducing students to the close reading of texts and\nthe writing of substantive analytical essays that are the basis of most college learning. Students will also be expected to\nwrite weekly reflective journals and to produce a final project. FY 1000 is \u201clinked\u201d to a Liberal Education Curriculum\ncourse in a Learning Community.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "FY3000",
+      "title": "Undergraduate Teaching Assistant Seminar",
+      "sourceText": "Credits: 4\nThis course trains students to be effective teaching assistants. Teaching assistants will regularly attend an assigned\nsection of a First-Year Seminar course and work closely with the instructor of the course. Teaching assistants will also be\nrequired to attend a one-hour a week seminar with either the Director or Assistant Director of the First-Year Experience.\n\nPrerequisites\n\u201cB\u201d average; upper-division standing; permission of the First-Year Experience Program",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "FY4000",
+      "title": "Advanced Undergraduate Teaching Assistant Seminar",
+      "sourceText": "Credits: 4\nThis course allows students who have taken FY 3000\nto work more closely with students. They are able to provide mentoring, advising assistance as well as sharing their\nprior experience from the FY 3000\nstudents. Teaching assistants are required to meet with either the Director of Assistant Director of the First-Year\nExperience for a one-hour a week seminar.\nPrerequisites\nFY 3000\nand permission of the First-Year Experience Program",
+      "status": "extracted-needs-rule-review"
+    }
+  ],
+  "receivedDate": "2026-11-07",
+  "databaseWrites": false,
+  "reviewNotes": [
+    "Preserve original pages for checking course boundaries, prerequisite wording and editorial notes.",
+    "Missing prerequisite text is not proof of no prerequisites.",
+    "Source course spelling and code variants require review before importing."
+  ]
+}

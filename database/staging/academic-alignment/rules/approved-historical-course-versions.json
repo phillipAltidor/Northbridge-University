@@ -1,0 +1,26 @@
+[
+  {
+    "courseCode": "ED4050",
+    "title": "Innovative Instructional Design and Assessment",
+    "credits": 4,
+    "sourceCatalog": "2020-2022",
+    "sourcePDFPage": 200,
+    "versionID": "ED4050@2020-2022",
+    "sourceText": "ED4050 Innovative Instructional Design and Assessment 4 cr\nThis course provides background information for developing curriculum. Emphasis is given to the preparation of\nlesson plans and unit plans using backwards design. Students will obtain skills in developing objectives, designing\ninstruction and assessment based on Common Core standards. Throughout the course, students will demonstrate\ncompetence by creating lesson plans and a unit plan.\nPrerequisites:. Admission to SOE, ED 3700, ED 3900",
+    "sourceSHA256": "7978e0644856b1529c7feef64e26f06adf6566583175b34d8dc794db68356cfb",
+    "status": "approved-historical-course-version-prerequisite-review-pending",
+    "automaticEquivalencyToCurrentVersion": false
+  },
+  {
+    "courseCode": "ED5925",
+    "title": "Building a Classroom Community for All Learners",
+    "credits": 4,
+    "sourceCatalog": "2020-2022",
+    "sourcePDFPage": 203,
+    "versionID": "ED5925@2020-2022",
+    "sourceText": "ED5925 Building a Classroom Community for All Learners 4 cr.\nThis course will prepare teacher candidates to meet the needs of all students in their classrooms. Special emphasis\nwill be on culturally responsive pedagogy and teacher candidates will analyze varied pedagogical practices,\ncurriculum, and related educational materials. A field placement is required\nPrerequisites: Admission to SOE, ED3700, ED3900, ED400, ED4050/ED4850 ED4200..",
+    "sourceSHA256": "7978e0644856b1529c7feef64e26f06adf6566583175b34d8dc794db68356cfb",
+    "status": "approved-historical-course-version-prerequisite-review-pending",
+    "automaticEquivalencyToCurrentVersion": false
+  }
+]

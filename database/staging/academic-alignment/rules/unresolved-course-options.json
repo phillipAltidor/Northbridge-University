@@ -1,0 +1,13 @@
+{
+  "status": "manual-metadata-resolution-required",
+  "options": [
+    {
+      "courseCode": "EL3811",
+      "programs": [
+        "English, B.A.",
+        "Multicultural U.S./ British Literature, Minor"
+      ],
+      "mayActivateWithoutCreditAndSourceEvidence": false
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+    "status": "actual-replacement-history-review-not-graduation-certification",
+    "asOf": "2026-11-07",
+    "studentsEvaluated": 2200,
+    "graduationReady": 64,
+    "classificationApprovalsFabricated": false,
+    "reviewedSourcePropertyVersions": 184,
+    "currentAndFutureCoursesCountedAsCompleted": false,
+    "sourceClassificationReviewRequired": false,
+    "programStatusCounts": {
+        "Computer and Information Science, B.S.": {
+            "unsatisfied": 155,
+            "satisfied": 29
+        },
+        "Accounting, Minor": {
+            "unsatisfied": 52
+        },
+        "Management Information Systems, B.S.": {
+            "unsatisfied": 154,
+            "satisfied": 27,
+            "review-required": 3
+        },
+        "General Business, Minor": {
+            "unsatisfied": 28
+        },
+        "Business Administration, B.S.": {
+            "unsatisfied": 174,
+            "review-required": 2,
+            "satisfied": 8
+        },
+        "Media and Communications, Minor": {
+            "unsatisfied": 28
+        },
+        "Accounting, B.S.": {
+            "unsatisfied": 179,
+            "review-required": 5
+        },
+        "Mathematics, B.S.": {
+            "unsatisfied": 184
+        },
+        "Biological Sciences, B.S.": {
+            "unsatisfied": 183,
+            "review-required": 1
+        },
+        "Physics, B.S.": {
+            "unsatisfied": 184
+        },
+        "English, B.A.": {
+            "unsatisfied": 182,
+            "review-required": 2
+        },
+        "Psychology, B.S.": {
+            "unsatisfied": 182
+        },
+        "Childhood Education 1-6, B.S.": {
+            "unsatisfied": 182
+        },
+        "Public Health, B.S.": {
+            "unsatisfied": 165,
+            "review-required": 17
+        },
+        "Media & Communications, B.A.": {
+            "unsatisfied": 182
+        },
+        "Computer Information Science, Minor": {
+            "unsatisfied": 24
+        },
+        "Physics, Minor": {
+            "unsatisfied": 24
+        },
+        "Public Health, Minor": {
+            "unsatisfied": 24
+        },
+        "Visual Arts, Minor": {
+            "unsatisfied": 24
+        },
+        "Multicultural U.S.\/ British Literature, Minor": {
+            "unsatisfied": 24
+        },
+        "Psychology, Minor": {
+            "unsatisfied": 24
+        },
+        "Environmental Studies, Minor": {
+            "unsatisfied": 22,
+            "satisfied": 2
+        },
+        "Marketing, Minor": {
+            "unsatisfied": 24
+        }
+    },
+    "candidateFileSHA256": "69c1d4099a0788c56cc7e1bf8700d2c0bb32ef0fe6eb8e55d66f679f838e2560",
+    "workingDatabaseChanged": false,
+    "privateStudentIdentifiersPublished": false
+}

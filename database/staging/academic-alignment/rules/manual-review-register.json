@@ -1,0 +1,2830 @@
+{
+  "status": "required-evidence-gates",
+  "prerequisites": [
+    {
+      "courseVersionOrCode": "AS1152",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS1282",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS1512",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS2020",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS2202",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS2750",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS2802",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS2901",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS2902",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS3010",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS3247",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4212",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4218",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4250",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4252",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4253",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4260",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4282",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4283",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4285",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4290",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4292",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4402",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4420",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4432",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4435",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4715",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4729",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4735",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4822",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS4831",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS5001",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS5712",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS9000",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "AS9990",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS1000",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS2310",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS2311",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS2400",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS2401",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS2410",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS2411",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS3400",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS3450",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS3500",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS3510",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS3520",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS3530",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS3531",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS3810",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS3910",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4400",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4410",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4420",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4430",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4440",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4460",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4461",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4470",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4474",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4480",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4491",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4500",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4550",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4560",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS4565",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS5400",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS5410",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS5590",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS5591",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS6750",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BS9990",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU1000",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU3071",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU3150",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU3250",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU4149",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU4160",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU4180",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU4190",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU4820",
+      "issues": [
+        "unsupported or empty prerequisite text",
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU4851",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU5115",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU5171",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU5180",
+      "issues": [
+        "unconsumed prerequisite condition"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU5190",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU5199",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU5555",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU5599",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU5790",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU5798",
+      "issues": [
+        "unresolved course reference BU5771"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU5799",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU5891",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "BU5895",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2000",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2001",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2025",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2070",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2120",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2121",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2130",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2131",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2210",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2211",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2300",
+      "issues": [
+        "missing operand"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2301",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2400",
+      "issues": [
+        "missing operand"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2401",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2500",
+      "issues": [
+        "missing operand"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2501",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP2800",
+      "issues": [
+        "missing operand"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP3300",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP3302",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP3400",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP4320",
+      "issues": [
+        "missing operand"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP4490",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP4510",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP4515",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP4520",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP4600",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP4700",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP4710",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP4720",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP4800",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP5900",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP5920",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CP9990",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CR1500",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CR3099",
+      "issues": [
+        "unconsumed prerequisite condition"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CS2000",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CS2700",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CS4310",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CS5820",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "CS5821",
+      "issues": [
+        "unresolved course reference CS4410"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED3330",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED3800",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED3820",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED3900",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4050@2020-2022",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4082",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4083",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4085",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4086",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4121",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4122",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4200",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4220",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4221",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4225",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4230",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4231",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4250",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4255",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4280",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4810",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED4850",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED5600",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED5890",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED5900",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED5910",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED5925",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED5925@2020-2022",
+      "issues": [
+        "historical prerequisite requires review"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED5930",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED5940",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED5940B",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED5960",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED5960B",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED7019",
+      "issues": [
+        "unexpected operand"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED7020",
+      "issues": [
+        "unexpected operand"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED7021",
+      "issues": [
+        "unexpected operand"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED7022",
+      "issues": [
+        "unexpected operand"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED7023",
+      "issues": [
+        "unexpected operand"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ED7026",
+      "issues": [
+        "unexpected operand"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL1000",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL1010",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL1193",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL1298",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2001",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2203",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2205",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2206",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2207",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2208",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2211",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2214",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2216",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2218",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2219",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2221",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2222",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2224",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2233",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2239",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2248",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2310",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL2350",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL3200",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL3920",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL4100",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL4120",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL4800",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL5000",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "EL5010",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "FY1000",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "FY3000",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "FY4000",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI1010",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI1020",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI1240",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI2155",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI2200",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI2250",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI2511",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI2515",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI2516",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI2521",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI2681",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI2720",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI2810",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3001",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3002",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3003",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3005",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3006",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3011",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3021",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3030",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3040",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3080",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3091",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3102",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3110",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3120",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3130",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3200",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3244",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3323",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3452",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3455",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3458",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3525",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3558",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3600",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3610",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3630",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3640",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3692",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3700",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3703",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3704",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3710",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3752",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3835",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3840",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI3950",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4001",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4011",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4015",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4051",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4062",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4210",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4305",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4306",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4308",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4318",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4395",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4415",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4420",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4557",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4600",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4632",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4650",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4700",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4800",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4850",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4900",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4905",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI4910",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI5000",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI5900",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "HI5910",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MA1010",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MA1021",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MA2050",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MA2702",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MA4030",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MA4310",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MA4710",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MA5120",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MA5210",
+      "issues": [
+        "unexpected operand"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MA5230",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MA5320",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MA5510",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC2020",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC2802",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC2901",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC2902",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC3835",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC3860",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4150",
+      "issues": [
+        "unconsumed prerequisite condition"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4260",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4700",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4729",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4732",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4735",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4812",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4822",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4852",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4870",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4882",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4935",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4940",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4945",
+      "issues": [
+        "unresolved course reference AS4150"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4955",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MC4965",
+      "issues": [
+        "unresolved course reference AS4852"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MD1000",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MD1010",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MD1100",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MD1110",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MD1111",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MD2350",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MD2633",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MD3010",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MD3110",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "MD3350",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML1000",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML1010",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML1100",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML1110",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML1150",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML1200",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML1300",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML1400",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML1600",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML1610",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML2100",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML2110",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML2500",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML2550",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML2601",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML3100",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML3250",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML3260",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML3310",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML3330",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML3362",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML3450",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML3500",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML3510",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML3600",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML3650",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML3701",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4100",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4325",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4350",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4450",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4500",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4510",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4515",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4520",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4540",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4545",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4700",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4725",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4750",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4800",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML4900",
+      "issues": [
+        "unsupported or empty prerequisite text",
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML5400",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML5450",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML5650",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "ML5900",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE1650",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE3155",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE3220",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE3425",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE3470",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE3900",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4100",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4200",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4280",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4325",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4409",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4430",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4450",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4470",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4580",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4590",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4600",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4609",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4610",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4615",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4620",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4650",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4655",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4658",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4659",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4660",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4665",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE4690",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE5990",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PE9970",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PH2000",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PH3800",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PH4430",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PH5900",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PH9990",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX2000",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX2001",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX2100",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX2101",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX2200",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX2201",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX2300",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX2301",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX2901",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX3000",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX3200",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX3600",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX3700",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX3800",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX3900",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX4100",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX4200",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX4300",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX4600",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX5000",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX5500",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX5900",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PX9990",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY3420",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY3565",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4010",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4210",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4230",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4240",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4320",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4330",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4340",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4350",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4401",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4402",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4403",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4420",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4530",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4570",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4610",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4730",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4740",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY4760",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY5210",
+      "issues": [
+        "unresolved course reference PY2400"
+      ]
+    },
+    {
+      "courseVersionOrCode": "PY9000",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "SY1500",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "SY4260",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "SY4270",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "SY4540",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "SY5990",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA3200",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA3320",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA3456",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA3460",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA3750",
+      "issues": [
+        "unsupported or empty prerequisite text"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA3800",
+      "issues": [
+        "prerequisite statement not supplied"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA4200",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA4320",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA4466",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA4900",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA5200",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA5900",
+      "issues": [
+        "unsupported prerequisite prose"
+      ]
+    },
+    {
+      "courseVersionOrCode": "VA9990",
+      "issues": [
+        "mixed AND/OR without explicit grouping"
+      ]
+    }
+  ],
+  "missingCreditValues": [
+    "AS3835",
+    "BU4190",
+    "ML1100",
+    "ML1110",
+    "ML2100",
+    "ML2110"
+  ],
+  "policy": "These gates are real requirements for affected evaluations. They must never be interpreted as no prerequisites or zero credits. Unselected optional courses do not block unrelated valid paths."
+}

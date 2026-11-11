@@ -4,6 +4,7 @@ require_once __DIR__ . '/../includes/layout.php';
 require_role(['Faculty']);
 require_once __DIR__ . '/../config/database.php';
 require_once __DIR__ . '/../includes/faculty-schedule.php';
+require_once __DIR__ . '/../includes/schedule-columns.php';
 header('Cache-Control: no-store');
 $term = $_GET['term'] ?? 'current';
 if (!is_string($term) || !in_array($term, ['current', 'next'], true)) {
@@ -12,7 +13,7 @@ if (!is_string($term) || !in_array($term, ['current', 'next'], true)) {
 }
 $timeline = require __DIR__ . '/../config/academic-timeline.php';
 $semester = $timeline[$term === 'current' ? 'current_semester' : 'next_semester'];
-$meetings = meeting_schedule_group_days(faculty_schedule_meetings($pdo, (int) $_SESSION['user_id'], $semester));
+$meetings = meeting_schedule_group_sections(faculty_schedule_meetings($pdo, (int) $_SESSION['user_id'], $semester));
 page_start('Semester Schedule', 'Faculty', 'faculty/schedule.php');
 ?>
 <div class="student-schedule faculty-schedule">
@@ -29,18 +30,11 @@ page_start('Semester Schedule', 'Faculty', 'faculty/schedule.php');
         <p class="muted">No assigned classes for <?= e($semester) ?>.</p>
     <?php else: ?>
         <div class="table-wrap">
-            <table>
-                <thead><tr><th scope="col">Course</th><th scope="col">CRN</th><th scope="col">Section</th><th scope="col">Credits</th><th scope="col">Days</th><th scope="col">Time</th><th scope="col">Building / Room</th><th scope="col">Available Seats</th></tr></thead>
+            <table class="schedule-columns-table">
+                <?php schedule_columns_header('Roster'); ?>
                 <tbody>
                     <?php foreach ($meetings as $meeting): ?>
-                        <tr>
-                            <td><strong><?= e($meeting['course_ID']) ?></strong><br><?= e($meeting['course_Name']) ?></td>
-                            <td><?= e($meeting['CRN']) ?></td><td><?= e($meeting['section_No']) ?></td><td><?= e($meeting['course_Credits']) ?></td>
-                            <td><?= e($meeting['meeting_Days']) ?></td>
-                            <td><?= e(meeting_schedule_time($meeting['start_Time']) . ' - ' . meeting_schedule_time($meeting['end_Time'])) ?></td>
-                            <td><?= e($meeting['Bldg_Name'] ?? 'Building unassigned') ?><?= $meeting['room_Number'] !== null ? ' / ' . e($meeting['room_Number']) : '' ?></td>
-                            <td><?= e($meeting['available_Seats']) ?></td>
-                        </tr>
+                        <?php schedule_columns_row($meeting, $meeting['meeting_Groups'], ['url' => app_url('faculty/rosters.php') . '?' . http_build_query(['semester_id' => $meeting['semester_ID'], 'crn' => $meeting['CRN']]), 'label' => 'View Roster']); ?>
                     <?php endforeach; ?>
                 </tbody>
             </table>

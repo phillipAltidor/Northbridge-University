@@ -1,6 +1,11 @@
 # Northbridge University Portal
 
-PHP and MySQL portal covering use cases 1-7, 52, 53, and part of 70, plus
+For parallel development, read [the team workflow](docs/team-workflow.md) and
+PROJECT_HANDOFF.md before starting. The GitHub code checkpoint does not include
+the exact private V11 preview database or activate it; see the workflow's database
+snapshot notes before loading seeds or running migrations.
+
+PHP and MySQL portal covering use cases 1-7, 10, 46, 52, 53, and part of 70, plus
 read-only Faculty profiles and current/next semester teaching schedules:
 
 - Successful Login
@@ -10,11 +15,22 @@ read-only Faculty profiles and current/next semester teaching schedules:
 - View Student Information
 - View Current Semester Schedule
 - View Next Semester Schedule
+- View Undergraduate Degree Audit
+- Faculty View of an Undergraduate Student's Degree Audit
 - Create User
 - Update User Information
 - Create Master Schedule for Fall 2026
 
 ## Current Status
+
+Live undergraduate degree audits are available under Student **My Records →
+Degree Audit** and Faculty **Advising → Student Degree Audit**. All 2,200
+undergraduate records have been recalculated and rendered against the reviewed
+catalog. Completed, current and planned work remain separate; the audit includes
+major/minor requirements, college checks, general education, prerequisite hints and clickable
+course details. Students can only view their own record. These pages are read-only;
+graduate audits are explicitly out of scope. See [degree-audit implementation,
+manual references and validation](docs/degree-audit.md).
 
 The public entry page (`index.php`) displays top navigation above an illustrative
 campus image. Its Login dropdown contains Student, Faculty, Admin, and Statistics

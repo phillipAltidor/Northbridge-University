@@ -1,0 +1,206 @@
+{
+  "AS1152": {
+    "sourceEntrySHA256": "a6300e1e6585b84307bd364ff1146c9ab45ca3daaaad4880a0b545178145da14",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+    "sourceStartPage": 1
+  },
+  "AS1512": {
+    "sourceEntrySHA256": "ec8a0657390fdb7b1c19efcf92a181a8b2be26a72eee56f5047f4d581f4cc434",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+    "sourceStartPage": 1
+  },
+  "AS2020": {
+    "sourceEntrySHA256": "1309141d1d8d8be63bbb608bdaf812d6c5ddf7521e8f61150c7895fcb736edd3",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+    "sourceStartPage": 2
+  },
+  "AS2802": {
+    "sourceEntrySHA256": "6328339178a1302aa1254e6da6816119be982c0f6c56ef45c7980be76c317ca5",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+    "sourceStartPage": 6
+  },
+  "AS2901": {
+    "sourceEntrySHA256": "9641099e3991859bdf1ef196f704f833e979e5e2667981e9d125bcc0dc522ad1",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+    "sourceStartPage": 7
+  },
+  "AS3010": {
+    "sourceEntrySHA256": "fed2948f23110f29ef40336c9b3da30feb5419649fff9a0266ac111e41effbc6",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+    "sourceStartPage": 8
+  },
+  "AS3247": {
+    "sourceEntrySHA256": "c1120070584ecee7e91ecddee99a20f0d0bb4357d2cf76ac700664d621b4a69e",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+    "sourceStartPage": 10
+  },
+  "CP2025": {
+    "sourceEntrySHA256": "c5dff1b184f2f96379b5333d4cfa4ed1f50329b17bb497e0113f19e5150a8728",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+    "sourceStartPage": 2
+  },
+  "CP2070": {
+    "sourceEntrySHA256": "d11c586a5509daf4bd88f16231330b87dd76c3c20432a4e5a90edd266a937c6c",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+    "sourceStartPage": 2
+  },
+  "HI2511": {
+    "sourceEntrySHA256": "a5db436fbd6ed17931e19808ba4fd8a964d8f89028b80fd781381e84d933f89c",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "605d3dc324931acda563818e1a2772f82cc9fad7a8a82681a71d7889fe7edc1f",
+    "sourceStartPage": 3
+  },
+  "HI3001": {
+    "sourceEntrySHA256": "75a507c2d1ae4fa3d82cc4523e7baa736c7d630b41442dc12291ef39ea634a59",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "605d3dc324931acda563818e1a2772f82cc9fad7a8a82681a71d7889fe7edc1f",
+    "sourceStartPage": 6
+  },
+  "HI3002": {
+    "sourceEntrySHA256": "a11b32d0c7caec73ae6a12525fc0da11c13133b4218be92b9dba31b757b4612b",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "605d3dc324931acda563818e1a2772f82cc9fad7a8a82681a71d7889fe7edc1f",
+    "sourceStartPage": 7
+  },
+  "HI3600": {
+    "sourceEntrySHA256": "4e70aa31166887fe6ccf53e47811690bcf676b9221cd3578afed2170b0ab77c3",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "605d3dc324931acda563818e1a2772f82cc9fad7a8a82681a71d7889fe7edc1f",
+    "sourceStartPage": 15
+  },
+  "MC2020": {
+    "sourceEntrySHA256": "4185976ee8544e258dfdf086661f4ec61f59829fe30549f1041217a432b6736c",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "6bdda220d45b210ce6c4d705277cf5946a78371a435c369c3e72f19109ea0251",
+    "sourceStartPage": 1
+  },
+  "MC2802": {
+    "sourceEntrySHA256": "7d2a07a8b3b1e4307f85d076574489ea614282939e7a7ab56a609e071cf7bfa2",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "6bdda220d45b210ce6c4d705277cf5946a78371a435c369c3e72f19109ea0251",
+    "sourceStartPage": 2
+  },
+  "MC2901": {
+    "sourceEntrySHA256": "dbcbb1b3904d47933e58237161364f57865bfc899f6bf2624800182e46cd3bb9",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "6bdda220d45b210ce6c4d705277cf5946a78371a435c369c3e72f19109ea0251",
+    "sourceStartPage": 2
+  },
+  "MD1000": {
+    "sourceEntrySHA256": "2949cdb92aaf7e7cf3cc7a23f09ebadd798f46a58fade5de6acdf610f33ac36a",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "b0d74fee5d4bd4baa7e07f695348e44b6d688919e07ca4b1ac4c2136a5be142d",
+    "sourceStartPage": 1
+  },
+  "MD1110": {
+    "sourceEntrySHA256": "61bc36541fb2a52e246a18187f9d4e44d947e8b76fa400c8bf87a3c0c47aaf6a",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "b0d74fee5d4bd4baa7e07f695348e44b6d688919e07ca4b1ac4c2136a5be142d",
+    "sourceStartPage": 2
+  },
+  "MD2350": {
+    "sourceEntrySHA256": "ea7e3e44edb0fbf935aa6b963b65b32a68b13c574c3f34df27893a6d9c334742",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "b0d74fee5d4bd4baa7e07f695348e44b6d688919e07ca4b1ac4c2136a5be142d",
+    "sourceStartPage": 2
+  },
+  "MD3010": {
+    "sourceEntrySHA256": "accaba46a49a4e4ea09a917d9a35d962f0ee031167135fde1f857cb9d9530cf3",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "b0d74fee5d4bd4baa7e07f695348e44b6d688919e07ca4b1ac4c2136a5be142d",
+    "sourceStartPage": 3
+  },
+  "PH2000": {
+    "sourceEntrySHA256": "bcc60f94a273d6876defff5851380174d020113e70c2a3b278be32bd109f1ec9",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "3076ff9925d46406196c87ee2aee9ca9f0dbdac0d6e03d1d7f6702e60db514bf",
+    "sourceStartPage": 1
+  },
+  "SY1500": {
+    "sourceEntrySHA256": "20bcb3acd98e14773a7054cfcc43f3f3b372c084405ba60643fc40537635a0da",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "c6d9875d1f67a4fec0acdd8b6fc25b5bbe85a1ff07c2e58793631ed1892706fa",
+    "sourceStartPage": 1
+  },
+  "CP2121": {
+    "sourceEntrySHA256": "93f1444b087dba51498f0a82f59821eda7332abda052f4ffb1901663f02af12e",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+    "sourceStartPage": 3
+  },
+  "PX2001": {
+    "sourceEntrySHA256": "3e3633abb0975c17b43ac5d25c3b3d4c76eeab78584de15d48955d3ed62c2579",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+    "sourceStartPage": 1
+  },
+  "PX2101": {
+    "sourceEntrySHA256": "19abdcc8a9b65ec1c5827d2ec4e2f67d345f883d999930051bee8ad44c1da18c",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+    "sourceStartPage": 2
+  },
+  "PX2201": {
+    "sourceEntrySHA256": "a44922b5e5e6b359f1e4750f063d52d5dd71f0901fe35638f34668b2669666e8",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+    "sourceStartPage": 3
+  },
+  "PX2301": {
+    "sourceEntrySHA256": "4f4654a41d0de415691b80ca4afabdf11f6212ff007374b6e2a6f32be3364625",
+    "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+    "sourcePDFSHA256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+    "sourceStartPage": 5
+  },
+  "CS2000": {
+    "sourceEntrySHA256": "23a984ab3d91d4ed11c3eb0b9b205b2f4229ea957414bbf308eca7d32c11970d",
+    "originalRuleSHA256": "f1f40a0537c7b7a9ef3d5f20c6f2805c6f2281e999033e0a5671ee504a14f1ac",
+    "sourcePDFSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+    "sourceStartPage": null
+  },
+  "BU4820": {
+    "sourceEntrySHA256": "5da0b25082a5889289ff012dce0e8a4c4824d5d354d35dd0d6713ebe4cf74670",
+    "originalRuleSHA256": "1b4b1b1a33c0c34b18b861f4d264c33639d9ab73c7eca683add3204e417df07e",
+    "sourcePDFSHA256": "79cbf38a2ab8c395173e805b3bae8f6b64db822fc86888ecbe359f5c243bd6e9",
+    "sourceStartPage": 15
+  },
+  "CP2800": {
+    "sourceEntrySHA256": "e748350f9d1a8ab3885bc16e26d6788f9973fef7f1637df771ca6a0109ce4abf",
+    "originalRuleSHA256": "c2b1b5f5541bf71560b0ca6eea28838839d46451eb27ad424d63f86d04c56b0a",
+    "sourcePDFSHA256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+    "sourceStartPage": 7
+  },
+  "BU5190": {
+    "sourceEntrySHA256": "967ce5b885f4d809a84c79486529e262ec9dcae3bef57ff2fd31e34defa8af59",
+    "originalRuleSHA256": "dfae7cb3b38f65745af39cfb4c4ed315962115d57de76bc290e26f6f1032410a",
+    "sourcePDFSHA256": "79cbf38a2ab8c395173e805b3bae8f6b64db822fc86888ecbe359f5c243bd6e9",
+    "sourceStartPage": 19
+  },
+  "EL5000": {
+    "sourceEntrySHA256": "04c9f98f962d0d4cd783edec0cb07afa786c3aa74471e86450e702d3006eeae9",
+    "originalRuleSHA256": "8f2cc91d7edf92b09a37064de58bb8ff0d1acfcf088898a26c452048f62e9cff",
+    "sourcePDFSHA256": "87fc17c978dd2d1f2512a4ba7a7ac042464625ba4671660b4e9a24aefa7aafe5",
+    "sourceStartPage": 32
+  },
+  "PH5900": {
+    "sourceEntrySHA256": "650cdc0ccb358c8c5f008dab93295a51538ea2f195dffb4b7914197225db34f5",
+    "originalRuleSHA256": "1b34417f842f26ac0626f7cb72088de522e287ac2803ebc473cd651168ef08bd",
+    "sourcePDFSHA256": "3076ff9925d46406196c87ee2aee9ca9f0dbdac0d6e03d1d7f6702e60db514bf",
+    "sourceStartPage": 13
+  },
+  "BU4851": {
+    "sourceEntrySHA256": "24dc50d62665e5db4e0aacdf9ca80f9ab645ae3a9755c88f93b174235e721cc2",
+    "originalRuleSHA256": "4147134b8d25672e61741768fb11eee97b2f54dc2c2528064cd5b7752304fcf1",
+    "sourcePDFSHA256": "79cbf38a2ab8c395173e805b3bae8f6b64db822fc86888ecbe359f5c243bd6e9",
+    "sourceStartPage": 16
+  }
+}

@@ -7,7 +7,7 @@ function student_nav_groups(): array
         'records' => ['My Records', [
             ['Student Information', 'student/information.php'],
             ['Holds', null], ['Unofficial Transcript', null],
-            ['Degree Audit', null], ['Advisors', null],
+            ['Degree Audit', 'student/degree-audit.php'], ['Advisors', null],
         ]],
         'schedules' => ['Schedules & Registration', [
             ['Semester Schedule', 'student/schedule.php'],

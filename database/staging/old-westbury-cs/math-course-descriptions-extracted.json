@@ -1,0 +1,292 @@
+{
+  "status": "reference-only-not-import-ready",
+  "catalogEdition": "2026-2027 Undergraduate Catalog",
+  "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf",
+  "sourceSHA256": "047b453e1f2b7a9c8f41495d84c1895b9ada8e78fbab8d65edc9442f71cb48c8",
+  "pages": 20,
+  "extractionMethod": "PDFKit page text; page furniture removed; full course entry text retained",
+  "records": [
+    {
+      "code": "MA1010",
+      "title": "Powertrack Math",
+      "sourceText": "Credits: 2\nPowertrack Math is a highly structured course which utilizes an active learning approach. The course involves\nmandatory attendance at a lecture class and required hours working in a lab. The purpose of the course is to prepare\nstudents in an accelerated way for entry into MA 1020 - College Algebra\nand other courses that meet the Mathematics Proficiency requirement at the College. It will include topics of real\nnumber arithmetic as well as topics in Introductory Algebra, including linear equations and inequalities, graphing linear\nequations, exponents, polynomials and factoring, and systems of equations. Attendance at an orientation meeting prior\nto the beginning of the semester is mandatory.\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA1020",
+      "title": "College Algebra",
+      "sourceText": "Credits: 4\nTopics include functions, factoring polynomials, rational and algebraic expressions, exponents and radicals, solutions to\nquadratic equations, inequalities, graphs of functions, exponential and logarithmic functions, solution of exponential\nand logarithmic equations.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 1010\nor MA 2000\n\nWhen Offered:\nEvery semester.Note:\nMost sections of this course will have a lab component and will be charged an \u201cInclusive Access\u201d fee of $75. An opt-out\noption is available.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA1021",
+      "title": "College Algebra Workshop",
+      "sourceText": "Credits: 2\nThis course is designed to complement College Algebra (MA1020) by enhancing and reinforcing student learning\nexperience through supplemental worksheets. In this course, students will successfully review materials covered in\nCollege Algebra course and systematically practice the concepts. The main goal of this course is to strengthen students\u2019\nunderstanding of analytic and graphical approaches to solutions of problems that can be expressed algebraically.\nCorequisite MA 1020 College Algebra\nWhen Offered:\nOtherNote:\nImpact Report for MA 1021\nThere are no results for this report.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA2000",
+      "title": "Applied Statistics",
+      "sourceText": "Credits: 4\nApplied Statistics is a Liberal Education Curriculum course intended to develop the statistical literacy of all students\nregardless of their major. The emphasis is on organizing and summarizing data, applying appropriate statistics, and on\nunderstanding and interpreting the results of statistical tests. Real data derived from a variety of fields including\neducation, psychology, sociology, life and physical sciences, economics, and business will be used throughout the\ncourse.\nPrerequisites\nNone\nNote:\n\nThe only change is the prerequisie from MA 1010 to no prerequisite. This is one of those ghost catalog changes. It was\nnot a prereq for years and then it reappeared recently.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA2010",
+      "title": "Foundations of Mathematics I",
+      "sourceText": "Credits: 4\nA course designed primarily for students majoring in elementary education. MA 2010 covers fundamental theory,\nhistorical context and underlying logic of mathematics taught in elementary school. Content is intended to complement\nthe recommendations in the National Council of Teachers of Mathematics Standards, and emphasis is placed on problem\nsolving and communication in mathematics. Topics studied include introductory problem solving, functions, number\nsystems, the operations and properties of arithmetic, estimation, and selected topics from set theory and number theory.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 1020\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA2050",
+      "title": "Quantitative Reasoning and Decision Making",
+      "sourceText": "Credits: 4\nThis course was designed for Liberal Education Curriculum, and is intended to improve quantitative literacy and\nreasoning skills regardless of major. MA 2050 provides essential skills in logic, problem solving, critical thinking and\ndecision making. Quantitative methods and applications to real-life problems are explored, as well as decision tools for\nindividuals and society. Topics include measurement, patterns and trends, proportion and equity, understanding data\nand graphs, logic and sequential reasoning, risk, uncertainty, probabilistic reasoning, natural law, descriptive statistics,\ndecision trees. Personal decisions and applications across disciplines are explored in areas that include consumer\nfinance, advertising, numbers in the news, personal behavior, health and medicine, incidents and accidents, insurance,\nenergy, environment and sustainability. Fulfills math proficiency requirement (GE MA).\nPrerequisites\nNonePrerequisite/Corequisite\nNone\n\nWhen Offered:\nEvery yearNote:\nMost sections of this course will have a lab component and will be charged an \u201cInclusive Access\u201d fee of $75. An opt-out\noption is available.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA2080",
+      "title": "Precalculus for Business and Economics",
+      "sourceText": "Credits: 4\nThe study of linear, quadratic, exponential, and logarithmic functions and their graphs. Systems of equations and an\nintroduction to matrices. Applications in the fields of business and economics.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 1020\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA2090",
+      "title": "Precalculus",
+      "sourceText": "Credits: 4\nA course designed primarily for students who wish to take MA 2310. A study of algebraic, logarithmic, exponential, and\ntrigonometric functions and their graphs.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 1020\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA2300",
+      "title": "Calculus for Business and Economics",
+      "sourceText": "Credits: 4\n\nLimits, differentiation, and integration. Relevant applications from the areas of business, economics and the social\nsciences.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 2080\nor MA 2090\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA2310",
+      "title": "Calculus & Analytic Geometry I",
+      "sourceText": "Credits: 4\nTopics include functions and their graphs, limits and continuity, derivatives of polynomials, rational functions, algebraic\nfunctions, exponential & logarithmic functions, and trigonometric functions, applications of the derivative, definite and\nindefinite integrals, fundamental theorem of calculus.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 2090\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA2320",
+      "title": "Calculus & Analytic Geometry II",
+      "sourceText": "Credits: 4\nTopics include indefinite and definite integral, applications of definite integral, integration techniques, infinite series,\nand analytic geometry.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 2310\n\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA2500",
+      "title": "History of Mathematics",
+      "sourceText": "Credits: 4\nA survey of the history of mathematics from the beginnings through the 20th century, with special attention to culture\nand mathematics. Emphasis on topics germane to the high school curriculum.\nPrerequisites\nGrade of C or higher in MA 2310\nor permission of the instructor\nWhen Offered:\nEvery other semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA2701",
+      "title": "Business Anaytics",
+      "sourceText": "Credits: 4\nBusiness Analytics is a course of data analysis and data mining for managers. We will see number of modern techniques\nfrom a higher level viewpoint with the purpose of understanding the application toward decision-making instead of the\ntheoretical foundations. These skills are in-demand and could help one be more competitive in the workplace. The\ncourse will cover topics in prediction, classification, and clustering. It also introduces data visualization tools, as well as\ndimensionality reduction techniques.\nPrerequisites\nGrade of C or higher in MA 2000 - Applied Statistics\nand a grade of C or higher in MA 2300 - Calculus for Business and Economics",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA2702",
+      "title": "Marketing Analytics",
+      "sourceText": "Credits: 4\n\nMarketing Analytics is a course of data analysis and data mining for marketing purposes. We will see number of\nmodern techniques from a higher level viewpoint with the purpose of understanding the application toward decision-\nmaking instead of the theoretical foundations. These skills are in-demand and could help one be more competitive in the\nworkplace. The course will cover topics that could include Pricing, Forecasting, and Market Segmentation. We will use\ntools such as Excel Solver, Monte Carlo Simulations, Logistic Regression, Trees, Cluster Analysis, and Neural Nets.\nPrerequisites\nGrade of C or higher in MA 2000 - Applied Statistics\nand a grade of C or higher in MA 2300 - Calculus for Business and Economics",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA3010",
+      "title": "Data Visualization",
+      "sourceText": "Credits: 4\nData visualization is the process of creating informative graphics from data. It provides decision makers with a visual\nrepresentation of their analytics that makes data easier to understand, parse and act upon. With its foundation rooted in\nstatistics and computer science, practitioners in almost every field use visualization to explore and present data. This\ncourse will introduce beginners to the basic concepts and techniques of data visualization.\nPrerequisites\nC or higher in MA 2000 or C or higher in MA 2080 or C or higher in MA 2090\nWhen Offered:\nOther",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA3020",
+      "title": "Foundations of Mathematics II",
+      "sourceText": "Credits: 4\nA course designed primarily for students majoring in elementary education. MA 2020 covers fundamental theory,\nhistorical context and underlying logic of mathematics taught in elementary school. Content is intended to complement\nthe recommendations in the National Council of Teachers of Mathematics Standards, and emphasis is placed on problem\nsolving and communication in mathematics. The syllabus includes topics from elementary combinatorics, probability,\nstatistics, geometry and measurement.\n\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 1020\nWhen Offered:\nEvery other semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA3030",
+      "title": "Discrete Mathematics",
+      "sourceText": "Credits: 4\nAn introduction to discrete mathematical structures. Topics include propositional and predicate logic, set theory,\nrelations and functions, induction and recursion, methods of proof, number theory, and graphs and trees.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 2090 or MA 2080\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA3160",
+      "title": "Linear Algebra",
+      "sourceText": "Credits: 4\nAn introduction to linear algebra. Topics included systems of linear equations, matrices and matrix algebra,\ndeterminants and their properties, vectors and vector spaces, linear independence, span of a set of vectors, basis and\ndimension of a vector space, linear transformations of vector spaces, rank of a matrix and the rank theorem, eigenvalues\nand eigenvectors, and diagonalization of matrices.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 2310\nor MA 2300",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA3180",
+      "title": "Foundations of Secondary School Mathematics",
+      "sourceText": "Credits: 4\nThis course is designed for students planning to be secondary school mathematics teachers. The course covers the\nfundamental theory, historical context and underlying logic of mathematics taught in secondary school. It follows the\nNational Council of Teachers of Mathematics Standards. The goal is for students to develop a deep understanding of\nsecondary mathematics and to enable future teachers to provide their students with the highest quality instruction. This\ncourse can be used as a preparation for the New York State Teacher Certification Examination in Mathematics, Content\nSpecialty Test.\nPrerequisites\nMA 2320\n, MA 3030\n, MA 3160\nWhen Offered:\nEvery other semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA3210",
+      "title": "Introduction to Probability and Statistics",
+      "sourceText": "Credits: 4\nThis course provides a foundation in probability and statistical inference. Topics include set operations, combinatorics,\ngames of chance, models for uncertainty, tree diagrams, random variables, discrete and continuous distributions,\nbayesian analysis, expectation, variance, sampling statistics, estimation, hypothesis testing. Emphasis on reasoning\nskills, model development and problem solving across disciplines\nPrerequisites\nMA 2310 or MA 2300; MA 2320 recommended\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA3240",
+      "title": "Mathematics for AI",
+      "sourceText": "Credits: 4\nThis course introduces the mathematics and statistics at the foundation of Artificial Intelligence (AI), Machine Learning,\nand Data Mining. Assuming only a basic set of mathematical skills, the following mathematical topics, and their usage\nin AI, will be covered: linear algebra, matrices/tensors, probability, Bayesian probability, statistics, optimization, and\nvector calculus. The application of these mathematical concepts to AI will be highlighted throughout the course.\nComputer code illustrating concepts will be presented, but no prior programming experience is required. The course\nmay culminate with an introduction to neural networks, which form the foundational architecture of many popular\ngenerative AI tools and Large Language Models (LLMs).\nPrerequisites\na grade of C or higher in MA 2300 or a grade of C or higher in MA 2310\nWhen Offered:\nOther",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA3330",
+      "title": "Calculus and Analytic Geometry III",
+      "sourceText": "Credits: 4\nThree main areas will be studied. The first is the Vector algebra and geometry of three-dimensional space including:\nlines, planes, and curves in space; polar, cylindrical, and spherical coordinate systems. Using this geometry, limits,\npartial differentiation, directional derivatives, max-min theory and Lagrange Multipliers are studied. The final area of\nstudy is integration, including double, triple integrals, line integrals, and the divergence, Green\u2019s and Stokes Theorems.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 2320\nWhen Offered:\nIn Fall semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA3520",
+      "title": "Transition to Advanced Mathematics",
+      "sourceText": "Credits: 4\n\nAn introduction to concepts commonly used in advanced mathematics with an emphasis on writing proofs. Topics\ninclude logic, set theory, relations, functions, and cardinality as well as selected topics from other areas of advanced\nmathematics such as number theory, abstract algebra, topology, and real analysis.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 2320\nand MA 3030\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA4030",
+      "title": "Combinatorics & Graph Theory",
+      "sourceText": "Credits: 4\nA course in combinatorics and graph theory. Topics in enumerative combinatorics will in- clude permutations,\ncombinations, binomial theorem, inclusion-exclusion, and generating functions. Topics in graph theory will include\ndirected graphs, weighted graphs, Euler cycles, Hamilton circuits, planar graphs, graph coloring, and trees. Applications\nto enumeration problems and graph optimization problems will be discussed.\nPrerequisites\nA grade of C or higher in MA 3030 Discrete MathematicsCorequisite none\nWhen Offered:\nOther",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA4100",
+      "title": "Number Theory",
+      "sourceText": "Credits: 4\nA study of the utilization of concrete examples to introduce concepts of modern algebra; prime numbers, congruences,\ndiophantine equations, elementary combinatorial analysis.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 3030\n\nWhen Offered:\nAs needed.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA4160",
+      "title": "Advanced Linear Algebra",
+      "sourceText": "Credits: 4\nThis course is a rigorous, abstract treatment of linear algebra. Topics to be covered include vector spaces, linear\ntransformations, eigenvalues and eigenvectors, diagonalization, inner product spaces, and canonical forms.\nPrerequisites\nGrade of C or higher in MA 3160",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA4200",
+      "title": "Probability",
+      "sourceText": "Credits: 4\nSample space, concepts of probability, conditional, marginal and joint probabilities, random variables and functions of\nrandom variables; discrete and continuous and other special distributions; moment generating functions; law of large\nnumbers and central limit theorem; conditional expectations, and introduction to stochastic processes.\nPrerequisites\nMA 3330\nWhen Offered:\nAs needed.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA4300",
+      "title": "Numerical Analysis",
+      "sourceText": "Credits: 4\n\nA study of numerical methods with computer work: solution of algebraic and transcendental equations, systems of\nlinear equations, interpolation, numerical solution of differential equations, error estimation.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 3160\nWhen Offered:\nAs needed.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA4310",
+      "title": "Scientific Computing",
+      "sourceText": "Credits: 4\nNumerical techniques allow us to describe and predict phenomena in any area of research including biology, physics,\neconomics, chemistry, computer science, and much more. Possible numerical topics include error analysis, root-finding\nalgorithms, approximation by interpolation, least squares, numerical differentiation and integration, phase plane and\nstability analysis for linear and nonlinear systems, and numerical solutions to differential equations. Each math topic we\nexplore will be paired with an appropriate real world application in order to study the process of modeling.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 2320\nin one of CS 2510 or CS 2521",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA4360",
+      "title": "Differential Equations",
+      "sourceText": "Credits: 4\nA study of differential equations and their applications; ordinary differential equations with particular emphasis on\nlinear differential equations, systems of differential equations, boundary value problems and applications to electrical,\nmechanical and chemical systems.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 2320\n\nWhen Offered:\nEvery Spring.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA4510",
+      "title": "Geometry",
+      "sourceText": "Credits: 4\nGeometry from a modern axiomatic standpoint. Higher Euclidean geometry emphasizing incidence and separation\nproperties, metric properties, area theory. Euclidean constructions.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 2320\n; ECII\nWhen Offered:\nEvery Spring.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA4710",
+      "title": "Applied Cryptography",
+      "sourceText": "Credits: 4\nThis course develops notions of information security and deals with the tools for guaranteeing secure communications\nin an adversarial setting. Topics include basic number theory, cryptographic methods, key distribution, and protocols for\nauthentication and confidential communications. The course examines C++/Java security applications that employ\ncryptography. Students will be assigned several small programs incorporating security.\nPrerequisites\ngrades of \u201cC\u201d or higher in CS 2510 and MA 4100\nWhen Offered:\nBased upon student demand.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA4910",
+      "title": "Operations Research I",
+      "sourceText": "Credits: 4\n\nAn introductory course in operations research theory and methodologies. Operations research uses systematic\nmathematical processes to find optimal solutions to problems in business, government and science. Topics include\nmatrix algebra, Simplex method of Linear Programming, the Big M Method, Duality Theory, Transportation Program\nming, the Assignment Problem, Network Analysis and an Introduction to Dynamic Programming.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 3160\nWhen Offered:\nAs needed.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA4920",
+      "title": "Operations Research :Probabilistic",
+      "sourceText": "Credits: 4\nThe applied math course explores Operations Research models that are probabilistic in nature. Topics include Queueing\nTheory, the Birth and Death Process, Stochastic Processes, Markov Chains, Inventory Theory, Transportation Systems\nand Energy Systems. To demonstrate applied learning, students undertake an original project involving field\nobservations, model development, analysis and written report.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 3210\nWhen Offered:\nAs needed.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA5120",
+      "title": "Abstract Algebra I",
+      "sourceText": "Credits: 4\nAn introduction to basic algebraic structures. Topics will include groups, rings, integral domains, ideals and fields\ntogether with their homomorphisms.\nPrerequisites\n\nGrades of \u201cC\u201d or higher in MA 3160\nand MA 3520\n; ECII\nWhen Offered:\nEvery semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA5130",
+      "title": "Abstract Algebra II",
+      "sourceText": "Credits: 4\nContinuation of MA 5120\nand includes the Sylow Theorems, free groups, extension fields, Galois theory, finite fields.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 5120\nWhen Offered:\nAs needed.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA5210",
+      "title": "Advanced Statistics I",
+      "sourceText": "Credits: 3\nThis course will be a face paced introduction to statistics. We will cover probability, sampling techniques, inference,\nregression, correlation, analysis of variance and multiple linear regressions. The use of computer statistical packages will\nbe important.\nPrerequisites\nGrade of C or higher in MA3210, MA 2320, and MA3160",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA5230",
+      "title": "Mathematical Statistics",
+      "sourceText": "Credits: 4\n\nReview of set theory, probability, random variables and some standard distributions. Focuses on estimation of\nparameters, confidence intervals, hypothesis testing, likelihood ration tests, sampling distributions, one-sample and\ntwo-sample test.\nPrerequisites\nGrades of \u201cC\u201d or higher in MA 2320\nand MA 3210\nWhen Offered:\nAs needed.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA5320",
+      "title": "Advanced Calculus I",
+      "sourceText": "Credits: 4\nAn analytical study of the theory underlining calculus. Topics will include the real number system, limits, continuity,\nuniform continuity, differentiability, sequences and series of functions, uniform convergence, Taylor series, theory of\nintegration, elementary transcendental functions.\nPrerequisites\nGrades of \u201cC\u201d or higher in MA 2320\nand MA 3520\nWhen Offered:\nEvery year.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA5330",
+      "title": "Advanced Calculus II",
+      "sourceText": "Credits: 4\nRigorous study of vector calculus. Topics will include continuity, differentiation and integration of vector valued\nfunctions, inverse and implicit function theorems, differential forms and general Stokes\u2019 Theorem.\nPrerequisites\n\nGrade of \u201cC\u201d or higher in MA 5320\nWhen Offered:\nAs needed.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA5360",
+      "title": "Real Analysis",
+      "sourceText": "Credits: 4\nTheory of the Lebesque integral; outer measure, measure and measurable sets; simple functions and the space of\nLebesque integrable functions; theorems of Fatou and Lebesque; dominated (and bounded) convergence theorems;\nRiemann-Stieltje\u2019s integrable; the Lp spaces; inequalities. Signed measure; the decomposition theorems of Hahn and\nJordan.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 5320\nWhen Offered:\nAs needed.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA5380",
+      "title": "Complex Analysis",
+      "sourceText": "Credits: 4\nIntroduction to the theory of analytic functions of complex variables including such topics as complex arithmetic, power\nseries expansion, conformal mapping, analytic functions, and residues.\nPrerequisites\nGrade of \u201cC\u201d or higher in MA 3330\nWhen Offered:\nAs needed.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA5510",
+      "title": "Topology",
+      "sourceText": "Credits: 4\nA study of general topology and introductory algebraic topology, including such topics as topological spaces, metric\nspaces, continuity, connectedness, compactness, product and quotient spaces, functions spaces, homotopy, fundamental\ngroups.\nPrerequisites\nGrades of \u201cC\u201d or higher in MA 3330\nand MA 3520\nWhen Offered:\nAs needed.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA5900",
+      "title": "Research",
+      "sourceText": "Credits: 2-4\nResearch project carried out under the supervision of a faculty member.\nPrerequisites\nPermission of instructor",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA5910",
+      "title": "Special Topics",
+      "sourceText": "Credits: 4\nSelected topics in mathematics.\nPrerequisites\nPermission of instructor\nWhen Offered:\nAs needed.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "MA9990",
+      "title": "Independent Study",
+      "sourceText": "Credits: 2-4\nDesigned to give the advanced student the opportunity for independent reading, development of a project or a\nmathematical model.\nPrerequisites\nPermission of instructor",
+      "status": "extracted-needs-rule-review"
+    }
+  ],
+  "reviewIssues": [
+    "Prerequisite AND/OR conditions, grade thresholds, placement alternatives and corequisites need structured review before import.",
+    "Source editorial notes and apparent inconsistencies are evidence for review, not executable rules.",
+    "The source filename was reused for the MA PDF; the earlier CS extraction has a different source checksum.",
+    "No working database changes."
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "status": "reference-only-not-import-ready",
+  "catalogEdition": "2026-2027 Undergraduate Catalog",
+  "sourcePDF": "/Users/phillipaltidor/Downloads/Course Descriptions - SUNY Old Westbury.pdf",
+  "sourceSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+  "pages": 14,
+  "extractionMethod": "PDFKit page text; page furniture removed; duplicate course entries retained for comparison",
+  "records": [
+    {
+      "code": "CS2000",
+      "title": "Ethics in Data Security and AI",
+      "sourceText": "Credits: 4\nThis course explores the ethical challenges and considerations in the fields of Data Security and Artificial Intelligence\n(AI). Students will examine the moral implications of data collection, storage, and usage, with a particular focus on\nprivacy, consent, and transparency. The course will delve into the ethical dilemmas posed by AI systems, including bias,\nfairness, accountability, and the societal impact of generative AI and autonomous technologies. Through case studies,\ndiscussions, debates and theoretical frameworks, students will learn to critically analyze ethical issues and develop\nstrategies for responsible decision-making in data security and AI development. The course emphasizes the importance\nof aligning technological advancements with ethical principles to ensure that innovations contribute positively to\nsociety. Key topics include ethical theories, data privacy and security, data ethics, data privacy laws and regulations, bias\nin AI, societal impact of AI, AI governance, and the future of AI in society. Students will be encouraged to think critically\nabout the role of ethics in shaping the future of technology and to develop a strong ethical foundation for their\nprofessional practice.\nPrerequisites\nNoneCorequisite NonePrerequisite/Corequisite\nNone\nWhen Offered:\nOther",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS2510",
+      "title": "Computer Programming I",
+      "sourceText": "Credits: 4\n\nAn introduction to problem solving through programming. Topics include program design and analysis: algorithmic\nprocesses, fundamental techniques of program development, debugging and testing. Programming projects and\napplications will be written in a structured computer language. Students learn the basic language features of C++/Java\nto write basic to intermediate level programs. Offered every semester.\nPrerequisites\nMA 1020\nNote:\nI might have misinterpreted the curriculum committee but this makes more sense",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS2511",
+      "title": "Computer Programming II",
+      "sourceText": "Credits: 4\nContinuation of CS 2510. Discussion of methods, arrays, class and object, inhritance, polymorphism, exceptions, file\noperations, and GUI (Graphical User Interface) applications. Basic data structures and algorithms like insertion sort,\nbinary search in a sorted array, and recursion may also be discussed if tme allows. Students write intermediate to\nadvanced level programs in C++/Java.\nPrerequisites\nCS 2510\nWhen Offered:\nEvery semester",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS2550",
+      "title": "Building AI tools",
+      "sourceText": "Credits: 4\nThis course equips students with the skills and knowledge necessary to design, implement, and optimize AI-enhanced\ndata management systems. The course is research focused where students from different backgrounds would work\ntogether to on a project. The course would be based on leveraging recent advancements in machine learning and\nartificial intelligence including large language models. The course would be project based and project ideas and topics\ncould come from the local community.\n\nPrerequisites\nnone\nWhen Offered:\nOther",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS2700",
+      "title": "Introduction to Security Fundamentals",
+      "sourceText": "Credits: 4\nThis course provides an essential introduction to the principles and practices of computer security, equipping students\nwith the knowledge and skills needed to protect information systems. The course covers foundational topics in\ncybersecurity, including network security, cryptography, malware analysis, access control, and incident response.\nStudents will explore the types of cyber threats faced by organizations, from individual hackers to organized\ncybercriminals, and learn how to develop effective security strategies. Through hands-on projects, students will gain\npractical experience. The course also emphasizes security awareness and risk management, preparing students to\nidentify vulnerabilities and mitigate risks in real-world scenarios. By the end of the course, students will be able to\nperform basic security assessments, understand core security mechanisms, and be ready for more advanced\ncybersecurity studies.\nPrerequisites\nMA 1020 College with a C or betterCorequisite NonePrerequisite/Corequisite\nNone\nWhen Offered:\nOtherNote:\nNone",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS3550",
+      "title": "Applied Database",
+      "sourceText": "Credits: 4\nStudy of database fundamentals including relational, document and graph databases. The course introduces ERD\nDesign, Relational algebra, interacting with database with SQL, Advanced SQL: Trigger, stored procedures. Functional\ndependencies and Normalization.\n\nPrerequisites\nC or better in CS 2510 or C or better in CS 2521\nWhen Offered:\nOther",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS3611",
+      "title": "Advanced C#",
+      "sourceText": "Credits: 4\nThis course provides an in-depth study of the skills and knowledge of C# programming. It is intended to reinforce and\nbuild upon the introductory programming course by introducing more advanced features of C# programming language\nand environment. Some of the advanced topics include SQL, database programming, reporting scheme, programming\nfor the web and web forms, object-oriented programming, accessing data with ADO.NET. It also introduces basic\ntechnologies in ASP .NET.\nPrerequisites\nCS 2510",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS3620",
+      "title": "Computer Architecture I",
+      "sourceText": "Credits: 4\nBasic computer architecture. Switching theory, data representation, arithmetic operations, assembly language coding,\nBoolean logic, combinational circuits, logical design, instruction execution, sequential machines.\nPrerequisites\nCS 2511, MA 3030\nWhen Offered:\nEvery other semester",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS3630",
+      "title": "Computer Architecture II",
+      "sourceText": "Credits: 4\n\nIntegrated circuits, pipelining, Cache Memory, DRAM, RAID, Memory Hierarchy, I/O Device Interfacing, DMA, CISC\nprocessing, RISC processing, Multi processing, Vector processing, Parallel processing.\nPrerequisites\nCS 3620",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS3810",
+      "title": "Data Structures and Algorithms",
+      "sourceText": "Credits: 4\nIntroduces abstract data structures and their implementations, including lists, stacks, queues, trees, hash tables, heaps\nand linked structures. Analyze and design sorting and searching algorithms. Learn computational evaluation on\nperformance of algorithms. Advanced level programming. Assignments conforming to Object-Oriented methodology\ncovered in CS2511.\nPrerequisites\nCS 2511, MA 3030\nWhen Offered:\nEvery semester",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS3911",
+      "title": "C++ and Object-Oriented Programming",
+      "sourceText": "Credits: 4\nAn object oriented approach to C++ with an emphasis on how to self-learn a new programming language. Will reiterate\nmajor concepts such as encapsulation, abstraction, classes, and objects as well as learn about pointers and dynamic\nmemory. Will introduce data structures high level design patterns in C++ and include other language features such as\nprogramming with STL and templates.\nPrerequisites\nCS 2511, MA 3030",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS4200",
+      "title": "Mobile Programming through Android",
+      "sourceText": "Credits: 4\nThis course introduces students to creating mobile applications through the Android programming environment.\nStudents will build upon their programming experience in Java to learn the fundamentals of event driven multitier\nprogramming, including important programming patterns that best fit the unique needs of mobile devices. Furthermore,\nstudents will learn how to create interactive GUIs that leverage mobile capabilities, including data from embedded\ndevices such as cameras and sensors such as GPS, in order to create novel and accessible experiences and\nrepresentations for users. Students will learn to use databases to store and retrieve data as well as use API\u2019s to retrieve\ndata from websites. By class-end students will have created multiple mobile applications to add to their portfolio.\nPrerequisites\nCS 3810",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS4310",
+      "title": "Design and Analysis of Algorithms",
+      "sourceText": "Credits: 4\nThis course offers a comprehensive and rigorous exploration of algorithm design and analysis, grounded in\nfundamental data structures and essential mathematical principles. Core topics include efficient sorting and searching\nalgorithms, algorithmic paradigms such as divide-and-conquer, dynamic programming, greedy methods, and amortized\nanalysis. Students will engage with advanced techniques including selection algorithms and linear programming. The\ncourse places particular emphasis on graph algorithms-covering breadth-first and depth-first search, topological sorting,\nconnected components, shortest paths, and minimum spanning trees-as well as selected topics in string and geometric\nalgorithms. In addition, students will be introduced to computational complexity theory, including NP-completeness\nand the inherent limitations of algorithmic solutions, with an emphasis on recognizing intractable problems and\nevaluating algorithmic feasibility.\nPrerequisites\nA minimum grade of C in both CS 3810 (Data Structures and Algorithms) and MA 3030 (Discrete Mathematics) is\nrequired as a prerequisite for enrollment in this course.Corequisite None\nWhen Offered:\nOther",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS4400",
+      "title": "Artificial Intelligence",
+      "sourceText": "Credits: 4\nIntroduction to the programming language LISP . Additional topics include: search as problem-solving paradigm; depth\nfirst, breadth first, best first, min/max and alpha beta; state space representation, OR graphs, AND/OR graphs, means\nend analysis and problem reduction; propositional and predicate logic, skolemization, resolution 181 and theorem\nproving, semantic nets, frames, neural nets and genetic algorithms. Students write programs in LISP and C++/Java.\nPrerequisites\nCS 3810, MA 3210",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS4420",
+      "title": "Machiine Learning",
+      "sourceText": "Credits: 4\nThis course covers fundamental machine learning concepts for intelligent systems that autonomously learn to perform a\ntask and improve with experience, including problem formulations (e.g., selecting input features and outputs) and\nlearning frameworks (e.g., supervised, unsupervised, semi-supervised), standard models, methods, computational tools,\nalgorithms and modern techniques, as well as methodologies to evaluate learning ability and to automatically select\noptimal models with hands-on learning tasks using Python programming language. Applications to areas such as time\nseries forecasting, computer vision (e.g., facial recognition, image classification, object detection), natural language\nprocessing (e.g., designing chatbot, misinformation detection , hate speech detection, sentiment analysis, topic modeling\nfrom social media data) and medical data analysis (e.g., Covid-19 prediction, mental health problem detection in Japan\nduring Covid-19) will motivate the coursework and the material. Deep Learning, Large Language Models (LLMs) and\ntheir applications will also be introduced in class with a module to discuss the ethical concern around these models. In\nthis course, Course-embedded Undergraduate Research Experience (CURE) will be introduced and students will be\nmentored in their research projects. Students will be required to work on a research problem through the semester to\nbuild a prototype and demonstrate their work where they will propose a group research project (2 members) to solve a\nproblem using machine learning.\nPrerequisites\n(CS 2521 or CS 3810) and (MA 2000 or MA 3210 or MA 3240)",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS4501",
+      "title": "Software Engineering",
+      "sourceText": "Credits: 4\nIntroduces principles and disciplines of software engineering. Semester-long projects allow students to practice on a\ncomplete process of the software development. A software product will be implemented and tested at the end. The\nObject-oriented software engineering with the UML modeling approach is applied on projects. Learn system\ndecomposition and design patterns. The project management aspect and risk controls are also introduced and practiced\nin the projects. Individual and team works.\nPrerequisites\nC or better in CS 2511 and C or better in (CS 3810 or CS 3611).",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS4550",
+      "title": "Database Management Systems",
+      "sourceText": "Credits: 4\nBasic concepts: data, information systems, data independence and need for DBMS facilities. The relational model:\nschema, subschema, relational algebra, relational calculus, SQL, ODBC, JDBC and SQLJ. Database design:\nentityrelationship model and normalization. Performance considerations, integrity, security and transaction processing.\nDBMS examples: Access, DB2 and Oracle.\nPrerequisites\nCS 2511 and (CS 3810 or CS 3611); ECI.\nWhen Offered:\nEvery Semester.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS4600",
+      "title": "Topics in Computer Science",
+      "sourceText": "Credits: 4\nCurrent topics in computer science which are of interest to the computer science faculty will be chosen for discussion.\nTopics may change each semester.\nPrerequisites\n\nCS 3810",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS4705",
+      "title": "Introduction to Computer Security",
+      "sourceText": "Credits: 4\nThis course covers basic ideas of computer and network security and fundamental techniques for defending computers\nand networks against adversaries. The course introduces the students to: secure software engineering, operating system\nsecurity, network security, cryptography, cryptographic protocols, denial of service attacks, firewalls, authentication\ntechniques, web and server security. Students will work on programming projects individually and/or jointly in groups.\nPrerequisites\nCS 3810",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS4710",
+      "title": "Applied Cryptography",
+      "sourceText": "Credits: 4\nThis course develops notions of information security and deals with the tools for guaranteeing secure communications\nin an adversarial setting. Topics include basic number theory, cryptographic methods, key distribution, and protocols for\nauthentication and confidential communications. The course examines C++/Java security applications that employ\ncryptography. Students will be assigned several small programs incorporating security.\nPrerequisites\nC or better in CS 2511 and C or better in MA 3030",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS4720",
+      "title": "Internet and Web Technologies",
+      "sourceText": "Credits: 4\nIntroduce the Internet, the World Wide Web, the client/server applications, and various web development technologies.\nTeach hot techniques currently adopted in web application industry including languages for front-end applications such\nas XHTML, CSS, DHTML, JavaScript and languages for back-end applications such as JavaServer Page, JavaServer Face,\nPHP , the .Net platform and Python. The XML and Ajax is also introduced.\n\nPrerequisites\nC or better in CS2511,\nand\nC or better in either CS3810 or CS3611\nNote:\nThe only change is in the prerequisites",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS5610",
+      "title": "Operating Systems",
+      "sourceText": "Credits: 4\nMemory management: multiprogramming, relocation, paging, virtual memory, dynamic loading and linking. Process\nmanagement: job scheduling, process scheduling and synchronization, multiprocessing. Device manage182 ment:\ninput/output, channels and control units, buffering, interrupt structure and processing. Information management:\nlogical and physical file systems, file processing. OS examples: Unix/Linux, Windows.\nPrerequisites\nCS 3620 and CS 3810",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS5620",
+      "title": "Computer Science Practicum",
+      "sourceText": "Credits: 2-4\nThis is an internship course which is supervised by a full-time computer science faculty member and can be repeated.\nStudents must have obtained an internship approved by the CIS curriculum committee and credits CANNOT count as\nCIS upper division elective credits.\nPrerequisites\nPermission of instructor",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS5710",
+      "title": "Computer Networks",
+      "sourceText": "Credits: 4\nIntroduces principles and disciplines of software engineering. Semester-long projects allow students to practice on a\ncomplete process of the software development. A software product will be implemented and tested at the end. The\nObject-oriented software engineering with the UML modeling approach is applied on projects. Learn system\ndecomposition and design patterns. The project management aspect and risk controls are also introduced and practiced\nin the projects. Individual and team works.\nPrerequisites\n(CS 4501 or CS 4550) and (MA 3210 or MA 2000)",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS5730",
+      "title": "Computer Network Security",
+      "sourceText": "Credits: 4\nThis course is a continuation of CS4710 and deals with the issues in network security. Topics include Kerberos, public\nkey infrastructures, electronic mail security, IP security, Web security, intrusion detection and response, password\nmanagement, viruses and worms, firewalls, denial of service attacks and defenses, wireless security, and privacy.\nStudents will write several small programs including a network application incorporating security.\nPrerequisites\nCS 4710 and CS 5710",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS5800",
+      "title": "Data Warehousing",
+      "sourceText": "Credits: 4\nThis course introduces the major activities involved in data warehousing application design and implementation. The\ncourse starts with an in-depth discussion of the basic concepts and principles of data warehousing, then studies the\nchanges dictated by big data analytics. We discuss the MapReduce framework and its implementation Hadoop and the\nhigher level language HiveQL. We discuss the two popular database architectures, column store databases and\ninmemoryDBS. We also discuss real-time data warehousing and extract, transform and load (ETL) paradigms used in\ndata warehousing and business intelligence. The students will carry out a simple warehousing application in groups.\nPrerequisites\n\nCS 4550",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS5810",
+      "title": "Data Mining I",
+      "sourceText": "Credits: 4\nThis course covers the fundamental concepts and techniques useful in discovering knowledge hidden in large data sets.\nTopics include data preprocessing, frequent pattern matching, classification, clustering and database methods. The\ncourse also discusses online analytic processing (OLAP), outlier detection, and important applications. The course\nassignments will be carried out individually and in groups.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS5821",
+      "title": "Neural Networks & Deep Learning",
+      "sourceText": "Credits: 4\nThe majority of data in the world is unlabeled and unstructured, for instance images, sound, and text data. Shallow\nneural networks cannot easily capture relevant structures within this type of data, but deep networks are capable of\ndiscovering the hidden structures. Therefore, the\ndemand for deep learning skills is continuing to grow, as AI becomes more pervasive in our societies. In this course, you\nwill learn about some of the inspiring and motivating applications of deep learning. You will learn about artificial neural\nnetworks and how they learn and optimize their parameters for a given task or application, and you will learn about\ndeep learning models such as convolutional neural networks, recurrent neural networks and autoencoders.\nUltimately, the student will apply their knowleegde using tools such as the Keras and TensorFlow library to build different\ndeep learning models and apply deep learning on different types of data to solve real world problems.\nPrerequisites\nC or better in CS 4410 or CS 5810.",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS5910",
+      "title": "System Design & Implementation",
+      "sourceText": "Credits: 4\nSystem feasibility studies, meeting with users, project definition, environmental analysis. Data collection, design phase,\nsystem restart and recovery. Database considerations, programming, system completion, systems parallel, benchmarks.\n\nUser training and manual. Conversion planning. Students, working in groups, design and implement a significant\nsoftware project.\nPrerequisites\n(Undergraduate level CS 4501\nMinimum Grade of C or Undergraduate level CS 4501\nMinimum Grade of TC) and (Undergraduate level CS 4720\nMinimum Grade of C or Undergraduate level CS 4720\nMinimum Grade of TC) and (Undergraduate level CS 4550 Minimum Grade of C or Undergraduate level CS 4550\nMinimum Grade of TC)\nPrerequisite/Corequisite\n( WRITING O.W. 25) and\nMathematics",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS2521",
+      "title": "Scientific Programming in Python",
+      "sourceText": "Credits: 4\nA fast paced introduction to program design and analysis: algorithmic processes, basic programming techniques,\nprogram specification & structure, program development, debugging and testing. Emphasis on scientific applications.\nDiscussion of storage classes, files and string manipulation. Basic data structures and algorithms, data abstractions and\nobject-oriented programming. Students learn the language features of Python with an eye toward scientific and data\nanalysis applications.&nbsp;\nPrerequisites\nC or better in MA2080 or C or better in MA2090",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS4100",
+      "title": "Technical Communications",
+      "sourceText": "Credits: 4\nEmphasis on technical writing and public speaking skills. Application of report-writing fundamentals to technical\ncorrespondence, technical reports, user manuals. Detailed analysis of the problem of conveying technical information to\n\ntechnical and non-technical audiences in written, as well as oral form. Term project involving written paper on a\ntechnical subject and an oral presentation of the subject in class.\nPrerequisites\n(Junior standing in CIS or Junior Standing in MIS) and ECII",
+      "status": "extracted-needs-rule-review"
+    },
+    {
+      "code": "CS5820",
+      "title": "Neural Networks & Deep Learning",
+      "sourceText": "Credits: 4\nThe majority of data in the world is unlabeled and unstructured, for instance images, sound, and text data. Shallow\nneural networks cannot easily capture relevant structures within this type of data, but deep networks are capable of\ndiscovering the hidden structures. Therefore, the demand for deep learning skills is continuing to grow, as AI becomes\nmore pervasive in our societies. In this course, you will learn about some of the inspiring and motivating applications of\ndeep learning. You will learn about artificial neural networks and how they learn and optimize their parameters for a\ngiven task or application, and you will\nlearn about deep learning models such as convolutional neural networks, recurrent neural networks and autoencoders.\nFinally, you will learn how to use the Keras and TensorFlow library to build different deep learning models and apply\ndeep learning on different types of data to solve real world problems.\nPrerequisites\nCS 3550 or CS 4550 Database, and MA 2000 or MA3210 Statistics",
+      "status": "extracted-needs-rule-review"
+    }
+  ],
+  "reviewIssues": [
+    "CS5910 prerequisite/corequisite source ends with an incomplete condition; TC meaning unverified.",
+    "CS5810 has no prerequisite statement in this supplied PDF; do not assume no prerequisites.",
+    "Course entries include editorial notes and apparent title/description mismatches; review before importing.",
+    "CS5820 and CS5821 have separate source entries and remain distinct.",
+    "No working database changes."
+  ]
+}

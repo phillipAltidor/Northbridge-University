@@ -1,0 +1,61 @@
+{
+  "status": "source-transcribed-needs-implementation-review",
+  "program": "Computer Information Science, Minor",
+  "catalogEdition": "2026-2027 Undergraduate Catalog",
+  "sponsoringDepartment": "Mathematics/CIS",
+  "source": {
+    "pdf": "/Users/phillipaltidor/Downloads/Program_ Computer Information Science, Minor - SUNY Old Westbury.pdf",
+    "sha256": "c0a4a46e2f27a14ef2577b0ed2c09e29f94e2b70394c6a8d42b34e94dcec0bd5",
+    "url": "https://catalog.oldwestbury.edu/preview_program.php?catoid=19&poid=1656&returnto=502&print",
+    "pages": 1,
+    "receivedDate": "2026-11-07"
+  },
+  "requirements": {
+    "minimumCourses": 5,
+    "minimumCredits": 20,
+    "core": {
+      "credits": 16,
+      "courses": [
+        "CS2510",
+        "CS2511",
+        "CS3810",
+        "CS4501"
+      ]
+    },
+    "elective": {
+      "count": 1,
+      "credits": 4,
+      "subject": "CS",
+      "sourceLevels": [
+        "4000",
+        "5000"
+      ],
+      "excludedCourses": [
+        "CS4100",
+        "CS5620"
+      ]
+    },
+    "minimumGrade": {
+      "grade": "C",
+      "sourceScope": "all required courses for the minor"
+    },
+    "minimumCreditsOutsideMajorRequirements": 16,
+    "maximumTransferredCourses": 2,
+    "prerequisiteSubstitutions": [
+      {
+        "requiredCourse": "MA2090",
+        "allowedSubstitute": "MA2080"
+      },
+      {
+        "requiredCourse": "MA2310",
+        "allowedSubstitute": "MA2300"
+      }
+    ]
+  },
+  "notes": [
+    "Math prerequisites must be checked separately from the 20 minor credits; do not count them automatically as minor requirements.",
+    "Prerequisite substitutions are transcribed from this minor page; their scope outside this minor is not established.",
+    "The 16-credit outside-major rule must be evaluated against the student's actual major requirements.",
+    "No working database changes."
+  ]
+}

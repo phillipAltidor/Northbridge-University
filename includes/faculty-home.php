@@ -7,7 +7,7 @@ $meetings = faculty_schedule_meetings($pdo, (int) $_SESSION['user_id'], $timelin
 $week = meeting_schedule_week($meetings, $today);
 $actions = [
     ['Semester Schedule', 'faculty/schedule.php', 'quick-master-schedule.png'],
-    ['Course Rosters', null, 'quick-faculty-rosters.png'],
+    ['Course Rosters', 'faculty/rosters.php', 'quick-faculty-rosters.png'],
     ['Advisee List', null, 'quick-student-information.png'],
 ];
 ?>
@@ -55,7 +55,7 @@ $actions = [
                         <?php if (!$day['meetings']): ?><p class="student-week-empty">No classes</p><?php endif; ?>
                         <?php foreach ($day['meetings'] as $meeting): ?>
                             <div class="student-week-meeting">
-                                <strong><?= e($meeting['course_ID']) ?> · <?= e($meeting['section_No']) ?></strong>
+                                <strong><?= e($meeting['display_course_ID'] ?? $meeting['course_ID']) ?> · <?= e($meeting['display_section'] ?? $meeting['section_No']) ?></strong>
                                 <p><?= e($meeting['course_Name']) ?></p>
                                 <p><?= e(meeting_schedule_time($meeting['start_Time']) . ' - ' . meeting_schedule_time($meeting['end_Time'])) ?></p>
                                 <p class="muted"><?= e($meeting['Bldg_Name'] ?? 'Building unassigned') ?><?= $meeting['room_Number'] !== null ? ' · Room ' . e($meeting['room_Number']) : '' ?></p>

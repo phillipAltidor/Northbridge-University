@@ -23,6 +23,25 @@ if (!$student) {
     http_response_code(404);
 }
 
+$academicRecord = $student ? one(
+    $pdo,
+    "SELECT s.student_Type, s.student_Year, m.major_Name, d.dept_Name,
+            CASE s.student_Type
+                WHEN 'Undergraduate' THEN u.undergraduate_student_Type
+                WHEN 'Graduate' THEN g.graduate_Student_Type
+            END AS enrollment_Type
+     FROM Student s
+     LEFT JOIN Undergraduate u ON u.student_ID=s.student_ID AND s.student_Type='Undergraduate'
+     LEFT JOIN Graduate_Student g ON g.student_ID=s.student_ID AND s.student_Type='Graduate'
+     LEFT JOIN Major m ON m.major_ID=s.major_ID
+     LEFT JOIN Department d ON d.dept_ID=CASE s.student_Type
+         WHEN 'Undergraduate' THEN u.dept_ID
+         WHEN 'Graduate' THEN g.dept_ID
+     END
+     WHERE s.student_ID=?",
+    [(int) $_SESSION['user_id']]
+) : null;
+
 page_start('My Profile', 'Student', 'student/information.php', null, false);
 
 ?>
@@ -37,6 +56,19 @@ page_start('My Profile', 'Student', 'student/information.php', null, false);
         $student['last_Name']
     ], static fn($part) => $part !== null && $part !== ''));
 
+    $level = $academicRecord['student_Type'] ?? null;
+    $year = (int) ($academicRecord['student_Year'] ?? 0);
+    $standing = $year > 0 ? 'Year ' . $year : null;
+    if ($level === 'Undergraduate') {
+        $standing = [1 => 'Freshman', 2 => 'Sophomore', 3 => 'Junior', 4 => 'Senior'][$year] ?? $standing;
+    }
+    $academic = [
+        'Student Level' => $level,
+        $level === 'Graduate' ? 'Graduate Year' : 'Class Standing' => $standing,
+        'Enrollment Type' => $academicRecord['enrollment_Type'] ?? null,
+        'Major' => $academicRecord['major_Name'] ?? null,
+        'Department' => $academicRecord['dept_Name'] ?? null,
+    ];
     $personal = [
         'First Name' => $student['first_Name'],
         'Middle Name' => $student['middle_Name'],
@@ -60,7 +92,7 @@ page_start('My Profile', 'Student', 'student/information.php', null, false);
         </header>
         <div class="profile-layout">
             <div class="profile-details">
-                <?php foreach (['Personal Details' => $personal, 'Contact Details' => $contact] as $heading => $fields): ?>
+                <?php foreach (['Academic Details' => $academic, 'Personal Details' => $personal, 'Contact Details' => $contact] as $heading => $fields): ?>
                     <section class="profile-section" aria-label="<?= e($heading) ?>">
                         <h2><?= e($heading) ?></h2>
                         <dl class="profile-fields">

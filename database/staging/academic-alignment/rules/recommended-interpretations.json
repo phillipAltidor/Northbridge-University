@@ -1,0 +1,61 @@
+[
+  {
+    "id": "REC-ED-MATH-001",
+    "decision": "Offer Mathematics as the initial Education concentration; retain other source options for later expansion.",
+    "basis": "Complete 32-credit definition available; shares reviewed math catalog; no student reassignment.",
+    "source": "supplemental-sources/education-concentrations.json",
+    "authority": "user delegated recommendations on November 7, 2026",
+    "status": "adopted-northbridge-project-interpretation",
+    "workingDataApplied": false
+  },
+  {
+    "id": "REC-BIO-CREDITS-001",
+    "decision": "Require at least six distinct upper-level elective/distribution course units AND 24 credits. Permit additional eligible courses if 3-credit options leave a shortfall.",
+    "basis": "Preserves both published minima rather than dropping a credit requirement.",
+    "authority": "user delegated recommendations on November 7, 2026",
+    "status": "adopted-northbridge-project-interpretation",
+    "workingDataApplied": false
+  },
+  {
+    "id": "REC-PH-COUNT-001",
+    "decision": "Use all explicit groups (one biology + eight PH core + three electives); count actual biology credits.",
+    "basis": "Specific listed requirements take precedence over a loose minimum-course summary.",
+    "authority": "user delegated recommendations on November 7, 2026",
+    "status": "adopted-northbridge-project-interpretation",
+    "workingDataApplied": false
+  },
+  {
+    "id": "REC-PHYSICS-ASTRO-001",
+    "decision": "Treat astronomy lecture/lab as one elective bundle; count actual credits and preserve at least two upper-level elective units.",
+    "basis": "Source lists lecture AND lab within the elective choices.",
+    "authority": "user delegated recommendations on November 7, 2026",
+    "status": "adopted-northbridge-project-interpretation",
+    "workingDataApplied": false
+  },
+  {
+    "id": "REC-MANUAL-001",
+    "decision": "Use reviewed evidence for genuinely unsupported rules; never treat missing data as a pass.",
+    "basis": "User delegated routine recommendations; this does not authorize invented official facts.",
+    "authority": "user delegated recommendations on November 7, 2026",
+    "status": "adopted-northbridge-project-interpretation",
+    "workingDataApplied": false
+  },
+  {
+    "id": "REC-SY2222-001",
+    "status": "adopted-display-choice",
+    "decision": "Use Care & Care Work as the display title for SY2222, preserving Sociology of Caring and The Work of Caring as title variants and all source entries.",
+    "authority": "Delegated recommendation; source entry explicitly says the title was updated.",
+    "changesCourseCreditOrHistory": false
+  },
+  {
+    "id": "REC-SOURCE-GAPS-001",
+    "status": "accepted-staging-provenance-limitation",
+    "decision": "Retain original CS/MA extracted text and hashes as evidence; do not ask for repeated uploads or label them as reverified PDFs. Matching original PDFs are unavailable.",
+    "scope": "isolated test/source staging; provenance warning remains in final checklist"
+  },
+  {
+    "id": "REC-ED5925-GATE-001",
+    "status": "manual-prerequisite-review-required",
+    "decision": "Keep the historical ED5925 course version, but require logged academic review for its malformed prerequisite expression instead of inventing ED400 or dropping the condition."
+  }
+]

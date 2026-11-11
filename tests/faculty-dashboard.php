@@ -12,10 +12,10 @@ function faculty_check(bool $pass, string $label): void
 $groups = faculty_nav_groups();
 faculty_check(count($groups) === 4 && array_sum(array_map(static fn($g) => count($g[1]), $groups)) === 19, 'Faculty requirements mapped to four groups and 19 actions');
 $_SERVER['SCRIPT_NAME'] = '/home.php';
-foreach (['home.php', 'faculty/information.php', 'faculty/schedule.php', 'faculty/schedule.php?term=next'] as $active) {
+foreach (['home.php', 'faculty/information.php', 'faculty/degree-audit.php', 'faculty/rosters.php', 'faculty/schedule.php', 'faculty/schedule.php?term=next'] as $active) {
     ob_start(); faculty_navigation($active); $html = ob_get_clean();
     $dom = new DOMDocument(); @$dom->loadHTML($html); $xpath = new DOMXPath($dom);
-    faculty_check($xpath->query('//a')->length === 3 && $xpath->query('//span[@aria-disabled="true"]')->length === 17, 'Only Faculty Home, profile, and schedule are linked');
+    faculty_check($xpath->query('//a')->length === 5 && $xpath->query('//span[@aria-disabled="true"]')->length === 15, 'Only implemented Faculty pages, including Student Degree Audit, are linked');
     faculty_check($xpath->query('//a[@aria-current="page"]')->length === 1 && $xpath->query('//details[@open]')->length === 0, 'Faculty active link and collapsed groups are correct');
     faculty_check(!str_contains($html, '/admin/') && !str_contains($html, '/student/'), 'No cross-role navigation');
 }

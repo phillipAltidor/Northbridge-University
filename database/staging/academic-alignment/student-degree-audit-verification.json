@@ -1,0 +1,12 @@
+{
+    "status": "all-undergraduate-live-degree-audits-verified",
+    "studentsAudited": 2200,
+    "auditsRendered": 2200,
+    "majorsCovered": 12,
+    "minorsRepresented": 11,
+    "advisingNotices": 354,
+    "currentAndPlannedCreditsKeptSeparate": true,
+    "databaseWrites": false,
+    "graduateScope": "not-configured",
+    "checkedDateNewYork": "2026-11-09"
+}

@@ -1,0 +1,5 @@
+# Preserve archived evidence byte-for-byte and treat PDFs as binary documents.
+*.pdf binary
+database/staging/academic-alignment/supplemental-sources/*.html -whitespace
+# Exported seed hashes include their original final newline layout.
+database/data/academic_rebuild.sql whitespace=-blank-at-eof

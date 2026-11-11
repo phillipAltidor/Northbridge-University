@@ -1,0 +1,27 @@
+{
+    "status": "all-student-program-mapping-review-with-limited-diagnostics",
+    "asOf": "2026-11-07",
+    "studentRecordsReviewed": 3338,
+    "undergraduatesReviewed": 2200,
+    "graduatesExcluded": 1138,
+    "undergraduateMinorDeclarationsReviewed": 300,
+    "candidateProgramPathEvaluations": 3852,
+    "engineStatusesUnderAssumptions": {
+        "unsatisfied": 3852
+    },
+    "historyEnrollmentGradeOrCourseConflicts": 0,
+    "targetCourseCollisions": 0,
+    "approvedProgramAssignments": 0,
+    "approvedCourseEquivalencies": 0,
+    "verifiedStudentDegreeVerdicts": 0,
+    "workingRecordsChanged": 0,
+    "legacyTablesUnchanged": 47,
+    "privateDirectory": "\/private\/tmp\/northbridge-mapping-review-4555c3da448d",
+    "detailedProjectionSHA256": "0d4471f732cfd522f674db6afb42312094157f956a48fcb2f360bfb0706c420e",
+    "limitations": [
+        "29 explicit topic\/credit assumptions support limited diagnostics only; they are not approved equivalent courses.",
+        "Unmapped courses retain original meanings and grades; omissions cannot be read as lost credit or final graduation deficits.",
+        "GE, course attributes, English proficiency, transfer\/admission status and overlap require actual reviewed student evidence.",
+        "No grade, program assignment, course identity or graduation verdict is written."
+    ]
+}

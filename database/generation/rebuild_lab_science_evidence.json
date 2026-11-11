@@ -1,0 +1,301 @@
+{
+  "BS2100": {
+    "sourceTitle": "Biology for Non-science Majors",
+    "sourceMetadataSHA256": "c51454952d4cc10a9516cc63aa454f941f56d2d8d117627b54c3b77de79ae82a",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/2.pdf",
+        "sha256": "0d59968c08600084967a2eb248ec8347287184fff37b86db086da70670e1de22",
+        "page": 1
+      }
+    ],
+    "basis": "Explicit lecture/laboratory course description.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "BS2301": {
+    "sourceTitle": "Anatomy and Physiology I Laboratory",
+    "sourceMetadataSHA256": "513137d2b4f6077905b9e1554cf647f056dcbc12eb9ca53357441df94b2e63c8",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/2.pdf",
+        "sha256": "0d59968c08600084967a2eb248ec8347287184fff37b86db086da70670e1de22",
+        "page": 2
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "BS2311": {
+    "sourceTitle": "Anatomy and Physiology II Laboratory",
+    "sourceMetadataSHA256": "b7a2061b46b8c757bb99bd5ea31db95954454337b99e9e2388a46bee0d3fb596",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/2.pdf",
+        "sha256": "0d59968c08600084967a2eb248ec8347287184fff37b86db086da70670e1de22",
+        "page": 3
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "BS2401": {
+    "sourceTitle": "Basic Biosciences I Lab",
+    "sourceMetadataSHA256": "a1de0f53cb32480f73ca5151d1f2079b64a1806fd1ba4f7ea95ceaf4fb12656b",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/2.pdf",
+        "sha256": "0d59968c08600084967a2eb248ec8347287184fff37b86db086da70670e1de22",
+        "page": 4
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "BS2411": {
+    "sourceTitle": "Basic Biosciences II Lab",
+    "sourceMetadataSHA256": "057584330d2c824e6a7dc2ab8e0216d490223e63fdb6a0af632d1e26b47d234e",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/2.pdf",
+        "sha256": "0d59968c08600084967a2eb248ec8347287184fff37b86db086da70670e1de22",
+        "page": 5
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "BS3531": {
+    "sourceTitle": "Comparative Genomics Lab",
+    "sourceMetadataSHA256": "cafac9b554dad8907b5f2eabc468b5584f1712b7bff10a0fe4a8fdcd1eedf7b3",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/2.pdf",
+        "sha256": "0d59968c08600084967a2eb248ec8347287184fff37b86db086da70670e1de22",
+        "page": 9
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "CP2001": {
+    "sourceTitle": "Chemistry for Non-Majors Laboratory",
+    "sourceMetadataSHA256": "10b2345abdec73e586c4b83d866a4d34390216c5f446a06f392a3959439b86e2",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+        "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+        "page": 1
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "CP2121": {
+    "sourceTitle": "Principles of Chemistry Lab I",
+    "sourceMetadataSHA256": "ce0cf234014eb92efba2cc94ddef551ec6d82e9230938a19a1961ca1728efb49",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+        "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+        "page": 3
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "CP2131": {
+    "sourceTitle": "Principles of Chemistry Lab II",
+    "sourceMetadataSHA256": "49a177bbc408a17e98b519d34b1889a00e4c407bf6bcdc81384572c4015c1a38",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+        "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+        "page": 4
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "CP2211": {
+    "sourceTitle": "Physical Science Laboratory",
+    "sourceMetadataSHA256": "72d7947d3db975632c00b0cbe2c31c4f9663550f76c184b9210e9fce5f826a05",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+        "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+        "page": 4
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "CP2301": {
+    "sourceTitle": "Weather Studies Lab",
+    "sourceMetadataSHA256": "4b3e26a92e06d7250d424c57a633a34661c5d71cdb68bc0479336953f528cec8",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+        "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+        "page": 5
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "CP2401": {
+    "sourceTitle": "Ocean Studies Lab",
+    "sourceMetadataSHA256": "eb24bc70d3f98697e9379f5e3fda3aed80e75a6891088cea167da26018c8fcf3",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+        "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+        "page": 6
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "CP2501": {
+    "sourceTitle": "Climate Studies Lab",
+    "sourceMetadataSHA256": "5049a8100a87c4908f49fe3bb7b5f0c4da4c9d03f4eea249130d7e869ef4b2a3",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+        "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+        "page": 7
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "CP3302": {
+    "sourceTitle": "Organic Chemistry Lab I",
+    "sourceMetadataSHA256": "cb238896b6ea01b54569336b6e0a7f062f619e3ca6797a90f10b46c96cbc83b6",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+        "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+        "page": 9
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "CP3312": {
+    "sourceTitle": "Organic Chemistry Lab II",
+    "sourceMetadataSHA256": "4201614f7ea3316e63c0b9c981ba252014b1696aeb9650cd371f2af444cf03c0",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+        "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+        "page": 9
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "CP4520": {
+    "sourceTitle": "Biochemistry Lab",
+    "sourceMetadataSHA256": "b6be4c450c6859a6f34e1250367d814e3a3d92cfd918a5bf220e0d17bd8517a0",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+        "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+        "page": 12
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "CP4720": {
+    "sourceTitle": "Physical Chemistry Lab",
+    "sourceMetadataSHA256": "c73710d48ec995d9fec0985590daf734256e2ed3c0e6f781f154111b70adda48",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/4.pdf",
+        "sha256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+        "page": 14
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "PX2001": {
+    "sourceTitle": "Physics 1, Algebra Based Lab",
+    "sourceMetadataSHA256": "e082b373ee62d21bc4472278d644d2cf0ae43b1030ba4e8075439e6bf5b960d5",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/14.pdf",
+        "sha256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+        "page": 1
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "PX2101": {
+    "sourceTitle": "Physics 2, Algebra-based Lab",
+    "sourceMetadataSHA256": "506a49007f75ae55acfa99149ae366a5500a120d272b7c4ae2201244fe8f86f1",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/14.pdf",
+        "sha256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+        "page": 2
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "PX2201": {
+    "sourceTitle": "Physics 1, Calculus-based lab",
+    "sourceMetadataSHA256": "55a98225ea3254e7969a525b46ab9c7c63297827519a70435313984d4560c3fc",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/14.pdf",
+        "sha256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+        "page": 3
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "PX2301": {
+    "sourceTitle": "Physics 2, Calculus-based Lab",
+    "sourceMetadataSHA256": "e6046e1ebddb8815644ab34a8f33cf6e7272a2df5a4e4b094bb840ae2b672863",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/14.pdf",
+        "sha256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+        "page": 5
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "PX2901": {
+    "sourceTitle": "Astronomy Laboratory",
+    "sourceMetadataSHA256": "14fc27c60fe6c89b5efa4fead38d17dbbd4da9e6dbd19a913e2f11222ba49025",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/14.pdf",
+        "sha256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+        "page": 6
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  },
+  "PX3900": {
+    "sourceTitle": "Experimental Physics and Electronics Lab",
+    "sourceMetadataSHA256": "fc488de7464c12653114ea29ea7380da72519887cbc2183d440a8ed65c069aa2",
+    "sourceEvidence": [
+      {
+        "pdf": "/Users/phillipaltidor/Downloads/14.pdf",
+        "sha256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+        "page": 10
+      }
+    ],
+    "basis": "Explicit laboratory course title in a science subject.",
+    "scope": "prerequisite-laboratory-science-only"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "BS2400": {
+    "rule": {
+      "type": "and",
+      "rules": [
+        {
+          "type": "proficiency",
+          "key": "ECI"
+        },
+        {
+          "type": "corequisite-condition",
+          "rule": {
+            "type": "course",
+            "courseCode": "BS2401",
+            "minimumGrade": null
+          }
+        }
+      ]
+    },
+    "sourceRuleSHA256": "c60c778a17d5f90ae58d859fbe6b90a53a1fc8d844dbbe4be9bf471876187339",
+    "status": "reviewed-sufficient-source-route",
+    "source": "Supplied 2026-2027 complete catalog course entry",
+    "doesNotWaiveAmbiguousAlternative": true
+  },
+  "BS2401": {
+    "rule": {
+      "type": "and",
+      "rules": [
+        {
+          "type": "proficiency",
+          "key": "ECI"
+        },
+        {
+          "type": "corequisite-condition",
+          "rule": {
+            "type": "course",
+            "courseCode": "BS2400",
+            "minimumGrade": null
+          }
+        }
+      ]
+    },
+    "sourceRuleSHA256": "eb3849f5b5dfe5267775c7530f9ed73828714bd0026f9e0d7192c8dfe53f3932",
+    "status": "reviewed-sufficient-source-route",
+    "source": "Supplied 2026-2027 complete catalog course entry",
+    "doesNotWaiveAmbiguousAlternative": true
+  },
+  "BS2410": {
+    "rule": {
+      "type": "and",
+      "rules": [
+        {
+          "type": "course",
+          "courseCode": "BS2400",
+          "minimumGrade": "C"
+        },
+        {
+          "type": "course",
+          "courseCode": "BS2401",
+          "minimumGrade": "C"
+        },
+        {
+          "type": "or",
+          "rules": [
+            {
+              "type": "course",
+              "courseCode": "MA1020",
+              "minimumGrade": null
+            },
+            {
+              "type": "review-required",
+              "reason": "The source math-proficiency alternative requires separate evidence review; MA1020 is an explicit sufficient course route."
+            }
+          ]
+        },
+        {
+          "type": "corequisite-condition",
+          "rule": {
+            "type": "course",
+            "courseCode": "BS2411",
+            "minimumGrade": null
+          }
+        }
+      ]
+    },
+    "sourceRuleSHA256": "197e3efa9a0882d228321d7630373fad6dcd8393e1a09b4701df28ed55c04eb9",
+    "status": "reviewed-sufficient-source-route",
+    "source": "Supplied 2026-2027 complete catalog course entry",
+    "doesNotWaiveAmbiguousAlternative": true
+  },
+  "BS2411": {
+    "rule": {
+      "type": "and",
+      "rules": [
+        {
+          "type": "course",
+          "courseCode": "BS2400",
+          "minimumGrade": "C"
+        },
+        {
+          "type": "course",
+          "courseCode": "BS2401",
+          "minimumGrade": "C"
+        },
+        {
+          "type": "or",
+          "rules": [
+            {
+              "type": "course",
+              "courseCode": "MA1020",
+              "minimumGrade": null
+            },
+            {
+              "type": "review-required",
+              "reason": "The source math-proficiency alternative requires separate evidence review; MA1020 is an explicit sufficient course route."
+            }
+          ]
+        },
+        {
+          "type": "corequisite-condition",
+          "rule": {
+            "type": "course",
+            "courseCode": "BS2410",
+            "minimumGrade": null
+          }
+        }
+      ]
+    },
+    "sourceRuleSHA256": "ddc64a16d2c79f03a45492a1c6c303863ae4058e03bd72fc44c3ad1fddd3d830",
+    "status": "reviewed-sufficient-source-route",
+    "source": "Supplied 2026-2027 complete catalog course entry",
+    "doesNotWaiveAmbiguousAlternative": true
+  },
+  "BU4180": {
+    "rule": {
+      "type": "or",
+      "rules": [
+        {
+          "type": "course",
+          "courseCode": "BU3250",
+          "minimumGrade": null
+        },
+        {
+          "type": "review-required",
+          "reason": "The MA3250 cross-list reference is not defined in the supplied course catalog. Do not invent a course or equivalency."
+        }
+      ]
+    },
+    "sourceRuleSHA256": "313b35643f72c9c18cec6a5aedeea1f5a91e2dd275fadc86970accd3ed76b3db",
+    "status": "reviewed-sufficient-source-route",
+    "source": "Supplied 2026-2027 complete catalog course entry",
+    "doesNotWaiveAmbiguousAlternative": true
+  },
+  "BU5180": {
+    "rule": {
+      "type": "and",
+      "rules": [
+        {
+          "type": "course",
+          "courseCode": "MA2000",
+          "minimumGrade": null
+        },
+        {
+          "type": "or",
+          "rules": [
+            {
+              "type": "course",
+              "courseCode": "BU3010",
+              "minimumGrade": null
+            },
+            {
+              "type": "course",
+              "courseCode": "BU3071",
+              "minimumGrade": null
+            }
+          ]
+        },
+        {
+          "type": "course",
+          "courseCode": "BU3250",
+          "minimumGrade": null
+        },
+        {
+          "type": "course",
+          "courseCode": "CS2521",
+          "minimumGrade": null
+        }
+      ]
+    },
+    "sourceRuleSHA256": "b803b9ebb93c0b7a0cddd173cf95b03c6716d0f859e9a97dd8718fcb81a22f8a",
+    "status": "reviewed-sufficient-source-route",
+    "source": "Supplied 2026-2027 complete catalog course entry",
+    "doesNotWaiveAmbiguousAlternative": true
+  }
+}

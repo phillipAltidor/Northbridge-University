@@ -1,0 +1,559 @@
+{
+  "status": "minimum-enrollment-review-proposal-not-applied",
+  "term": "202702",
+  "sectionsReviewed": 439,
+  "underMinimumSections": 33,
+  "affectedCourses": 31,
+  "categories": {
+    "course-demand-below-five": 12,
+    "consolidation-review": 2,
+    "rebalance-existing-sections": 17
+  },
+  "solverStatus": "FEASIBLE",
+  "proposedRosterMoves": 51,
+  "sectionsUnderMinimumAfterProposal": 16,
+  "coursesResolvedByProposal": 17,
+  "courseMembershipPreserved": true,
+  "studentConflicts": 0,
+  "sectionsCanceled": 0,
+  "databaseChanged": false,
+  "activationAllowed": false,
+  "cutoffPolicy": "No approved cancellation review deadline is configured; no cancellation is inferred.",
+  "courses": [
+    {
+      "courseKey": "AS2640",
+      "category": "course-demand-below-five",
+      "courseEnrollment": 2,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        2
+      ],
+      "proposedGroupSizes": [
+        2
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "BS2410",
+      "category": "course-demand-below-five",
+      "courseEnrollment": 1,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        1
+      ],
+      "proposedGroupSizes": [
+        1
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "BS2411",
+      "category": "course-demand-below-five",
+      "courseEnrollment": 1,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        1
+      ],
+      "proposedGroupSizes": [
+        1
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "CS2000",
+      "category": "consolidation-review",
+      "courseEnrollment": 12,
+      "underMinimumSections": 2,
+      "beforeGroupSizes": [
+        10,
+        1,
+        1
+      ],
+      "proposedGroupSizes": [
+        10,
+        1,
+        1
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "CS2510",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 87,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        5,
+        10,
+        2
+      ],
+      "proposedGroupSizes": [
+        10,
+        7,
+        10,
+        10,
+        10,
+        10,
+        10,
+        5,
+        10,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "CS3810",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 21,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        10,
+        1
+      ],
+      "proposedGroupSizes": [
+        6,
+        10,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "ED4121",
+      "category": "course-demand-below-five",
+      "courseEnrollment": 3,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        3
+      ],
+      "proposedGroupSizes": [
+        3
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "ED4200",
+      "category": "course-demand-below-five",
+      "courseEnrollment": 1,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        1
+      ],
+      "proposedGroupSizes": [
+        1
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "ED4220",
+      "category": "consolidation-review",
+      "courseEnrollment": 6,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        5,
+        1
+      ],
+      "proposedGroupSizes": [
+        5,
+        1
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "EL2216",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 227,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        5,
+        2
+      ],
+      "proposedGroupSizes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        8,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        9,
+        10,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "EL4030",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 14,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        4
+      ],
+      "proposedGroupSizes": [
+        9,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "EL4800",
+      "category": "course-demand-below-five",
+      "courseEnrollment": 3,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        3
+      ],
+      "proposedGroupSizes": [
+        3
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "EL5010",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 14,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        4
+      ],
+      "proposedGroupSizes": [
+        9,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "MC2802",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 11,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        1
+      ],
+      "proposedGroupSizes": [
+        6,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "MC3822",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 29,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        6,
+        10,
+        3
+      ],
+      "proposedGroupSizes": [
+        8,
+        6,
+        10,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "MD1112",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 32,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        10,
+        10,
+        2
+      ],
+      "proposedGroupSizes": [
+        7,
+        10,
+        10,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "PH3325",
+      "category": "course-demand-below-five",
+      "courseEnrollment": 2,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        2
+      ],
+      "proposedGroupSizes": [
+        2
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "PH3600",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 17,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        6,
+        1
+      ],
+      "proposedGroupSizes": [
+        6,
+        6,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "PH3610",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 31,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        10,
+        10,
+        1
+      ],
+      "proposedGroupSizes": [
+        6,
+        10,
+        10,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "PH3750",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 51,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        1
+      ],
+      "proposedGroupSizes": [
+        6,
+        10,
+        10,
+        10,
+        10,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "PH5920",
+      "category": "course-demand-below-five",
+      "courseEnrollment": 4,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        4
+      ],
+      "proposedGroupSizes": [
+        4
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "PX2001",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 12,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        2
+      ],
+      "proposedGroupSizes": [
+        7,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "PX3600",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 13,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        3
+      ],
+      "proposedGroupSizes": [
+        8,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "PX4100",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 12,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        2
+      ],
+      "proposedGroupSizes": [
+        7,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "PX5100",
+      "category": "course-demand-below-five",
+      "courseEnrollment": 4,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        4
+      ],
+      "proposedGroupSizes": [
+        4
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "PY3010",
+      "category": "course-demand-below-five",
+      "courseEnrollment": 3,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        3
+      ],
+      "proposedGroupSizes": [
+        3
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "PY3410",
+      "category": "course-demand-below-five",
+      "courseEnrollment": 3,
+      "underMinimumSections": 2,
+      "beforeGroupSizes": [
+        2,
+        1
+      ],
+      "proposedGroupSizes": [
+        2,
+        1
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "PY4010",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 20,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        7,
+        3,
+        10
+      ],
+      "proposedGroupSizes": [
+        6,
+        5,
+        9
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "VA2045",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 11,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        1
+      ],
+      "proposedGroupSizes": [
+        6,
+        5
+      ],
+      "resolvedByProposal": true
+    },
+    {
+      "courseKey": "VA2510",
+      "category": "course-demand-below-five",
+      "courseEnrollment": 1,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        1
+      ],
+      "proposedGroupSizes": [
+        1
+      ],
+      "resolvedByProposal": false
+    },
+    {
+      "courseKey": "VA3340",
+      "category": "rebalance-existing-sections",
+      "courseEnrollment": 21,
+      "underMinimumSections": 1,
+      "beforeGroupSizes": [
+        10,
+        10,
+        1
+      ],
+      "proposedGroupSizes": [
+        7,
+        9,
+        5
+      ],
+      "resolvedByProposal": true
+    }
+  ],
+  "parentScheduleFileSHA256": "c814f689766d079905ac8ab13974e0959598a9fa851183822994bd4a5c3a192b",
+  "proposalScheduleFileSHA256": "72b19b9659ce13fce5e8a6ec9f13b83d9cb52fdd526d3515d165d5418867c5b3"
+}

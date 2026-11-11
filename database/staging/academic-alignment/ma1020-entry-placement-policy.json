@@ -1,0 +1,52 @@
+{
+  "status": "approved-project-policy-staged-not-active",
+  "decisionId": "NB-ENTRY-MA1020-20261108",
+  "courseCode": "MA1020",
+  "authority": "Owner-authorized fictional Northbridge undergraduate entry-placement policy",
+  "isOfficialOldWestburyCorrection": false,
+  "sourceRuleSHA256": "9289b70c43b2328acbd5a9e22f435a801005016309775e0f4c7f0edb54f7d637",
+  "rule": {
+    "type": "or",
+    "rules": [
+      {
+        "type": "or",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA1010",
+            "minimumGrade": "C",
+            "minimumGradeStatus": "explicit"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2000",
+            "minimumGrade": "C",
+            "minimumGradeStatus": "explicit"
+          }
+        ]
+      },
+      {
+        "type": "scoped-evidence",
+        "scope": "placement:MA1020-entry",
+        "authority": "northbridge-admissions-simulation"
+      }
+    ]
+  },
+  "evidencePolicy": {
+    "scope": "placement:MA1020-entry",
+    "fictionalSimulation": true,
+    "appliesTo": "fictional-undergraduates-only",
+    "grantsCredits": false,
+    "waivesMA1020ForCS2510": false,
+    "requiresStudentBinding": true,
+    "requiresEffectiveTerm": true
+  },
+  "schemaChangeRequired": false,
+  "databaseChanged": false,
+  "notes": [
+    "Retain original course-based routes.",
+    "Placement permits entry to MA1020 only; does not prove MA1020 completion.",
+    "Use existing NB_AcademicStudent.profile_JSON registrarEvidence; do not edit grades.",
+    "Runtime rule package must be versioned and parity-checked before activation."
+  ]
+}

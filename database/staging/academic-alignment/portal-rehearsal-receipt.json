@@ -1,0 +1,18 @@
+{
+    "status": "portal-rows-materialized-in-isolated-rehearsal",
+    "targetDatabase": "northbridge_ow_rebuild_2026_5",
+    "candidateSHA256": "60148936e1a0cd334864e21bb428ca3302af9f537ea5874bdd334e0e16e7cfcd",
+    "planFileSHA256": "2e166c11afb1e7168616c3eb20bcc616aa42ea8d10d9ded2e67a2e5e571f95f0",
+    "students": 2200,
+    "sections": 4801,
+    "exactMeetingRows": 7875,
+    "checks": {
+        "foreignKeyConstraintsChecked": 76,
+        "protectedIdentityAndGraduateTablesUnchanged": true,
+        "historySectionMismatches": 0,
+        "seatCountMismatches": 0
+    },
+    "workingDatabaseChanged": false,
+    "portalConfigurationChanged": false,
+    "activationPermitted": false
+}

@@ -52,6 +52,23 @@ creating the schema. Its temporary recovery rows are not shared seed data.
 42. `database/data/student_history.sql`
 43. `database/data/faculty_history.sql`
 44. `database/data/attendance.sql`
+45. `database/migrations/2026-11-07-portal-academic-rebuild.sql`
+46. `database/data/academic_rebuild.sql`
+
+Steps 45–46 supply the active 2026–2027 undergraduate catalog, program rules,
+fictional registrar profiles, source CRN labels and exact meeting rows. Apply
+that schema once on a fresh installation, after the ordinary referenced tables
+exist. Keep the rebuilt seed files together; do not mix them with older course,
+section, enrollment, history or program seeds. Load rosters before installing
+seat triggers because the section seed already contains final seat counts.
+Original people/account seed files were not changed by the rebuild.
+
+The versioned tables supply full AND/OR requirements and prerequisites. Legacy
+flat requirement tables remain for protected legacy meanings and cannot express
+the new rule structure. Exact undergraduate meetings use `NB_AcademicMeeting`;
+legacy day × period mappings must not be used to reconstruct those meetings.
+See [active rebuild and rollback](../docs/academic-rebuild-status.md).
+
 
 After importing the data, run
 `php database/migrations/master_schedule_requirements.php --apply` to audit the
@@ -60,7 +77,8 @@ rosters/attendance and install the enrollment seat-count triggers. See
 rosters: the section seeds already contain their final available-seat counts.
 
 The four enrollment/history/attendance seeds now represent the approved academic
-snapshot in `config/academic-timeline.php`: October 22, 2026. Enrollment retains
+snapshot captured by their export receipt. The application date in
+`config/academic-timeline.php` is live; it does not regenerate seed data. Enrollment retains
 current and planned registrations, with NULL final grades for Fall 2026 and
 later. Completed student/faculty histories contain only earlier semesters.
 Fall 2026 attendance stops at the snapshot date; future terms have none.
@@ -102,11 +120,18 @@ unchanged. This dataset contains accounts distinct from the four demo accounts.
 `course_section.sql` and `historical_course_section.sql` both insert into
 Course_Section and must both be loaded before teaching/student histories.
 
-## Fall meeting durations
+## Meeting patterns and staged candidate
 
-New Period/Time_Slot mappings support 90-, 120-, and 180-minute meetings.
-The Fall section seed uses Monday/Wednesday, Tuesday/Thursday and Friday.
-Four-credit lectures use 120 minutes and four-credit labs 180 minutes per
-meeting. Existing Spring and historical time-slot definitions are retained.
-The current Fall dataset has no three-credit sections; 90-minute slots are
-available for those courses when introduced.
+Rebuilt undergraduate sections preserve the reviewed Old Westbury source
+meetings in `NB_AcademicMeeting`, including their dates. Custom four-credit
+lectures prefer Monday/Wednesday or Tuesday/Thursday for 100 minutes each;
+source-supported lab/studio and one-day patterns are handled separately.
+Do not apply a blanket 120-minute lecture or 180-minute lab rule to this data.
+Legacy graduate meetings retain their original day/period mappings.
+
+The current V11 test candidate and campus/count overlays remain private until
+cutover review. Repository installation seeds are an older snapshot and must
+not be described as the verified V11 test state. Use the matching private seed
+export receipt and PROJECT_HANDOFF.md for the reviewed candidate. Full-history
+exports include faculty subtype class counts for the configured current term.
+No schema changes or replacement of repository seeds are authorized by the audit.

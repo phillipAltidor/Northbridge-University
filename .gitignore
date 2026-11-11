@@ -5,3 +5,7 @@
 .DS_Store
 .vscode/
 /vendor/
+__pycache__/
+*.py[cod]
+.venv/
+venv/

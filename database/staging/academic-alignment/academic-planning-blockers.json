@@ -1,0 +1,182 @@
+{
+  "status": "read-only-diagnostic-not-infeasibility-proof",
+  "terms": {
+    "202609": {
+      "underloadedStudents": 22,
+      "diagnosticCategories": {
+        "individual-source-route-exists-needs-resource-or-bundle-search": 18,
+        "no-reviewed-in-person-offering": 4
+      },
+      "byMajor": {
+        "Business Administration, B.S.": {
+          "individual-source-route-exists-needs-resource-or-bundle-search": 4
+        },
+        "Childhood Education 1-6, B.S.": {
+          "individual-source-route-exists-needs-resource-or-bundle-search": 3
+        },
+        "English, B.A.": {
+          "no-reviewed-in-person-offering": 4
+        },
+        "Management Information Systems, B.S.": {
+          "individual-source-route-exists-needs-resource-or-bundle-search": 3
+        },
+        "Psychology, B.S.": {
+          "individual-source-route-exists-needs-resource-or-bundle-search": 8
+        }
+      },
+      "mostFrequentEligibleCoursesWithoutReviewedInPersonOffering": [
+        {
+          "course": "ML3300",
+          "students": 15
+        },
+        {
+          "course": "PY4010",
+          "students": 8
+        },
+        {
+          "course": "PY3240",
+          "students": 8
+        },
+        {
+          "course": "PY3311",
+          "students": 8
+        },
+        {
+          "course": "PY3330",
+          "students": 8
+        },
+        {
+          "course": "PY3430",
+          "students": 8
+        },
+        {
+          "course": "PY3510",
+          "students": 8
+        },
+        {
+          "course": "PY3550",
+          "students": 8
+        },
+        {
+          "course": "PY3570",
+          "students": 8
+        },
+        {
+          "course": "PY3620",
+          "students": 8
+        },
+        {
+          "course": "PY3710",
+          "students": 8
+        },
+        {
+          "course": "PY3720",
+          "students": 8
+        }
+      ]
+    },
+    "202702": {
+      "underloadedStudents": 132,
+      "diagnosticCategories": {
+        "individual-source-route-exists-needs-resource-or-bundle-search": 68,
+        "no-reviewed-in-person-offering": 45,
+        "no-eligible-useful-course": 19
+      },
+      "byMajor": {
+        "Accounting, B.S.": {
+          "individual-source-route-exists-needs-resource-or-bundle-search": 10
+        },
+        "Biological Sciences, B.S.": {
+          "no-reviewed-in-person-offering": 8,
+          "individual-source-route-exists-needs-resource-or-bundle-search": 3
+        },
+        "Business Administration, B.S.": {
+          "no-reviewed-in-person-offering": 12
+        },
+        "Childhood Education 1-6, B.S.": {
+          "individual-source-route-exists-needs-resource-or-bundle-search": 12
+        },
+        "Computer and Information Science, B.S.": {
+          "individual-source-route-exists-needs-resource-or-bundle-search": 7
+        },
+        "English, B.A.": {
+          "no-reviewed-in-person-offering": 13
+        },
+        "Management Information Systems, B.S.": {
+          "no-reviewed-in-person-offering": 5,
+          "individual-source-route-exists-needs-resource-or-bundle-search": 4,
+          "no-eligible-useful-course": 3
+        },
+        "Mathematics, B.S.": {
+          "individual-source-route-exists-needs-resource-or-bundle-search": 12
+        },
+        "Media & Communications, B.A.": {
+          "no-reviewed-in-person-offering": 7
+        },
+        "Physics, B.S.": {
+          "individual-source-route-exists-needs-resource-or-bundle-search": 7
+        },
+        "Psychology, B.S.": {
+          "individual-source-route-exists-needs-resource-or-bundle-search": 13
+        },
+        "Public Health, B.S.": {
+          "no-eligible-useful-course": 16
+        }
+      },
+      "mostFrequentEligibleCoursesWithoutReviewedInPersonOffering": [
+        {
+          "course": "ML3300",
+          "students": 67
+        },
+        {
+          "course": "MA4030",
+          "students": 24
+        },
+        {
+          "course": "MA4100",
+          "students": 24
+        },
+        {
+          "course": "BU5190",
+          "students": 22
+        },
+        {
+          "course": "EL5000",
+          "students": 13
+        },
+        {
+          "course": "PY4010",
+          "students": 13
+        },
+        {
+          "course": "MA3330",
+          "students": 12
+        },
+        {
+          "course": "MA4510",
+          "students": 12
+        },
+        {
+          "course": "MA3010",
+          "students": 12
+        },
+        {
+          "course": "BU5510",
+          "students": 10
+        },
+        {
+          "course": "BU5550",
+          "students": 10
+        },
+        {
+          "course": "BU5115",
+          "students": 10
+        }
+      ]
+    }
+  },
+  "limitation": "Individual source-route checks do not prove a feasible joint bundle, faculty/room assignment, seat allocation, or maximum load.",
+  "databaseChanged": false,
+  "schemaChanged": false,
+  "studentIdentifiersPublished": false
+}

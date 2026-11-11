@@ -1,0 +1,2817 @@
+[
+  {
+    "domain": "Diversity: Equity, Inclusion, and Social Justice",
+    "url": "https://www.oldwestbury.edu/general-education-diversity-equity-inclusion-and-social-justice",
+    "retrievedDate": "2026-11-07",
+    "sha256": "b534ee334b39c28d9cc1cad45241d9bc40b335542f0e1f8b4b0f69cba754272e",
+    "tableRows": [
+      [
+        "Approved General Education Courses",
+        "Legacy Program (Prior to Fall 23 Entry)",
+        "Current Program (Entry to OW in Fall 23 or later)"
+      ],
+      [
+        "AS1282 Introduction to African-American Studies (Previously AS2282)",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "AS1512 Introduction to Women's Studies",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "AS2202 Contemporary U.S. Society",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "AS2252 U.S. Social Movements (Previously AS3252)",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS2262 African-American History I (Previously AS3262)",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS2263 African-American History II (Previously AS3263)",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS2640 Introduction to US Latina/o History",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS3215 Crime, Protest & Policing",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS3222 History of City & Suburbs",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "AS3270 Africa in the Americas",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "AS3000 Feminism, Bodies, Power {dual listed with WS3000}",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "AS3462 A History of Women in the U.S.",
+        "American Experience w/Regents Exam 85 or higher {Prior to Fall 2014} / American Experience {Fall 2014-} / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS3842 African-Americans & the Mass Media",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "AS3852 Women & the Media",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "AS4000 Civil Rights and Congress I",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "AS4001 Civil Rights and Congress II",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "AS4218 Civil War & Reconstruction",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "AS4250 Immigration Today",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "AS4252 Immigration History",
+        "American Experience w/Regents Exam 85 or higher / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS4402 History of the Family in the U.S.",
+        "American Experience w/Regents Exam 85 or higher / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS4432 History of the Women\u2019s Movement",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "AS4715 African American thought and Culture",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "BU4110 Organizational Behavior & Management",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "CR3092 Victimology (Previously CR4092)",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "CR3117 Policing Bodies",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "ED3820 Foundations of Special Education",
+        "Diversity {Fall 2017-}",
+        "DEISJ"
+      ],
+      [
+        "EL2214 Literature & Liberation",
+        "Part 2 of Writing Proficiency with a grade of C or higher / Diversity",
+        "Communication Written and Oral / DEISJ"
+      ],
+      [
+        "EL2222 Women's Voices",
+        "Part 2 of Writing Proficiency with a grade of C or higher / Diversity",
+        "Communication Written and Oral / DEISJ"
+      ],
+      [
+        "EL3500 Literature Across Culture I",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL3510 Literature Across Culture II",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL3700 Survey of World Literature",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL3811 Survey of African-American Literature {not in the Catalog}",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "EL3870 Literatures of Africa",
+        "Humanities / Diversity {Spring 26- }",
+        "Humanities / DEISJ {Spring 26- }"
+      ],
+      [
+        "EL4000 Native American Literature",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4010 The Harlem Renaissance",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4015 Multi-Ethnic Literatures of the U.S.",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4020 Asian American Literature",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4030 Women & Narrative",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4040 Black Women Writers",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4050 Queer Literature (Previously Lesbian & Gay Literature)",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4070 Topics in African-American Literature",
+        "Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4080 Extraordinary Bodies: Disability Studies in Literature",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4090 The Afro-American Novel",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4091 Afro-American Poetry & Plays",
+        "Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4560 Multicultural British Literature",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4600 Literature of India",
+        "Humanities / Diversity {Spring 2026-}",
+        "Humanities / DEISJ {Spring 2026-}"
+      ],
+      [
+        "EL4630 Latin American Literature",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4690 PopLit",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4695 The literature of Wonder and Display",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "FY1000 Ethics of Engagement",
+        "Humanities {Fall 2015- } / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "HI3006 Environmental Ethics",
+        "Humanities {Spring 25-} / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "HI3610 America's African Heritage",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "HI3710 Contemporary Philosophical Issues",
+        "Humanities / Diversity {Spring 25- }",
+        "Humanities / DEISJ {Spring 25-}"
+      ],
+      [
+        "HI3720 Technology and Human Values",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "HI3752 Ethics",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "HI3452 Women in the Medieval Europe",
+        "Western Tradition / Diversity",
+        "World History & Global Awareness / DEISJ"
+      ],
+      [
+        "HI4015 Gender, Sex and Power in China {dual-listed with CR3940}",
+        "Major Cultures / Diversity",
+        "World History & Global Awareness / DEISJ"
+      ],
+      [
+        "HI4420 Women & Witchcraft",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "HI4650 The History of African Enslavement",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "IR3120 History of American Labor Relations",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "IR3300 Collective Bargaining & Grievance Procedure",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "IR3330 Women, Minorities & Work {dual listed with WS3585}",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "MC3842 African-Americans & the Mass Media (Previously AS3842)",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "MC3852 Women & the Media (Previously AS3852)",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "ML2601 Intro to Latin & Spanish Language Media",
+        "Foreign Languages / Humanities / Diversity",
+        "World Languages / Humanities / DEISJ"
+      ],
+      [
+        "ML3700 Digital Media in the Spanish World",
+        "Foreign Languages / Humanities / Diversity",
+        "World Languages / Humanities / DEISJ"
+      ],
+      [
+        "ML3310 Chicano/a Cultural Studies",
+        "Foreign Languages / Diversity {Fall 2016-}",
+        "World Languages / DEISJ"
+      ],
+      [
+        "ML3410 Latino Writers in the United States",
+        "Humanities / Diversity",
+        "World History & Global Awareness / Humanities / DEISJ"
+      ],
+      [
+        "ML4450 Hispanic Women Writers",
+        "Humanities / Diversity",
+        "World History & Global Awareness / Humanities / DEISJ"
+      ],
+      [
+        "ML4630 Latin American Literature",
+        "Humanities / Diversity",
+        "World History & Global Awareness / Humanities / DEISJ"
+      ],
+      [
+        "PE1650 The Politics of Comics",
+        "Creativity & The Arts / Diversity",
+        "The Arts / DEISJ"
+      ],
+      [
+        "PE3160 Ethnicity and Race in Global Perspective {Previously Ethnopolitics in the World}",
+        "Diversity {Fall 2022-}",
+        "DEISJ"
+      ],
+      [
+        "PE3690 City & Suburb: Political Action and change",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "PE3750 Politics of Race & Class",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "PE4409 Urban Economics",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "PE4450 The Politics of Gender and Sexuality in the U.S.",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "PE4659 Law & Civil Rights",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "PH2000 Introduction to Public Health",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "PH2450 Human Sexuality {dual listed with WS2785}",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "PH2900 Black Lives Matter: Health Inequities in the US",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "PH3600 Intro to Social Determinants of Health (Previously Intro to Health & Society) (Previously HS3600) {dual listed as WS3785}",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "PH3750 Mass Incarceration: A Public Health Crisis",
+        "Diversity / American Experience {never officially approved by SUNY for American History Category I}",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "PH3800 Medical Sociology {dual listed as SY3750}",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "PH4610 Women & Health (Previously HS4610)",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "PH4700 Medical Anthropology (Previously HS4700) {not offered 2020- }",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "PH4750 Aging & Social Policy (Previously HS4750)",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "PY2340 Community Psychology {not offered 2020- }",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "PY2530 Psychology of Prejudice",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "PY2720 Psychology of Gender",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "PY2730 The Psychology of Peoples of African Descent {not offered 2020- }",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "PY3230 Adulthood & Aging",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "PY3710 Psychology and Social Justice",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "PY3740 Psychology of Latinos {not offered 2020- }",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "PY3750 Psychology of Asian Americans",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "PY4230 Psychobiology of Aging",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "PY4720 Psychology of Women",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "PY4730 African-American Family Dynamics",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "SY2222 The Work of Caring",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "SY2800 Race, Class, Gender, Sexuality",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "SY3280 Social Inequality (Previously SY4280)",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "SY3700 Family & Society",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "SY3750 Medical Sociology (Previously SY4750) {dual listed with PH3800}",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "SY3800 Race & Ethnicity (Previously Sociology of Minorities)",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "SY3900 Social Movements (Previously SY4900)",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "SY4810 Law & Justice",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "SY4830 Gender & Society",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "SY4850 Urban & Suburban Sociology",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "WS1000 Intro to Women, Gender & Sexuality Studies {dual listed with AS1512}",
+        "Humanities {Fall 24-} / Diversity {Fall 24-}",
+        "Humanities / DEISJ {Fall 24-}"
+      ],
+      [
+        "WS1540 The Politics of Comics {dual listed with PE1650}",
+        "The Arts / Diversity",
+        "The Arts / DEISJ"
+      ],
+      [
+        "WS2110 US Social Movements {dual listed with AS2252}",
+        "American Experiences / Diversity {Fall 24-}",
+        "US History & Civic Engagement / DEISJ {Fall 24-}"
+      ],
+      [
+        "WS2285 Care & Care Work {dual listed with SY2222}",
+        "Social Science / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "WS2340 Women's Voices {dual listed with EL2222}",
+        "Part 2 of Writing Proficiency with a grade of C or higher / Diversity",
+        "Communication Written and Oral / DEISJ"
+      ],
+      [
+        "WS2785 Human Sexuality {dual listed with PH2450}",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "WS2885 Psychology of Gender {dual listed with PY2720}",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "WS2295 Race, Class, Gender & Sexuality {dual listed with SY2800}",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "WS3000 Feminism, Bodies, Power {dual listed with AS3000}",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "WS3120 History of Women in the US {dual listed with AS3462}",
+        "American Experiences / Diversity {Fall 24-}",
+        "US History & Civic Engagement / DEISJ {Fall 24-}"
+      ],
+      [
+        "WS3150 Women & Media {dual listed with AS3852}",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "WS3295 Family & Society {dual listed with SY3700}",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "WS3585 Women, Minorities, Workplace {dual listed with IR3330}",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "WS3785 Social Determinants of Health {dual listed with PH3600}",
+        "Diversity",
+        "DEISJ"
+      ],
+      [
+        "WS3940 Gender, Sex, and Power in China {dual listed with HI4015}",
+        "Major Cultures / Diversity",
+        "World History & Global Awareness / DEISJ"
+      ],
+      [
+        "WS4295 Gender & Society {dual listed with SY4830}",
+        "Social Science / Diversity",
+        "Social Science / DEISJ"
+      ],
+      [
+        "WS4340 Women & Narrative {dual listed with EL4030}",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ]
+    ],
+    "status": "reference-only-needs-effective-date-review"
+  },
+  {
+    "domain": "Mathematics",
+    "url": "https://www.oldwestbury.edu/general-education-mathematics",
+    "retrievedDate": "2026-11-07",
+    "sha256": "d20a5a8b95f29c6f0bf902fc45284d347a7adb0fbcaa035d477ca8d9374b77c0",
+    "tableRows": [
+      [
+        "Approved General Education Courses",
+        "Legacy Program (Prior to Fall 23 Entry)",
+        "Current Program (Entry to OW in Fall 23 or later)"
+      ],
+      [
+        "MA1020 College Algebra",
+        "Mathematics / Math Proficiency with a grade of C or higher",
+        "Mathematics / Math Proficiency with a grade of C or higher"
+      ],
+      [
+        "MA2000 Applied Statistics",
+        "Mathematics / Math Proficiency with a grade of C or higher",
+        "Mathematics / Math Proficiency with a grade of C or higher"
+      ],
+      [
+        "MA2050 Quantitative Reasoning & Decision-Making",
+        "Mathematics / Math Proficiency with a grade of C or higher",
+        "Mathematics / Math Proficiency with a grade of C or higher"
+      ],
+      [
+        "MA2080 Precalculus for Business and Economics",
+        "Mathematics / Math Proficiency with a grade of C or higher",
+        "Mathematics / Math Proficiency with a grade of C or higher"
+      ],
+      [
+        "MA2090 Precalculus",
+        "Mathematics / Math Proficiency with a grade of C or higher",
+        "Mathematics / Math Proficiency with a grade of C or higher"
+      ],
+      [
+        "MA2300 Calculus for Business/Economics",
+        "Mathematics {Fall 24- } / Math Proficiency with a grade of C or higher",
+        "Mathematics / Math Proficiency with a grade of C or higher"
+      ],
+      [
+        "MA2310 Calculus and Analytic Geometry I",
+        "Mathematics {Fall 24- } / Math Proficiency with a grade of C or higher",
+        "Mathematics / Math Proficiency with a grade of C or higher"
+      ],
+      [
+        "MA2320 Calculus and Analytic Geometry II",
+        "Mathematics {Fall 24- } / Math Proficiency with a grade of C or higher",
+        "Mathematics / Math Proficiency with a grade of C or higher"
+      ],
+      [
+        "MA3030 Discrete Math",
+        "Mathematics {Fall 24- } / Math Proficiency with a grade of C or higher",
+        "Mathematics / Math Proficiency with a grade of C or higher"
+      ]
+    ],
+    "status": "reference-only-needs-effective-date-review"
+  },
+  {
+    "domain": "Communication Written and Oral",
+    "url": "https://www.oldwestbury.edu/general-education-communication-written-and-oral-1",
+    "retrievedDate": "2026-11-07",
+    "sha256": "0ca9011780bce3517613821aa2fd2648ea11abf2b57f67e0c52238c7189b5eb3",
+    "tableRows": [
+      [
+        "Approved General Education Courses",
+        "Legacy Program (Prior to Fall 23 Entry)",
+        "Current Program (Entry to OW in Fall 23 or later)"
+      ],
+      [
+        "EL1000 English Composition I",
+        "Basic Communication / Part 1 of Writing Proficiency with a grade of C or higher {Spring 2018- }",
+        "Communication Oral"
+      ],
+      [
+        "EL1298 ESOL IV English Composition for ESOL",
+        "Basic Communication {Spring 2018- } / Part 1 of Writing Proficiency with a grade of C or higher {Spring 2018- }",
+        "Communication Oral"
+      ],
+      [
+        "EL2200 English Composition II: Listed Below are our English Composition II Courses (EL22xx - EL2248)",
+        "Basic Communication / Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2203 Shakespeare: Three Plays",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2205 Psychological Themes in Literature",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2206 Science Fiction Literature",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2207 Contemporary American Novels",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2208 Modern American Poetry",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2211 Africana Perspectives",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2214 Literature & Liberation",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2216 Multicultural Perspectives",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2218 The Short Story",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2219 International Short Stories",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2221 Adolescent Literature",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2222 Women's Voices",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2223 Masterpieces of World Lit {not offered 2012- }",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2224 Autobiography",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2233 Environmental Literature",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2239 Horror Literature",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "EL2248 The Lyric: The Poetry of Emotion",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ],
+      [
+        "WS2340 Women's Voices {dual listed with EL2222}",
+        "Part 2 of Writing Proficiency with a grade of C or higher",
+        "Communication Written and Oral"
+      ]
+    ],
+    "status": "reference-only-needs-effective-date-review"
+  },
+  {
+    "domain": "The Arts",
+    "url": "https://www.oldwestbury.edu/general-education-arts",
+    "retrievedDate": "2026-11-07",
+    "sha256": "6685ee5baf1092164d142715e9d6b3ba75064dd73728bfd1cdc050179c78565a",
+    "tableRows": [
+      [
+        "Approved General Education Courses",
+        "Legacy Program (Prior to Fall 23 Entry)",
+        "Current Program (Entry to OW in Fall 23 or later)"
+      ],
+      [
+        "AS2020 New Media",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "AS2700 The Engaged Eyes",
+        "Creativity & The Arts / Humanities {both from Spring 24-}",
+        "The Arts / Humanities {both from Spring 24-}"
+      ],
+      [
+        "AS2802 Multimedia Storytelling",
+        "Creativity & The Arts {Fall 25- }",
+        "The Arts {Fall 25- }"
+      ],
+      [
+        "AS2901 Intro to Video and TV (Previously AS3247)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "AS2910 Podcasting & Audio Storytelling",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "AS3247 Intro to Video and TV",
+        "Creativity & The Arts {Fall 2023-}",
+        "The Arts"
+      ],
+      [
+        "AS3632 History of U.S. Film",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "AS3712 American Film Genres",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "AS3742 Myths & Images in Film",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "AS4722 Film: Ideas & Aesthetics",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "AS4725 The Photograph and American Culture",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "AS5862 Journalist as Creative Writer (Previously AS4862)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "EL3901 Introduction to Creative Writing",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "EL3920 The Art of Writing Poetry",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "EL3950 Creative Non-Fiction",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "EL4033 Wild Writing (Animal or Plant)",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "MC2020 New Media (Previously AS2020)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MC2802 Multimedia Storytelling (Previously AS2802)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MC2901 Intro to Video and TV (Previously AS2901)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MC2910 Podcasting & Audio Storytelling (Previously AS2910)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MC3632 History of U.S. Film (Previously AS3632)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MC3712 American Film Genres (Previously AS3712)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MC3742 Myths & Images in Film (Previously AS3742)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MC4722 Film: Ideas & Aesthetics (Previously AS4722)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MC5862 Journalist as Creative Writer (Previously AS5862)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MD1000 Music of Global Cultures",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MD1110 Culturally Diverse Language of Dance",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MD2350 Acting (Previously HI2350)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MD2633 Introduction to Music Composition",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MD3010 History of Jazz",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MD3110 Modern Dance",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "MD3350 Acting 2",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "ML3300 Artistic Expression of Spain",
+        "Creativity & The Arts / Foreign Languages",
+        "The Arts / World Languages"
+      ],
+      [
+        "ML4750 Fiction into Film: The Spanish & Latin American Cinema",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "PE1650 The Politics of Comics",
+        "Creativity & The Arts / Diversity",
+        "The Arts / DEISJ"
+      ],
+      [
+        "SY2400 Sociology Through The Arts",
+        "Creativity & The Arts / Social Science",
+        "The Arts / Social Science"
+      ],
+      [
+        "VA2000 Introduction to the Arts",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA2010 Introduction to Creative Thinking",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA2020 Basic Design",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA2030 Drawing",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA2045 Introduction to Color",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA2320 Graphic Design I (Previously VA4242)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA2400 Introduction to Photography I",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA2460 Painting I (Previously VA4340)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA2500 Art History Survey I",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA2510 Art History Survey II",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA2520 The History of Photography",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA2600 Survey of SW French Art & Culture",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA2750 Sculpture I (Previously VA4420)",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA3100 Visual Culture: Warhol to the Present",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA3340 Introduction to African Art (Previously VA2340)",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA3350 Topics in Contemporary Art",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA3380 Digital Video",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA3400 Digital Imaging",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA3456 Creative Coding: Art & Games",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA3800 Performance Art {not in the catalog}",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "VA4460 Digital Animation",
+        "Creativity & The Arts",
+        "The Arts"
+      ],
+      [
+        "WS1540 The Politics of Comics {dual listed with PE1650}",
+        "The Arts / Diversity",
+        "The Arts / DEISJ"
+      ]
+    ],
+    "status": "reference-only-needs-effective-date-review"
+  },
+  {
+    "domain": "US History and Civic Engagement",
+    "url": "https://www.oldwestbury.edu/general-education-us-history-and-civic-engagement",
+    "retrievedDate": "2026-11-07",
+    "sha256": "77c11b301f9b85e16111406df178cb4554f29247f67d5c8866d1da33621fa39c",
+    "tableRows": [
+      [
+        "Approved General Education Courses",
+        "Legacy Program (Prior to Fall 23 Entry)",
+        "Current Program (Entry to OW in Fall 23 or later)"
+      ],
+      [
+        "AS1152 Themes in U.S. History",
+        "American Experience",
+        "US History & Civic Engagement"
+      ],
+      [
+        "AS2112 American People I (Previously AS3112)",
+        "American Experience",
+        "US History & Civic Engagement"
+      ],
+      [
+        "AS2122 American People II (Previously AS3122)",
+        "American Experience",
+        "US History & Civic Engagement"
+      ],
+      [
+        "AS2252 U.S. Social Movements (Previously AS3252)",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS2262 African-American History I (Previously AS3262)",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS2263 African-American History II (Previously AS3263)",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS2300 Problems in US Environmental History",
+        "American Experience",
+        "US History & Civic Engagement"
+      ],
+      [
+        "AS2640 Introduction to US Latina/o History",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS3215 Crime, Protest & Policing",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS3462 A History of Women in the U.S.",
+        "American Experience w/Regents Exam 85 or higher {Prior to Fall 2014} / American Experience {Fall 2014-} / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS4212 Early America",
+        "American Experience",
+        "US History & Civic Engagement"
+      ],
+      [
+        "AS4215 Critical Ideas in American History",
+        "American Experience w/Regents Exam 85 or higher / Humanities",
+        "US History & Civic Engagement / Humanities"
+      ],
+      [
+        "AS4222 Emergence of Modern America",
+        "American Experience w/Regents Exam 85 or higher / Humanities",
+        "US History & Civic Engagement / Humanities"
+      ],
+      [
+        "AS4252 Immigration History",
+        "American Experience w/Regents Exam 85 or higher / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "AS4282 America in War & Peace: 1898 to Present",
+        "American Experience w/Regents Exam 85 or higher",
+        "US History & Civic Engagement"
+      ],
+      [
+        "AS4290 Youth in America: A History",
+        "American Experience w/Regents Exam 85 or higher",
+        "US History & Civic Engagement"
+      ],
+      [
+        "AS4292 America Since World War II: 1945-1989",
+        "American Experience w/Regents Exam 85 or higher / Humanities",
+        "US History & Civic Engagement / Humanities"
+      ],
+      [
+        "AS4402 History of the Family in the U.S.",
+        "American Experience w/Regents Exam 85 or higher / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "IR3120 History of American Labor Relations",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "PE2650 Introduction to U.S. Politics",
+        "American Experience",
+        "US History & Civic Engagement"
+      ],
+      [
+        "PE3410 Contemporary U.S. Political Economy",
+        "American Experience",
+        "US History & Civic Engagement"
+      ],
+      [
+        "PE4325 Jurisprudence: Legal Thought",
+        "Western Tradition {-FA2023}",
+        "US History & Civic Engagement"
+      ],
+      [
+        "PH2900 Black Lives Matter: Health Inequities in the US",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "PH3750 Mass Incarceration: A Public Health Crisis",
+        "Diversity / American Experience {never officially approved by SUNY for American History Category I}",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "SY3900 Social Movements (Previously SY4900)",
+        "American Experience / Diversity",
+        "US History & Civic Engagement / DEISJ"
+      ],
+      [
+        "WS2110 US Social Movements {dual listed with AS2252}",
+        "American Experiences (Pendng) / Diversity {Fall 24-}",
+        "US History & Civic Engagement / DEISJ {Fall 24-}"
+      ],
+      [
+        "WS3120 History of Women in the US {dual listed with AS3462}",
+        "American Experiences (Pendng) / Diversity {Fall 24-}",
+        "US History & Civic Engagement / DEISJ {Fall 24-}"
+      ]
+    ],
+    "status": "reference-only-needs-effective-date-review"
+  },
+  {
+    "domain": "World History and Global Awareness",
+    "url": "https://www.oldwestbury.edu/general-education-world-history-and-global-awareness",
+    "retrievedDate": "2026-11-07",
+    "sha256": "1b3224cdec7a9da4dc7c43fc0ecf95642daae947a23e9e939a4019da3b17b757",
+    "tableRows": [
+      [
+        "Approved General Education Courses",
+        "Legacy Program (Prior to Fall 23 Entry)",
+        "Current Program (Entry to OW in Fall 23 or later)"
+      ],
+      [
+        "CP2050 Nature and Development of Science",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI1010 World Religions \u2013 West",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI1020 World Religions - East",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI1240 Comparative Cultures",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI2200 Science in Western Civilization",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI2511 World History I: The Non-Western World",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI2521 World History II: Western Civilization",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI2681 Introduction to European History: 1350 - Present",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI2810 Geography: Earth and People",
+        "Major Cultures / Social Science",
+        "World History & Global Awareness / Social Science"
+      ],
+      [
+        "HI3002 Rise of Reason: Class Origin of Western Culture",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI3003 Environments in World History I: Antiquity - 1500",
+        "Western Tradition / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3005 Environmental World History II: 1500 - Present",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3011 Foundation of the Judeo-Christian Tradition",
+        "Western Tradition / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3021 Europe in the Middle Ages",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI3030 From God to the Machine: Europe from 16th-18th Centuries",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI3080 Asian Cultures",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3091 African Cultures",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3102 Hispanic Heritage",
+        "Western Tradition / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3110 Latin American Culture",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI3120 Latin America Environment & Society",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI3244 History of the Arab-Israeli Wars {not in the Catalog}",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3323 Buddhism",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI3452 Women in Medieval Europe",
+        "Western Tradition / Diversity",
+        "World History & Global Awareness / DEISJ"
+      ],
+      [
+        "HI3455 Modern European Revolutions",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI3458 Frontier of Science and Technology in the 20th Century",
+        "Western Tradition / Humanities {Spring 21- }",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3558 Classical Greco-Roman History",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI3640 African History",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI3692 Modern Asian History",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3703 Modern Philosophy",
+        "Western Tradition / Humanities {Spring 14- }",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3704 African Religion & Philosophy",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3835 Islamic Cultures",
+        "Major Cultures / Humanities {Fall 15- }",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3840 Crescent and Cross: Islam and Christianity in History",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI4015 Gender, Sex and Power in China {dual-listed with CR3940}",
+        "Major Cultures / Diversity",
+        "World History & Global Awareness / DEISJ"
+      ],
+      [
+        "HI4305 Islam and the Quran",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI4306 Golden Age of Islam",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI4308 History of the Modern Middle East and North Africa",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI4415 Europe of the Dictators",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI4557 Renaissance & Reformation in Europe",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI4632 Japanese History Through Literature",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI4800 History of India",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "HI4850 Domesticity in the 19th and Early 20th Century",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI4905 Chinese Civilization",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "MA2500 History of Mathematics",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "ML2550 Intro to Spanish, Latin-American and Latino Cultural Studies",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "ML3150 Modern Italian Civilization",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "ML3410 Latino Writers in the United States",
+        "Humanities / Diversity",
+        "World History & Global Awareness / Humanities / DEISJ"
+      ],
+      [
+        "ML3800 Modern French Culture: France and the Francophone World",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "ML4450 Hispanic Women Writers",
+        "Humanities / Diversity",
+        "World History & Global Awareness / Humanities / DEISJ"
+      ],
+      [
+        "ML4540 Latin America Culture & Literature",
+        "Major Cultures {Fall 2016-} / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "ML4545 Civilization & Culture of Latin America",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "ML4630 Latin American Literature",
+        "Humanities / Diversity",
+        "World History & Global Awareness / Humanities / DEISJ"
+      ],
+      [
+        "PE3100 International Relations",
+        "Major Culture / Social Science {Spring 2010-}",
+        "World History & Global Awareness / Social Science"
+      ],
+      [
+        "PE3400 The Global South (Previously Political Economy of the Third World)",
+        "Major Cultures / Social Science {Spring 2010-}",
+        "World History & Global Awareness / Social Science"
+      ],
+      [
+        "PE3440 International Economics",
+        "Major Cultures {Spring 2010-} / Social Science",
+        "World History & Global Awareness / Social Science"
+      ],
+      [
+        "PE3610 Conflict & Revolution in the 20th Century",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "PE4470 History of Economic Thought",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "PE4580 Origins of the Capitalist Economy",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "PE4620 Political & Social Thought",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "PE4660 Politics of India & the Region (So. Asia)",
+        "Major Cultures / Social Science {Spring 2010-}",
+        "World History & Global Awareness / Social Science"
+      ],
+      [
+        "PE4665 Human Rights",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "PE4690 Politics of Latin America & the Caribbean",
+        "Major Cultures / Social Science {Spring 2010-}",
+        "World History & Global Awareness / Social Science"
+      ],
+      [
+        "PH3400 International Study Abroad",
+        "Major Cultures",
+        "World History & Global Awareness"
+      ],
+      [
+        "PH3700 Medical Anthropology",
+        "Major Cultures / Social Science",
+        "World History & Global Awareness / Social Science"
+      ],
+      [
+        "SY4500 Global Sociology (Previously Cross Cultural Analysis)",
+        "Major Cultures / Social Science",
+        "World History & Global Awareness / Social Science"
+      ],
+      [
+        "SY4530 Sociological Theory I",
+        "Western Tradition",
+        "World History & Global Awareness"
+      ],
+      [
+        "WS3940 Gender, Sex, and Power in China {dual listed with HI4015}",
+        "Major Cultures / Diversity",
+        "World History & Global Awareness"
+      ],
+      [
+        "WS4420 Domesticity in the 19th &20th Century India {dual listed with HI4850}",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ]
+    ],
+    "status": "reference-only-needs-effective-date-review"
+  },
+  {
+    "domain": "World Languages",
+    "url": "https://www.oldwestbury.edu/general-education-world-languages",
+    "retrievedDate": "2026-11-07",
+    "sha256": "09391a589b1a24182e17fa3e88871d8dbe4b6ede80e4d041e8fe1ed69cb3bd3d",
+    "tableRows": [
+      [
+        "Approved General Education Courses",
+        "Legacy Program (Prior to Fall 23 Entry)",
+        "Current Program (Entry to OW in Fall 23 or later)"
+      ],
+      [
+        "ML1000 Basic French Conversation I",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML1010 Basic French Conversation II",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML1100 Basic Spanish Conversation I",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML1110 Basic Spanish Conversation II",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML1130 Basic Spanish for Heritage Speakers",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML1150 American Sign Language I",
+        "Foreign Languages {for limited majors -Fall 17}{Fall 24-}",
+        "World Languages"
+      ],
+      [
+        "ML1160 American Sign Language II",
+        "Foreign Languages {for limited majors -Fall 17} / Foreign Languages {Spring 18- }",
+        "World Languages"
+      ],
+      [
+        "ML1200 Basic Chinese I",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML1210 Basic Chinese II",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML1300 Basic Arabic I",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML1310 Basic Arabic II",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML1400 Italian Conversation I",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML1410 Italian Conversation II",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML1600 Basic Punjabi I",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML1610 Basic Punjabi II",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML2000 Intermediate French Conversation I {not offered 2004- }",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML2010 Intermediate French Conversation II {not offered 2022- }",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML2100 Intermediate Spanish Conversation I {not offered 2022- }",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML2110 Intermediate Spanish Conversation II",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML2400 Intermediate Italian I",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML2601 Intro to Latin & Spanish Language Media",
+        "Foreign Languages / Humanities / Diversity",
+        "World Languages / Humanities / DEISJ"
+      ],
+      [
+        "ML3700 Digital Media in the Spanish World",
+        "Foreign Languages / Humanities / Diversity",
+        "World Languages / Humanities / DEISJ"
+      ],
+      [
+        "ML3100 Advanced Spanish Conversation & Composition I (Non-Native Speakers)",
+        "Foreign Languages",
+        "World Languages"
+      ],
+      [
+        "ML3300 Artistic Expression of Spain",
+        "Creativity & The Arts / Foreign Languages",
+        "The Arts / World Languages"
+      ],
+      [
+        "ML3310 Chicano/a Cultural Studies",
+        "Foreign Languages / Diversity {Fall 2016-}",
+        "World Languages / DEISJ"
+      ],
+      [
+        "ML3362 Advanced Spanish Conversation & Composition (Native Speakers)",
+        "Foreign Languages",
+        "World Languages"
+      ]
+    ],
+    "status": "reference-only-needs-effective-date-review"
+  },
+  {
+    "domain": "Natural Sciences",
+    "url": "https://www.oldwestbury.edu/general-education-natural-sciences",
+    "retrievedDate": "2026-11-07",
+    "sha256": "5b614ba94c38df2c7bf57153310d457fa800a6a54e8472c92b3353a55d8664c9",
+    "tableRows": [
+      [
+        "Approved General Education Courses",
+        "Legacy Program (Prior to Fall 23 Entry)",
+        "Current Program (Entry to OW in Fall 23 or later)"
+      ],
+      [
+        "BS2100 Biology for Non-Science Majors/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "BS2200 Food Safety: From Farm to Fork",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "BS2250 Bio for Public Health Majors",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "BS2300/2301 Anatomy and Physiology I Lecture/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "BS2400/2401 Basic Biology I/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "BS2490 Environmental Science/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2000/2001 Chemistry for Non-majors/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2025 Renewable Energy Systems",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2070 Intro to Forensic Science {not in the catalog}",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2120/2121 Principles of Chemistry I/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2130/2131 Principles of Chemistry II/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2210/2211 Physical Science/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2220/2221 Structure of Physics I/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2230/2231 Structure of Physics II/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2240/2241 General Physics I/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2250/2251 General Physics II/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2300/2301 Online Weather Studies/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2400/2401 Ocean Studies/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2500/2501 Climate Studies/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2600 Environmental Analysis of Long Island",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2700 Wave Motion: Light and Sound",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2800 Nutrition and Health",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "CP2900/2901 Astronomy/Lab",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "PX2220/2221 Structure of Physics I/Lab {Formerly CP2220/2221}",
+        "Natural Sciences",
+        "Natural Sciences"
+      ],
+      [
+        "PX2230/2231 Structure of Physics II/Lab {Formerly CP2230/2231}",
+        "Natural Sciences",
+        "Natural Sciences"
+      ]
+    ],
+    "status": "reference-only-needs-effective-date-review"
+  },
+  {
+    "domain": "Humanities",
+    "url": "https://www.oldwestbury.edu/general-education-humanities",
+    "retrievedDate": "2026-11-07",
+    "sha256": "339aac29d4bb0bd0e2db92f96efe4dc6a5d59e1e8db7d0cd1d500a5535f23c13",
+    "tableRows": [
+      [
+        "Approved General Education Courses",
+        "Legacy Program (Prior to Fall 23 Entry)",
+        "Current Program (Entry to OW in Fall 23 or later)"
+      ],
+      [
+        "AS1512 Introduction to Women's Studies",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "AS2652 Media Studies",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "AS2700 The Engaged Eyes",
+        "Creativity & The Arts / Humanities {both from Spring 24-}",
+        "The Arts / Humanities {both from Spring 24-}"
+      ],
+      [
+        "AS2750 Food",
+        "Humanities / Social Science",
+        "Humanities / Social Science"
+      ],
+      [
+        "AS3745 Film and Gender",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "AS4215 Critical Ideas in American History",
+        "American Experience w/Regents Exam 85 or higher / Humanities",
+        "US History & Civic Engagement / Humanities"
+      ],
+      [
+        "AS4218 Civil War & Reconstruction",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "AS4222 Emergence of Modern America",
+        "American Experience w/Regents Exam 85 or higher / Humanities",
+        "US History & Civic Engagement / Humanities"
+      ],
+      [
+        "AS4292 America Since World War II: 1945-1989",
+        "American Experience w/Regents Exam 85 or higher / Humanities",
+        "US History & Civic Engagement / Humanities"
+      ],
+      [
+        "CS2000 Ethics in Data Security and AI",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL2310 Introduction to Literature",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL2350 Reading & Writing for a Multicultural Community",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL3500 Literature Across Culture I",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL3510 Literature Across Culture II",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL3560 Lit. of Europe 1: Homer to the Renaissance",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL3561 Lit. of Europe 2: Enlightment to the 20th Century",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL3600 Survey of U.S. Literature I",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL3610 Survey of U.S. Literature II",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL3620 American Gothic Fiction",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL3700 Survey of World Literature",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL3800 English Literature I",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL3810 English Literature II",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL3865 Literatures of Asia & the Middle East",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL3870 Literatures of Africa",
+        "Humanities / Diversity {Spring 26- }",
+        "Humanities / DEISJ {Spring 26- }"
+      ],
+      [
+        "EL3950 Creative Non-Fiction",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "EL4000 Native American Literature",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4010 The Harlem Renaissance",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4015 Multi-Ethnic Literatures of the U.S.",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4020 Asian American Literature",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4030 Women & Narrative",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4033 Wild Writing (Animal or Plant)",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "EL4040 Black Women Writers",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4050 Queer Literature (Previously Lesbian & Gay Literature)",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4070 Topics in African-American Literature",
+        "Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4080 Extraordinary Bodies: Disability Studies in Literature",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4090 The Afro-American Novel",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4091 Afro-American Poetry & Plays",
+        "Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4200 Biblical-Classical Influences on Multicultural Literature",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL4311 Greek Drama",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL4312 Greek Mythology",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL4325 Shakespeare: Selected Plays",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL4405 Caribbean Literature",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL4500 Topics in British/US Literature",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL4560 Multicultural British Literature",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4600 Literature of India",
+        "Humanities / Diversity {Spring 2026-}",
+        "Humanities / DEISJ {Spring 2026-}"
+      ],
+      [
+        "EL4630 Latin American Literature",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4640 French Literature {not offered 2022- }",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "EL4690 PopLit",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4695 The literature of Wonder and Display",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "EL4800 Major Authors",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "FY1000 Ethics of Engagement",
+        "Humanities {Fall 2015- } / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "HI2155 Introduction to Comparative Religion",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "HI2250 Introduction to Humanities",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "HI2700 Introduction to Logic",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "HI2720 Introduction to Philosophy",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "HI3001 Introduction to Environmental Studies",
+        "Humanities / Social Science",
+        "Humanities & Social ScienceS"
+      ],
+      [
+        "HI3003 Environments in World History I: Antiquity - 1500",
+        "Western Tradition / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3005 Environmental World History II: 1500 - Present",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3006 Environmental Ethics",
+        "Humanities {Spring 25-} / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "HI3011 Foundation of the Judeo-Christian Tradition",
+        "Western Tradition / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3080 Asian Cultures",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3091 African Cultures",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3102 Hispanic Heritage",
+        "Western Tradition / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3200 Contemporary Religious Experience",
+        "Humanities {Spring 18- }",
+        "Humanities"
+      ],
+      [
+        "HI3244 History of the Arab-Israeli Wars {not in the Catalog}",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3458 Frontier of Science and Technology in the 20th Century",
+        "Western Tradition / Humanities {Spring 21- }",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3525 Ancient Greek Philosophy",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "HI3692 Modern Asian History",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3703 Modern Philosophy",
+        "Western Tradition / Humanities {Spring 14- }",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3704 African Religion & Philosophy",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3710 Contemporary Philosophical Issues",
+        "Humanities / Diversity {Spring 25- }",
+        "Humanities / DEISJ {Spring 25-}"
+      ],
+      [
+        "HI3720 Technology and Human Values",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "HI3752 Ethics",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "HI3835 Islamic Cultures",
+        "Major Cultures / Humanities {Fall 15- }",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI3950 Philosophy of Religion",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "HI4001 Nineteenth Century",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "HI4011 Twentieth Century",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "HI4051 Logic & Scientific Reasoning",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "HI4305 Islam and the Quran",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI4308 History of the Modern Middle East and North Africa",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI4318 Islamic Philosophy & Mysticism",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "HI4395 Philosophy from the 20th to the 21st Century",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "HI4632 Japanese History Through Literature",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "HI4850 Domesticity in the 19th and Early 20th Century",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "MC2652 Media Studies (Previously AS2652)",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "MC3745 Film and Gender (Previously AS3745)",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "ML2550 Intro to Spanish, Latin-American and Latino Cultural Studies",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "ML2601 Intro to Latin & Spanish Language Media",
+        "Foreign Languages / Humanities / Diversity",
+        "World Languages / Humanities / DEISJ"
+      ],
+      [
+        "ML3700 Digital Media in the Spanish World",
+        "Foreign Languages / Humanities / Diversity",
+        "World Languages / Humanities / DEISJ"
+      ],
+      [
+        "ML3410 Latino Writers in the United States",
+        "Humanities / Diversity",
+        "World History & Global Awareness / Humanities / DEISJ"
+      ],
+      [
+        "ML3500 Critical Writing & Textual Analysis",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "ML3600 Introduction to Study of Hispanic Literature",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "ML4100 The Spanish Golden Age",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "ML4325 Contemporary Theatre of the Hispanic World",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "ML4350 Recurrent Themes in Latin American Painting & Literature",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "ML4450 Hispanic Women Writers",
+        "Humanities / Diversity",
+        "World History & Global Awareness / Humanities / DEISJ"
+      ],
+      [
+        "ML4500 Culture & Literature of Spain",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "ML4510 Civilization & Culture of Spain",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "ML4520 Culture & Literature of Spanish Caribbean",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "ML4540 Latin America Culture & Literature",
+        "Major Cultures {Fall 2016-} / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "ML4545 Civilization & Culture of Latin America",
+        "Major Cultures / Humanities",
+        "World History & Global Awareness / Humanities"
+      ],
+      [
+        "ML4630 Latin American Literature",
+        "Humanities / Diversity",
+        "World History & Global Awareness / Humanities / DEISJ"
+      ],
+      [
+        "ML4645 French Literature",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "ML4700 Studies in Spanish Literature 19th-20th Centuries",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "ML4800 Modernism & Avant-Garde Movement in Latin America",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "ML5450 Major Trends in Latin American Thought",
+        "Humanities",
+        "Humanities"
+      ],
+      [
+        "VA2500 Art History Survey I",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA2510 Art History Survey II",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA2520 The History of Photography",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA2600 Survey of SW French Art & Culture",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA3100 Visual Culture: Warhol to the Present",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA3340 Introduction to African Art (Previously VA2340)",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "VA3350 Topics in Contemporary Art",
+        "Creativity & The Arts / Humanities",
+        "The Arts / Humanities"
+      ],
+      [
+        "WS1000 Intro to Women, Gender & Sexuality Studies {dual listed with AS1512}",
+        "Humanities {Fall 24-} / Diversity {Fall 24-}",
+        "Humanities / DEISJ {Fall 24-}"
+      ],
+      [
+        "WS4340 Women & Narrative {dual listed with EL4030}",
+        "Humanities / Diversity",
+        "Humanities / DEISJ"
+      ],
+      [
+        "WS4420 Domesticity 19th &20th Century India {dual listed with HI4850}",
+        "Major Culture / Humanities",
+        "World History & Global Awareness / Humanities"
+      ]
+    ],
+    "status": "reference-only-needs-effective-date-review"
+  },
+  {
+    "domain": "Social Sciences",
+    "url": "https://www.oldwestbury.edu/general-education-social-sicences",
+    "retrievedDate": "2026-11-07",
+    "sha256": "e016dc23a32c52846ad76dba4abf467d0ef9a30e08ef7e603665cf89c5ce52fe",
+    "tableRows": [
+      [
+        "Approved General Education Courses",
+        "Legacy Program (Prior to Fall 23 Entry)",
+        "Current Program (Entry to OW in Fall 23 or later)"
+      ],
+      [
+        "AS2202 Contemporary U.S. Society",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "AS2750 Food",
+        "Humanities / Social Sciences",
+        "Humanities / Social Sciences"
+      ],
+      [
+        "CR1500 Introduction to Criminology (Previously CR2500)",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "CR2500 Introduction to Criminology {not offered 2012- }",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "CR3117 Policing Bodies",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "ED3700 Child Development",
+        "Social Sciences {Spring 2018-}",
+        "Social Sciences"
+      ],
+      [
+        "HI2810 Geography: Earth and People",
+        "Major Cultures / Social Sciences",
+        "World History & Global Awareness / Social Sciences"
+      ],
+      [
+        "HI3001 Introduction to Environmental Studies",
+        "Humanities / Social Sciences",
+        "Humanities & Social Sciences"
+      ],
+      [
+        "HI3040 Analysis of Culture",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "HI3600 Global Geography: People, Places & Environment",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "IR3415 Labor Economics",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "PE1401 Introduction to Economics {not offered 2022- }",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "PE1600 People, Power, Politics",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "PE2220 Introduction to Urban Issues",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "PE2240 Introduction to Latin American Studies",
+        "Major Cultures / Social Sciences {Spring 2010-}",
+        "Social Sciences"
+      ],
+      [
+        "PE2420 Principles of Microeconomics",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "PE2430 Principles of Macroeconomics",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "PE3100 International Relations",
+        "Major Culture / Social Sciences {Spring 2010-}",
+        "World History & Global Awareness / Social Sciences"
+      ],
+      [
+        "PE3400 The Global South (Previously Political Economy of the Third World)",
+        "Major Cultures / Social Sciences {Spring 2010-}",
+        "World History & Global Awareness / Social Sciences"
+      ],
+      [
+        "PE3440 International Economics",
+        "Major Cultures {Spring 2010-} / Social Sciences",
+        "World History & Global Awareness / Social Sciences"
+      ],
+      [
+        "PE3750 Politics of Race & Class",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "PE4409 Urban Economics",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "PE4600 Depression Economics",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "PE4650 Topics in U.S. Politics",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "PE4655 Constitutional Law & Politics",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "PE4660 Politics of India & the Region (So. Asia)",
+        "Major Cultures / Social Sciences {Spring 2010-}",
+        "World History & Global Awareness / Social Sciences"
+      ],
+      [
+        "PE4690 Politics of Latin America & the Caribbean",
+        "Major Cultures / Social Sciences {Spring 2010-}",
+        "World History & Global Awareness / Social Sciences"
+      ],
+      [
+        "PH2000 Introduction to Public Health",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "PH3700 Medical Anthropology",
+        "Major Cultures / Social Sciences",
+        "World History & Global Awareness / Social Sciences"
+      ],
+      [
+        "PH3800 Medical Sociology {dual listed as SY3750}",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "PH4850 Global Health (Previously HS4850 International Health)",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "PY2010 Introduction to Psychology",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "PY2340 Community Psychology {not offered 2020- }",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "PY2530 Psychology of Prejudice",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "PY2720 Psychology of Gender",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "PY2730 The Psychology of Peoples of African Descent {not offered 2020- }",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "PY3230 Adulthood & Aging",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "PY3510 Social Psychology",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "PY3740 Psychology of Latinos {not offered 2020- }",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "PY3750 Psychology of Asian Americans",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "SY1500 Introductory Sociology (Previously SY2500)",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "SY2222 The Work of Caring",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "SY2400 Sociology Through The Arts",
+        "Creativity & The Arts / Social Sciences",
+        "The Arts / Social Sciences"
+      ],
+      [
+        "SY2550 Social Problems (Previously SY3550)",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "SY2600 Social Deviance (Previously SY3600)",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "SY2800 Race, Class, Gender, Sexuality",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "SY3160 Sociology of Culture (Previously SY4160)",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "SY3700 Family & Society",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "SY3750 Medical Sociology (Previously SY4750){dual listed with PH3800}",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "SY3800 Race & Ethnicity (Previously Sociology of Minorities)",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "SY4400 Social Psychology",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "SY4500 Global Sociology (Previously Cross Cultural Analysis)",
+        "Major Cultures / Social Sciences",
+        "World History & Global Awareness / Social Sciences"
+      ],
+      [
+        "SY4540 Sociological Theory II",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "SY4651 Sociology of Communications & Media",
+        "Social Sciences",
+        "Social Sciences"
+      ],
+      [
+        "SY4830 Gender & Society",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "SY4850 Urban & Suburban Sociology",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "WS2285 Care & Care Work {dual listed with SY2222}",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "WS2885 Psychology of Gender {dual listed with PY2720}",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "WS2295 Race, Class, Gender & Sexuality {dual listed with SY2800}",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "WS3295 Family & Society {dual listed with SY3700}",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "WS3940 Sex, Gender & Technology",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ],
+      [
+        "WS4295 Gender & Society {dual listed with SY4830}",
+        "Social Sciences / Diversity",
+        "Social Sciences / DEISJ"
+      ]
+    ],
+    "status": "reference-only-needs-effective-date-review"
+  }
+]

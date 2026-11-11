@@ -1,0 +1,34 @@
+{
+  "id": "ED-CORE-001",
+  "status": "approved-project-decision",
+  "program": "Childhood Education 1-6, B.S.",
+  "selectedCatalogIssue": "36-credit core heading contains seven listed 4-credit courses, totaling 28.",
+  "proposal": "Add the two missing 4-credit historical course versions as an explicit Northbridge exception; do not claim verification of the missing current-catalog entries.",
+  "courses": [
+    {
+      "courseCode": "ED4050",
+      "title": "Innovative Instructional Design and Assessment",
+      "credits": 4,
+      "sourceCatalog": "2020-2022",
+      "sourcePDFPage": 200
+    },
+    {
+      "courseCode": "ED5925",
+      "title": "Building a Classroom Community for All Learners",
+      "credits": 4,
+      "sourceCatalog": "2020-2022",
+      "sourcePDFPage": 203
+    }
+  ],
+  "totalCoreCreditsAfterDecision": 36,
+  "source": "supplemental-sources/undergraduate-catalog-2020-2022.pdf",
+  "programSourcePDFPage": 125,
+  "remainingIssues": [
+    "ED5925 has a different title/description in 2026-2027; keep explicit version identity, not a global rename.",
+    "Historical ED5925 prerequisite text contains ED400 and ambiguous punctuation; its executable eligibility rule still needs review.",
+    "Education concentration and institutional/progression rules remain separate requirements.",
+    "Official semester offerings are not established by a catalog requirement."
+  ],
+  "approvedBy": "user",
+  "approvedDate": "2026-11-07"
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "CREDIT-001",
+    "status": "confirmed-from-selected-catalog",
+    "rule": [
+      {
+        "courseCode": "AS4402",
+        "credits": 4,
+        "status": "confirmed-from-selected-catalog-program",
+        "sourceProgram": "Media & Communications, B.A.",
+        "sourcePDF": "database/staging/academic-alignment/source-pdfs/program-media-communications-b-a.pdf",
+        "sourceSHA256": "bf4c59afaf34e0613cdc08c3ee606de44edcbcecca412c4ee53ae851a01036af"
+      },
+      {
+        "courseCode": "AS5412",
+        "credits": 4,
+        "status": "confirmed-from-selected-catalog-program",
+        "sourceProgram": "Media & Communications, B.A.",
+        "sourcePDF": "database/staging/academic-alignment/source-pdfs/program-media-communications-b-a.pdf",
+        "sourceSHA256": "bf4c59afaf34e0613cdc08c3ee606de44edcbcecca412c4ee53ae851a01036af"
+      },
+      {
+        "courseCode": "BU5171",
+        "credits": 4,
+        "status": "confirmed-from-selected-catalog-program",
+        "sourceProgram": "Business Administration, B.S.",
+        "sourcePDF": "database/staging/academic-alignment/source-pdfs/program-business-administration-b-s.pdf",
+        "sourceSHA256": "17997272f2a31902bef23ab9d86e43a8e5e01de31d3f63b8f455f1bdf7d1ea19"
+      }
+    ]
+  },
+  {
+    "id": "GENBUS-001",
+    "status": "clarified-without-changing-source-rule",
+    "rule": "Minimum 18 credits is a floor. Four listed core courses total 15; a listed 4-credit elective produces 19. Keep five-course requirement and actual credits; do not force total to 18 or invent fourth elective.",
+    "sourceProgram": "General Business, Minor"
+  },
+  {
+    "id": "MATH-ELECTIVE-001",
+    "status": "corroborated-interpretation-of-catalog-continuation",
+    "rule": "Math major elective pool includes eligible 4000/5000 mathematics courses OR CS3810; three distinct additional elective courses totaling 12 credits.",
+    "evidenceURL": "https://www.oldwestbury.edu/school-arts-and-sciences/mathematics-computer-information-science/advising-resources-current-0",
+    "note": "Worksheet has unrelated arithmetic errors; only explicit elective-pool wording corroborates this catalog interpretation."
+  },
+  {
+    "id": "GRADE-TC-001",
+    "status": "meaning-confirmed-from-official-guide",
+    "rule": "T prefixes transfer grade tokens; TC denotes a transferred C-grade result. Accept only approved course-equivalent transfer evidence; do not count transferred grades in institutional GPA or treat TCR as numeric C.",
+    "source": "supplemental-sources/degree-audit-user-guide.pdf",
+    "page": 6,
+    "relatedProjectDecision": "CS-WRITING-001; user approved completed writing proficiency to replace the incomplete source condition."
+  },
+  {
+    "id": "EMS-001",
+    "status": "meaning-corroborated",
+    "rule": "EMS means English Mastery Satisfied. Resolve through reviewed writing-proficiency evidence; completion normally requires qualifying Composition I and II with C or better, with approved exemptions/placement handled separately.",
+    "sources": [
+      "supplemental-sources/math-cis-advising.json",
+      "supplemental-sources/lec-overview.json"
+    ],
+    "note": "ECI and ECII are proficiency predicates, not literal course IDs. Workshop completion alone does not satisfy them."
+  },
+  {
+    "id": "RECOMMENDED-001",
+    "status": "confirmed-from-selected-course-entry",
+    "rule": "MA2320 is recommended for MA3210, not required by that course entry."
+  }
+]

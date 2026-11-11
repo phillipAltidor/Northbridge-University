@@ -1,0 +1,11 @@
+{
+    "status": "read-only-review-inputs-exported",
+    "privateDirectory": "\/private\/tmp\/northbridge-mapping-review-4555c3da448d",
+    "studentCount": 3338,
+    "legacyCourseCount": 240,
+    "historyCount": 37187,
+    "enrollmentCount": 44433,
+    "sourceTablesUnchanged": 47,
+    "sourceFingerprintSHA256": "7fe9998b1ed69abf856958783cc41b34361f3d5e8cdacce47a75545af15886eb",
+    "asOf": "2026-11-07"
+}

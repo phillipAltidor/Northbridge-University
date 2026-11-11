@@ -1,0 +1,11 @@
+{
+  "decisionId": "NB-LECTURE-MEETINGS-20261109",
+  "authority": "Owner approved the source-first recommendation on November 9, 2026",
+  "policy": "Preserve verified course-specific Old Westbury meeting patterns. For Northbridge-only four-credit lectures, prefer verified Mon/Wed or Tue/Thu periods of 100 minutes per meeting. Do not rewrite legitimate official or documented laboratory, studio, or fieldwork patterns solely because of the credit value.",
+  "requiredCourseTerms": {"MC4802": ["202609"]},
+  "requiredCorrection": "Replace both Fall 2026 Northbridge-only MC4802 sections that borrowed a single Friday block from Creative Thinking with verified two-day lecture periods.",
+  "officialCRNForReplacements": null,
+  "preserveCourseworkGradesRostersFacultyRoomsAndCapacities": true,
+  "grantsCreditsOrPrerequisiteWaivers": false,
+  "schemaChangeRequired": false
+}

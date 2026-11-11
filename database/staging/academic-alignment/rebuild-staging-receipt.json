@@ -1,0 +1,18 @@
+{
+    "status": "blocked-candidate-staged-for-review",
+    "targetDatabase": "northbridge_ow_rebuild_2026",
+    "datasetSHA256": "5f40a0639c0a8c17aab944a45ff549a21c436c51518903105c20f97be5169cd3",
+    "students": 2200,
+    "attempts": 43153,
+    "courseVersions": 421,
+    "protectedTestTablesVerified": 57,
+    "workingPortalTablesVerified": 47,
+    "originalTestTablesUnchanged": true,
+    "workingDatabaseChanged": false,
+    "portalConfigurationChanged": false,
+    "activationPermitted": false,
+    "scheduleSHA256": "475ada5dfb4f95a016bdb138d526fd2fe4b132faed829a31b337058b9b432078",
+    "scheduledTerms": 14,
+    "scheduledSections": 4939,
+    "knownMeetingTimesOnly": true
+}

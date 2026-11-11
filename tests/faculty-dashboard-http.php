@@ -3,7 +3,7 @@ declare(strict_types=1);
 if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 ob_start();
 require dirname(__DIR__) . '/config/database.php';
-if (!in_array($host, ['127.0.0.1','localhost'], true) || $database !== 'northbridge_university') throw new RuntimeException('Local database required');
+if (!in_array($host, ['127.0.0.1','localhost'], true) || ($database !== 'northbridge_university' && !preg_match('/^northbridge_ow_rebuild_2026_[4-9][0-9]*$/D',$database))) throw new RuntimeException('Local database required');
 $sessions = [];
 $checks = 0;
 function faculty_http_check(bool $pass, string $label): void
@@ -16,7 +16,9 @@ function faculty_http_request(string $path, string $sid = ''): array
 {
     $context = stream_context_create(['http' => ['header' => $sid ? "Cookie: PHPSESSID=$sid\r\n" : '',
         'follow_location' => 0, 'ignore_errors' => true, 'timeout' => 20]]);
-    $html = file_get_contents('http://127.0.0.1:8000/' . $path, false, $context);
+    $base=getenv('NORTHBRIDGE_HTTP_BASE')?:'http://127.0.0.1:8000/';
+    if(!in_array($base,['http://127.0.0.1:8000/','http://127.0.0.1:8003/'],true))throw new RuntimeException('Local test server required.');
+    $html = file_get_contents($base . $path, false, $context);
     $headers = http_get_last_response_headers(); preg_match('/HTTP\/\S+ (\d+)/', $headers[0], $match);
     if ($html === false || preg_match('/(?:Warning|Fatal error|Notice):/', $html)) throw new RuntimeException('Unexpected page error');
     return [(int)$match[1], $html, $headers];
@@ -68,10 +70,10 @@ try {
             continue;
         }
         $dom = new DOMDocument(); @$dom->loadHTML($home); $xpath = new DOMXPath($dom);
-        faculty_http_check($xpath->query('//nav[contains(@class,"faculty-navigation")]//a')->length === 3, 'Three working Faculty navigation links');
-        faculty_http_check($xpath->query('//span[@class="admin-nav-disabled"]')->length === 17 && $xpath->query('//details[@open]')->length === 0, 'Unfinished Faculty actions disabled and groups collapsed');
+        faculty_http_check($xpath->query('//nav[contains(@class,"faculty-navigation")]//a')->length === 5, 'Faculty navigation includes Course Rosters and Student Degree Audit');
+        faculty_http_check($xpath->query('//span[@class="admin-nav-disabled"]')->length === 15 && $xpath->query('//details[@open]')->length === 0, 'Unfinished Faculty actions disabled and groups collapsed');
         faculty_http_check($xpath->query('//div[contains(@class,"admin-home-quick-links")]/*')->length === 3
-            && $xpath->query('//div[contains(@class,"admin-home-quick-links")]/div[@aria-disabled="true"]')->length === 2, 'Three Faculty tiles; rosters and advisees disabled');
+            && $xpath->query('//div[contains(@class,"admin-home-quick-links")]/div[@aria-disabled="true"]')->length === 1, 'Three Faculty tiles; only advisees disabled');
         faculty_http_check(!str_contains($home,'/admin/') && !str_contains($home,'/student/') && !str_contains($home,'Recent Updates'), 'Faculty Home excludes cross-role actions and Admin updates');
         [$defaultStatus,$default] = faculty_http_request('faculty/schedule.php',$sid);
         [$currentStatus,$current] = faculty_http_request('faculty/schedule.php?term=current',$sid);

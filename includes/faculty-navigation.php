@@ -9,11 +9,11 @@ function faculty_nav_groups(): array
         ]],
         'teaching' => ['Teaching', [
             ['Semester Schedule', 'faculty/schedule.php'], ['Master Schedule', null],
-            ['Course Rosters', null], ['Mark Attendance', null], ['Assign Grades', null],
+            ['Course Rosters', 'faculty/rosters.php'], ['Mark Attendance', null], ['Assign Grades', null],
         ]],
         'advising' => ['Advising', [
             ['Advisee List', null], ['Student Information', null],
-            ['Student Unofficial Transcript', null], ['Student Degree Audit', null],
+            ['Student Unofficial Transcript', null], ['Student Degree Audit', 'faculty/degree-audit.php'],
         ]],
         'academics' => ['Academic Information', [
             ['Departments', null], ['Courses Offered by Departments', null],

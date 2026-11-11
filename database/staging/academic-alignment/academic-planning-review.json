@@ -1,0 +1,494 @@
+{
+  "status": "structural-planning-checks-passed-not-migration-approval",
+  "schemaChanged": false,
+  "databaseChanged": false,
+  "activationAllowed": false,
+  "programsChecked": 24,
+  "majorsChecked": 12,
+  "minorsChecked": 12,
+  "programConcentrationAndPathVariantsChecked": 37,
+  "publishedSamplePrograms": [
+    "Computer and Information Science, B.S.",
+    "Management Information Systems, B.S.",
+    "Mathematics, B.S."
+  ],
+  "unsupportedPlanningNodes": [],
+  "programs": [
+    {
+      "program": "Computer and Information Science, B.S.",
+      "kind": "major",
+      "sequenceBasis": "published sample, subject to actual prerequisites",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 15,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Management Information Systems, B.S.",
+      "kind": "major",
+      "sequenceBasis": "published sample, subject to actual prerequisites",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 16,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Computer Information Science, Minor",
+      "kind": "minor",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 5,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Marketing, Minor",
+      "kind": "minor",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 5,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Business Administration, B.S.",
+      "kind": "major",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": "Management",
+          "paths": {},
+          "compiledGoals": 18,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": "General Business",
+          "paths": {},
+          "compiledGoals": 19,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": "Business Analytics",
+          "paths": {},
+          "compiledGoals": 19,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Accounting, B.S.",
+      "kind": "major",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 26,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Mathematics, B.S.",
+      "kind": "major",
+      "sequenceBasis": "published sample, subject to actual prerequisites",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 12,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Biological Sciences, B.S.",
+      "kind": "major",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {
+            "major/3": "Algebra"
+          },
+          "compiledGoals": 23,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": null,
+          "paths": {
+            "major/3": "Calculus"
+          },
+          "compiledGoals": 23,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Physics, B.S.",
+      "kind": "major",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": "General Physics",
+          "paths": {},
+          "compiledGoals": 23,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": "Health Sciences",
+          "paths": {},
+          "compiledGoals": 30,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": "Quantitative Finance",
+          "paths": {},
+          "compiledGoals": 29,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": "Applied/Computational",
+          "paths": {},
+          "compiledGoals": 26,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "English, B.A.",
+      "kind": "major",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": "Multicultural U.S.-British Literature",
+          "paths": {},
+          "compiledGoals": 10,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": "World Literature",
+          "paths": {},
+          "compiledGoals": 10,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": "Creative Writing",
+          "paths": {},
+          "compiledGoals": 10,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Psychology, B.S.",
+      "kind": "major",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 20,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Childhood Education 1-6, B.S.",
+      "kind": "major",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": "Mathematics",
+          "paths": {},
+          "compiledGoals": 18,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Public Health, B.S.",
+      "kind": "major",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 10,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Media & Communications, B.A.",
+      "kind": "major",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 11,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "General Business, Minor",
+      "kind": "minor",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 5,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Accounting, Minor",
+      "kind": "minor",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {
+            "minor/1": "Internal Reporting"
+          },
+          "compiledGoals": 6,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": null,
+          "paths": {
+            "minor/1": "Public Company"
+          },
+          "compiledGoals": 6,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": null,
+          "paths": {
+            "minor/1": "General Accounting"
+          },
+          "compiledGoals": 6,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Mathematics, Minor",
+      "kind": "minor",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 5,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Environmental Studies, Minor",
+      "kind": "minor",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 5,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Physics, Minor",
+      "kind": "minor",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {
+            "minor/0": "Algebra"
+          },
+          "compiledGoals": 5,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": null,
+          "paths": {
+            "minor/0": "Calculus"
+          },
+          "compiledGoals": 5,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Multicultural U.S./ British Literature, Minor",
+      "kind": "minor",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 5,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Psychology, Minor",
+      "kind": "minor",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 5,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Public Health, Minor",
+      "kind": "minor",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 5,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Media and Communications, Minor",
+      "kind": "minor",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {},
+          "compiledGoals": 3,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    },
+    {
+      "program": "Visual Arts, Minor",
+      "kind": "minor",
+      "sequenceBasis": "prerequisite-derived planning; no published sample in supplied program pages",
+      "variants": [
+        {
+          "concentration": null,
+          "paths": {
+            "minor/1": "Art History"
+          },
+          "compiledGoals": 4,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": null,
+          "paths": {
+            "minor/1": "Fine Arts"
+          },
+          "compiledGoals": 4,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        },
+        {
+          "concentration": null,
+          "paths": {
+            "minor/1": "Electronic Media"
+          },
+          "compiledGoals": 4,
+          "missingCourseDefinitions": [],
+          "emptyChoiceGroups": []
+        }
+      ]
+    }
+  ],
+  "minimumLoadBlockers": {
+    "202609": {
+      "studentsBelowMinimumLoad": 0,
+      "byMajor": {}
+    },
+    "202702": {
+      "studentsBelowMinimumLoad": 0,
+      "byMajor": {}
+    }
+  },
+  "courseAssignmentPurposes": {
+    "college-writing": 776,
+    "degree-distribution": 2211,
+    "general-education": 9257,
+    "general-elective": 2329,
+    "major-elective": 3765,
+    "major-preparation": 7053,
+    "major-required": 20189,
+    "minor-elective": 95,
+    "minor-preparation": 4,
+    "minor-required": 130,
+    "required-corequisite": 12
+  },
+  "assignmentsWithoutPurpose": 0,
+  "currentOrFutureFinalGrades": 0,
+  "csFreshmenWithAlgebraAndStatisticsTogether": 0,
+  "interpretation": "Structural coverage and valid prerequisites do not establish complete individual graduation plans. Underloaded plans remain blocked; no arbitrary filler or waived prerequisites are authorized.",
+  "studentIdentifiersPublished": false,
+  "candidateFileSHA256": "e4f0bb789c175167bb152a062e3d12001d3513f02491735ad61a64ce7f9a891b"
+}

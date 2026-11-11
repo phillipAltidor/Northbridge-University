@@ -14,10 +14,10 @@ function check_student(bool $condition, string $message): void
 $_SERVER['SCRIPT_NAME'] = '/home.php';
 $groups = student_nav_groups();
 check_student(count($groups) === 4 && array_sum(array_map(static fn($g) => count($g[1]), $groups)) === 19, '19 Student navigation actions cover both semester views through one schedule entry');
-foreach (['home.php', 'student/information.php', 'student/schedule.php', 'student/schedule.php?term=current', 'student/schedule.php?term=next'] as $active) {
+foreach (['home.php', 'student/information.php', 'student/degree-audit.php', 'student/schedule.php', 'student/schedule.php?term=current', 'student/schedule.php?term=next'] as $active) {
     ob_start(); student_navigation($active); $html = ob_get_clean();
     $dom = new DOMDocument(); @$dom->loadHTML($html); $xpath = new DOMXPath($dom);
-    check_student($xpath->query('//a')->length === 3 && $xpath->query('//span[@aria-disabled="true"]')->length === 17, 'Only implemented Student actions are linked');
+    check_student($xpath->query('//a')->length === 4 && $xpath->query('//span[@aria-disabled="true"]')->length === 16, 'Only implemented Student actions, including Degree Audit, are linked');
     check_student($xpath->query('//a[@aria-current="page"]')->length === 1 && $xpath->query('//details[@open]')->length === 0, 'Active action identified; groups start collapsed');
     check_student(!str_contains($html, '/admin/') && !str_contains($html, 'Unsuccessfully'), 'No Admin links or separate failure actions');
 }

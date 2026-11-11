@@ -1,0 +1,155 @@
+{
+  "status": "northbridge-project-rules-for-isolated-test",
+  "catalogEdition": "2026-2027",
+  "degreeMinimums": {
+    "BS": {
+      "credits": 120,
+      "liberalArtsCredits": 60
+    },
+    "BA": {
+      "credits": 120,
+      "liberalArtsCredits": 90
+    },
+    "AccountingBSOverride": {
+      "credits": 126,
+      "institutionalResidencyCredits": 46
+    }
+  },
+  "institutionalGPA": {
+    "minimum": 2.0,
+    "repeatAttempt": "latest",
+    "exclude": [
+      "CR",
+      "NC",
+      "I",
+      "W",
+      "NR"
+    ],
+    "transferGradesExcluded": true
+  },
+  "gradePoints": {
+    "A": 4.0,
+    "A-": 3.7,
+    "B+": 3.3,
+    "B": 3.0,
+    "B-": 2.7,
+    "C+": 2.3,
+    "C": 2.0,
+    "C-": 1.7,
+    "D+": 1.3,
+    "D": 1.0,
+    "D-": 0.7,
+    "F": 0.0
+  },
+  "earnedCreditPolicy": {
+    "passingLetterGrades": [
+      "A",
+      "A-",
+      "B+",
+      "B",
+      "B-",
+      "C+",
+      "C",
+      "C-",
+      "D+",
+      "D",
+      "D-"
+    ],
+    "creditGrade": "CR",
+    "zeroEarnedCredits": [
+      "F",
+      "NC",
+      "I",
+      "W",
+      "NR"
+    ],
+    "countRepeatedCourseCreditOnceUnlessRepeatable": true,
+    "stricterProgramAndProficiencyGradesOverride": true,
+    "passingFloorAuthority": "Northbridge project interpretation consistent with supplied grade system and GE minimum; no unstated course-specific C threshold."
+  },
+  "residencyCredits": 40,
+  "minimumUpperDivisionCredits": 45,
+  "minimumUpperDivisionMajorCredits": 24,
+  "maximumTransferCredits": 80,
+  "repeatPolicies": {
+    "institutionalGPA": "latest",
+    "PsychologyMajorGPA": "highest-grade-in-each-counted-course",
+    "PsychologyBSMathScienceGPA": "highest-grade-in-each-required-course",
+    "historicalAttemptsPreserved": true
+  },
+  "standingCompletedCredits": {
+    "Freshman": [
+      0,
+      31
+    ],
+    "Sophomore": [
+      32,
+      56
+    ],
+    "Junior": [
+      57,
+      87
+    ],
+    "Senior": [
+      88,
+      null
+    ]
+  },
+  "proficiencies": {
+    "writing": {
+      "compositionI": "EL1000 or approved alternative",
+      "compositionII": "approved Composition II course",
+      "minimumGrade": "C",
+      "approvedPlacementOrEquivalencyEvidenceAllowed": true,
+      "partialPlacementDoesNotSatisfyBoth": true
+    },
+    "math": {
+      "courses": [
+        "MA1020",
+        "MA2000",
+        "MA2050",
+        "MA2080",
+        "MA2090",
+        "MA2300",
+        "MA2310",
+        "MA2320",
+        "MA3030"
+      ],
+      "minimumGrade": "C",
+      "approvedPlacementOrEquivalencyEvidenceAllowed": true
+    }
+  },
+  "generalEducation": {
+    "minimumDistinctCredits": 30,
+    "requireEachCurrentDomain": true,
+    "minimumLetterGrade": "D-",
+    "creditGradeAccepted": "CR",
+    "courseCreditsCountOnceAcrossDomains": true,
+    "effectiveDateAndCohortConditionsRequired": true,
+    "approvedSUNYOrCUNYAAASWaiver": {
+      "requiresAwardEvidence": true,
+      "waivesLocalProficiencies": false
+    }
+  },
+  "advanceRegistration": {
+    "inProgressPrerequisiteMayYieldConditionalEligibility": true,
+    "mustRecheckBeforeTargetTerm": true,
+    "inProgressNotEarnedCredit": true
+  },
+  "overrides": {
+    "mustBeLogged": true,
+    "mustIdentifyApproverAndScope": true,
+    "unknownRuleNeverAutomaticallySatisfied": true
+  },
+  "preservedProjectRules": {
+    "maximumSectionSeats": 10,
+    "fullTimeCreditLimit": 16,
+    "partTimeCreditLimit": 8,
+    "facultyWorkloadAndAdvisingLimits": "retain existing project constraints"
+  },
+  "sources": [
+    "../old-westbury-cs/academic-policy-review.json",
+    "supplemental-sources/lec-overview.json",
+    "rules/project-decisions.json"
+  ]
+}

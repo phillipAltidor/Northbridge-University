@@ -1,0 +1,19 @@
+{
+    "status": "two-term-rows-materialized-in-isolated-clone",
+    "sourceDatabase": "northbridge_ow_rebuild_2026_5",
+    "targetDatabase": "northbridge_ow_rebuild_2026_6",
+    "sections": 835,
+    "meetingRows": 1693,
+    "enrollmentAssignments": 7643,
+    "placementProfilesUpdated": 1140,
+    "foreignKeysChecked": 76,
+    "seatCountMismatches": 0,
+    "historicalGradesAndProtectedTablesUnchanged": true,
+    "schemaDefinitionSHA256": "3bdeb67a0f87cac21c99b76e2bcea201ba613431c70f210a6217b74b2b195d41",
+    "schemaChanged": false,
+    "activeDatabaseChanged": false,
+    "portalConfigurationChanged": false,
+    "activationAllowed": false,
+    "candidateSHA256": "f5a54d2c9b433da5f65d3bc3bf2db15cdf7e3a9b07d048404d1476c3e862f68d",
+    "privateCandidateDirectory": "\/private\/tmp\/northbridge-spring-joint-rehearsal-20261108-v2"
+}

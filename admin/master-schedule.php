@@ -8,6 +8,7 @@ $pdo->exec("SET time_zone = '+00:00'");
 header('Cache-Control: no-store');
 
 require_once __DIR__ . '/../includes/schedule.php';
+require_once __DIR__ . '/../includes/schedule-columns.php';
 require_once __DIR__ . '/../includes/academic-timeline.php';
 
 function schedule_version(array $schedule): string
@@ -32,9 +33,10 @@ function schedule_pagination(array $page, array $params): void
     <?php
 }
 $_SESSION['master_schedule_token'] ??= bin2hex(random_bytes(32));
+$semesterPattern=academic_portal_enabled($pdo)?'^(Fall 202[0-6]|Spring 202[1-7])$':'^(Fall 202[2-6]|Spring 202[3-7])$';
 $semesters = $pdo->query(
     "SELECT semester_ID, semester_Name FROM Semester
-     WHERE semester_Name REGEXP '^(Fall 202[2-6]|Spring 202[3-7])$'
+     WHERE semester_Name REGEXP '$semesterPattern'
      ORDER BY CAST(SUBSTRING_INDEX(semester_Name, ' ', -1) AS UNSIGNED),
               CASE WHEN semester_Name LIKE 'Spring%' THEN 0 ELSE 1 END,
               semester_ID"
@@ -47,6 +49,8 @@ $semesterOptions = array_values(array_filter($semesters, static fn($s) => $year 
 $query = is_string($_GET['q'] ?? null) ? mb_substr(trim($_GET['q']), 0, 200, 'UTF-8') : '';
 $department = filter_var($_GET['department'] ?? null, FILTER_VALIDATE_INT, ['options' => ['min_range' => 1]]) ?: 0;
 $availableOnly = ($_GET['available'] ?? '') === '1';
+$level = is_string($_GET['level'] ?? null) && in_array($_GET['level'], ['Undergraduate', 'Graduate', 'all'], true)
+    ? $_GET['level'] : (academic_portal_enabled($pdo) ? 'Undergraduate' : 'all');
 $semesterID = filter_var($input['semester_id'] ?? null, FILTER_VALIDATE_INT, ['options' => ['min_range' => 1]]) ?: 0;
 $semester = null;
 foreach ($semesterOptions as $option) {
@@ -123,12 +127,14 @@ if ($semester) {
     $snapshot = ['semester_Name' => $semester['semester_Name'], 'sections' => schedule_sections($pdo, $semesterID)];
 }
 $sections = $snapshot['sections'] ?? [];
+$levelSections = schedule_filter_sections($sections, '', 0, false, $level);
 $departments = [];
-foreach ($sections as $row) $departments[$row['dept_ID']] = $row['dept_Name'];
+foreach ($levelSections as $row) $departments[$row['dept_ID']] = $row['dept_Name'];
 asort($departments);
-$visibleSections = schedule_filter_sections($sections, $query, $department, $availableOnly);
+$visibleSections = schedule_filter_sections($sections, $query, $department, $availableOnly, $level);
 $pageData = schedule_page($visibleSections, (int)(filter_var($_GET['per_page'] ?? 25, FILTER_VALIDATE_INT) ?: 25), (int)(filter_var($_GET['page'] ?? 1, FILTER_VALIDATE_INT) ?: 1));
-$pageParams = ['semester_id' => $semesterID, 'year' => $year, 'q' => $query, 'department' => $department, 'available' => $availableOnly ? '1' : '', 'per_page' => $pageData['per_page']];
+$displayMeetings = schedule_columns_meetings($pdo, $pageData['rows']);
+$pageParams = ['semester_id' => $semesterID, 'year' => $year, 'level' => $level, 'q' => $query, 'department' => $department, 'available' => $availableOnly ? '1' : '', 'per_page' => $pageData['per_page']];
 page_start('Master Schedule', 'Admin', 'admin/master-schedule.php');
 ?>
 <?php if ($error !== ''): ?><div class="alert error" role="alert"><?= e($error) ?></div><?php endif; ?>
@@ -157,6 +163,14 @@ page_start('Master Schedule', 'Admin', 'admin/master-schedule.php');
             <label for="course_search">Course Code, Name, or CRN</label>
             <input id="course_search" name="q" type="search" value="<?= e($query) ?>" maxlength="200">
         </div>
+        <div class="form-group">
+            <label for="schedule_level">Academic Level</label>
+            <select id="schedule_level" name="level" onchange="this.form.requestSubmit();">
+                <?php foreach (['Undergraduate' => 'Undergraduate', 'Graduate' => 'Graduate (existing catalog)', 'all' => 'All Levels'] as $value => $label): ?>
+                    <option value="<?= e($value) ?>" <?= $level === $value ? 'selected' : '' ?>><?= e($label) ?></option>
+                <?php endforeach; ?>
+            </select>
+        </div>
         <?php if ($semester): ?>
         <div class="form-group">
             <label for="schedule_department">Department</label>
@@ -174,14 +188,15 @@ page_start('Master Schedule', 'Admin', 'admin/master-schedule.php');
         </div>
         <?php endif; ?>
         <button class="btn" type="submit">Search</button>
-        <?php if ($query !== '' || $department || $availableOnly): ?><a href="master-schedule.php?<?= e(http_build_query(['semester_id' => $semesterID, 'year' => $year])) ?>">Clear Filters</a><?php endif; ?>
+        <?php if ($query !== '' || $department || $availableOnly): ?><a href="master-schedule.php?<?= e(http_build_query(['semester_id' => $semesterID, 'year' => $year, 'level' => $level])) ?>">Clear Filters</a><?php endif; ?>
     </form>
 <?php endif; ?>
 <?php if ($snapshot): ?>
     <h2><?= e($snapshot['semester_Name']) ?> Master Schedule</h2>
     <?php $timeline = require __DIR__ . '/../config/academic-timeline.php'; ?>
     <p><strong><?= e(academic_semester_status($snapshot['semester_Name'])) ?></strong> &middot; As of <?= e((new DateTimeImmutable($timeline['as_of']))->format('F j, Y')) ?></p>
-    <p>Semester ID <?= e($semesterID) ?> · <?= count($sections) ?> course sections · <?= count(array_unique(array_column($sections, 'course_ID'))) ?> courses</p>
+    <p><?= e($level === 'all' ? 'All Levels' : $level) ?> · <?= count($levelSections) ?> course sections · <?= count(array_unique(array_column($levelSections, 'course_ID'))) ?> courses</p>
+    <?php if ($level !== 'Undergraduate'): ?><p class="muted">Graduate offerings use the existing graduate catalog.</p><?php endif; ?>
     <?php if ($saved): ?>
         <p>Saved <?= e($saved['saved_At']) ?> UTC by Admin ID <?= e($saved['admin_ID']) ?>.</p>
     <?php elseif ($sections && $canModify): ?>
@@ -190,6 +205,7 @@ page_start('Master Schedule', 'Admin', 'admin/master-schedule.php');
             <input type="hidden" name="form_token" value="<?= e($_SESSION['master_schedule_token']) ?>">
             <input type="hidden" name="schedule_version" value="<?= e(schedule_version($snapshot)) ?>">
             <button class="btn" type="submit">Save Master Schedule</button>
+            <span class="muted">Saves all undergraduate and graduate sections for this semester.</span>
         </form>
     <?php elseif (!$sections): ?>
         <p>No course sections are available for this semester.</p>
@@ -200,28 +216,10 @@ page_start('Master Schedule', 'Admin', 'admin/master-schedule.php');
             <?php schedule_pagination($pageData, $pageParams); ?>
         </div>
         <div class="schedule-scroll-top" role="region" aria-label="Horizontal table scroll" tabindex="0" hidden><div></div></div>
-        <div class="table-scroll schedule-table-scroll" role="region" aria-label="Course sections" tabindex="0"><table class="master-schedule-table">
-            <thead><tr><th scope="col">CRN</th><th scope="col">Course Code</th><th scope="col">Course Name</th><th scope="col">Credits</th><th scope="col">Faculty</th><th scope="col">Meeting Days</th><th scope="col">Start Time</th><th scope="col">End Time</th><th scope="col">Building</th><th scope="col">Room</th><th scope="col">Section</th><th scope="col">Max Seats</th><th scope="col">Available Seats</th><th scope="col">Semester</th><th scope="col">Year</th><?php if ($canModify): ?><th scope="col">Action</th><?php endif; ?></tr></thead>
+        <div class="table-scroll schedule-table-scroll" role="region" aria-label="Course sections" tabindex="0"><table class="master-schedule-table schedule-columns-table">
+            <?php schedule_columns_header($canModify ? 'Action' : '', true); ?>
             <tbody><?php foreach ($pageData['rows'] as $section): ?>
-                <?php $instructor = implode(' ', array_filter([$section['first_Name'], $section['middle_Name'], $section['last_Name']], static fn($part) => $part !== null && $part !== '')); ?>
-                <tr>
-                    <td><?= e($section['CRN']) ?></td>
-                    <td><?= e(schedule_course_label($section['course_ID'])) ?></td>
-                    <td><?= e($section['course_Name']) ?></td>
-                    <td><?= e($section['course_Credits']) ?></td>
-                    <td><?= e($instructor) ?></td>
-                    <td><?= e(schedule_day_label($section['time_Slot_Day'])) ?></td>
-                    <td><?= e($section['start_Time'] ?? 'Unassigned') ?></td>
-                    <td><?= e($section['end_Time'] ?? 'Unassigned') ?></td>
-                    <td><?= e($section['Bldg_Name'] ?? 'Unassigned') ?></td>
-                    <td><?= e($section['room_Number'] ?? 'Unassigned') ?></td>
-                    <td><?= e($section['section_No']) ?></td>
-                    <td><?= e($section['maximum_Seats']) ?></td>
-                    <td><?= e($section['available_Seats']) ?></td>
-                    <td><?= e(explode(' ', $snapshot['semester_Name'])[0]) ?></td>
-                    <td><?= e(substr($snapshot['semester_Name'], -4)) ?></td>
-                    <?php if ($canModify): ?><td><a class="btn small" href="edit-section.php?crn=<?= e($section['CRN']) ?>">Edit</a></td><?php endif; ?>
-                </tr>
+                <?php schedule_columns_row($section, $displayMeetings[$section['CRN']] ?? [], $canModify ? ['url' => 'edit-section.php?crn=' . rawurlencode((string)$section['CRN']), 'label' => 'Edit'] : null, true); ?>
             <?php endforeach; ?></tbody>
         </table></div>
         <div class="schedule-results-bar"><?php schedule_pagination($pageData, $pageParams); ?></div>

@@ -1,0 +1,135 @@
+{
+  "status": "isolated-test-only-not-portal-activation",
+  "evaluatorVersion": "curriculum-v1",
+  "runtimeSHA256": {
+    "includes/academic/evaluator.php": "d13656286df157025f3f07f95512787f41a4b5d9fe7b70103284067f11aec7d7",
+    "includes/academic/curriculum-evaluator.php": "b1c9803b2d2165a2b2201e23170ed94dd5c9058a0dfc5d18db3a67aae4d3ddc2"
+  },
+  "programs": [
+    {
+      "program": "Computer and Information Science, B.S.",
+      "kind": "major",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Management Information Systems, B.S.",
+      "kind": "major",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Computer Information Science, Minor",
+      "kind": "minor",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Marketing, Minor",
+      "kind": "minor",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Business Administration, B.S.",
+      "kind": "major",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Accounting, B.S.",
+      "kind": "major",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Mathematics, B.S.",
+      "kind": "major",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Biological Sciences, B.S.",
+      "kind": "major",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Physics, B.S.",
+      "kind": "major",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "English, B.A.",
+      "kind": "major",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Psychology, B.S.",
+      "kind": "major",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Childhood Education 1-6, B.S.",
+      "kind": "major",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Public Health, B.S.",
+      "kind": "major",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Media & Communications, B.A.",
+      "kind": "major",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "General Business, Minor",
+      "kind": "minor",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Accounting, Minor",
+      "kind": "minor",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Mathematics, Minor",
+      "kind": "minor",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Environmental Studies, Minor",
+      "kind": "minor",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Physics, Minor",
+      "kind": "minor",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Multicultural U.S./ British Literature, Minor",
+      "kind": "minor",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Psychology, Minor",
+      "kind": "minor",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Public Health, Minor",
+      "kind": "minor",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Media and Communications, Minor",
+      "kind": "minor",
+      "evaluator": "curriculum-v1"
+    },
+    {
+      "program": "Visual Arts, Minor",
+      "kind": "minor",
+      "evaluator": "curriculum-v1"
+    }
+  ],
+  "scope": "Individual major/minor evaluation; minor overlap requires a reviewed major allocation. Missing source/evidence conditions remain review-required.",
+  "registrationIntegrated": false,
+  "canonicalLookupAliases": {
+    "ED4050": "ED4050@2020-2022"
+  }
+}

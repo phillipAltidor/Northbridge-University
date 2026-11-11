@@ -55,7 +55,7 @@ $actions = [
                         <?php if (!$day['meetings']): ?><p class="student-week-empty">No classes</p><?php endif; ?>
                         <?php foreach ($day['meetings'] as $meeting): ?>
                             <div class="student-week-meeting">
-                                <strong><?= e($meeting['course_ID']) ?> · <?= e($meeting['section_No']) ?></strong>
+                                <strong><?= e($meeting['display_course_ID'] ?? $meeting['course_ID']) ?> · <?= e($meeting['display_section'] ?? $meeting['section_No']) ?></strong>
                                 <p><?= e($meeting['course_Name']) ?></p>
                                 <p><?= e(meeting_schedule_time($meeting['start_Time']) . ' - ' . meeting_schedule_time($meeting['end_Time'])) ?></p>
                                 <p class="muted"><?= e($meeting['Bldg_Name'] ?? 'Building unassigned') ?><?= $meeting['room_Number'] !== null ? ' · Room ' . e($meeting['room_Number']) : '' ?></p>

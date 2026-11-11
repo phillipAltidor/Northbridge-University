@@ -1,0 +1,47 @@
+{
+  "phase": "1-academic-rule-package",
+  "status": "ready-for-isolated-test-with-explicit-review-gates",
+  "allOfficialSourceQuestionsResolved": false,
+  "workingDatabaseChanged": false,
+  "selectedMajorDefinitions": 12,
+  "selectedMinorDefinitions": 12,
+  "courseMetadataRecords": 879,
+  "prerequisiteRecords": 880,
+  "fullyTranscribedPrerequisiteRecords": 411,
+  "reviewGatedPrerequisiteRecords": 469,
+  "missingCreditValues": [
+    "AS3835",
+    "BU4190",
+    "ML1100",
+    "ML1110",
+    "ML2100",
+    "ML2110"
+  ],
+  "unresolvedSourceListedOptions": [
+    "EL3811"
+  ],
+  "GEApprovalRowsRetained": 535,
+  "userApprovedDecisions": [
+    "CS-CORE-001",
+    "MIS-ECON-001",
+    "MKT-MINOR-001",
+    "ED-CORE-001",
+    "CS-WRITING-001",
+    "CS5810-PREREQ-001",
+    "PSYCH-BS-LA-001",
+    "PSYCH-PROGRESSION-001"
+  ],
+  "recommendationAuthority": "User requested completion using the supplied files and trusted recommendations on November 7, 2026.",
+  "sourceLimitations": [
+    "Original CS/MA PDF pathnames were reused; retained earlier text/hash evidence has not been reverified against matching PDFs.",
+    "All source conflicts are represented in project decisions, source variants, explicit approval checks or manual review gates; none of these makes an unsupported condition automatically true."
+  ],
+  "nextStep": "Use the separate test database for versioned curriculum and pilot evaluation; consult test-implementation-receipt.json for installed state.",
+  "pendingWorkBeforeWorkingMigration": [
+    "Implement and test rule evaluation including manual/conditional outcomes.",
+    "Resolve affected review gates before allowing unattended registration/completion decisions.",
+    "Import official term-specific schedules.",
+    "Review individual student mappings and legacy/graduate protections.",
+    "Rehearse backup restore and synchronize install seeds."
+  ]
+}

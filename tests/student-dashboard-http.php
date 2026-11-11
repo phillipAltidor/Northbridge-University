@@ -3,7 +3,7 @@ declare(strict_types=1);
 if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 ob_start();
 require dirname(__DIR__) . '/config/database.php';
-if (!in_array($host, ['127.0.0.1', 'localhost'], true) || $database !== 'northbridge_university') throw new RuntimeException('Local database required');
+if (!in_array($host, ['127.0.0.1', 'localhost'], true) || ($database !== 'northbridge_university' && !preg_match('/^northbridge_ow_rebuild_2026_[4-9][0-9]*$/D',$database))) throw new RuntimeException('Local database required');
 $sessions = [];
 $checks = 0;
 function student_http_check(bool $condition, string $message): void
@@ -52,7 +52,7 @@ try {
             student_http_check($tamperedStatus === 200 && $profileHtml === $tamperedProfile, 'Profile cannot be switched to another student by URL');
             $profileDom = new DOMDocument(); @$profileDom->loadHTML($profileHtml); $profileXPath = new DOMXPath($profileDom);
             student_http_check($profileXPath->query('//div[@class="profile-page"]')->length === 1
-                && $profileXPath->query('//section[@class="profile-section"]')->length === 2
+                && $profileXPath->query('//section[@class="profile-section"]')->length === 3
                 && $profileXPath->query('//aside[@class="profile-account"]')->length === 1, 'Student profile matches Admin section layout');
             student_http_check($profileXPath->query('//main//h1')->length === 1
                 && $profileXPath->query('//main//form | //main//input')->length === 0, 'Single profile heading and no editing controls');
@@ -88,8 +88,8 @@ try {
         [$currentStatus, $currentSchedule] = student_http_request('student/schedule.php?term=current', $sid);
         student_http_check($defaultStatus === 200 && $currentStatus === 200 && $defaultSchedule === $currentSchedule, 'Semester Schedule defaults to the current semester');
         $dom = new DOMDocument(); @$dom->loadHTML($html); $xpath = new DOMXPath($dom);
-        student_http_check($xpath->query('//nav[contains(@class,"student-navigation")]//a')->length === 3, 'Home has three implemented navigation links');
-        student_http_check($xpath->query('//span[@class="admin-nav-disabled"]')->length === 17, 'All 17 unimplemented Student actions disabled');
+        student_http_check($xpath->query('//nav[contains(@class,"student-navigation")]//a')->length === 4, 'Home includes the implemented Degree Audit link');
+        student_http_check($xpath->query('//span[@class="admin-nav-disabled"]')->length === 16, 'All 16 unimplemented Student actions disabled');
         student_http_check($xpath->query('//details[@open]')->length === 0, 'Navigation starts collapsed');
         student_http_check($xpath->query('//div[contains(@class,"admin-home-quick-links")]/*')->length === 3, 'Exactly three Quick Access tiles');
         student_http_check(!str_contains($html, '/admin/') && !str_contains($html, 'Recent Updates'), 'No Admin actions or activity on Student Home');
@@ -103,6 +103,33 @@ try {
             file_put_contents('/private/tmp/northbridge-student-home-preview.html', $html);
             chmod('/private/tmp/northbridge-student-home-preview.html', 0600);
         }
+    }
+    $cases = $pdo->query("SELECT MIN(s.student_ID) AS user_ID, s.student_Type, s.student_Year,
+        CASE s.student_Type WHEN 'Undergraduate' THEN u.undergraduate_student_Type ELSE g.graduate_Student_Type END AS enrollment_Type
+        FROM Student s JOIN Login l ON l.user_ID=s.student_ID
+        LEFT JOIN Undergraduate u ON u.student_ID=s.student_ID
+        LEFT JOIN Graduate_Student g ON g.student_ID=s.student_ID
+        GROUP BY s.student_Type,s.student_Year,enrollment_Type")->fetchAll();
+    foreach ($cases as $case) {
+        $q = $pdo->prepare('SELECT user_Password FROM Login WHERE user_ID=?');
+        $q->execute([$case['user_ID']]); $credential = $q->fetchColumn();
+        $sid = bin2hex(random_bytes(20)); session_id($sid); session_start();
+        $_SESSION = ['user_id'=>(int)$case['user_ID'], 'user_type'=>'Student', 'auth_version'=>hash('sha256',$credential)];
+        session_write_close(); $sessions[]=$sid;
+        [$status,$profile] = student_http_request('student/information.php',$sid);
+        $dom = new DOMDocument(); @$dom->loadHTML($profile); $xpath = new DOMXPath($dom);
+        $academic = [];
+        foreach ($xpath->query('//section[@aria-label="Academic Details"]//dl/div') as $field) {
+            $academic[trim($field->getElementsByTagName('dt')->item(0)->textContent)] = trim($field->getElementsByTagName('dd')->item(0)->textContent);
+        }
+        $subtype = $case['student_Type'] === 'Undergraduate' ? 'Undergraduate' : 'Graduate_Student';
+        $q = $pdo->prepare("SELECT m.major_Name,d.dept_Name FROM Student s JOIN Major m ON m.major_ID=s.major_ID JOIN `$subtype` t ON t.student_ID=s.student_ID JOIN Department d ON d.dept_ID=t.dept_ID WHERE s.student_ID=?");
+        $q->execute([$case['user_ID']]); $details=$q->fetch();
+        $year=(int)$case['student_Year'];
+        $standing=$case['student_Type']==='Graduate' ? 'Year '.$year : ([1=>'Freshman',2=>'Sophomore',3=>'Junior',4=>'Senior'][$year] ?? 'Year '.$year);
+        $expected=['Student Level'=>$case['student_Type'], $case['student_Type']==='Graduate'?'Graduate Year':'Class Standing'=>$standing,
+            'Enrollment Type'=>$case['enrollment_Type'],'Major'=>$details['major_Name'],'Department'=>$details['dept_Name']];
+        student_http_check($status===200 && $academic===$expected, 'Academic profile matches database: '.$case['student_Type'].' year '.$year.' '.$case['enrollment_Type']);
     }
     student_http_check(student_data_hash($pdo) === $before, 'Student dashboard and schedule requests leave database records unchanged');
     echo "PASS: $checks Student HTTP checks\n";

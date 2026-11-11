@@ -1,0 +1,102 @@
+{
+    "status": "per-student-review-inventory-created-no-mapping-approved",
+    "verifiedOn": "2026-11-07",
+    "studentRowsReviewed": 3338,
+    "studentsByLevel": {
+        "Undergraduate": 2200,
+        "Graduate": 1138
+    },
+    "studentsWithDeclaredMinors": 300,
+    "primaryDeclarationDifferences": 0,
+    "historyRowsAccountedFor": 37187,
+    "enrollmentRowsAccountedFor": 44433,
+    "legacyCoursesPreserved": 240,
+    "legacyMajorImpact": [
+        {
+            "legacyMajorId": 1,
+            "legacyMajorName": "Computer Science",
+            "undergraduates": 184,
+            "graduates": 343
+        },
+        {
+            "legacyMajorId": 2,
+            "legacyMajorName": "Cybersecurity",
+            "undergraduates": 184,
+            "graduates": 68
+        },
+        {
+            "legacyMajorId": 3,
+            "legacyMajorName": "Business Administration",
+            "undergraduates": 184,
+            "graduates": 68
+        },
+        {
+            "legacyMajorId": 4,
+            "legacyMajorName": "Accounting",
+            "undergraduates": 184,
+            "graduates": 68
+        },
+        {
+            "legacyMajorId": 5,
+            "legacyMajorName": "Mathematics",
+            "undergraduates": 184,
+            "graduates": 129
+        },
+        {
+            "legacyMajorId": 6,
+            "legacyMajorName": "Biology",
+            "undergraduates": 184,
+            "graduates": 66
+        },
+        {
+            "legacyMajorId": 7,
+            "legacyMajorName": "Engineering",
+            "undergraduates": 184,
+            "graduates": 66
+        },
+        {
+            "legacyMajorId": 8,
+            "legacyMajorName": "English",
+            "undergraduates": 184,
+            "graduates": 66
+        },
+        {
+            "legacyMajorId": 9,
+            "legacyMajorName": "Psychology",
+            "undergraduates": 182,
+            "graduates": 66
+        },
+        {
+            "legacyMajorId": 10,
+            "legacyMajorName": "Education",
+            "undergraduates": 182,
+            "graduates": 66
+        },
+        {
+            "legacyMajorId": 11,
+            "legacyMajorName": "Health Sciences",
+            "undergraduates": 182,
+            "graduates": 66
+        },
+        {
+            "legacyMajorId": 12,
+            "legacyMajorName": "Media Studies",
+            "undergraduates": 182,
+            "graduates": 66
+        }
+    ],
+    "approvedStudentProgramChanges": 0,
+    "approvedCourseEquivalencies": 0,
+    "degreeVerdictsIssued": 0,
+    "databaseWritesPerformed": 0,
+    "sourceTablesVerifiedUnchanged": 47,
+    "sourceFingerprintSHA256": "7fe9998b1ed69abf856958783cc41b34361f3d5e8cdacce47a75545af15886eb",
+    "privateReportDirectory": "\/private\/tmp\/northbridge-academic-impact-57ba7d646652",
+    "detailedReportSHA256": "20d29ab448735cdd6bc8591a6be272e720fc4f881b1c389231bd58bb7d7a9feb",
+    "limitations": [
+        "An inventory of every student, not a completed academic equivalence review or migration approval.",
+        "Existing fictional academic histories cannot be evaluated under new meanings until individual program and course mappings are reviewed.",
+        "Graduate students remain outside the undergraduate migration; do not rename shared major IDs.",
+        "Private report directory is temporary local storage, not a durable backup."
+    ]
+}

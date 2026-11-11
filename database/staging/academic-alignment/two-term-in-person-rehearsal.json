@@ -1,0 +1,63 @@
+{
+  "status": "two-term-in-person-staging-checks-passed",
+  "terms": [
+    "Fall 2026",
+    "Spring 2027"
+  ],
+  "activeStudents": 1140,
+  "underloadedStudents": {
+    "202609": 0,
+    "202702": 0
+  },
+  "seats": {
+    "202609": {
+      "sections": 431,
+      "assignedSeats": 3903,
+      "capacity": 4310,
+      "remainingSeats": 407
+    },
+    "202702": {
+      "sections": 404,
+      "assignedSeats": 3740,
+      "capacity": 4040,
+      "remainingSeats": 300
+    }
+  },
+  "sectionsVerified": 835,
+  "enrollmentAssignmentsVerified": 7643,
+  "meetingResourceAndSeatErrors": {},
+  "prerequisiteStatusCounts": {
+    "completed-history": {
+      "satisfied": 34682
+    },
+    "current-registration": {
+      "satisfied": 3903
+    },
+    "forecast-only": {
+      "satisfied": 2143,
+      "conditional": 1597
+    }
+  },
+  "prerequisiteParity": {
+    "attemptsCompared": 42325,
+    "mismatches": 0
+  },
+  "degreeComparison": {
+    "studentsCompared": 2200,
+    "minorsCompared": 300,
+    "earnedDegreeResultChanges": 0
+  },
+  "historicalAttemptsPreserved": 34682,
+  "csFreshmenWithAlgebraThenProgramming": 25,
+  "unresolvedLinkedOrSharedSeatSectionsUsed": 0,
+  "officialTimesChanged": false,
+  "schemaChanged": false,
+  "databaseChanged": false,
+  "activationAllowed": false,
+  "nextGate": "Isolated database materialization/rehearsal using existing schema, staged placement-rule version and derived installation seeds.",
+  "candidateSHA256": "f5a54d2c9b433da5f65d3bc3bf2db15cdf7e3a9b07d048404d1476c3e862f68d",
+  "scheduleSHA256": "d885eae57d9de157db91f6aa48bfc21d50b017c75cbfc7f037ceb1033c982e22",
+  "privateCandidateDirectory": "/private/tmp/northbridge-spring-joint-rehearsal-20261108-v2",
+  "academicPlanningApproved": false,
+  "academicPlanningReview": "Under review: technical validity did not establish sensible program progression or prevent redundant choices."
+}

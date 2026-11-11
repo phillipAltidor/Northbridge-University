@@ -1,0 +1,1567 @@
+{
+  "status": "blocked-from-activation",
+  "reviewAsOf": "2026-11-07",
+  "policy": "Owner-authorized fictional undergraduate academic rebuild, not verified transfer equivalence.",
+  "undergraduateStudents": 2200,
+  "graduateStudentsProtected": 1138,
+  "majorProgramsRepresented": 12,
+  "minorProgramsRepresented": 11,
+  "replacementAttempts": 42334,
+  "courseVersionsUsed": 187,
+  "underloadGroups": 0,
+  "structuralErrors": {},
+  "knownPrerequisiteFailuresByCourse": {},
+  "independentlyCheckedScheduleTerms": [
+    "202009",
+    "202102",
+    "202109",
+    "202202",
+    "202209",
+    "202302",
+    "202309",
+    "202402",
+    "202409",
+    "202502",
+    "202509",
+    "202602",
+    "202609",
+    "202702"
+  ],
+  "scheduleValidationErrors": {},
+  "scheduleSolverFailures": [],
+  "sourceRuleReviewCourses": 0,
+  "sourceRuleReviewAttempts": 0,
+  "sourceRuleReviewCountsByCourse": {},
+  "formerNameMeetingTemplatesReviewed": 6,
+  "formerNameConflictsHeldForReview": [
+    {
+      "courseCode": "PX2201",
+      "formerCodeInNote": "CP2240",
+      "reason": "No collected former-code offering has matching course credits; retain review gate."
+    }
+  ],
+  "fictionalElectiveRepairCount": 21,
+  "explicitSourceInterpretations": {
+    "BS3450": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "BS2400",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2401",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2410",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2411",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "proficiency",
+            "key": "ECII"
+          }
+        ]
+      },
+      "originalRuleSHA256": "0e06eaad2e2385bd4b25f0686b66a621e40a0e313a4f5066a44f7596c383977c",
+      "sourceText": "BS 2400, BS 2401, BS 2410, BS 2411 with a C or better, ECII",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "BS3520": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "BS2400",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2401",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2410",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2411",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "proficiency",
+            "key": "ECII"
+          }
+        ]
+      },
+      "originalRuleSHA256": "ea1642da23d02272bbafeaf30375c77e5c869d018262d1e1430104f1070419e4",
+      "sourceText": "BS 2400, BS 2401, BS 2410, BS 2411 with a C or better; ECII",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "BS3530": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "BS2400",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2401",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2410",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2411",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "proficiency",
+            "key": "ECII"
+          }
+        ]
+      },
+      "originalRuleSHA256": "b5eb00ae94246b2753f0404bc3432732330cfc4830926b5a8e1a4bf06082b1a0",
+      "sourceText": "BS 2400, BS 2401, BS 2410, BS2411 with a C or better, ECII",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "BS4400": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "BS2400",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2401",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2410",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2411",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "proficiency",
+            "key": "ECII"
+          }
+        ]
+      },
+      "originalRuleSHA256": "ea1642da23d02272bbafeaf30375c77e5c869d018262d1e1430104f1070419e4",
+      "sourceText": "BS 2400, BS 2401, BS 2410, BS 2411 with a C or better; ECII",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "BS4440": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "BS2400",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2401",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2410",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2411",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "proficiency",
+            "key": "ECII"
+          }
+        ]
+      },
+      "originalRuleSHA256": "30b2ca9e4fd263f31541cfae4dc31c11cfbbccfbe4e5d1a4cca1dc9ce1a751a6",
+      "sourceText": "BS 2400, BS 2401, BS2410, and BS 2411 with a C or better; ECII",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "BS4470": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "BS2400",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2401",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2410",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2411",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "proficiency",
+            "key": "ECII"
+          }
+        ]
+      },
+      "originalRuleSHA256": "96e0055de2bc7a7c70f5cbcb1232a3728076d81aa46c3b4729ef89644a5269ca",
+      "sourceText": "Bs 2400, BS 2401, BS 2410, and BS 2411 with a grade of C or better; ECII",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "BS3400": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "BS2400",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2401",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2410",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "BS2411",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "CP2120",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "CP2121",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "proficiency",
+            "key": "ECII"
+          }
+        ]
+      },
+      "originalRuleSHA256": "c9a7c60ebf448dbe6b3676010487b584b60c6748ae8bf3247c85ed3f787b52a4",
+      "sourceText": "BS 2400, BS 2401, BS 2410, BS 2411 with a C or better; CP 2120 and CP 2121 with a C or better; ECII",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "BU3071": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA2000",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "2bc0798d6cbd9cc123b186e39c40b0eb82756c6115e8923cf2231e6308c7a8c9",
+      "sourceText": "MA 2000\nApplied Statistics or equivalent",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "BU3250": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA2080",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2000",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "518a1fce26120fa9b9515e61eda218d82d306a93485c1721805952d63d711b9b",
+      "sourceText": "Minimum grade of \u201cC\u201din MA 2080\n& MA 2000",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "CP2120": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA1020",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "f24ae41dd67717247ceae0efb09163d73c1583ade1f111e47692efc5cf093d19",
+      "sourceText": "MA 1020, completed with grade \u201cC\u201d or better",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "CP2130": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CP2120",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "db6d816081fa00122ce4b390312441531c1ba22a3212416c96d81d45ab49ca72",
+      "sourceText": "CP 2120 completed with grade of \u201cC\u201d or better",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "CP2131": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CP2121",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "6eab2d20dc43769e7593ec45f7a4956392f68420aa81711a137327a4b412eb78",
+      "sourceText": "CP 2121 completed with grade of \u201cC\u201d or better;",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "CP3300": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CP2130",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "feb0128d1d1312b206dcdb3ae5f94a29e0e851088e5e30d6dc90e415ebab4f03",
+      "sourceText": "CP 2130 completed with grade of \u201cC\u201d or better",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "CP3302": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CP2130",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "CP2131",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "1ef09cc5d7d16fcd266e2f27e96e7c15eff71103c22f6ff5ab2ed2e42971990a",
+      "sourceText": "CP 2130 and CP 2131 with grades of \u201cC\u201d or better;",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "CP4490": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "CP3310",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "26526c82320d25701137e0516d9058d4a65ed86df226fa78f2378b981fd644c4",
+      "sourceText": "CP 3310 with a grade of C or better",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "MA4030": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA3030",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "438e083ed26a440f41d2ed4373a196f01c415a61dd63815a53b28ba9203ebd3f",
+      "sourceText": "A grade of C or higher in MA 3030 Discrete Mathematics\nCorequisite none",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "MA5320": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA2320",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA3520",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "4fcf4dc47f12685d9f37925bb14c962fea6e492c8850625998b112fc3dad4a30",
+      "sourceText": "Grades of \u201cC\u201d or higher in MA 2320\nand MA 3520",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "BU4160": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA2080",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2000",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "BU3010",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "BU3071",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "courseCode": "BU3250",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "d96a2b8fe90058ad90b95cd5e01a04854bfa5e3fd3eecb17c9415a47e2cd2df3",
+      "sourceText": "MA2080 Precalculus; MA2000 Applied Statistics; BU3010 Info Systems for Managers or BU3071; BU3250 Business\nAnalytics",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "BU5115": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "BU3010",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "BU3071",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2000",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "e7549335e5074193ffa9722b32b7683e46c4ee5cb8e71554067351720268e553",
+      "sourceText": "BU 3010\nor BU 3071\n, MA 2000",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "ED3820": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "EL1000",
+            "minimumGrade": "B"
+          },
+          {
+            "type": "course",
+            "courseCode": "EL2216",
+            "minimumGrade": "B"
+          }
+        ]
+      },
+      "originalRuleSHA256": "b0e8d94d83c098377affbd6162dd7778cedb8c728d1514b1d7043d260538b1f9",
+      "sourceText": "English Comp I and II with a B or higher",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "EL3920": {
+      "rule": {
+        "type": "proficiency",
+        "key": "ECII"
+      },
+      "originalRuleSHA256": "7713c1c6df27564788237df9040109a17ebd38872b21454ee8035da5bbcf90a2",
+      "sourceText": "WRITING O.W. 50 or Undergraduate level EL 2203\nMinimum Grade of C or Undergraduate level EL 2206\nMinimum Grade of C or Undergraduate level EL 2208\nMinimum Grade of C or Undergraduate level EL 2211\nMinimum Grade of C or Undergraduate level EL 2214\nMinimum Grade of C or Undergraduate level EL 2216\nMinimum Grade of C or Undergraduate level EL 2218\nMinimum Grade of C or Undergraduate level EL 2219\nMinimum Grade of C or Undergraduate level EL 2221\nMinimum Grade of C or Undergraduate level EL 2222\n\nMinimum Grade of C or Undergraduate level EL 2224\nMinimum Grade of C or Undergraduate level EL 2233\nMinimum Grade of C or Undergraduate level EL 2239\nMinimum Grade of C or Undergraduate level EL 2248\nMinimum Grade of C",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "EL4800": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "proficiency",
+            "key": "EMS"
+          },
+          {
+            "type": "course",
+            "courseCode": "EL3500",
+            "minimumGrade": null
+          },
+          {
+            "type": "course",
+            "courseCode": "EL3510",
+            "minimumGrade": null
+          }
+        ]
+      },
+      "originalRuleSHA256": "36e82318011cab3b392b8707443a0e7bb3030e55ee2ae50a4d4ce7fc7a6f0b78",
+      "sourceText": "EMS, Completion of EL 3500\nand EL 3510\nPrevious 4000 level English courses strongly advised",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "EL5010": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "proficiency",
+            "key": "EMS"
+          },
+          {
+            "type": "course",
+            "courseCode": "EL5000",
+            "minimumGrade": null
+          }
+        ]
+      },
+      "originalRuleSHA256": "5b5708ec54018ee3be7e482ff3ec33bd08e87b02fe3100def0ab21fa0a0a1976",
+      "sourceText": "EMS, Completion of EL 5000",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "HI3006": {
+      "rule": {
+        "type": "course",
+        "courseCode": "EL1000",
+        "minimumGrade": "C"
+      },
+      "originalRuleSHA256": "052730f119d084e544ab60f5fc980e755d2fd245f9b535e2756c798c4cec3f3c",
+      "sourceText": "Writing proficiency: OW Writing 25 or English 1000 grade C or above",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "MA5120": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA3160",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA3520",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "proficiency",
+            "key": "ECII"
+          }
+        ]
+      },
+      "originalRuleSHA256": "860fe0ca792ac796fa5f328f7bf886617e2d19faaca7382e1fe581ecdd9ec08c",
+      "sourceText": "Grades of \u201cC\u201d or higher in MA 3160\nand MA 3520\n; ECII",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PX2000": {
+      "rule": {
+        "type": "course",
+        "courseCode": "MA2090",
+        "minimumGrade": "C"
+      },
+      "originalRuleSHA256": "67f3381bb764a09d6926b8c52e7761f103bd6ff1ee926b5532e8ced055ae71ab",
+      "sourceText": "MA 2090\nor equivalent, completed with grade of \u201cC\u201d or better",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PX2100": {
+      "rule": {
+        "type": "or",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PX2000",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "PX2200",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "ad605b39f5d2456b0e18ae7c7f1e4c288c90c576defc8a69c027f8dbdc6d3e89",
+      "sourceText": "PX 2000\nor PX 2200\n, completed with grade of \u201cC\u201d or better",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PX2300": {
+      "rule": {
+        "type": "or",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PX2000",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "PX2200",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "ad605b39f5d2456b0e18ae7c7f1e4c288c90c576defc8a69c027f8dbdc6d3e89",
+      "sourceText": "PX 2000\nor PX 2200\n, completed with grade of \u201cC\u201d or better",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PX2200": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "MA2090",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "corequisite-condition",
+            "rule": {
+              "type": "course",
+              "courseCode": "MA2310",
+              "minimumGrade": null
+            }
+          }
+        ]
+      },
+      "originalRuleSHA256": "a8f966b4a7d7e42f1103bbf2a61c57571a093a049c894c1cd44cdbc659538684",
+      "sourceText": "MA 2090\nor equivalent, completed with grade of \u201cC\u201d or better\nCorequisite MA 2310",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PX3000": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "PX2200",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PX2000",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2310",
+            "minimumGrade": null
+          }
+        ]
+      },
+      "originalRuleSHA256": "fad12d772284cfcf44538c3803cd46622ab9ddba81da5c8d36a4420b29154746",
+      "sourceText": "PX 2200\nor PX 2000\nwith grade of \u201cC\u201d or better, MA 2310",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PX3200": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "PX2200",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PX2000",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2310",
+            "minimumGrade": null
+          }
+        ]
+      },
+      "originalRuleSHA256": "fad12d772284cfcf44538c3803cd46622ab9ddba81da5c8d36a4420b29154746",
+      "sourceText": "PX 2200\nor PX 2000\nwith grade of \u201cC\u201d or better, MA 2310",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PX3600": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PX3000",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2320",
+            "minimumGrade": null
+          }
+        ]
+      },
+      "originalRuleSHA256": "321eea54c53e8e38b60a042066064279346c9b55f3672fdf756f26acdb2ef253",
+      "sourceText": "PX 3000\nwith grade of \u201cC\u201d or better, MA 2320",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PX3700": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "PX2300",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PX2100",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "courseCode": "MA3330",
+            "minimumGrade": null
+          }
+        ]
+      },
+      "originalRuleSHA256": "fa8808844d993d94291eae55a1de6b8ed6da6bbb6f61bed9c90ba6466afb5ff7",
+      "sourceText": "PX 2300\nor PX 2100\nwith grade of \u201cC\u201d or better, MA 3330",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PX3800": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PX3000",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2320",
+            "minimumGrade": null
+          }
+        ]
+      },
+      "originalRuleSHA256": "321eea54c53e8e38b60a042066064279346c9b55f3672fdf756f26acdb2ef253",
+      "sourceText": "PX 3000\nwith grade of \u201cC\u201d or better, MA 2320",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PX3900": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "PX2301",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PX2101",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2320",
+            "minimumGrade": null
+          }
+        ]
+      },
+      "originalRuleSHA256": "50c95e4198d9a35e52207be122a985839865c500be074d4dd291fa0fbddfb77c",
+      "sourceText": "PX 2301\nor PX 2101\nwith grade of \u201cC\u201d or better, MA 2320",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PX4100": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "PX2300",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PX2100",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "type": "course",
+            "courseCode": "CP2130",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2320",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "originalRuleSHA256": "275b6f9f001409312757df40f41d32dcc3ff551cf34adc03498ade6e21cc70e5",
+      "sourceText": "PX 2300\nor PX 2100\ncompleted with a grade of \u201cC\u201dor better; CP 2130\ncompleted with grade of \u201cC\u201d or better; MA 2320\ncompleted with a grade of \u201cC\u201d or better,",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PX4200": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PX3000",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "MA2320",
+            "minimumGrade": null
+          }
+        ]
+      },
+      "originalRuleSHA256": "321eea54c53e8e38b60a042066064279346c9b55f3672fdf756f26acdb2ef253",
+      "sourceText": "PX 3000\nwith grade of \u201cC\u201d or better, MA 2320",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "PY4010": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "PY2010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "course",
+            "courseCode": "PY3010",
+            "minimumGrade": "C"
+          },
+          {
+            "type": "proficiency",
+            "key": "EMS"
+          },
+          {
+            "type": "or",
+            "rules": [
+              {
+                "type": "course",
+                "courseCode": "PY3410",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3420",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3610",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3620",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3215",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3230",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3240",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3310",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3311",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3510",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3570",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY2530",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY2720",
+                "minimumGrade": "C"
+              },
+              {
+                "type": "course",
+                "courseCode": "PY3710",
+                "minimumGrade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "originalRuleSHA256": "0152526a660298d3670b88bd3a8326f91a0cd63cccc1af31997e5b0e4c105190",
+      "sourceText": "PY 2010 (with a minimum grade of \u201cC\u201d); PY 3010 (with a minimum grade of \u201cC\u201d); EMS; and one of the following: PY\n3410 or PY 3420 or PY 3610 or PY 3620 or PY 3215 or PY 3230 or PY 3240 or PY 3310 or PY 3311 or PY 3510 or PY 3570 or\nPY 2530 or PY 2720 or PY 3710",
+      "status": "explicit-source-interpretation-for-rebuild-rehearsal",
+      "alternativesAndPlacement": "Uses the listed completed-course route; no placement or equivalence is fabricated."
+    },
+    "AS1152": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "a6300e1e6585b84307bd364ff1146c9ab45ca3daaaad4880a0b545178145da14",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+      "sourceStartPage": 1,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThe course is an introduction to major issues in the history of the United States, from colonial times to the twentieth\ncentury. Topics may include: the origins of slavery and racism; industrialization and the growth of cities and suburbs;\nthe growth of the American empire; movements for social change.\nWhen Offered:\nEvery semester."
+    },
+    "AS1512": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "ec8a0657390fdb7b1c19efcf92a181a8b2be26a72eee56f5047f4d581f4cc434",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+      "sourceStartPage": 1,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nExplores the development of sexed and gendered lives, from childhood through adolescence to maturity. Focuses on the\nfamily, school, sexuality, career options, and how these experiences and choices are affected by race, class, religion,\n\nethnic origin, and gender. Readings include: fiction; autobiography; history; and social science. Offered every semester\nWhen Offered:\nEvery semester."
+    },
+    "AS2020": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "1309141d1d8d8be63bbb608bdaf812d6c5ddf7521e8f61150c7895fcb736edd3",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+      "sourceStartPage": 2,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThis introductory course explores new and emerging media through the lenses of history, technology, culture, and art.\nStudents will engage with theory and analysis, alongside hands-on creative exercises using mobile media technology.\nThrough readings, discussions, case studies, and experiments, we will examine new media aesthetics, storytelling\nstrategies, and tools like virtual and augmented reality, video games, and apps. This course also delves into the impact\nof emerging media on journalism, documentary, activism, and its social and political implications."
+    },
+    "AS2802": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "6328339178a1302aa1254e6da6816119be982c0f6c56ef45c7980be76c317ca5",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+      "sourceStartPage": 6,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThis hands-on course introduces students to nonfiction storytelling through text, photography, audio, video, and\nimmersive media. Students learn to observe closely, engage with people and places, and communicate clearly to specific\naudiences-often through campus-based reporting. Through short projects such as photo stories, audio pieces, 360 video,\nand micro-profiles, students practice visual communication, interviewing, and narrative structure. Emphasizing creative\nexpression, documentation, and peer critique, the course prepares students to craft compelling multimedia stories for\ncontemporary platforms.\nWhen Offered:\nEvery semester.\n"
+    },
+    "AS2901": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "9641099e3991859bdf1ef196f704f833e979e5e2667981e9d125bcc0dc522ad1",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+      "sourceStartPage": 7,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nIn this introductory course (AS2901- formerly AS 3247), students will learn the basics of television and video production:\ncamera operation, sound, lighting and editing for field and studio production. Through hands-on workshops,\nscreenings, lectures and readings, students will explore the visual language of the moving image as well as the\nconventional and experimental approaches to non-fiction video, students will learn to use moving images and sound for\nartistic expression and as a tool for effective communication. Students will complete individual video projects shot in the\nfield as well as a collaborative TV broadcast project produced in the television studio.\nWhen Offered:\nEvery Semester"
+    },
+    "AS3010": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "fed2948f23110f29ef40336c9b3da30feb5419649fff9a0266ac111e41effbc6",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+      "sourceStartPage": 8,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThis audio production course explores podcasting in many forms with a focus on creative techniques for non-fiction\nstorytelling. Students will be encouraged to develop stories from their unique point-of-view, exploring topics important\nto their communities or building on their academic interests. Students will produce carefully crafted podcasts\nincorporating research, scripting, field and studio recording, interview, narration, editing and sound mixing.\n\nWhen Offered:\nOtherNote:\nThis course is already in the system; it is just not in the catalog"
+    },
+    "AS3247": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "c1120070584ecee7e91ecddee99a20f0d0bb4357d2cf76ac700664d621b4a69e",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "0e8ec145f0eca72086cad7cb0709983630d6c087ab94e17c612941d71868bdc1",
+      "sourceStartPage": 10,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nIn this introductory course, students will learn the basics of television and video production: camera operation, sound,\nlighting and editing for field and studio production. Through hands-on workshops, screenings, lectures and readings,\nstudents will explore the visual language of the moving image as well as the conventional and experimental approaches\nto non-fiction video, students will learn to use moving images and sound for artistic expression and as a tool for\neffective communication. Students will complete individual video projects shot in the field as well as a collaborative TV\nbroadcast project produced in the television studio."
+    },
+    "CP2025": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "c5dff1b184f2f96379b5333d4cfa4ed1f50329b17bb497e0113f19e5150a8728",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+      "sourceStartPage": 2,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nGeneral Elective science course illuminating the different forms of renewable energy and the scope within different\nsectors for a wide range of majors.\nWhen Offered:\nEvery Semester"
+    },
+    "CP2070": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "d11c586a5509daf4bd88f16231330b87dd76c3c20432a4e5a90edd266a937c6c",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+      "sourceStartPage": 2,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThis course is an introduction to forensic chemistry intended for non-science majors. The course examines the many\nways that chemical principles and scientific techniques are applied in modern crime investigation: the chemical\ncharacteristics of fuels and explosives as well as arson-related methods; other ways of identifying criminals through\nchemical processes, including blood and bodily fluid analyses, the chemical characteristics found in paints, fibers, hair,\nDNA, and fingerprinting; and the chemical properties of drug analysis. Students learn the fundamentals of forensic\nscience and applications in crime investigation and adjudication.\n\nWhen Offered:\nEvery Semester"
+    },
+    "HI2511": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "a5db436fbd6ed17931e19808ba4fd8a964d8f89028b80fd781381e84d933f89c",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "605d3dc324931acda563818e1a2772f82cc9fad7a8a82681a71d7889fe7edc1f",
+      "sourceStartPage": 3,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThe first semester of a year long sequence in World History, this course surveys the history and culture of five regions of\nthe world: the Middle East, sub-Saharan Africa, China, India and Japan. Our goal is to gain an understanding of each\ncountry\u2019s/culture\u2019s place in world history both in the past and in the present. To that end we will study maps and\nregional geographical features, survey crucial historical periods and events and study short selections from religion,\nphilosophy and literature. In the last section of the course, student reports will focus our attention on each civilization\u2019s\nunique contributions to the history of our world.\nWhen Offered:\nAnnually.\n"
+    },
+    "HI3001": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "75a507c2d1ae4fa3d82cc4523e7baa736c7d630b41442dc12291ef39ea634a59",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "605d3dc324931acda563818e1a2772f82cc9fad7a8a82681a71d7889fe7edc1f",
+      "sourceStartPage": 6,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThis course will offer students an introduction into the main themes of environmental studies in connection with Old\nWestbury\u2019s Environmental Studies major and minor. Throughout the course, we will explore and integrate\ninterdisciplinary theories and ideas to guide our study of the environment, particularly as they relate to questions of\n\nsustainability and justice. This class will touch on issues of politics and international relations, economics, history,\ngeography, sociology, public health, law, and ecology. The three units of the class follow the textbook\u2019s themes: forces\n(what causes the natural and human world to operate), grand challenges (why environmental sustainability and justice\nare difficult to solve), and strategies (how can we understand these complex ideas, advocate for change, and pursue\nproductive habits and policies in our lives)."
+    },
+    "HI3002": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "a11b32d0c7caec73ae6a12525fc0da11c13133b4218be92b9dba31b757b4612b",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "605d3dc324931acda563818e1a2772f82cc9fad7a8a82681a71d7889fe7edc1f",
+      "sourceStartPage": 7,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nAn introduction to the Greek and Roman origins of Western civilization. This course aims, through a critical study of the\nworks of the greatest minds and literary artists of Greece and Rome, to give an understanding of their contributions to\nwestern culture, to provoke thinking on basic problems of human experience, to develop literary taste and judgment,\nand to improve skills in oral discussion and written analysis. Readings are drawn from the following major genres: epic,\ntragedy, history and philosophy.\nWhen Offered:\nAnnually."
+    },
+    "HI3600": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "4e70aa31166887fe6ccf53e47811690bcf676b9221cd3578afed2170b0ab77c3",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "605d3dc324931acda563818e1a2772f82cc9fad7a8a82681a71d7889fe7edc1f",
+      "sourceStartPage": 15,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThis course is an introduction to the major topics in human geography. It highlights the roots of contemporary global\nrelationships among places as they influence social, political and economic trends. A wide and shifting range of topics\nare covered including, among others, the political economy of the world system, globalization and development,\npopulation, geopolitics, the geography of food and agriculture and urban geography. This course also introduces\nstudents to the critical thinking skills necessary for a geographical analysis and to sharpen their global awareness.\nWhen Offered:\nEvery semester."
+    },
+    "MC2020": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "4185976ee8544e258dfdf086661f4ec61f59829fe30549f1041217a432b6736c",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "6bdda220d45b210ce6c4d705277cf5946a78371a435c369c3e72f19109ea0251",
+      "sourceStartPage": 1,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThis introductory course explores new and emerging media through the lenses of history, technology, culture, and art.\nStudents will engage with theory and analysis, alongside hands-on creative exercises using mobile media technology.\nThrough readings, discussions, case studies, and experiments, we will examine new media aesthetics, storytelling\nstrategies, and tools like virtual and augmented reality, video games, and apps. This course also delves into the impact\nof emerging media on journalism, documentary, activism, and its social and political implications.\nWhen Offered:\nEvery year."
+    },
+    "MC2802": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "7d2a07a8b3b1e4307f85d076574489ea614282939e7a7ab56a609e071cf7bfa2",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "6bdda220d45b210ce6c4d705277cf5946a78371a435c369c3e72f19109ea0251",
+      "sourceStartPage": 2,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThis hands-on course introduces students to nonfiction storytelling through text, photography, audio, video, and\nimmersive media. Students learn to observe closely, engage with people and places, and communicate clearly to specific\naudiences-often through campus-based reporting. Through short projects such as photo stories, audio pieces, 360 video,\nand micro-profiles, students practice visual communication, interviewing, and narrative structure. Emphasizing creative\nexpression, documentation, and peer critique, the course prepares students to craft compelling multimedia stories for\ncontemporary platforms. (Formerly AS2802).\nWhen Offered:\nEvery semester."
+    },
+    "MC2901": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "dbcbb1b3904d47933e58237161364f57865bfc899f6bf2624800182e46cd3bb9",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "6bdda220d45b210ce6c4d705277cf5946a78371a435c369c3e72f19109ea0251",
+      "sourceStartPage": 2,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nIn this introductory course, students will learn the basics of television and video production: camera operation, sound,\nlighting and editing for field and studio production. Through hands-on workshops, screenings, lectures and readings,\nstudents will explore the visual language of the moving image as well as the conventional and experimental approaches\nto non-fiction video, students will learn to use moving images and sound for artistic expression and as a tool for\neffective communication. Students will complete individual video projects shot in the field as well as a collaborative TV\nbroadcast project produced in the television studio. (Formerly AS3247).\nWhen Offered:\nEvery Semester"
+    },
+    "MD1000": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "2949cdb92aaf7e7cf3cc7a23f09ebadd798f46a58fade5de6acdf610f33ac36a",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "b0d74fee5d4bd4baa7e07f695348e44b6d688919e07ca4b1ac4c2136a5be142d",
+      "sourceStartPage": 1,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nAn introductory course focused on understanding and exploring the meaning and art of traditional and popular music\nand global cultures. This course presents music from diverse cultures examining historical perspectives and their impact\non society. Students will be introduced to basic rhythms, melodies and harmonies. Cultures on focus include\nintroduction to the music of Africa, Europe, Asia and the Americas. Course will include review of videos, films and\nrecordings, and may include one field trip outside of regular class time to attend a live concert."
+    },
+    "MD1110": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "61bc36541fb2a52e246a18187f9d4e44d947e8b76fa400c8bf87a3c0c47aaf6a",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "b0d74fee5d4bd4baa7e07f695348e44b6d688919e07ca4b1ac4c2136a5be142d",
+      "sourceStartPage": 2,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nDance embodies the language of culture through movement. This introductory course examines the role of dance in\narticulating the human rights of diverse cultural communities. The historical global dance survey will focus on the\nsocietal conditions that created and influenced different dance styles and movements. Working with professional\ndancers and musicians, students will study dance history, improvisation and basic dance composition. The interactive\ndance survey will include the cultures of Africa, Asia, Europe and the Americas. Course will include review of videos,\nfilms and slides."
+    },
+    "MD2350": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "ea7e3e44edb0fbf935aa6b963b65b32a68b13c574c3f34df27893a6d9c334742",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "b0d74fee5d4bd4baa7e07f695348e44b6d688919e07ca4b1ac4c2136a5be142d",
+      "sourceStartPage": 2,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\n\nThis course will introduce acting as an intellectually academic, emotional, and physical art giving each its due. The\ncourse\u2019s approach to acting is largely based on the Stanislavsky method of actor training known as the \u201cMagic If\u201d:\n\u201cWhat would I do IF \u2026 I were that character in that situation.\u201d We will work to achieve that reality through theater\ngames and improvisations and by working on scenes cast with two or three actors from classic or contemporary full\nlength or one act plays The scenes will be selected to be appropriate for the mostly young adult student body. Students\nwill analyze their own and other students\u2019 performances through class discussions and in written assignments. The class\nwill culminate in a performance of the scenes during the assigned final exam week.\nWhen Offered:\nEvery semester."
+    },
+    "MD3010": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "accaba46a49a4e4ea09a917d9a35d962f0ee031167135fde1f857cb9d9530cf3",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "b0d74fee5d4bd4baa7e07f695348e44b6d688919e07ca4b1ac4c2136a5be142d",
+      "sourceStartPage": 3,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nJazz is a unique American art form and an integral part of the American experience. This class will study the evolution\nof jazz, starting with its roots in work songs, spirituals, and the Blues songs of African slaves and African- Americans\nand continuing with the influence of European music on these to create the jazz forms of the New World. The course\ncovers the birth of jazz in New Orleans and its dissemination to St. Louis, Chicago, Kansas City and New York. There\nwill be a review of the great innovators and popularizers and investigation of its forms and structures.\nWhen Offered:\nPeriodically.\n"
+    },
+    "PH2000": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "bcc60f94a273d6876defff5851380174d020113e70c2a3b278be32bd109f1ec9",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "3076ff9925d46406196c87ee2aee9ca9f0dbdac0d6e03d1d7f6702e60db514bf",
+      "sourceStartPage": 1,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThis course provides an equity-focused overview to the fundamentals of public health, which is focused on the health\nof entire communities and populations, rather than individuals. Public health examines the health of communities\nas shaped by political, economic, cultural, environmental, behavioral, and biological factors. Public health\npractitioners focus on promoting the health of populations through research, policy, education and interventions.\n\nThis course introduces the history, science, and principles of public health, as well as opportunities to learn about\ncurrent issues and approaches in the field. It also provides a broad overview of population health in the United\nStates, as well as grounding for students to wish to pursue additional coursework in public health.\nWhen Offered:\nFall and Spring"
+    },
+    "SY1500": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "basis": "No prerequisite or corequisite is listed in the supplied complete catalog entry."
+      },
+      "sourceEntrySHA256": "20bcb3acd98e14773a7054cfcc43f3f3b372c084405ba60643fc40537635a0da",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "c6d9875d1f67a4fec0acdd8b6fc25b5bbe85a1ff07c2e58793631ed1892706fa",
+      "sourceStartPage": 1,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nIntroduces basic concepts and perspectives in sociology. Such major social institutions as the family, education, politics,\nlaw, media, and religion are examined, together with such social processes as socialization, social change, social control,\nand social stratification. In addition, the course surveys some of the research methods and social theories in sociology.\nDesigned as a general interest and Liberal Education Curriculum course. Required for sociology and criminology\nmajors.\nWhen Offered:\nEvery semester."
+    },
+    "CP2121": {
+      "rule": {
+        "type": "completed-or-concurrent-condition",
+        "rule": {
+          "type": "course",
+          "courseCode": "CP2120",
+          "minimumGrade": null
+        }
+      },
+      "sourceEntrySHA256": "93f1444b087dba51498f0a82f59821eda7332abda052f4ffb1901663f02af12e",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+      "sourceStartPage": 3,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 1\nLaboratory course designed to illustrate concepts of Principles of Chemistry I. Emphasis on basic chemical concepts,\nquantitative laboratory skills, descriptive chemistry, and development of scientific report writing skills. Three laboratory\nhours per week.\nWhen Offered:\nIn conjunction with CP 2120."
+    },
+    "PX2001": {
+      "rule": {
+        "type": "completed-or-concurrent-condition",
+        "rule": {
+          "type": "course",
+          "courseCode": "PX2000",
+          "minimumGrade": null
+        }
+      },
+      "sourceEntrySHA256": "3e3633abb0975c17b43ac5d25c3b3d4c76eeab78584de15d48955d3ed62c2579",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+      "sourceStartPage": 1,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 1\nThis laboratory course provides students with hands-on experiences to complement the theoretical concepts introduced\nin the corresponding lecture course, PX 2000. Through a series of experiments and simulations emphasizing\nexperimental techniques, data analysis, and error estimation, students will explore fundamental principles of\nNewtonian mechanics, including motion, forces, energy, and momentum.\n\nCorequisite PX 2000\nWhen Offered:\nEvery semester\nNote:\nPreviously named \u201dCP 2221 Structure of Physics I Laboratory\u201d"
+    },
+    "PX2101": {
+      "rule": {
+        "type": "completed-or-concurrent-condition",
+        "rule": {
+          "type": "course",
+          "courseCode": "PX2100",
+          "minimumGrade": null
+        }
+      },
+      "sourceEntrySHA256": "19abdcc8a9b65ec1c5827d2ec4e2f67d345f883d999930051bee8ad44c1da18c",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+      "sourceStartPage": 2,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 1\nThis laboratory course provides students with hands-on experiences to complement the theoretical concepts introduced\nin the corresponding lecture course, PX 2100\n. Through a series of experiments and simulations emphasizing experimental techniques, data analysis, and error\n\nestimation, students will explore fundamental principles of electricty and magnetism, including electric and magnetic\nfields, electric circuits and basic electronics, and optics.\nCorequisite PX 2100\nWhen Offered:\nEvery semester\nNote:\nPreviously named \u201cCP 2231 Structure of Physics II Laboratory\u201d"
+    },
+    "PX2201": {
+      "rule": {
+        "type": "completed-or-concurrent-condition",
+        "rule": {
+          "type": "course",
+          "courseCode": "PX2200",
+          "minimumGrade": null
+        }
+      },
+      "sourceEntrySHA256": "a44922b5e5e6b359f1e4750f063d52d5dd71f0901fe35638f34668b2669666e8",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+      "sourceStartPage": 3,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\n\nCredits: 1\nThis laboratory course provides students with hands-on experiences to complement the theoretical concepts introduced\nin the corresponding lecture course, PX 2200\n. Through a series of experiments and simulations emphasizing experimental techniques, data analysis, and error\nestimation, students will explore fundamental principles of Newtonian mechanics, including motion, forces, energy, and\nmomentum.\nCorequisite PX 2200\nWhen Offered:\nFall\nNote:\nPreviously named \u201cCP 2240 General Physics I\u201d\n"
+    },
+    "PX2301": {
+      "rule": {
+        "type": "completed-or-concurrent-condition",
+        "rule": {
+          "type": "course",
+          "courseCode": "PX2300",
+          "minimumGrade": null
+        }
+      },
+      "sourceEntrySHA256": "4f4654a41d0de415691b80ca4afabdf11f6212ff007374b6e2a6f32be3364625",
+      "originalRuleSHA256": "3603550bf1912cce114aca8e37585c949e8dfbedcb27bcf7ba067b3084b5070d",
+      "sourcePDFSHA256": "be58d8be1676c8e78f2bc685edb1c33f5aefbe9958ad21d52790a0a90b445e91",
+      "sourceStartPage": 5,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 1\nThis laboratory course provides students with hands-on experiences to complement the theoretical concepts introduced\nin the corresponding lecture course, PX 2300\n. Through a series of experiments and simulations emphasizing experimental techniques, data analysis, and error\nestimation, students will explore fundamental principles of electricty and magnetism, including electric and magnetic\nfields, electric circuits and basic electronics, and optics.\nCorequisite PX 2300\nWhen Offered:\nSpring\n\nCourse Descriptions - SUNY Old Westbury\nPreviously named \u201cCP 2251 General Physics II Laboratory\u201d"
+    },
+    "CS2000": {
+      "rule": {
+        "type": "no-course-prerequisites",
+        "sourceExplicitlyStatesNone": true
+      },
+      "sourceEntrySHA256": "23a984ab3d91d4ed11c3eb0b9b205b2f4229ea957414bbf308eca7d32c11970d",
+      "originalRuleSHA256": "f1f40a0537c7b7a9ef3d5f20c6f2805c6f2281e999033e0a5671ee504a14f1ac",
+      "sourcePDFSHA256": "87cdb9742bd3ff1c78de6a431d5e87ab58586f534432a79d6d8ef579ddc3213f",
+      "sourceStartPage": null,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "Credits: 4\nThis course explores the ethical challenges and considerations in the fields of Data Security and Artificial Intelligence\n(AI). Students will examine the moral implications of data collection, storage, and usage, with a particular focus on\nprivacy, consent, and transparency. The course will delve into the ethical dilemmas posed by AI systems, including bias,\nfairness, accountability, and the societal impact of generative AI and autonomous technologies. Through case studies,\ndiscussions, debates and theoretical frameworks, students will learn to critically analyze ethical issues and develop\nstrategies for responsible decision-making in data security and AI development. The course emphasizes the importance\nof aligning technological advancements with ethical principles to ensure that innovations contribute positively to\nsociety. Key topics include ethical theories, data privacy and security, data ethics, data privacy laws and regulations, bias\nin AI, societal impact of AI, AI governance, and the future of AI in society. Students will be encouraged to think critically\nabout the role of ethics in shaping the future of technology and to develop a strong ethical foundation for their\nprofessional practice.\nPrerequisites\nNoneCorequisite NonePrerequisite/Corequisite\nNone\nWhen Offered:\nOther"
+    },
+    "BU4820": {
+      "rule": {
+        "type": "course",
+        "courseCode": "BU3800",
+        "minimumGrade": null
+      },
+      "sourceEntrySHA256": "5da0b25082a5889289ff012dce0e8a4c4824d5d354d35dd0d6713ebe4cf74670",
+      "originalRuleSHA256": "1b4b1b1a33c0c34b18b861f4d264c33639d9ab73c7eca683add3204e417df07e",
+      "sourcePDFSHA256": "79cbf38a2ab8c395173e805b3bae8f6b64db822fc86888ecbe359f5c243bd6e9",
+      "sourceStartPage": 15,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThis course examines the nature and practice of global marketing management. It includes the problems and issues of\nmarketing across national boundaries as well as within different national markets. There is an emphasis on the global\nenvironment in which international marketing takes place including product, pricing, supply chain distribution, and\npromotion strategies of international marketing managers. It examines ways of integrating and coordinating the firm\u2019s\nmarketing programs in diverse markets worldwide.\nPrerequisites\nBU3800Prerequisite/Corequisite\nRecommended: PE2430\nWhen Offered:\nEvery semester."
+    },
+    "CP2800": {
+      "rule": {
+        "type": "proficiency",
+        "key": "MATH_PROFICIENCY"
+      },
+      "sourceEntrySHA256": "e748350f9d1a8ab3885bc16e26d6788f9973fef7f1637df771ca6a0109ce4abf",
+      "originalRuleSHA256": "c2b1b5f5541bf71560b0ca6eea28838839d46451eb27ad424d63f86d04c56b0a",
+      "sourcePDFSHA256": "3a9f1ba484b6aef49d57798aef017bf05961c724e195551029327c828c2a70b2",
+      "sourceStartPage": 7,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\n\nCredits: 4\nAn introductory nutrition course suitable for non-science majors. Includes application of nutrition principles to daily\ndietary practice. Macro & micronutrients, energy metabolism and balance, weight management and fitness, life cycle\nnutrition at different stages of life, and food and the global environment. Major chronic diseases linked to nutrition and\ncurrent topics in nutrition will be discussed. Students will complete detailed individual analysis of their diet and will\ngain the knowledge and skills needed to achieve a nutritionally healthy lifestyle. Course includes laboratory exercises.\nPrerequisites\nMath Proficiency;"
+    },
+    "BU5190": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "BU3800",
+            "minimumGrade": null
+          },
+          {
+            "type": "course",
+            "courseCode": "BU4110",
+            "minimumGrade": null
+          },
+          {
+            "type": "course",
+            "courseCode": "BU4762",
+            "minimumGrade": null
+          },
+          {
+            "type": "minimum-earned-credits",
+            "minimum": 88
+          }
+        ]
+      },
+      "sourceEntrySHA256": "967ce5b885f4d809a84c79486529e262ec9dcae3bef57ff2fd31e34defa8af59",
+      "originalRuleSHA256": "dfae7cb3b38f65745af39cfb4c4ed315962115d57de76bc290e26f6f1032410a",
+      "sourcePDFSHA256": "79cbf38a2ab8c395173e805b3bae8f6b64db822fc86888ecbe359f5c243bd6e9",
+      "sourceStartPage": 19,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nSynthesizes the concepts and techniques developed in prior courses. The student is required to apply concepts from\nmanagement, accounting, marketing, economics, and finance using the casework and/or simulation approach.\nPrerequisites\nBU 3800\n, BU 4110\n, BU 4762\nSenior Status - 88 credits or higher\n\nWhen Offered:\nEvery semester. Must be taken in student\u2019s senior year."
+    },
+    "EL5000": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "proficiency",
+            "key": "EMS"
+          },
+          {
+            "type": "minimum-earned-credits",
+            "minimum": 88
+          }
+        ]
+      },
+      "sourceEntrySHA256": "04c9f98f962d0d4cd783edec0cb07afa786c3aa74471e86450e702d3006eeae9",
+      "originalRuleSHA256": "8f2cc91d7edf92b09a37064de58bb8ff0d1acfcf088898a26c452048f62e9cff",
+      "sourcePDFSHA256": "87fc17c978dd2d1f2512a4ba7a7ac042464625ba4671660b4e9a24aefa7aafe5",
+      "sourceStartPage": 32,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nAutobiographical and biographical works focusing on intellectual development aid students in understanding issues of\npersonal and career identity, the impact of literary study on the formation of self, and related topics. Classwork stresses\nresearch and documentation skills and participation in a seminar setting in which each student presents some\nindependent research to the class. In preparation for the senior thesis, students compose their own intellectual\nautobiographies tracing their growth and development as English majors. Students must complete a senior thesis\nproposal to pass the course.\nPrerequisites\nEMS, Senior standing Completion of a minimum of 20 to 24 credits in the English major strongly advised\nWhen Offered:\nEvery semester."
+    },
+    "PH5900": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "proficiency",
+            "key": "EMS"
+          },
+          {
+            "type": "course",
+            "courseCode": "PH2000",
+            "minimumGrade": null
+          },
+          {
+            "type": "course",
+            "courseCode": "PH3600",
+            "minimumGrade": null
+          },
+          {
+            "type": "completed-or-concurrent-condition",
+            "rule": {
+              "type": "course",
+              "courseCode": "PH4800",
+              "minimumGrade": null
+            }
+          }
+        ]
+      },
+      "sourceEntrySHA256": "650cdc0ccb358c8c5f008dab93295a51538ea2f195dffb4b7914197225db34f5",
+      "originalRuleSHA256": "1b34417f842f26ac0626f7cb72088de522e287ac2803ebc473cd651168ef08bd",
+      "sourcePDFSHA256": "3076ff9925d46406196c87ee2aee9ca9f0dbdac0d6e03d1d7f6702e60db514bf",
+      "sourceStartPage": 13,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nThis course, the first of the 2-course research sequence for the Public Health major, introduces seniors to various the\nresearch tools for empirical studies across diverse sub-fields of public health. Students will learn to evaluate research\nstudies, focusing on quantitative and qualitative methods. Topics include research assessment, scholarly writing,\nresearch design, ethical considerations, and data collection and analysis. Satisfactory completion of this course is\nrequired for advancing to PH 5920 - Senior Research Seminar II.\nPrerequisites\nEMS, PH 2000 and PH 3600Prerequisite/Corequisite\nPH 4800\n\nWhen Offered:\nFall and Spring"
+    },
+    "BU4851": {
+      "rule": {
+        "type": "and",
+        "rules": [
+          {
+            "type": "course",
+            "courseCode": "BU3800",
+            "minimumGrade": null
+          },
+          {
+            "type": "program-field",
+            "eligibleFields": [
+              "Accounting",
+              "Business Administration",
+              "Digital Design Marketing",
+              "Finance",
+              "Marketing",
+              "Women\u2019s and Gender Studies"
+            ]
+          }
+        ]
+      },
+      "sourceEntrySHA256": "24dc50d62665e5db4e0aacdf9ca80f9ab645ae3a9755c88f93b174235e721cc2",
+      "originalRuleSHA256": "4147134b8d25672e61741768fb11eee97b2f54dc2c2528064cd5b7752304fcf1",
+      "sourcePDFSHA256": "79cbf38a2ab8c395173e805b3bae8f6b64db822fc86888ecbe359f5c243bd6e9",
+      "sourceStartPage": 16,
+      "status": "complete-source-entry-reviewed-for-rebuild-rehearsal",
+      "sourceText": "\nCredits: 4\nIncorporates concepts from the behavioral sciences that provide a foundation for the study of buyer behavior. The\ncourse evolves through an exploration of the contributions from economics, psychology, sociology and cultural\nanthropology that reveal the motivations underlying consumer behavior.\nPrerequisites\nBU 3800\nMust be enrolled in one of the following Fields of Study (Major, Minor, or Concentration):\nAccounting\nBusiness Administration\nDigital Design Marketing\nFinance\nMarketing\nWomen\u2019s and Gender Studies\n\nWhen Offered:\nEvery semester.Note:\nMust be enrolled in a major, minor or specialization within the School of Business OR with instructor\u2019s approval."
+    }
+  },
+  "activationBlockers": [
+    "actual-rebuilt-student-degree-evaluations-not-verified",
+    "portal-and-installation-seed-integration-not-verified"
+  ],
+  "workingDatabaseChanged": false,
+  "privateStudentIdentifiersPublished": false,
+  "candidateSHA256": "60148936e1a0cd334864e21bb428ca3302af9f537ea5874bdd334e0e16e7cfcd",
+  "candidateFileSHA256": "1700082ac6d48725b7b8bc5a0543925ddd7e81476eef234259912661b9012344",
+  "scheduleFileSHA256": "9bc45975ba149705ba7597f593ca7108bdc373f6bff357a99a6a90ec43b9ec67"
+}

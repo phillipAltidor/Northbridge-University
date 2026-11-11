@@ -1,0 +1,53 @@
+{
+  "status": "draft-reference-only",
+  "northbridgeMajorID": 1,
+  "referenceProgram": "Computer & Information Science B.S.",
+  "catalogYear": null,
+  "sources": {
+    "schedule": "https://owsis.oldwestbury.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=search",
+    "catalogIndex": "https://www.oldwestbury.edu/division/office-academic-affairs/courses-catalogs",
+    "programPage": "https://www.oldwestbury.edu/programs-courses/computer-information-sciences-degree",
+    "programCatalogLink": "https://catalog.oldwestbury.edu/preview_program.php?catoid=11&poid=866&returnto=286",
+    "requirementsEvidence": "User-supplied October 27, 2026 catalog screenshots; catalog year not visible/confirmed"
+  },
+  "requirementsExample": {
+    "verified": false,
+    "majorCredits": 68,
+    "coreCredits": 40,
+    "core": ["CS2510", "CS2511", "CS3620", "CS3810", "CS3911", "CS4100", "CS4501", "CS4550", "CS4720", "CS5910"],
+    "electiveCredits": 12,
+    "electiveCount": 3,
+    "electiveOptions": ["CS4400", "CS4705", "CS4710", "CS5610", "CS5710", "CS5720", "CS5730", "CS5810"],
+    "mathCredits": 16,
+    "mathRequired": ["MA2310", "MA3030", "MA3210"],
+    "mathChooseOne": ["MA3160", "MA4100"],
+    "minimumGrade": "C",
+    "degreeCredits": 120,
+    "degreeGPA": 2.0,
+    "upperDivisionCredits": 45,
+    "liberalArtsCredits": 60,
+    "residencyCredits": 40,
+    "maximumTransferCredits": 80,
+    "notes": [
+      "This is a transcription for review, not approved degree-audit logic or a prerequisite list.",
+      "Project decision approved by the user on November 7, 2026: require CS3911 (C++ and Object-Oriented Programming), 4 credits, as the tenth Northbridge core course. CS3910 is not an approved alternative. The pasted catoid=19/poid=1614 program lists only nine core courses despite its 40-credit heading; its sample sequence includes CS3911. This decision is not verification of that catalog edition.",
+      "The current program overview mentions 10 science/engineering credits, not resolved by these screenshots.",
+      "The program overview catalog link points to catoid=11; the current catalog index points to catoid=19. Confirm the intended catalog year.",
+      "General education, transfer equivalencies, repeat policy, residency details and prerequisite rules still need authoritative sources."
+    ]
+  },
+  "candidateMappings": {
+    "CS1101": {"candidates": ["CS2510"], "reason": "Introductory programming topic match; compare language, syllabus and prerequisites."},
+    "CS1102": {"candidates": ["CS2511", "CS3910", "CS3911"], "reason": "Programming II and object-oriented courses are ambiguous; not a one-to-one match."},
+    "CS1103": {"candidates": ["CS3810"], "reason": "Data structures topic match; algorithms coverage must be checked."},
+    "CS1104": {"candidates": ["CS4550"], "reason": "Database systems topic match."},
+    "CS1105": {"candidates": ["CS5710"], "reason": "Computer networks title match; do not infer graduate level from the 5000 number."},
+    "CS1106": {"candidates": ["CS4501"], "reason": "Software engineering title match."},
+    "CS1108": {"candidates": ["CS4720"], "reason": "Related web topic; coverage may differ."},
+    "CS1109": {"candidates": ["CS3620"], "reason": "Related organization/architecture topic; coverage may differ."},
+    "CS1110": {"candidates": ["CS5610"], "reason": "Operating systems title match; not offered in this Fall snapshot."},
+    "CS1111": {"candidates": ["CS3810"], "reason": "Potential algorithms overlap only; cannot count the same reference course twice."},
+    "CS1112": {"candidates": ["CS4705"], "reason": "Related security topic; coverage may differ."},
+    "CS1118": {"candidates": ["CS5910"], "reason": "Possible capstone counterpart; project requirements must be checked."}
+  }
+}
