@@ -9,6 +9,40 @@ Follow the maintenance instructions in `AGENTS.md` and keep this file current.
 
 ## Latest continuation checkpoint — read first
 
+**V11 RELEASE BRANCH PUSHED; REVIEW PR OPEN, 2026-11-11.** Owner approved the
+reviewed publication plan. Commit **30abcda** on **release/v11-main** contains
+40 changed files: matching 25-file / 29-table fictional academic seed package,
+clean installer/manifest, activation tooling, tests, setup docs and handoff.
+Pushed successfully to origin/release/v11-main; branch tracks that remote.
+**Review PR #5:** https://github.com/phillipAltidor/Northbridge-University/pull/5
+Head release/v11-main → base main; **not merged**. Origin/main was unchanged
+at de8520f during publication. This entry is in a follow-up documentation commit
+so it records observed push/PR creation rather than predicting success.
+
+Final staged review: all **52 installation input hashes** match staged Git blob
+bytes, no excluded private paths staged, zero secret-pattern matches in 40 new/
+modified files. Full staged diff check passes. Fresh _9 install and actual page
+checks described below apply to this shared package: 53 tables/76 FKs, all 29
+academic table fingerprints equal active _8; 5,492 master / 908 portal / 94 degree
+HTTP / 12,437 roster checks; all 2,200 degree evaluations match. 103 schema / five
+advisor / 14 cutover / three installer negative cases pass; all 132 PHP files
+pass syntax. Existing account seeds unchanged. SQL/trigger LF Git attributes
+preserve hashes across checkout. MySQL 9.6.0 verified; other engines unverified.
+
+New teammate guide: **docs/v11-teammate-setup.md**. Use the release branch until
+review/merge, then pull main. Installer creates a new DB only, keeps FKs on,
+loads rosters before triggers, verifies the full bundle, and never alters .env.
+Existing populated databases must not be overwritten. Match this package rather
+than use the older hardcoded timeline/master-schedule repair scripts.
+
+Main **_8/8000** stayed running/unchanged; isolated **_7/8003** stayed unchanged.
+Fresh-install fixture **_9** retained; temporary _9/8005 server retired after tests.
+Private backups, credentials, candidate/debug records and .env were not published.
+No remote hosted deployment or automatic PR merge. Actual local cutover had
+already completed before this publication. Next owner/team action is PR review
+and merge; feature branches follow the documented workflow. Handoff maintained
+for this request, including this final publication record.
+
 **V11 release package VERIFIED; publishing approved branch next, 2026-11-11.**
 Owner approved the reviewed branch plan with “ok lets do that”. Branch is
 **release/v11-main**, based on main de8520f; fetched origin with no incoming
@@ -1001,10 +1035,10 @@ term-order mapping rather than sorting numeric semester IDs.
 
 ## Remaining work
 
-1. Publish the verified release/v11-main branch and open its review PR. The exact
-   V11 academic seed bundle and clean installer are now prepared and tested.
-   Merge into main only after review. Before merging, teammates should use the
-   release branch; after merging, pull main and follow v11-teammate-setup.md.
+1. Review PR #5 for release/v11-main, then merge into main when approved. The
+   exact V11 academic package and fresh installer are tested and published.
+   Before merge, teammates use the release branch; after merge, pull main and
+   follow v11-teammate-setup.md. No automatic merge has been performed.
 2. Preserve rollback _5 and restore _15. Main _8 / port8000 activation is complete
    and main-port verified. Isolated tests use _7/8003 or fresh fixtures such as _9;
    never reset the active main. Existing installations need a new target or a
@@ -1046,6 +1080,11 @@ No cleanup, commit, unrelated repository seed replacement, or working cutover
 was performed in this audit.
 
 ## Recent updates
+
+- 2026-11-11: Published verified V11 setup checkpoint 30abcda to release/v11-main
+  and opened review PR #5 into main. Fresh-install/data/HTTP/guard/syntax checks
+  pass; main _8 unchanged; secrets/backups stay local. Main branch not merged.
+  Added this follow-up to record the actual GitHub result.
 
 - 2026-11-11: Owner approved release/v11-main publication plan. Verified matching
   25-file/29-table V11 package via new _9 clean install: 53 tables/76 FKs, actual
