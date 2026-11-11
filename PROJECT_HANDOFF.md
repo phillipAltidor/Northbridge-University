@@ -9,6 +9,33 @@ Follow the maintenance instructions in `AGENTS.md` and keep this file current.
 
 ## Latest continuation checkpoint — read first
 
+**GitHub source checkpoint PUBLISHED, 2026-11-11.** The owner-authorized project
+checkpoint commit **edd95e6** (411 files) was pushed successfully to **origin/main**
+at `https://github.com/phillipAltidor/Northbridge-University`. Git reported
+16a3273..edd95e6 main -> main. This supersedes the earlier pending-publication
+notes below. This entry is maintained in a follow-up documentation commit so the
+handoff records the observed push result instead of a planned success.
+
+The checkpoint includes current portal code, reviewed academic source/rule
+material, tests, existing fictional repository installation seeds, handoff and
+team workflow. It **does not include or activate the exact private V11 preview
+database**. The reviewed preview remains `_7`; working `_5` remains unchanged.
+Repository seeds are still the older documented snapshot. No private .env,
+credentials, local caches, vendor directory or /private/tmp datasets were staged.
+Git attributes preserve archival PDF/HTML bytes and generated SQL EOF layout;
+full staged diff check passed after those classifications, with source/seed
+hashes preserved. Fresh validation results are recorded in the earlier database/
+GitHub clarification entry below (127 PHP syntax, relevant units, 103 schema and
+five advisor checks). No additional functional changes followed those tests.
+
+`docs/team-workflow.md` explains pull main, one branch per feature, coordinate
+shared files, PR review/merge, private local environment/databases, and continued
+handoff maintenance. README links it and earlier setup notes warn against treating
+old migration instructions as V11 activation instructions. GitHub publication is
+complete for the application checkpoint. Database promotion still requires the
+separate guarded activation/review steps and explicit owner cutover authorization;
+“should we move” has been answered as a recommendation, not executed as a switch.
+
 **Working database promotion recommendation, 2026-11-11.** Owner asked whether
 to move the Old Westbury-based test data into the real database. Recommended
 promoting the exact verified `_7` V11 + campus/count state to the working baseline
@@ -748,6 +775,11 @@ No cleanup, commit, unrelated repository seed replacement, or working cutover
 was performed in this audit.
 
 ## Recent updates
+
+- 2026-11-11: Published application checkpoint edd95e6 to origin/main. Added
+  teammate branch/PR workflow and database snapshot distinctions. Preserved private
+  V11 data and both databases; promotion remains a separate pending decision.
+  This follow-up records actual successful publication in the handoff.
 
 - 2026-11-11: Recommended controlled promotion of verified `_7` data when the
   remaining review/activation steps are ready; owner has not yet authorized that
