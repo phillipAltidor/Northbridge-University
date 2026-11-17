@@ -8,8 +8,9 @@ function admin_nav_groups(): array
             ['Update User Information', 'admin/update-user.php'],
         ]],
         'departments' => ['Departments', false, [
-            ['Create Department', null], ['Update Department', null],
-            ['Assign Faculty to Departments', null],
+            ['Create Department', 'admin/create-department.php'],
+            ['Update Department', 'admin/update-department.php'],
+            ['Assign Faculty to Departments', 'admin/assign-faculty-department.php'],
         ]],
         'courses' => ['Courses & Scheduling', false, [
             ['Create Course', null], ['Add Course Prerequisites', null],
