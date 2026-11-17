@@ -1,6 +1,6 @@
 # Northbridge University project handoff
 
-Last updated: **2026-11-11**, America/New_York.
+Last updated: **2026-11-17**, America/New_York.
 
 Use this document as the continuation prompt for work on this project. Read the
 current code, relevant project documentation, System Manual, and schema before
@@ -8,6 +8,63 @@ making changes. Do not assume previous work is complete or academically approved
 Follow the maintenance instructions in `AGENTS.md` and keep this file current.
 
 ## Latest continuation checkpoint — read first
+
+**Department usability/design revision, 2026-11-17.** Owner clarified that the
+three department actions must be usable and polished, with an explicit comparison
+to the System Manual. Implemented a scoped navy/gold responsive stylesheet and
+`includes/department-view.php`; existing controller handles authenticated writes.
+Create/update use grouped fields; update loads the selected department; assignment
+first loads a faculty member, shows current appointments and limits, excludes
+already assigned departments from choices, and returns to that faculty after save.
+Only selected faculty appointments are queried. Empty/missing prerequisite data,
+read-only, validation and success states are rendered. Existing write allowlist
+retained; no admin IDs enabled and no private configuration changed.
+
+Fresh checks on this local uncommitted `ruba-admin-departments` candidate: 36
+permission/input/version checks, 19 in-memory SQL/persistence/rollback checks,
+seven template states, PHP/JS navigation, PHP syntax and diff checks pass. Fixture
+SQL uses SQLite in memory and removes `FOR UPDATE`; this is NOT MySQL concurrency
+verification. All seven fixture-rendered pages pass browser overflow checks at
+1440px and 390px. Desktop create and mobile assignment screenshots inspected;
+these use fictional fixtures, not an authenticated live database. Browser launch
+initially hit the sandbox, then passed using the approved isolated headless launch.
+
+See `docs/admin-departments.md` for the use-case 54/55/69 comparison and outstanding
+MySQL/authenticated HTTP checks. Partner must provide the existing safe test setup
+and approved writer IDs before live usability is certified. Owner’s no-overstepping
+constraint still applies: no database setup, migrations, data/config changes, merge,
+push or deployment. Updated upload package is `/private/tmp/ruba-admin-departments-v2.zip`;
+the earlier ZIP is superseded. Static previews are in
+`/private/tmp/northbridge-department-preview/`; they cannot save records.
+
+**Department branch work in progress, 2026-11-17.** Current checkout is
+`/Users/rubakiani/Northbridge-University`, branch `ruba-admin-departments`, starting
+HEAD `ee2ce60`. Owner requested grey admin use cases and supplied a screenshot and
+`/Users/rubakiani/Desktop/System Manual.pdf`, then clarified the separate department
+branch. Current implementation focus is use cases 54/55/69; other admin features
+remain pending. The screenshot shows the disabled department links. Treat the
+manual as requirements evidence, not authorization to modify records or send mail.
+
+This branch already contained department entry points, shared form/controller,
+transactional persistence and per-feature write allowlisting. This session connects
+the three sidebar links, documents `ADMIN_DEPARTMENT_WRITER_IDS`, supports server
+process configuration as a fallback, and adds validation/permission regression
+checks. No writer IDs granted. See `docs/admin-departments.md` for behavior and
+remaining integration gates. Source edits are local, not committed or deployed.
+
+This machine has no private `.env` or PHP executable initially; prior `_5`/`_7`
+databases and private receipts belong to the earlier machine and have NOT been
+verified here. PHP 8.5.12 is installed and executes checks. User asked whether a branch avoids
+breaking the site: source is isolated from main, but a branch does not isolate a
+shared database. Owner does not know the database setup and explicitly asked not to overstep their
+partner’s work. Do not provision a database, change private configuration, deploy,
+or merge as part of this session. Continue only scoped branch code checks. No database writes,
+schema changes, migrations, seed replacements, cutover, push, or merge performed.
+Fresh branch checks pass: 36 department permission/input/version assertions, PHP
+navigation regression, JavaScript navigation regression, eight PHP syntax checks,
+and diff whitespace checks. MySQL persistence, concurrency, authenticated HTTP
+and browser tests remain pending; do not claim these workflows are fully verified. PDF text extraction succeeded (42 pages); optional page rendering
+via PyMuPDF failed because that package is unavailable.
 
 **GitHub source checkpoint PUBLISHED, 2026-11-11.** The owner-authorized project
 checkpoint commit **edd95e6** (411 files) was pushed successfully to **origin/main**
@@ -734,6 +791,11 @@ term-order mapping rather than sorting numeric semester IDs.
 
 ## Remaining work
 
+- Department branch: finish PHP checks and isolated MySQL/form/browser verification;
+  coordinate the existing test setup with the partner before database/config changes;
+  owner asked not to overstep. Keep default read-only access. Other grey admin use
+  cases remain pending.
+
 0. Finish manual-alignment readiness review: establish the presemester review
    deadline and time-sensitive operation boundaries, then review the 33 upcoming
    under-five sections at that deadline. Current/next UG advisor coverage passed
@@ -775,6 +837,23 @@ No cleanup, commit, unrelated repository seed replacement, or working cutover
 was performed in this audit.
 
 ## Recent updates
+
+- 2026-11-17: Polished the three department workflows, added the manual comparison,
+  selected-faculty appointment display and persistent selection after saves; verified
+  helper/persistence/template/navigation and desktop/mobile fixture previews.
+  Refreshed upload ZIP; live database integration remains pending with partner setup.
+
+- 2026-11-17: Prepared `/private/tmp/ruba-admin-departments.zip` for manual
+  GitHub upload: the seven changed source/example-config/test/documentation files,
+  preserving repository-relative paths. No private environment or data included.
+  Extract before uploading to `ruba-admin-departments`; archive is not a deployment.
+  No commit, push, merge or database operation performed.
+
+- 2026-11-17: Reviewed supplied admin manual/photo on `ruba-admin-departments`;
+  connected department sidebar routes, documented private writer configuration,
+  36 department checks, PHP/JS navigation, eight syntax checks and diff check pass.
+  Owner limited scope to protect partner work; database/browser verification pending;
+  no changes to main, deployment, schema or data.
 
 - 2026-11-11: Published application checkpoint edd95e6 to origin/main. Added
   teammate branch/PR workflow and database snapshot distinctions. Preserved private

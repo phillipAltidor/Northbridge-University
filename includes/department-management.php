@@ -5,7 +5,7 @@ declare(strict_types=1);
 // for this feature in private server configuration; all other admins can view.
 function department_can_write(int $adminID): bool
 {
-    $configured = $_ENV['ADMIN_DEPARTMENT_WRITER_IDS'] ?? '';
+    $configured = $_ENV['ADMIN_DEPARTMENT_WRITER_IDS'] ?? getenv('ADMIN_DEPARTMENT_WRITER_IDS');
     if (!is_string($configured) || trim($configured) === '') {
         return false;
     }
