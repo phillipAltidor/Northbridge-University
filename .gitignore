@@ -9,3 +9,6 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# Private local database, test accounts, and runtime logs
+/.local/

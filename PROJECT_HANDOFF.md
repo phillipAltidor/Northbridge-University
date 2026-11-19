@@ -1,6 +1,6 @@
 # Northbridge University project handoff
 
-Last updated: **2026-11-17**, America/New_York.
+Last updated: **2026-11-19**, America/New_York.
 
 Use this document as the continuation prompt for work on this project. Read the
 current code, relevant project documentation, System Manual, and schema before
@@ -8,6 +8,132 @@ making changes. Do not assume previous work is complete or academically approved
 Follow the maintenance instructions in `AGENTS.md` and keep this file current.
 
 ## Latest continuation checkpoint — read first
+
+**Current Admin draft / blocker, 2026-11-19.** Owner authorized all remaining
+24 gray Admin actions and explicitly requested System Manual + GitHub data. Local
+schema/seeds are from origin `phillipAltidor/Northbridge-University`, checkout HEAD
+`415671b`; no new remote fetch or verification of Phillip's running database.
+Owner reconfirmed full-semester add/drop windows: Fall Aug 24–Dec 16, 2026 and
+Spring Jan 25–May 18, 2027, inclusive New York dates. Recorded in
+`config/admin-windows.php`; do not ask for those dates again.
+
+Implemented local draft: 25 Admin pages (24 gray actions plus required Update
+Course), shared controller/views/responsive CSS and transactional save helpers.
+Includes catalog/program/facility forms, prerequisite cycle checks, section load/
+department/room/conflict checks, student registration, grade correction, declarations
+and advisor rules. Navigation now links all Admin actions. Read-only default via
+new private `ADMIN_FEATURE_WRITER_IDS`, CSRF, stale forms, mutex/row locks, atomic
+Admin_Action_Log. Details/manual mapping and exact limitations:
+`docs/admin-use-cases.md`. Reviewed NB curriculum writes remain protected;
+additional-major declarations do not change primary-major/audit profiles. Do not
+claim complete support of all academic migrations or withdrawal/rollover rules.
+
+**Activation blocked:** automatic approval review rejected execution of the local
+migration/allowlist command because usage limit prevented review, explicitly NOT
+because the action was judged unsafe. The command was not executed. Do not bypass
+that review. `database/migrations/admin_features.sql` and guarded
+`tools/enable-admin-demo.php` are prepared, but the running local demo has neither
+new Admin storage nor new writer grant. All new saves remain read-only there.
+Phillip's database, repository academic seeds and existing credentials unchanged.
+
+Initial Admin fixture (before latest registration adapter/history revision): 24
+MySQL assertions passed across new save modes and rollback checks; fixture dropped.
+Latest source: 25 policy checks, 50 template states, PHP/JS nav and 49 PHP syntax
+checks plus diff whitespace passed. Latest MySQL rerun, HTTP role/save checks,
+concurrency and visual QA remain pending. Headless Chrome launch failed under
+sandbox; no browser verification result. HTTP script prepared and syntax-checked but not run. Python cache-writing check
+failed on protected system cache; in-memory compilation passed without cache writes.
+Do not reuse initial MySQL pass as approval of latest candidate. No commit/push/merge.
+
+**Current faculty/local-demo candidate, 2026-11-19.** Branch
+`codex/faculty-use-cases`, local uncommitted implementation of all 15 formerly grey
+faculty routes. Shared authenticated controller, responsive views, manual mapping,
+scoped student/account access, CSRF, ownership, atomic writes and stale-form guards
+are implemented. Source has not been committed, pushed, merged or deployed.
+
+Dedicated local MySQL runs at 127.0.0.1:3307, database
+`northbridge_ruba_demo_20261119`: 46 repository load steps plus existing supplemental
+tables/triggers, 53 tables. This is the older fictional repository snapshot, NOT
+Phillip's latest private V11 database. No prior databases or seeds overwritten.
+Admin/Faculty/Student local credentials are in ignored `.local/demo-logins.txt`;
+other sensitive artifacts: `.local/demo-accounts.json`, `.local/mysql-admin.cnf`,
+`.local/setup-receipt.json`, `.local/mysql-data/`, and `.env`. Never disclose their
+contents in Git or this file. `.local` mode 0700, credential files 0600. App DB
+user is limited to this demo; SMTP is unconfigured. MySQL/Composer and locked PHP
+dependency installed. PHP serves http://127.0.0.1:8000 using
+`tools/local-router.php`, which denies private/config/SQL/tool paths. Restart and
+login instructions: `docs/local-demo.md`. No public listener.
+
+Owner confirmed Fall Aug 24–Dec 16, 2026; Spring Jan 25–May 18, 2027;
+finals Dec 10–16 and May 12–18 respectively, grades due 48h after each final.
+`config/faculty-windows.php` records boundaries and regular attendance dates,
+excluding published holidays/recesses/study/finals, plus May 4 16:30 closure.
+Attendance additionally requires the section's actual meeting period today.
+Grade entry opens at verified per-section `final_exam_ends_at` and closes exactly
+48 elapsed hours later, including deadlines after semester end. Invalid dates,
+wrong NY offset and times outside finals fail closed. This supersedes the initial
+completed-term guard for grade entry. **Actual section final-exam end times and
+permitted grades remain unconfigured: grade writes stay closed.** Do not infer
+exam times from ordinary class periods. Transcript masking, term rollover, stored
+credit counters and registrar finalization are unchanged and need separate review.
+
+Fresh verification of this 48-hour-policy candidate: 74 SQLite checks, 76 isolated
+MySQL fixture checks (including concurrent address/attendance stale-save races),
+115 authenticated HTTP checks against the local demo, 15 template checks,
+navigation, changed PHP syntax and diff whitespace checks pass. HTTP account
+changes were restored. Earlier same-session visual checks covered 30 fixture
+layouts and 12 live desktop/mobile layouts; these preceded the final grading-policy
+edit and UG schedule default, so are not new visual certification of those edits.
+Private aggregate receipts live in `.local/`. Remaining work is listed below.
+
+### Earlier checkpoints (historical; current state above supersedes pending claims)
+
+**Local demo setup authorized, 2026-11-19.** After asking for all three role
+logins and discussing repository SQL, owner said “just do what u think is best”
+and requested using the GitHub database files. Proceeding with a separate local
+MySQL instance on loopback port 3307 and `northbridge_ruba_demo_20261119`, loaded
+from the 46 repository seed/schema files in LOAD_ORDER.md. This supersedes the
+prior no-local-provisioning constraint only for this isolated demo. It does NOT
+authorize changing Phillip's database, `_5`/`_7`, repository seeds, or deployment.
+MySQL/Composer install is in progress; setup has NOT yet completed. Fresh-install
+tool refuses existing `.env`/database and uses original schema plus existing
+supplemental migrations. Private data, credentials and logs belong in ignored
+`.local/`; private `.env` will target only this demo. No credentials in handoff.
+
+Faculty implementation is drafted: 15 routes, scoped styling, shared controller/
+view, filtered schedule, catalog and reviewed program/prerequisite rules, advising,
+transcript and own-account changes; ownership, CSRF, stale form and calendar guards
+for marks. 43 isolated SQLite checks and navigation unit tests pass. MySQL/HTTP
+verification is pending. Attendance/grading pages are reachable but writes remain
+closed with empty `config/faculty-windows.php`; no dates adopted just because owner
+thinks Old Westbury's calendar applies. Official source confirms Fall starts Aug 24,
+ends Dec 16, and grades are due 48h after each final, so per-section exam timing and
+approved opening/rollover rules remain needed. Do not call the draft fully tested.
+
+**Faculty implementation authorized, 2026-11-19.** Owner said to implement all
+15 grey faculty actions and also requested Admin/Faculty/Student local logins.
+Created branch `codex/faculty-use-cases` from the current department checkpoint;
+no merge/push. Local logins still require private local DB setup, not yet supplied
+or provisioned. Owner tentatively thinks SUNY Old Westbury semester dates apply;
+this is not an exact approved grading/attendance calendar. Verify source dates and
+leave time-sensitive writes closed until an explicit calendar is configured.
+Implementation and independent fixture tests now in progress. No live database writes.
+
+**Faculty scope and local access, 2026-11-19.** Owner is now responsible for all
+15 grey faculty navigation actions: password/address updates; master schedule,
+attendance and grades; advisee list, student information and unofficial transcript;
+departments, department courses/majors/minors, prerequisites, major requirements,
+and course requirements for a major. Existing profile, semester schedule, rosters
+and degree audit stay implemented. No faculty implementation started in this turn.
+
+Read-only inspection finds clean working tree on `ruba-admin-departments` (before
+this handoff update). PHP is available at `/opt/homebrew/bin/php`; MySQL and Composer
+are not on PATH, vendor is absent, and no private `.env` exists. Local public PHP
+pages can be served with `php -S 127.0.0.1:8000`; authenticated portal functionality
+needs the team's matching local database, private configuration and dependencies.
+Do not imply that starting PHP imports the partner's database or that Git carries
+V11 data. No server started, database provisioned, private settings changed or
+branch switched. Earlier partner/no-overstepping constraints remain in force.
 
 **Department usability/design revision, 2026-11-17.** Owner clarified that the
 three department actions must be usable and polished, with an explicit comparison
@@ -791,10 +917,20 @@ term-order mapping rather than sorting numeric semester IDs.
 
 ## Remaining work
 
-- Department branch: finish PHP checks and isolated MySQL/form/browser verification;
-  coordinate the existing test setup with the partner before database/config changes;
-  owner asked not to overstep. Keep default read-only access. Other grey admin use
-  cases remain pending.
+- Admin draft: resolve approval-service usage limit before local additive migration
+  and writer grant. Then rerun latest MySQL fixture, HTTP/read-write role and
+  concurrent-save checks, and desktop/mobile QA. Read `docs/admin-use-cases.md`
+  for managed curriculum, primary-major, withdrawal and rollover limitations.
+  The owner asked to finish all gray features; the draft is NOT yet complete.
+
+- Faculty: obtain verified per-section final-exam end times and permitted grade
+  values before enabling grade writes. Review transcript release/term rollover and
+  stored credit-counter finalization separately; no such migration is implemented.
+- Owner can inspect all three roles at the local port-8000 demo. Review the older
+  seed snapshot's limits; it does not contain private V11 updates. Source remains
+  local/uncommitted; no merge, push, seed replacement or partner DB changes.
+- Department integration write/concurrency testing and other grey admin use cases
+  remain separate work; faculty HTTP tests only smoke-check existing admin pages.
 
 0. Finish manual-alignment readiness review: establish the presemester review
    deadline and time-sensitive operation boundaries, then review the 33 upcoming
@@ -837,6 +973,31 @@ No cleanup, commit, unrelated repository seed replacement, or working cutover
 was performed in this audit.
 
 ## Recent updates
+
+- 2026-11-19: Added the 24 gray Admin routes plus Update Course using manual rules
+  and repository schema. Owner approved full-semester add/drop dates. Initial
+  disposable MySQL fixture passed; latest forms/policy/nav/syntax pass. Activation
+  blocked by automatic approval service usage limit; latest integration/visual QA
+  and documented managed-academic integrations remain outstanding.
+
+
+- 2026-11-19: Implemented all 15 grey faculty routes and isolated three-role local
+  demo. Recorded owner semester/finals dates; grade saving now derives the exact
+  48-hour window from each section's verified exam end, with missing times closed.
+  Latest candidate passes 74 SQLite, 76 MySQL, 115 HTTP and 15 view checks plus
+  navigation/syntax/diff checks. No partner DB/seed changes or publication.
+
+
+- 2026-11-19: Owner wants to inspect grey faculty options personally without a
+  database login. Generated `/private/tmp/northbridge-faculty-menu.html` from the
+  actual faculty navigation helper and shared CSS; verified 15 disabled actions
+  and four expanded groups. Standalone menu preview only, no account/student data
+  or authentication bypass. Application links explain the live-login prerequisite
+  within the preview. No app code, database, configuration or branch changes.
+
+- 2026-11-19: Confirmed all 15 grey faculty actions are the next scope; inspected
+  local runtime and missing database/config/dependency setup. Provided local access
+  guidance only; no database, server, feature or branch changes.
 
 - 2026-11-17: Polished the three department workflows, added the manual comparison,
   selected-faculty appointment display and persistent selection after saves; verified

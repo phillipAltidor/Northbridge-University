@@ -8,7 +8,7 @@ $week = meeting_schedule_week($meetings, $today);
 $actions = [
     ['Semester Schedule', 'faculty/schedule.php', 'quick-master-schedule.png'],
     ['Course Rosters', 'faculty/rosters.php', 'quick-faculty-rosters.png'],
-    ['Advisee List', null, 'quick-student-information.png'],
+    ['Advisee List', 'faculty/advisees.php', 'quick-student-information.png'],
 ];
 ?>
 <div class="admin-home faculty-home">

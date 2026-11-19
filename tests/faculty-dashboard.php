@@ -15,7 +15,7 @@ $_SERVER['SCRIPT_NAME'] = '/home.php';
 foreach (['home.php', 'faculty/information.php', 'faculty/degree-audit.php', 'faculty/rosters.php', 'faculty/schedule.php', 'faculty/schedule.php?term=next'] as $active) {
     ob_start(); faculty_navigation($active); $html = ob_get_clean();
     $dom = new DOMDocument(); @$dom->loadHTML($html); $xpath = new DOMXPath($dom);
-    faculty_check($xpath->query('//a')->length === 5 && $xpath->query('//span[@aria-disabled="true"]')->length === 15, 'Only implemented Faculty pages, including Student Degree Audit, are linked');
+    faculty_check($xpath->query('//a')->length === 20 && $xpath->query('//span[@aria-disabled="true"]')->length === 0, 'All Faculty feature pages are linked; sensitive saves are checked on the server');
     faculty_check($xpath->query('//a[@aria-current="page"]')->length === 1 && $xpath->query('//details[@open]')->length === 0, 'Faculty active link and collapsed groups are correct');
     faculty_check(!str_contains($html, '/admin/') && !str_contains($html, '/student/'), 'No cross-role navigation');
 }

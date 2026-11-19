@@ -5,21 +5,21 @@ function faculty_nav_groups(): array
 {
     return [
         'account' => ['My Account', [
-            ['My Profile', 'faculty/information.php'], ['Update Password', null], ['Update Address', null],
+            ['My Profile', 'faculty/information.php'], ['Update Password', 'faculty/password.php'], ['Update Address', 'faculty/address.php'],
         ]],
         'teaching' => ['Teaching', [
-            ['Semester Schedule', 'faculty/schedule.php'], ['Master Schedule', null],
-            ['Course Rosters', 'faculty/rosters.php'], ['Mark Attendance', null], ['Assign Grades', null],
+            ['Semester Schedule', 'faculty/schedule.php'], ['Master Schedule', 'faculty/master-schedule.php'],
+            ['Course Rosters', 'faculty/rosters.php'], ['Mark Attendance', 'faculty/attendance.php'], ['Assign Grades', 'faculty/grades.php'],
         ]],
         'advising' => ['Advising', [
-            ['Advisee List', null], ['Student Information', null],
-            ['Student Unofficial Transcript', null], ['Student Degree Audit', 'faculty/degree-audit.php'],
+            ['Advisee List', 'faculty/advisees.php'], ['Student Information', 'faculty/students.php'],
+            ['Student Unofficial Transcript', 'faculty/transcript.php'], ['Student Degree Audit', 'faculty/degree-audit.php'],
         ]],
         'academics' => ['Academic Information', [
-            ['Departments', null], ['Courses Offered by Departments', null],
-            ['Majors Offered by Departments', null], ['Minors Offered by Departments', null],
-            ['Course Prerequisites', null], ['Major Requirements', null],
-            ['Course Requirements for a Major', null],
+            ['Departments', 'faculty/departments.php'], ['Courses Offered by Departments', 'faculty/courses.php'],
+            ['Majors Offered by Departments', 'faculty/majors.php'], ['Minors Offered by Departments', 'faculty/minors.php'],
+            ['Course Prerequisites', 'faculty/prerequisites.php'], ['Major Requirements', 'faculty/major-requirements.php'],
+            ['Course Requirements for a Major', 'faculty/major-courses.php'],
         ]],
     ];
 }

@@ -117,7 +117,7 @@ function page_start(
                 <b>Northbridge University</b>
 
                 <small>
-                    <?= e($portalName) ?>
+                    <?= e($portalName) ?><?= !empty($_ENV['APP_INSTANCE_LABEL']) ? ' · ' . e($_ENV['APP_INSTANCE_LABEL']) : '' ?>
                 </small>
 
             </div>

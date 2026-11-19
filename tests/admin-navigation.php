@@ -5,7 +5,7 @@ require dirname(__DIR__) . '/includes/auth.php';
 require dirname(__DIR__) . '/includes/admin-navigation.php';
 $_SERVER['SCRIPT_NAME'] = '/home.php';
 $groups = admin_nav_groups();
-if (count($groups) !== 6 || array_sum(array_map(static fn($g) => count($g[2]), $groups)) !== 31) throw new RuntimeException('Approved navigation count changed');
+if (count($groups) !== 6 || array_sum(array_map(static fn($g) => count($g[2]), $groups)) !== 32) throw new RuntimeException('Approved navigation count changed');
 foreach (['home.php', 'admin/create-user.php', 'admin/update-user.php', 'admin/master-schedule.php', 'admin/edit-section.php', 'admin/degree-preview.php', 'admin/create-department.php', 'admin/update-department.php', 'admin/assign-faculty-department.php'] as $active) {
     ob_start();
     admin_navigation($active);
@@ -13,12 +13,12 @@ foreach (['home.php', 'admin/create-user.php', 'admin/update-user.php', 'admin/m
     $dom = new DOMDocument();
     @$dom->loadHTML($html);
     $xpath = new DOMXPath($dom);
-    if ($xpath->query('//a')->length !== 8 || $xpath->query('//span[@aria-disabled="true"]')->length !== 24) throw new RuntimeException('Active/disabled action mismatch');
+    if ($xpath->query('//a')->length !== 33 || $xpath->query('//span[@aria-disabled="true"]')->length !== 0) throw new RuntimeException('Active/disabled action mismatch');
     if ($xpath->query('//a[@aria-current="page"]')->length !== 1) throw new RuntimeException('Current page not highlighted');
     if ($xpath->query('//details[@open]')->length !== 0) throw new RuntimeException('Groups must start collapsed on every page');
     if (!str_contains($html, ':collapsed-v2:')) throw new RuntimeException('Old auto-expanded preferences must not be restored');
     foreach ($xpath->query('//a') as $link) {
-        if (!in_array($link->getAttribute('href'), ['/home.php', '/admin/create-user.php', '/admin/update-user.php', '/admin/master-schedule.php', '/admin/degree-preview.php', '/admin/create-department.php', '/admin/update-department.php', '/admin/assign-faculty-department.php'], true)) throw new RuntimeException('Unexpected working link');
+        if (!is_file(dirname(__DIR__).$link->getAttribute('href'))) throw new RuntimeException('Navigation target missing');
     }
 }
 $_SERVER['SCRIPT_NAME'] = '/northbridge/admin/master-schedule.php';
